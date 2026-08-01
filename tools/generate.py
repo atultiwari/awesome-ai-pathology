@@ -16,7 +16,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from lib.entries import load_entries  # noqa: E402
-from lib.pages import api_documents, browse_pages, readme, today_iso  # noqa: E402
+from lib.pages import (  # noqa: E402
+    api_documents, api_index_html, browse_pages, readme, today_iso,
+)
 from lib.taxonomy import load_taxonomy  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -30,9 +32,17 @@ def build() -> dict[str, str]:
     if not entries:
         raise SystemExit("no entries found in data/entries")
 
-    files = {"README.md": readme(entries, taxonomy)}
+    today = today_iso()
+    files = {
+        "README.md": readme(entries, taxonomy),
+        # Landing page for the Pages host, so its root is not a bare 404.
+        "index.html": api_index_html(entries, taxonomy, today),
+        # Pages would otherwise run the output through Jekyll, which ignores
+        # any path beginning with an underscore and rewrites some files.
+        ".nojekyll": "",
+    }
     files.update(browse_pages(entries, taxonomy))
-    files.update(api_documents(entries, taxonomy, today_iso()))
+    files.update(api_documents(entries, taxonomy, today))
     return files
 
 
@@ -67,7 +77,8 @@ def check(files: dict[str, str]) -> list[str]:
 
 def _strip_timestamps(text: str) -> str:
     return "\n".join(
-        line for line in text.splitlines() if '"generated_at"' not in line
+        line for line in text.splitlines()
+        if '"generated_at"' not in line and "generated 2" not in line
     )
 
 

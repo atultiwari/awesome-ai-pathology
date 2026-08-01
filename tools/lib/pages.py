@@ -299,6 +299,96 @@ def api_documents(entries: Sequence[Entry], taxonomy: Taxonomy, today: str) -> d
     }
 
 
+def api_index_html(entries: Sequence[Entry], taxonomy: Taxonomy, today: str) -> str:
+    """Landing page for the API host, so its root is not a bare 404.
+
+    Self-contained: no external CSS, fonts or scripts. Adapts to light and dark.
+    """
+    counts = _tally(entries, "category")
+    rows = "\n".join(
+        f"      <tr><td>{taxonomy.label('categories', key)}</td><td>{value}</td></tr>"
+        for key, value in sorted(counts.items(), key=lambda kv: -kv[1])
+        if taxonomy.has("categories", key)
+    )
+    endpoints = "\n".join(
+        f'      <li><a href="{path}"><code>/{path}</code></a> — {blurb}</li>'
+        for path, blurb in (
+            ("api/v1/entries.json", "every entry, in full"),
+            ("api/v1/taxonomy.json", "vocabularies, labels and facet definitions"),
+            ("api/v1/search-index.json", "lightweight index for client-side search"),
+            ("api/v1/stats.json", "counts, facet tallies and maintainer details"),
+        )
+    )
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pathology AI Library — API</title>
+<meta name="description" content="JSON API for the Awesome AI in Pathology catalogue.">
+<style>
+  :root {{ color-scheme: light dark; --fg:#111; --muted:#555; --bg:#fff;
+           --line:#e3e3e3; --accent:#0b5fff; --code:#f5f5f7; }}
+  @media (prefers-color-scheme: dark) {{
+    :root {{ --fg:#e8e8ea; --muted:#a0a0a8; --bg:#131316;
+             --line:#2a2a30; --accent:#7aa2ff; --code:#1c1c21; }}
+  }}
+  * {{ box-sizing: border-box; }}
+  body {{ margin:0; padding:2.5rem 1.25rem; background:var(--bg); color:var(--fg);
+          font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }}
+  main {{ max-width: 44rem; margin: 0 auto; }}
+  h1 {{ font-size:1.6rem; margin:0 0 .25rem; letter-spacing:-.01em; }}
+  h2 {{ font-size:1.05rem; margin:2rem 0 .5rem; }}
+  p.lede {{ color:var(--muted); margin:0 0 1.5rem; }}
+  a {{ color:var(--accent); }}
+  code {{ background:var(--code); padding:.15em .4em; border-radius:4px;
+          font-size:.9em; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }}
+  ul {{ padding-left:1.1rem; }} li {{ margin:.4rem 0; }}
+  table {{ border-collapse:collapse; width:100%; margin-top:.5rem; }}
+  td {{ padding:.35rem .5rem; border-bottom:1px solid var(--line); }}
+  td:last-child {{ text-align:right; color:var(--muted); font-variant-numeric:tabular-nums; }}
+  footer {{ margin-top:2.5rem; padding-top:1rem; border-top:1px solid var(--line);
+            color:var(--muted); font-size:.875rem; }}
+  .wrap {{ overflow-x:auto; }}
+</style>
+</head>
+<body>
+<main>
+  <h1>Pathology AI Library — API</h1>
+  <p class="lede">Machine-readable data behind
+    <a href="{REPO}">Awesome AI in Pathology</a>.
+    {len(entries)} entries, regenerated on every change. Served as static JSON with
+    <code>access-control-allow-origin: *</code>, so it can be fetched from anywhere.</p>
+
+  <h2>Endpoints</h2>
+  <ul>
+{endpoints}
+  </ul>
+
+  <h2>Catalogue</h2>
+  <div class="wrap"><table>
+{rows}
+  </table></div>
+
+  <h2>Use</h2>
+  <p>Content is licensed <a href="{REPO}/blob/main/LICENSE">CC BY 4.0</a> — reuse it freely
+     with attribution. The third-party tools and models it describes each carry their own
+     licence, recorded per entry.</p>
+
+  <footer>
+    <p><strong>Not medical advice.</strong> Inclusion is not endorsement. Regulatory clearance
+       in one country says nothing about another.
+       <a href="{REPO}/blob/main/DISCLAIMER.md">Read the disclaimer</a>.</p>
+    <p>Curated by {MAINTAINER['name']} ·
+       <a href="https://orcid.org/{MAINTAINER['orcid']}">ORCID</a> ·
+       generated {today}</p>
+  </footer>
+</main>
+</body>
+</html>
+"""
+
+
 def _dump(doc: Mapping[str, Any]) -> str:
     return json.dumps(doc, indent=2, ensure_ascii=False, sort_keys=False) + "\n"
 
