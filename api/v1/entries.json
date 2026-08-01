@@ -1,8 +1,216 @@
 {
-  "generated_at": "2026-08-01",
+  "generated_at": "2026-08-02",
   "schema_version": "1.0.0",
-  "count": 39,
+  "count": 80,
   "entries": [
+    {
+      "subcategories": [],
+      "tasks": [
+        "model-training",
+        "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "University of Warwick TIA Centre"
+      ],
+      "related": [
+        "quilt-1m",
+        "pathvqa"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Derived from published figures; review the terms before redistribution.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "dataset",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "arch-dataset",
+      "name": "ARCH",
+      "tagline": "Pathology image-caption dataset drawn from textbooks and articles.",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://warwick.ac.uk/fac/cross_fac/tia/data/arch"
+      },
+      "summary": "Multiple-instance captioning dataset built from pathology textbooks and journal articles, used for image-text pretraining and retrieval evaluation.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "survival-prediction"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "breast"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Artera, Inc."
+      ],
+      "related": [
+        "arteraai-prostate"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician",
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "arteraai-breast",
+      "name": "ArteraAI Breast",
+      "tagline": "Prognostic AI test using digital pathology images for breast cancer.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2026-05-04 (K254115). Product code SHW — pathology software algorithm device analysing digital images for cancer prognosis.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K254115",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://artera.ai/"
+      },
+      "summary": "Prognostic algorithm applying the same digital-pathology approach as the company's prostate test to breast cancer.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "survival-prediction",
+        "grading"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "prostate"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Artera, Inc."
+      ],
+      "related": [
+        "arteraai-breast",
+        "paige-prostate"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": "Answers a different question from a detection tool: not 'is there cancer' but 'how is this likely to behave'.",
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician",
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "arteraai-prostate",
+      "name": "ArteraAI Prostate",
+      "tagline": "Prognostic AI test using digital pathology images for prostate cancer.",
+      "regulatory": {
+        "status": "fda-de-novo",
+        "detail": "De Novo granted 2025-07-31 (DEN240068). Product code SFH — pathology software algorithm device analysing digital images for cancer prognosis.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?ID=DEN240068",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://artera.ai/"
+      },
+      "summary": "Prognostic algorithm analysing digitised prostate biopsy images alongside clinical variables to inform risk assessment and therapy decisions. Created the SFH product code for prognostic pathology algorithms.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
     {
       "subcategories": [],
       "tasks": [
@@ -365,6 +573,78 @@
     {
       "subcategories": [],
       "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "tcga",
+        "pathmmu",
+        "patho-bench"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": "Worth knowing about because it takes seriously a problem most benchmarks ignore: whether a model can score well without actually looking at the slide.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "benchmark",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "cleanslide",
+      "name": "CleanSlide",
+      "tagline": "Leakage-audited pan-cancer whole-slide multiple-choice benchmark.",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "repo": "https://github.com/wenhaozhang0066/CleanSlide",
+        "dataset": "https://huggingface.co/datasets/eric-1w/CleanSlide-features"
+      },
+      "summary": "TCGA-derived benchmark of about 149,000 four-option questions over 9,985 diagnostic slides, with train/validation/test splits disjoint by patient AND by tissue source site, and a blind image-free baseline reported for every task.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
         "classification",
         "retrieval-search",
         "vqa",
@@ -432,6 +712,156 @@
       "summary": "Contrastively pretrained image-text model for pathology supporting zero-shot classification, cross-modal retrieval, captioning and segmentation.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "generative"
+      ],
+      "tasks": [
+        "vqa",
+        "classification",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "slidechat",
+        "wsi-llava"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "cpath-omni",
+      "name": "CPath-Omni",
+      "tagline": "Unified multimodal model spanning patch and whole-slide analysis.",
+      "links": {
+        "repo": "https://github.com/PathFoundation/CPath-Omni",
+        "paper": "https://arxiv.org/abs/2412.12077"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Attempts to handle patch-level and slide-level tasks in a single model rather than training separate systems for each scale.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "agent"
+      ],
+      "tasks": [
+        "vqa",
+        "classification",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "pathagent",
+        "qupath"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "agent-mcp",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "cpathagent",
+      "name": "CPathAgent",
+      "tagline": "Agent that navigates a slide the way a pathologist moves a microscope.",
+      "links": {
+        "paper": "https://arxiv.org/abs/2505.20510"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Models the zoom-and-pan behaviour of slide review as agent actions, unifying patch, region and slide-level capability in one system and reporting an interpretable trajectory of what it looked at.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -660,6 +1090,150 @@
       "summary": "Web platform built on Girder for organising whole-slide image collections, with annotation tooling and a plugin system for running analysis jobs at scale.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "generative"
+      ],
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "haematopathology"
+      ],
+      "organs": [
+        "bone-marrow"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "UC Berkeley"
+      ],
+      "related": [
+        "patho-r1"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "dr-llava",
+      "name": "Dr-LLaVA",
+      "tagline": "Instruction tuning grounded in symbolic clinical reasoning.",
+      "links": {
+        "repo": "https://github.com/AlaaLab/Dr-LLaVA",
+        "paper": "https://arxiv.org/abs/2405.19567"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Constrains a vision-language assistant with symbolic representations of clinical reasoning steps, so that its answers follow a defensible diagnostic sequence rather than arriving at conclusions unaccountably.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "reasoning"
+      ],
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "patho-r1"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "eagle-pathology",
+      "name": "EAGLE",
+      "tagline": "Preference alignment to reduce hallucination in pathology VLMs.",
+      "links": {
+        "repo": "https://github.com/meidandz/EAGLE",
+        "paper": "https://doi.org/10.18653/v1/2025.acl-long.711"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Builds a large set of preferred and rejected response pairs and applies iterative preference optimisation, targeting multimodal hallucination and biased answers — a failure mode that matters more in pathology than in general vision tasks.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -974,6 +1548,367 @@
       "subcategories": [],
       "tasks": [
         "classification",
+        "quality-control"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "prostate",
+        "breast"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Ibex Medical Analytics Ltd."
+      ],
+      "related": [
+        "paige-prostate"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": "Runs after you have signed out, and raises a flag if it disagrees. Designed as a safety net, not a first opinion.",
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "ibex-galen-second-read",
+      "name": "Ibex Galen Second Read",
+      "tagline": "AI second-read quality control for biopsy whole-slide images.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2025-01-24 (K241232). Product code QPN — software algorithm device to assist users in digital pathology.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K241232",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://ibex-ai.com/"
+      },
+      "summary": "Software that reviews already-diagnosed cases and flags discrepancies between the algorithm's assessment and the recorded diagnosis, intended as a quality-control second read rather than a primary diagnostic step.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "data-management",
+        "ihc-quantification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Indica Labs, Inc."
+      ],
+      "related": [
+        "proscia-concentriq-dx"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician",
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "indica-halo-ap-dx",
+      "name": "Indica Labs HALO AP Dx",
+      "tagline": "Anatomic pathology workflow and image analysis platform.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2025-11-25 (K252762) as digital pathology image viewing and management software (QKQ); earlier clearance K232833 in 2024 as a whole slide imaging system (PSY).",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K252762",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://indicalab.com/"
+      },
+      "summary": "Case management and viewing platform for anatomic pathology, from a company whose research image-analysis software is widely used in academic laboratories.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "wsi-io",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Leica Biosystems Imaging, Inc."
+      ],
+      "related": [
+        "philips-intellisite",
+        "roche-ventana-dp200",
+        "openslide"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": "The scanner itself, not an AI tool — it produces the digital slides everything else works on.",
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "leica-aperio-gt450-dx",
+      "name": "Leica Aperio GT 450 DX",
+      "tagline": "Whole-slide scanner cleared for primary diagnosis.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2024-04-16 (K232202). Product code PSY — whole slide imaging system.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K232202",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://www.leicabiosystems.com/"
+      },
+      "summary": "High-throughput brightfield whole-slide scanner and associated software cleared as a whole slide imaging system for diagnostic use.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "generative"
+      ],
+      "tasks": [
+        "vqa",
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "clinical-pathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Microsoft Research"
+      ],
+      "related": [
+        "quilt-llava",
+        "pa-llava"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": "Biomedical-general rather than pathology-specific; histopathology is a minority of its training data.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "llava-med",
+      "name": "LLaVA-Med",
+      "tagline": "Biomedical vision-language assistant trained rapidly from PubMed figures.",
+      "links": {
+        "repo": "https://github.com/microsoft/LLaVA-Med",
+        "paper": "https://arxiv.org/abs/2306.00890"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "General biomedical multimodal assistant covering many imaging modalities including histopathology. Frequently used as the baseline that pathology-specific assistants are compared against.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "contrastive"
+      ],
+      "tasks": [
+        "classification",
+        "retrieval-search",
+        "vqa",
+        "molecular-prediction"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Stanford University"
+      ],
+      "related": [
+        "conch",
+        "titan"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "musk",
+      "name": "MUSK",
+      "tagline": "Vision-language foundation model for precision oncology.",
+      "links": {
+        "repo": "https://github.com/lilab-stanford/MUSK",
+        "paper": "https://doi.org/10.1038/s41586-024-08378-w"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Trained on large volumes of unpaired image and text data as well as paired examples, then applied to retrieval, visual question answering, classification and molecular biomarker prediction.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
         "model-training",
         "education"
       ],
@@ -1192,6 +2127,216 @@
       }
     },
     {
+      "subcategories": [
+        "generative"
+      ],
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "plip",
+        "llava-med"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pa-llava",
+      "name": "PA-LLaVA",
+      "tagline": "Pathology language-vision assistant built on PLIP with two-stage training.",
+      "links": {
+        "repo": "https://github.com/ddw2AIGROUP2CQUPT/PA-LLaVA",
+        "paper": "https://doi.org/10.1109/BIBM62325.2024.10821785"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Domain-specific assistant using a PLIP-derived encoder, trained first for domain alignment and then for instruction following on pathology question answering.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Paige.AI, Inc."
+      ],
+      "related": [
+        "paige-prostate",
+        "pathai-aisight-dx"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "paige-fullfocus",
+      "name": "Paige FullFocus",
+      "tagline": "Whole-slide image viewer for primary diagnosis.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2025-01-09 (K241273); earlier clearance K201005 in 2020. Product code QKQ — digital pathology image viewing and management software.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K241273",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://www.paige.ai/"
+      },
+      "summary": "Viewer for reading whole-slide images in a diagnostic workflow, cleared separately from the company's analysis algorithms.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "grading"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "prostate"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Paige.AI, Inc."
+      ],
+      "related": [
+        "paige-fullfocus",
+        "ibex-galen-second-read"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": "An assistive second look at prostate biopsies. It flags suspicious areas — it does not make the diagnosis, and you remain responsible for the report.",
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": true,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician",
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "paige-prostate",
+      "name": "Paige Prostate",
+      "tagline": "AI aid for detecting prostate cancer in core needle biopsies.",
+      "regulatory": {
+        "status": "fda-de-novo",
+        "detail": "De Novo granted 2021-09-21 (DEN200080). Product code QPN — software algorithm device to assist users in digital pathology. The first AI device authorised by FDA for use in pathology.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?ID=DEN200080",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://www.paige.ai/"
+      },
+      "summary": "Software intended to assist pathologists in detecting areas suspicious for cancer in prostate core needle biopsy whole-slide images. Notable as the first AI device FDA authorised for pathology, creating the QPN product code.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "grading",
@@ -1338,6 +2483,514 @@
       }
     },
     {
+      "subcategories": [
+        "agent"
+      ],
+      "tasks": [
+        "vqa",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "cpathagent",
+        "patho-agenticrag"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": true,
+      "offline_capable": false,
+      "hardware_floor": "cloud-only",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": "Depends on a hosted LLM, so slide-derived content leaves the local machine — check this against your data-protection obligations before using patient material.",
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "agent-mcp",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathagent",
+      "name": "PathAgent",
+      "tagline": "Training-free LLM agent that explores whole slides and reasons over findings.",
+      "links": {
+        "repo": "https://github.com/G14nTDo4/PathAgent",
+        "paper": "https://arxiv.org/abs/2511.17052"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Uses an LLM to plan slide exploration, locate informative regions, extract visual cues and assemble them into a reasoning trajectory, without task-specific training.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "PathAI, Inc."
+      ],
+      "related": [
+        "paige-fullfocus",
+        "proscia-concentriq-dx"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use. Note that a clearance for viewing and management software is not a clearance of any analysis algorithm that may run alongside it.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathai-aisight-dx",
+      "name": "PathAI AISight Dx",
+      "tagline": "Digital pathology image management and viewing platform.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2025-06-26 (K243391). Product code QKQ — digital pathology image viewing and management software.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K243391",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://www.pathai.com/"
+      },
+      "summary": "Platform for viewing, managing and reviewing whole-slide images in a clinical workflow, cleared as viewing and management software.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "generative"
+      ],
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "pathcap",
+        "pathinstruct"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathasst",
+      "name": "PathAsst",
+      "tagline": "Generative pathology assistant with a domain-adapted CLIP encoder.",
+      "links": {
+        "repo": "https://github.com/superjamessyx/Generative-Foundation-AI-Assistant-for-Pathology",
+        "paper": "https://arxiv.org/abs/2305.15072"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Combines a pathology-adapted CLIP vision encoder with a language model, trained on the PathCap caption corpus and PathInstruct instruction data released alongside it.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [],
+      "licence": "unknown",
+      "licence_notes": "Check the dataset card before redistribution.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "category": "dataset",
+      "audience": [
+        "researcher"
+      ],
+      "tasks": [
+        "model-training"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathcap",
+      "name": "PathCap",
+      "tagline": "Pathology image-caption corpus released with PathAsst.",
+      "links": {
+        "dataset": "https://huggingface.co/datasets/jamessyx/PathCap",
+        "paper": "https://arxiv.org/abs/2305.15072"
+      },
+      "summary": "Roughly 207,000 pathology image-text pairs curated for vision-language pretraining, released alongside the PathAsst assistant.",
+      "related": [
+        "pathasst",
+        "pathinstruct"
+      ],
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "generative"
+      ],
+      "tasks": [
+        "vqa",
+        "report-writing",
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Mahmood Lab, Harvard Medical School"
+      ],
+      "related": [
+        "conch",
+        "uni"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": "The published work is research; downstream commercial versions are separate products with their own regulatory status, which is not covered by this entry.",
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathchat",
+      "name": "PathChat",
+      "tagline": "Multimodal generative copilot for human pathology.",
+      "links": {
+        "repo": "https://github.com/fedshyvana/pathology_mllm_training",
+        "paper": "https://doi.org/10.1038/s41586-024-07618-3"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Vision-language assistant built on a pathology foundation encoder, able to take image and text input together and hold a diagnostic conversation about a case.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "contrastive"
+      ],
+      "tasks": [
+        "classification",
+        "retrieval-search",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "conch",
+        "pathreasoner-r1"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathflip",
+      "name": "PathFLIP",
+      "tagline": "Fine-grained language-image pretraining grounding captions to regions.",
+      "links": {
+        "repo": "https://github.com/cyclexfy/PathFLIP",
+        "paper": "https://doi.org/10.1609/aaai.v40i9.37649"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Aligns slide captions to specific image regions rather than whole images, aiming to improve slide classification, retrieval and lesion localisation.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [],
+      "licence": "unknown",
+      "licence_notes": "Check the dataset card before redistribution.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "category": "dataset",
+      "audience": [
+        "researcher"
+      ],
+      "tasks": [
+        "model-training",
+        "vqa"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathinstruct",
+      "name": "PathInstruct",
+      "tagline": "Pathology instruction-tuning dataset released with PathAsst.",
+      "links": {
+        "dataset": "https://huggingface.co/datasets/jamessyx/PathInstruct",
+        "paper": "https://arxiv.org/abs/2305.15072"
+      },
+      "summary": "Around 180,000 instruction-response pairs for pathology, used to give a vision-language model conversational and task-following behaviour.",
+      "related": [
+        "pathasst",
+        "pathcap"
+      ],
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "wsi-io",
@@ -1419,6 +3072,152 @@
     {
       "subcategories": [],
       "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [],
+      "related": [
+        "pathvqa",
+        "cleanslide"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "benchmark",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathmmu",
+      "name": "PathMMU",
+      "tagline": "Expert-validated multimodal pathology understanding benchmark.",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "repo": "https://github.com/PathMMU-Benchmark/PathMMU",
+        "dataset": "https://huggingface.co/datasets/jamessyx/PathMMU",
+        "homepage": "https://pathmmu-benchmark.github.io/",
+        "paper": "https://arxiv.org/abs/2401.16355"
+      },
+      "summary": "Multiple-choice benchmark of roughly 33,000 questions over 24,000 images, assembled from several sources and checked by pathologists.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "agent"
+      ],
+      "tasks": [
+        "vqa",
+        "retrieval-search",
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "patho-r1",
+        "pathagent"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": "The interesting idea here is grounding: answers point back to a textbook page instead of being asserted from nowhere.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "agent-mcp",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "patho-agenticrag",
+      "name": "Patho-AgenticRAG",
+      "tagline": "Multimodal retrieval-augmented generation over pathology textbooks.",
+      "links": {
+        "repo": "https://github.com/Wenchuan-Zhang/Patho-AgenticRAG",
+        "paper": "https://doi.org/10.1609/aaai.v40i35.40239"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Builds a searchable index over authoritative pathology textbook content supporting joint text and image queries, so answers can be grounded in a citable source rather than model memory.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
         "classification",
         "model-training"
       ],
@@ -1488,6 +3287,80 @@
       }
     },
     {
+      "subcategories": [
+        "reasoning"
+      ],
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "pathvlm-r1",
+        "patho-agenticrag",
+        "dr-llava"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "patho-r1",
+      "name": "Patho-R1",
+      "tagline": "Reinforcement-learning pathology reasoner trained on chain-of-thought data.",
+      "links": {
+        "repo": "https://github.com/Wenchuan-Zhang/Patho-R1",
+        "paper": "https://doi.org/10.1609/aaai.v40i33.40071"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Applies continued pretraining, supervised fine-tuning on reasoning traces, then reinforcement learning, releasing the PathCoT reasoning dataset alongside.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "education"
@@ -1543,6 +3416,290 @@
       "summary": "Widely used free reference covering diagnostic criteria, immunohistochemistry and differentials across pathology, maintained by a large contributor network.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "education",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "PathPresenter Corporation"
+      ],
+      "related": [
+        "pathai-aisight-dx"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": "Many pathologists already know the teaching platform; the clinical viewer is a separate, cleared product.",
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician",
+        "educator"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathpresenter-clinical-viewer",
+      "name": "PathPresenter Clinical Viewer",
+      "tagline": "Whole-slide viewer with teaching and conferencing roots.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2025-05-14 (K250968). Product code QKQ — digital pathology image viewing and management software.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K250968",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://pathpresenter.com/"
+      },
+      "summary": "Clinical viewer from a platform widely used for pathology education, tumour boards and case sharing, with the clinical module cleared for diagnostic viewing.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "reasoning"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "licence": "unknown",
+      "licence_notes": "Check the repository before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathreasoner-r1",
+      "name": "PathReasoner-R1",
+      "tagline": "Knowledge-guided structured reasoning for whole-slide pathology.",
+      "links": {
+        "repo": "https://github.com/cyclexfy/PathReasoner-R1",
+        "paper": "https://arxiv.org/abs/2601.21617"
+      },
+      "summary": "Uses a knowledge graph to tie pathological findings to clinical reasoning steps and diagnoses, with a slide-level reasoning dataset and a multi-granular reward function.",
+      "related": [
+        "patho-r1",
+        "pathflip"
+      ],
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "reasoning"
+      ],
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "patho-r1",
+        "smartpath-r1"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathvlm-r1",
+      "name": "PathVLM-R1",
+      "tagline": "GRPO-trained reasoning model for pathology visual questions.",
+      "links": {
+        "paper": "https://arxiv.org/abs/2504.09258"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Injects domain knowledge by supervised fine-tuning, then applies policy optimisation with format and accuracy rewards on a general-purpose vision-language backbone.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [],
+      "related": [
+        "pathmmu",
+        "quilt-llava"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": "Questions were largely derived automatically from textbook captions, so some are answerable from language alone without looking at the image.",
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "benchmark",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "pathvqa",
+      "name": "PathVQA",
+      "tagline": "Pathology visual question answering benchmark.",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "repo": "https://github.com/KaveeshaSilva/PathVQA",
+        "dataset": "https://huggingface.co/datasets/flaviagiammarino/path-vqa",
+        "paper": "https://arxiv.org/abs/2003.10286"
+      },
+      "summary": "Early and still widely cited pathology VQA set of roughly 5,000 images and 32,000 question-answer pairs, used as a standard comparison point.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -1627,6 +3784,74 @@
     {
       "subcategories": [],
       "tasks": [
+        "wsi-io",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Philips Medical Systems Nederland B.V."
+      ],
+      "related": [
+        "leica-aperio-gt450-dx",
+        "roche-ventana-dp200"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "philips-intellisite",
+      "name": "Philips IntelliSite Pathology Solution",
+      "tagline": "Whole-slide imaging system for primary diagnosis.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "Most recent 510(k) clearance 2025-03-06 (K243871), with several earlier clearances in the same family. Product code PSY — whole slide imaging system.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K243871",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://www.philips.com/healthcare"
+      },
+      "summary": "Scanner, storage and viewing system for digital pathology, one of the earliest whole slide imaging systems authorised in the United States for primary diagnosis.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
         "classification",
         "retrieval-search"
       ],
@@ -1691,6 +3916,150 @@
       "summary": "CLIP fine-tuned on the OpenPath corpus of pathology image-text pairs curated from public medical Twitter, enabling zero-shot classification and image-text retrieval.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "contrastive",
+        "generative"
+      ],
+      "tasks": [
+        "classification",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Paige AI"
+      ],
+      "related": [
+        "virchow2",
+        "titan"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "prism",
+      "name": "PRISM",
+      "tagline": "Slide-level multimodal model generating reports from tile embeddings.",
+      "links": {
+        "paper": "https://arxiv.org/abs/2405.10254"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Aggregates Virchow tile embeddings into a slide-level representation supervised by clinical reports, supporting report generation, cancer detection and subtyping.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Proscia, Inc."
+      ],
+      "related": [
+        "pathai-aisight-dx",
+        "indica-halo-ap-dx"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "proscia-concentriq-dx",
+      "name": "Proscia Concentriq Dx",
+      "tagline": "Digital pathology platform for diagnostic viewing and workflow.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2024-02-08 (K230839). Product code PSY — whole slide imaging system.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K230839",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://proscia.com/"
+      },
+      "summary": "Enterprise platform for storing, viewing and routing whole-slide images through a diagnostic workflow, with an application layer for third-party algorithms.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -2242,6 +4611,217 @@
     {
       "subcategories": [],
       "tasks": [
+        "wsi-io",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Ventana Medical Systems, Inc."
+      ],
+      "related": [
+        "leica-aperio-gt450-dx",
+        "philips-intellisite"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "roche-ventana-dp200",
+      "name": "Roche Digital Pathology Dx (VENTANA DP 200)",
+      "tagline": "Whole-slide scanner and viewing software for diagnostic use.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2024-12-17 (K242783); related clearance K232879 for VENTANA DP 200 in 2024. Product code PSY — whole slide imaging system.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K242783",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://diagnostics.roche.com/"
+      },
+      "summary": "Slide scanner with accompanying image management and viewing software, cleared as a whole slide imaging system.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "data-management",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [],
+      "maintainers": [
+        "Sectra AB"
+      ],
+      "related": [
+        "proscia-concentriq-dx",
+        "dicom-wsi"
+      ],
+      "licence": "proprietary",
+      "licence_notes": null,
+      "cost": "paid",
+      "self_hostable": null,
+      "sends_data_offsite": null,
+      "offline_capable": null,
+      "hardware_floor": null,
+      "bandwidth": null,
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": "Worth knowing about if your hospital already uses Sectra for radiology — the pathology module reuses that infrastructure.",
+      "caveats": "Clearance is specific to the indication for use stated in the FDA record and to the United States. It implies nothing about availability or approval elsewhere. Verify the current indication and your own jurisdiction's status before clinical use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "category": "commercial-product",
+      "audience": [
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "sectra-digital-pathology",
+      "name": "Sectra Digital Pathology Module",
+      "tagline": "Digital pathology module within an enterprise imaging platform.",
+      "regulatory": {
+        "status": "fda-510k",
+        "detail": "510(k) cleared 2024-04-16 (K232208) for version 3.3; earlier clearance K193054 in 2020. Product code PSY — whole slide imaging system.",
+        "reference": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K232208",
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://sectra.com/medical/digital-pathology/"
+      },
+      "summary": "Pathology module of an enterprise imaging platform, notable for sharing infrastructure with radiology PACS in institutions that already run it.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "generative"
+      ],
+      "tasks": [
+        "vqa",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "wsi-llava",
+        "cpath-omni"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "slidechat",
+      "name": "SlideChat",
+      "tagline": "Vision-language assistant operating on whole slides rather than patches.",
+      "links": {
+        "repo": "https://github.com/uni-medical/SlideChat",
+        "homepage": "https://uni-medical.github.io/SlideChat.github.io/",
+        "paper": "https://arxiv.org/abs/2410.11761"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Assistant designed for gigapixel whole-slide input, released with the Slide-Instruction training set and the SlideBench-VQA evaluation set built from TCGA and BCNB.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
         "classification",
         "model-training",
         "survival-prediction",
@@ -2308,6 +4888,152 @@
       "summary": "Opinionated pipeline covering tessellation, training, MIL, explainability and deployment, with both TensorFlow and PyTorch backends and a slide viewer.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "vlm-mil"
+      ],
+      "tasks": [
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "vila-mil",
+        "clam"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "slip-mil",
+      "name": "SLIP",
+      "tagline": "Slide-level prompt learning for few-shot MIL.",
+      "links": {
+        "repo": "https://github.com/LTS5/SLIP",
+        "paper": "https://arxiv.org/abs/2503.17238"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Draws prior knowledge from a language model about which tissue types matter for a given task, then uses it to guide slide classification when labelled data is scarce.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "reasoning"
+      ],
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "patho-r1",
+        "cpath-omni"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "smartpath-r1",
+      "name": "SmartPath-R1",
+      "tagline": "Mixture-of-experts reasoner unifying ROI and whole-slide tasks.",
+      "links": {
+        "paper": "https://arxiv.org/abs/2507.17303"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Combines scale-dependent fine-tuning with task-aware reinforcement learning and expert routing so one model can serve both region-level and slide-level questions.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -2777,6 +5503,78 @@
       }
     },
     {
+      "subcategories": [
+        "vlm-mil"
+      ],
+      "tasks": [
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "clam",
+        "slip-mil"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "vila-mil",
+      "name": "ViLa-MIL",
+      "tagline": "Dual-scale vision-language MIL for whole-slide classification.",
+      "links": {
+        "repo": "https://github.com/Jiangbo-Shi/ViLa-MIL",
+        "paper": "https://doi.org/10.1109/CVPR52733.2024.01069"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Uses text descriptions at two magnifications as prompts to steer multiple-instance learning, transferring vision-language priors into slide classification.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "classification",
@@ -2842,6 +5640,150 @@
       "summary": "Vision transformer trained self-supervised on a very large multi-institutional slide collection, released for research as a general-purpose tile encoder.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [],
+      "related": [
+        "wsi-llava",
+        "cleanslide"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "benchmark",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "wsi-bench",
+      "name": "WSI-Bench",
+      "tagline": "Whole-slide VQA benchmark organised around morphological description.",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "links": {
+        "homepage": "https://wsi-llava.github.io/",
+        "paper": "https://arxiv.org/abs/2412.02141"
+      },
+      "summary": "Large slide-level question set spanning morphological description, diagnosis and clinical reasoning categories, released with WSI-LLaVA.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [
+        "generative"
+      ],
+      "tasks": [
+        "vqa",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "slidechat",
+        "wsi-bench"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository and model card before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "research",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "wsi-llava",
+      "name": "WSI-LLaVA",
+      "tagline": "Multimodal model for whole-slide images with a morphology-aware benchmark.",
+      "links": {
+        "homepage": "https://wsi-llava.github.io/",
+        "paper": "https://arxiv.org/abs/2412.02141"
+      },
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "summary": "Slide-level assistant released together with WSI-Bench, an evaluation set organised around morphological description as well as diagnosis.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,

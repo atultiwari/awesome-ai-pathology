@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- annotation
+- data-management
+- ihc-quantification
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+granularity:
+- G3
+platforms: []
+maintainers:
+- Indica Labs, Inc.
+related:
+- proscia-concentriq-dx
+licence: proprietary
+licence_notes: null
+cost: paid
+self_hostable: null
+sends_data_offsite: null
+offline_capable: null
+hardware_floor: null
+bandwidth: null
+needs_scanner: true
+min_ram_gb: null
+clinician_note: null
+caveats: Clearance is specific to the indication for use stated in the FDA record and to the United States.
+  It implies nothing about availability or approval elsewhere. Verify the current indication and your
+  own jurisdiction's status before clinical use.
+featured: false
+showcase: false
+origin: industry
+stage: production
+category: commercial-product
+audience:
+- clinician
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: indica-halo-ap-dx
+name: Indica Labs HALO AP Dx
+tagline: Anatomic pathology workflow and image analysis platform.
+regulatory:
+  status: fda-510k
+  detail: 510(k) cleared 2025-11-25 (K252762) as digital pathology image viewing and management software
+    (QKQ); earlier clearance K232833 in 2024 as a whole slide imaging system (PSY).
+  reference: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K252762
+  verified_on: '2026-08-02'
+links:
+  homepage: https://indicalab.com/
+summary: Case management and viewing platform for anatomic pathology, from a company whose research image-analysis
+  software is widely used in academic laboratories.

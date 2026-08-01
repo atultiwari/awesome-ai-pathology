@@ -24,6 +24,7 @@ BADGE_LINK = re.compile(r"\[!\[[^\]]*\]\([^)]*\)\]\(([^)\s]+)\)")
 # Files that exist in the repo but are not produced by the generator.
 STATIC_FILES = {
     "README.md", "CONTRIBUTING.md", "DISCLAIMER.md", "LICENSE", "LICENSE-CODE",
+    "ACKNOWLEDGEMENTS.md",
 }
 
 

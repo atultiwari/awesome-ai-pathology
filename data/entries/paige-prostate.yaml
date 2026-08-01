@@ -1,0 +1,57 @@
+subcategories: []
+tasks:
+- classification
+- grading
+subspecialty:
+- histopathology
+organs:
+- prostate
+modality:
+- wsi
+granularity:
+- G3
+platforms: []
+maintainers:
+- Paige.AI, Inc.
+related:
+- paige-fullfocus
+- ibex-galen-second-read
+licence: proprietary
+licence_notes: null
+cost: paid
+self_hostable: null
+sends_data_offsite: null
+offline_capable: null
+hardware_floor: null
+bandwidth: null
+needs_scanner: true
+min_ram_gb: null
+clinician_note: An assistive second look at prostate biopsies. It flags suspicious areas — it does not
+  make the diagnosis, and you remain responsible for the report.
+caveats: Clearance is specific to the indication for use stated in the FDA record and to the United States.
+  It implies nothing about availability or approval elsewhere. Verify the current indication and your
+  own jurisdiction's status before clinical use.
+featured: true
+showcase: false
+origin: industry
+stage: production
+category: commercial-product
+audience:
+- clinician
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: paige-prostate
+name: Paige Prostate
+tagline: AI aid for detecting prostate cancer in core needle biopsies.
+regulatory:
+  status: fda-de-novo
+  detail: De Novo granted 2021-09-21 (DEN200080). Product code QPN — software algorithm device to assist
+    users in digital pathology. The first AI device authorised by FDA for use in pathology.
+  reference: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?ID=DEN200080
+  verified_on: '2026-08-02'
+links:
+  homepage: https://www.paige.ai/
+summary: Software intended to assist pathologists in detecting areas suspicious for cancer in prostate
+  core needle biopsy whole-slide images. Notable as the first AI device FDA authorised for pathology,
+  creating the QPN product code.

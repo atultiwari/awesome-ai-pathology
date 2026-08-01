@@ -16,9 +16,15 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
+# A conventional browser token. An identifying "compatible; ...bot...; +url"
+# string is politer in principle, but several sites we must check — notably
+# accessdata.fda.gov, which holds our regulatory references — answer such a UA
+# with a misleading 404. That turns every FDA citation into a false broken-link
+# report, which is far worse than sending an ordinary UA. Volume here is tiny
+# (a few hundred requests, weekly) and every request is a plain read.
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; awesome-ai-pathology-linkcheck/1.0; "
-    "+https://github.com/atultiwari/awesome-ai-pathology)"
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 )
 TIMEOUT_S = 25
 MAX_WORKERS = 4

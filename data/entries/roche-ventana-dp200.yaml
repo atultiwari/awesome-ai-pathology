@@ -1,0 +1,54 @@
+subcategories: []
+tasks:
+- wsi-io
+- data-management
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+granularity:
+- G3
+platforms: []
+maintainers:
+- Ventana Medical Systems, Inc.
+related:
+- leica-aperio-gt450-dx
+- philips-intellisite
+licence: proprietary
+licence_notes: null
+cost: paid
+self_hostable: null
+sends_data_offsite: null
+offline_capable: null
+hardware_floor: null
+bandwidth: null
+needs_scanner: true
+min_ram_gb: null
+clinician_note: null
+caveats: Clearance is specific to the indication for use stated in the FDA record and to the United States.
+  It implies nothing about availability or approval elsewhere. Verify the current indication and your
+  own jurisdiction's status before clinical use.
+featured: false
+showcase: false
+origin: industry
+stage: production
+category: commercial-product
+audience:
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: roche-ventana-dp200
+name: Roche Digital Pathology Dx (VENTANA DP 200)
+tagline: Whole-slide scanner and viewing software for diagnostic use.
+regulatory:
+  status: fda-510k
+  detail: 510(k) cleared 2024-12-17 (K242783); related clearance K232879 for VENTANA DP 200 in 2024. Product
+    code PSY — whole slide imaging system.
+  reference: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K242783
+  verified_on: '2026-08-02'
+links:
+  homepage: https://diagnostics.roche.com/
+summary: Slide scanner with accompanying image management and viewing software, cleared as a whole slide
+  imaging system.

@@ -1,0 +1,53 @@
+subcategories: []
+tasks:
+- survival-prediction
+subspecialty:
+- histopathology
+organs:
+- breast
+modality:
+- wsi
+granularity:
+- G3
+platforms: []
+maintainers:
+- Artera, Inc.
+related:
+- arteraai-prostate
+licence: proprietary
+licence_notes: null
+cost: paid
+self_hostable: null
+sends_data_offsite: null
+offline_capable: null
+hardware_floor: null
+bandwidth: null
+needs_scanner: true
+min_ram_gb: null
+clinician_note: null
+caveats: Clearance is specific to the indication for use stated in the FDA record and to the United States.
+  It implies nothing about availability or approval elsewhere. Verify the current indication and your
+  own jurisdiction's status before clinical use.
+featured: false
+showcase: false
+origin: industry
+stage: production
+category: commercial-product
+audience:
+- clinician
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: arteraai-breast
+name: ArteraAI Breast
+tagline: Prognostic AI test using digital pathology images for breast cancer.
+regulatory:
+  status: fda-510k
+  detail: 510(k) cleared 2026-05-04 (K254115). Product code SHW — pathology software algorithm device
+    analysing digital images for cancer prognosis.
+  reference: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K254115
+  verified_on: '2026-08-02'
+links:
+  homepage: https://artera.ai/
+summary: Prognostic algorithm applying the same digital-pathology approach as the company's prostate test
+  to breast cancer.

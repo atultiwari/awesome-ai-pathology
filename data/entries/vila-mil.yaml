@@ -1,0 +1,54 @@
+subcategories:
+- vlm-mil
+tasks:
+- classification
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G3
+platforms:
+- linux
+maintainers: []
+related:
+- clam
+- slip-mil
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 32
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: vision-language-model
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: vila-mil
+name: ViLa-MIL
+tagline: Dual-scale vision-language MIL for whole-slide classification.
+links:
+  repo: https://github.com/Jiangbo-Shi/ViLa-MIL
+  paper: https://doi.org/10.1109/CVPR52733.2024.01069
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: Uses text descriptions at two magnifications as prompts to steer multiple-instance learning,
+  transferring vision-language priors into slide classification.

@@ -1,0 +1,57 @@
+subcategories: []
+tasks:
+- survival-prediction
+- grading
+subspecialty:
+- histopathology
+organs:
+- prostate
+modality:
+- wsi
+granularity:
+- G3
+platforms: []
+maintainers:
+- Artera, Inc.
+related:
+- arteraai-breast
+- paige-prostate
+licence: proprietary
+licence_notes: null
+cost: paid
+self_hostable: null
+sends_data_offsite: null
+offline_capable: null
+hardware_floor: null
+bandwidth: null
+needs_scanner: true
+min_ram_gb: null
+clinician_note: 'Answers a different question from a detection tool: not ''is there cancer'' but ''how
+  is this likely to behave''.'
+caveats: Clearance is specific to the indication for use stated in the FDA record and to the United States.
+  It implies nothing about availability or approval elsewhere. Verify the current indication and your
+  own jurisdiction's status before clinical use.
+featured: false
+showcase: false
+origin: industry
+stage: production
+category: commercial-product
+audience:
+- clinician
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: arteraai-prostate
+name: ArteraAI Prostate
+tagline: Prognostic AI test using digital pathology images for prostate cancer.
+regulatory:
+  status: fda-de-novo
+  detail: De Novo granted 2025-07-31 (DEN240068). Product code SFH — pathology software algorithm device
+    analysing digital images for cancer prognosis.
+  reference: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/denovo.cfm?ID=DEN240068
+  verified_on: '2026-08-02'
+links:
+  homepage: https://artera.ai/
+summary: Prognostic algorithm analysing digitised prostate biopsy images alongside clinical variables
+  to inform risk assessment and therapy decisions. Created the SFH product code for prognostic pathology
+  algorithms.

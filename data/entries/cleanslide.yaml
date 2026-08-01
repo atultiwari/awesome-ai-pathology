@@ -1,0 +1,57 @@
+subcategories: []
+tasks:
+- vqa
+- classification
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G3
+platforms:
+- linux
+maintainers: []
+related:
+- tcga
+- pathmmu
+- patho-bench
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 32
+clinician_note: 'Worth knowing about because it takes seriously a problem most benchmarks ignore: whether
+  a model can score well without actually looking at the slide.'
+caveats: null
+featured: true
+showcase: false
+origin: academic
+stage: research
+category: benchmark
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: cleanslide
+name: CleanSlide
+tagline: Leakage-audited pan-cancer whole-slide multiple-choice benchmark.
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+links:
+  repo: https://github.com/wenhaozhang0066/CleanSlide
+  dataset: https://huggingface.co/datasets/eric-1w/CleanSlide-features
+summary: TCGA-derived benchmark of about 149,000 four-option questions over 9,985 diagnostic slides, with
+  train/validation/test splits disjoint by patient AND by tissue source site, and a blind image-free baseline
+  reported for every task.

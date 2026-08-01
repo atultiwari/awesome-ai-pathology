@@ -1,0 +1,56 @@
+subcategories:
+- reasoning
+tasks:
+- vqa
+- classification
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+- G2
+- G3
+platforms:
+- linux
+maintainers: []
+related:
+- patho-r1
+- cpath-omni
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 32
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: vision-language-model
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: smartpath-r1
+name: SmartPath-R1
+tagline: Mixture-of-experts reasoner unifying ROI and whole-slide tasks.
+links:
+  paper: https://arxiv.org/abs/2507.17303
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: Combines scale-dependent fine-tuning with task-aware reinforcement learning and expert routing
+  so one model can serve both region-level and slide-level questions.

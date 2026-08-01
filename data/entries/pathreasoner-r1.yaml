@@ -1,0 +1,55 @@
+subcategories:
+- reasoning
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+- text
+granularity:
+- G1
+- G3
+platforms:
+- linux
+maintainers: []
+licence: unknown
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 32
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: vision-language-model
+audience:
+- researcher
+tasks:
+- vqa
+- classification
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: pathreasoner-r1
+name: PathReasoner-R1
+tagline: Knowledge-guided structured reasoning for whole-slide pathology.
+links:
+  repo: https://github.com/cyclexfy/PathReasoner-R1
+  paper: https://arxiv.org/abs/2601.21617
+summary: Uses a knowledge graph to tie pathological findings to clinical reasoning steps and diagnoses,
+  with a slide-level reasoning dataset and a multi-granular reward function.
+related:
+- patho-r1
+- pathflip

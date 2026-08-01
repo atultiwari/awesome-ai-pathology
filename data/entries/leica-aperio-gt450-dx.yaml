@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- wsi-io
+- data-management
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+granularity:
+- G3
+platforms: []
+maintainers:
+- Leica Biosystems Imaging, Inc.
+related:
+- philips-intellisite
+- roche-ventana-dp200
+- openslide
+licence: proprietary
+licence_notes: null
+cost: paid
+self_hostable: null
+sends_data_offsite: null
+offline_capable: null
+hardware_floor: null
+bandwidth: null
+needs_scanner: true
+min_ram_gb: null
+clinician_note: The scanner itself, not an AI tool — it produces the digital slides everything else works
+  on.
+caveats: Clearance is specific to the indication for use stated in the FDA record and to the United States.
+  It implies nothing about availability or approval elsewhere. Verify the current indication and your
+  own jurisdiction's status before clinical use.
+featured: false
+showcase: false
+origin: industry
+stage: production
+category: commercial-product
+audience:
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: leica-aperio-gt450-dx
+name: Leica Aperio GT 450 DX
+tagline: Whole-slide scanner cleared for primary diagnosis.
+regulatory:
+  status: fda-510k
+  detail: 510(k) cleared 2024-04-16 (K232202). Product code PSY — whole slide imaging system.
+  reference: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K232202
+  verified_on: '2026-08-02'
+links:
+  homepage: https://www.leicabiosystems.com/
+summary: High-throughput brightfield whole-slide scanner and associated software cleared as a whole slide
+  imaging system for diagnostic use.

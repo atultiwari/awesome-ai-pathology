@@ -1,0 +1,52 @@
+subcategories: []
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+- text
+granularity:
+- G1
+platforms:
+- web
+maintainers: []
+licence: unknown
+licence_notes: Check the dataset card before redistribution.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+category: dataset
+audience:
+- researcher
+tasks:
+- model-training
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: pathcap
+name: PathCap
+tagline: Pathology image-caption corpus released with PathAsst.
+links:
+  dataset: https://huggingface.co/datasets/jamessyx/PathCap
+  paper: https://arxiv.org/abs/2305.15072
+summary: Roughly 207,000 pathology image-text pairs curated for vision-language pretraining, released
+  alongside the PathAsst assistant.
+related:
+- pathasst
+- pathinstruct

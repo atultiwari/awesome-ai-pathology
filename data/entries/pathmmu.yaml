@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- vqa
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+platforms:
+- web
+maintainers: []
+related:
+- pathvqa
+- cleanslide
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: benchmark
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: pathmmu
+name: PathMMU
+tagline: Expert-validated multimodal pathology understanding benchmark.
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+links:
+  repo: https://github.com/PathMMU-Benchmark/PathMMU
+  dataset: https://huggingface.co/datasets/jamessyx/PathMMU
+  homepage: https://pathmmu-benchmark.github.io/
+  paper: https://arxiv.org/abs/2401.16355
+summary: Multiple-choice benchmark of roughly 33,000 questions over 24,000 images, assembled from several
+  sources and checked by pathologists.

@@ -1,0 +1,54 @@
+subcategories:
+- reasoning
+tasks:
+- vqa
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+platforms:
+- linux
+maintainers: []
+related:
+- patho-r1
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: vision-language-model
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: eagle-pathology
+name: EAGLE
+tagline: Preference alignment to reduce hallucination in pathology VLMs.
+links:
+  repo: https://github.com/meidandz/EAGLE
+  paper: https://doi.org/10.18653/v1/2025.acl-long.711
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: Builds a large set of preferred and rejected response pairs and applies iterative preference
+  optimisation, targeting multimodal hallucination and biased answers — a failure mode that matters more
+  in pathology than in general vision tasks.

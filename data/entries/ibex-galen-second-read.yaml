@@ -1,0 +1,56 @@
+subcategories: []
+tasks:
+- classification
+- quality-control
+subspecialty:
+- histopathology
+organs:
+- prostate
+- breast
+modality:
+- wsi
+granularity:
+- G3
+platforms: []
+maintainers:
+- Ibex Medical Analytics Ltd.
+related:
+- paige-prostate
+licence: proprietary
+licence_notes: null
+cost: paid
+self_hostable: null
+sends_data_offsite: null
+offline_capable: null
+hardware_floor: null
+bandwidth: null
+needs_scanner: true
+min_ram_gb: null
+clinician_note: Runs after you have signed out, and raises a flag if it disagrees. Designed as a safety
+  net, not a first opinion.
+caveats: Clearance is specific to the indication for use stated in the FDA record and to the United States.
+  It implies nothing about availability or approval elsewhere. Verify the current indication and your
+  own jurisdiction's status before clinical use.
+featured: false
+showcase: false
+origin: industry
+stage: production
+category: commercial-product
+audience:
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: ibex-galen-second-read
+name: Ibex Galen Second Read
+tagline: AI second-read quality control for biopsy whole-slide images.
+regulatory:
+  status: fda-510k
+  detail: 510(k) cleared 2025-01-24 (K241232). Product code QPN — software algorithm device to assist
+    users in digital pathology.
+  reference: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K241232
+  verified_on: '2026-08-02'
+links:
+  homepage: https://ibex-ai.com/
+summary: Software that reviews already-diagnosed cases and flags discrepancies between the algorithm's
+  assessment and the recorded diagnosis, intended as a quality-control second read rather than a primary
+  diagnostic step.

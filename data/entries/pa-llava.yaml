@@ -1,0 +1,55 @@
+subcategories:
+- generative
+tasks:
+- vqa
+- classification
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+platforms:
+- linux
+maintainers: []
+related:
+- plip
+- llava-med
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: vision-language-model
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: pa-llava
+name: PA-LLaVA
+tagline: Pathology language-vision assistant built on PLIP with two-stage training.
+links:
+  repo: https://github.com/ddw2AIGROUP2CQUPT/PA-LLaVA
+  paper: https://doi.org/10.1109/BIBM62325.2024.10821785
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: Domain-specific assistant using a PLIP-derived encoder, trained first for domain alignment and
+  then for instruction following on pathology question answering.

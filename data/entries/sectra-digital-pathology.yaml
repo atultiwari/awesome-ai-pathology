@@ -1,0 +1,56 @@
+subcategories: []
+tasks:
+- annotation
+- data-management
+- telepathology
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+granularity:
+- G3
+platforms: []
+maintainers:
+- Sectra AB
+related:
+- proscia-concentriq-dx
+- dicom-wsi
+licence: proprietary
+licence_notes: null
+cost: paid
+self_hostable: null
+sends_data_offsite: null
+offline_capable: null
+hardware_floor: null
+bandwidth: null
+needs_scanner: true
+min_ram_gb: null
+clinician_note: Worth knowing about if your hospital already uses Sectra for radiology — the pathology
+  module reuses that infrastructure.
+caveats: Clearance is specific to the indication for use stated in the FDA record and to the United States.
+  It implies nothing about availability or approval elsewhere. Verify the current indication and your
+  own jurisdiction's status before clinical use.
+featured: false
+showcase: false
+origin: industry
+stage: production
+category: commercial-product
+audience:
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: sectra-digital-pathology
+name: Sectra Digital Pathology Module
+tagline: Digital pathology module within an enterprise imaging platform.
+regulatory:
+  status: fda-510k
+  detail: 510(k) cleared 2024-04-16 (K232208) for version 3.3; earlier clearance K193054 in 2020. Product
+    code PSY — whole slide imaging system.
+  reference: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K232208
+  verified_on: '2026-08-02'
+links:
+  homepage: https://sectra.com/medical/digital-pathology/
+summary: Pathology module of an enterprise imaging platform, notable for sharing infrastructure with radiology
+  PACS in institutions that already run it.

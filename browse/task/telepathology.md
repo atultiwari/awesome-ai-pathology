@@ -2,12 +2,14 @@
 
 [← Back to the index](../../README.md)
 
-**2** entries.
+**4** entries.
 
 | Name | What it does | Status | Cost / Hardware | Tasks | Links |
 | --- | --- | --- | --- | --- | --- |
 | **[Cytomine](https://cytomine.org/)** | Web-based collaborative platform for annotating and analysing whole-slide images. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](../../browse/regulatory/ruo.md) | free · workstation gpu | [`Annotate slides`](../../browse/task/annotation.md) [`Manage slides and metadata`](../../browse/task/data-management.md) [`Teach and learn`](../../browse/task/education.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/cytomine) [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://cytomine.org/) |
 | **[DICOM for Whole Slide Imaging](https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_A.32.8.html)** | The vendor-neutral standard for storing and exchanging pathology slides. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](../../browse/regulatory/not-applicable.md) | free · cpu · 🌍 | [`Read and convert slide formats`](../../browse/task/wsi-io.md) [`Manage slides and metadata`](../../browse/task/data-management.md) [`Consult remotely`](../../browse/task/telepathology.md) | [![Docs](https://img.shields.io/badge/Docs-link-6A5ACD)](https://dicom.nema.org/) [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_A.32.8.html) |
+| **[PathPresenter Clinical Viewer](https://pathpresenter.com/)** | Whole-slide viewer with teaching and conferencing roots. | [![FDA 510(k)](https://img.shields.io/badge/Status-FDA-gold)](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K250968) | paid | [`Annotate slides`](../../browse/task/annotation.md) [`Teach and learn`](../../browse/task/education.md) [`Consult remotely`](../../browse/task/telepathology.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://pathpresenter.com/) |
+| **[Sectra Digital Pathology Module](https://sectra.com/medical/digital-pathology/)** | Digital pathology module within an enterprise imaging platform. | [![FDA 510(k)](https://img.shields.io/badge/Status-FDA-gold)](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K232208) | paid | [`Annotate slides`](../../browse/task/annotation.md) [`Manage slides and metadata`](../../browse/task/data-management.md) [`Consult remotely`](../../browse/task/telepathology.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://sectra.com/medical/digital-pathology/) |
 
 ---
 

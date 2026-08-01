@@ -1,6 +1,53 @@
 {
-  "generated_at": "2026-08-01",
+  "generated_at": "2026-08-02",
   "entries": [
+    {
+      "id": "arch-dataset",
+      "name": "ARCH",
+      "tagline": "Pathology image-caption dataset drawn from textbooks and articles.",
+      "category": "dataset",
+      "tasks": [
+        "model-training",
+        "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "arteraai-breast",
+      "name": "ArteraAI Breast",
+      "tagline": "Prognostic AI test using digital pathology images for breast cancer.",
+      "category": "commercial-product",
+      "tasks": [
+        "survival-prediction"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "breast"
+      ]
+    },
+    {
+      "id": "arteraai-prostate",
+      "name": "ArteraAI Prostate",
+      "tagline": "Prognostic AI test using digital pathology images for prostate cancer.",
+      "category": "commercial-product",
+      "tasks": [
+        "survival-prediction",
+        "grading"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "prostate"
+      ]
+    },
     {
       "id": "asap",
       "name": "ASAP",
@@ -83,6 +130,22 @@
       ]
     },
     {
+      "id": "cleanslide",
+      "name": "CleanSlide",
+      "tagline": "Leakage-audited pan-cancer whole-slide multiple-choice benchmark.",
+      "category": "benchmark",
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "conch",
       "name": "CONCH",
       "tagline": "Vision-language foundation model for pathology image-text tasks.",
@@ -92,6 +155,40 @@
         "retrieval-search",
         "vqa",
         "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "cpath-omni",
+      "name": "CPath-Omni",
+      "tagline": "Unified multimodal model spanning patch and whole-slide analysis.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "classification",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "cpathagent",
+      "name": "CPathAgent",
+      "tagline": "Agent that navigates a slide the way a pathologist moves a microscope.",
+      "category": "agent-mcp",
+      "tasks": [
+        "vqa",
+        "classification",
+        "report-writing"
       ],
       "subspecialty": [
         "histopathology"
@@ -147,6 +244,36 @@
       ],
       "subspecialty": [
         "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "dr-llava",
+      "name": "Dr-LLaVA",
+      "tagline": "Instruction tuning grounded in symbolic clinical reasoning.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "haematopathology"
+      ],
+      "organs": [
+        "bone-marrow"
+      ]
+    },
+    {
+      "id": "eagle-pathology",
+      "name": "EAGLE",
+      "tagline": "Preference alignment to reduce hallucination in pathology VLMs.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
       ],
       "organs": [
         "any"
@@ -221,6 +348,91 @@
       ]
     },
     {
+      "id": "ibex-galen-second-read",
+      "name": "Ibex Galen Second Read",
+      "tagline": "AI second-read quality control for biopsy whole-slide images.",
+      "category": "commercial-product",
+      "tasks": [
+        "classification",
+        "quality-control"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "prostate",
+        "breast"
+      ]
+    },
+    {
+      "id": "indica-halo-ap-dx",
+      "name": "Indica Labs HALO AP Dx",
+      "tagline": "Anatomic pathology workflow and image analysis platform.",
+      "category": "commercial-product",
+      "tasks": [
+        "annotation",
+        "data-management",
+        "ihc-quantification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "leica-aperio-gt450-dx",
+      "name": "Leica Aperio GT 450 DX",
+      "tagline": "Whole-slide scanner cleared for primary diagnosis.",
+      "category": "commercial-product",
+      "tasks": [
+        "wsi-io",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "llava-med",
+      "name": "LLaVA-Med",
+      "tagline": "Biomedical vision-language assistant trained rapidly from PubMed figures.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "clinical-pathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "musk",
+      "name": "MUSK",
+      "tagline": "Vision-language foundation model for precision oncology.",
+      "category": "vision-language-model",
+      "tasks": [
+        "classification",
+        "retrieval-search",
+        "vqa",
+        "molecular-prediction"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "nct-crc-he-100k",
       "name": "NCT-CRC-HE-100K",
       "tagline": "Colorectal tissue-type patch classification dataset.",
@@ -269,6 +481,54 @@
       ]
     },
     {
+      "id": "pa-llava",
+      "name": "PA-LLaVA",
+      "tagline": "Pathology language-vision assistant built on PLIP with two-stage training.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "paige-fullfocus",
+      "name": "Paige FullFocus",
+      "tagline": "Whole-slide image viewer for primary diagnosis.",
+      "category": "commercial-product",
+      "tasks": [
+        "annotation",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "paige-prostate",
+      "name": "Paige Prostate",
+      "tagline": "AI aid for detecting prostate cancer in core needle biopsies.",
+      "category": "commercial-product",
+      "tasks": [
+        "classification",
+        "grading"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "prostate"
+      ]
+    },
+    {
       "id": "panda",
       "name": "PANDA",
       "tagline": "Prostate biopsy Gleason grading challenge dataset.",
@@ -303,6 +563,119 @@
       ]
     },
     {
+      "id": "pathagent",
+      "name": "PathAgent",
+      "tagline": "Training-free LLM agent that explores whole slides and reasons over findings.",
+      "category": "agent-mcp",
+      "tasks": [
+        "vqa",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathai-aisight-dx",
+      "name": "PathAI AISight Dx",
+      "tagline": "Digital pathology image management and viewing platform.",
+      "category": "commercial-product",
+      "tasks": [
+        "annotation",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathasst",
+      "name": "PathAsst",
+      "tagline": "Generative pathology assistant with a domain-adapted CLIP encoder.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathcap",
+      "name": "PathCap",
+      "tagline": "Pathology image-caption corpus released with PathAsst.",
+      "category": "dataset",
+      "tasks": [
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathchat",
+      "name": "PathChat",
+      "tagline": "Multimodal generative copilot for human pathology.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "report-writing",
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathflip",
+      "name": "PathFLIP",
+      "tagline": "Fine-grained language-image pretraining grounding captions to regions.",
+      "category": "vision-language-model",
+      "tasks": [
+        "classification",
+        "retrieval-search",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathinstruct",
+      "name": "PathInstruct",
+      "tagline": "Pathology instruction-tuning dataset released with PathAsst.",
+      "category": "dataset",
+      "tasks": [
+        "model-training",
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "pathml",
       "name": "PathML",
       "tagline": "Python library for computational pathology preprocessing and modelling.",
@@ -312,6 +685,38 @@
         "nuclei-segmentation",
         "stain-normalisation",
         "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathmmu",
+      "name": "PathMMU",
+      "tagline": "Expert-validated multimodal pathology understanding benchmark.",
+      "category": "benchmark",
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "patho-agenticrag",
+      "name": "Patho-AgenticRAG",
+      "tagline": "Multimodal retrieval-augmented generation over pathology textbooks.",
+      "category": "agent-mcp",
+      "tasks": [
+        "vqa",
+        "retrieval-search",
+        "education"
       ],
       "subspecialty": [
         "histopathology"
@@ -337,6 +742,22 @@
       ]
     },
     {
+      "id": "patho-r1",
+      "name": "Patho-R1",
+      "tagline": "Reinforcement-learning pathology reasoner trained on chain-of-thought data.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "pathologyoutlines",
       "name": "PathologyOutlines",
       "tagline": "Free comprehensive online pathology reference.",
@@ -346,6 +767,69 @@
       ],
       "subspecialty": [
         "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathpresenter-clinical-viewer",
+      "name": "PathPresenter Clinical Viewer",
+      "tagline": "Whole-slide viewer with teaching and conferencing roots.",
+      "category": "commercial-product",
+      "tasks": [
+        "annotation",
+        "education",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathreasoner-r1",
+      "name": "PathReasoner-R1",
+      "tagline": "Knowledge-guided structured reasoning for whole-slide pathology.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathvlm-r1",
+      "name": "PathVLM-R1",
+      "tagline": "GRPO-trained reasoning model for pathology visual questions.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathvqa",
+      "name": "PathVQA",
+      "tagline": "Pathology visual question answering benchmark.",
+      "category": "benchmark",
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
       ],
       "organs": [
         "any"
@@ -368,6 +852,22 @@
       ]
     },
     {
+      "id": "philips-intellisite",
+      "name": "Philips IntelliSite Pathology Solution",
+      "tagline": "Whole-slide imaging system for primary diagnosis.",
+      "category": "commercial-product",
+      "tasks": [
+        "wsi-io",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "plip",
       "name": "PLIP",
       "tagline": "Pathology CLIP model trained on image-text pairs mined from social media.",
@@ -375,6 +875,38 @@
       "tasks": [
         "classification",
         "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "prism",
+      "name": "PRISM",
+      "tagline": "Slide-level multimodal model generating reports from tile embeddings.",
+      "category": "vision-language-model",
+      "tasks": [
+        "classification",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "proscia-concentriq-dx",
+      "name": "Proscia Concentriq Dx",
+      "tagline": "Digital pathology platform for diagnostic viewing and workflow.",
+      "category": "commercial-product",
+      "tasks": [
+        "annotation",
+        "data-management"
       ],
       "subspecialty": [
         "histopathology"
@@ -501,6 +1033,55 @@
       ]
     },
     {
+      "id": "roche-ventana-dp200",
+      "name": "Roche Digital Pathology Dx (VENTANA DP 200)",
+      "tagline": "Whole-slide scanner and viewing software for diagnostic use.",
+      "category": "commercial-product",
+      "tasks": [
+        "wsi-io",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "sectra-digital-pathology",
+      "name": "Sectra Digital Pathology Module",
+      "tagline": "Digital pathology module within an enterprise imaging platform.",
+      "category": "commercial-product",
+      "tasks": [
+        "annotation",
+        "data-management",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "slidechat",
+      "name": "SlideChat",
+      "tagline": "Vision-language assistant operating on whole slides rather than patches.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "slideflow",
       "name": "Slideflow",
       "tagline": "End-to-end deep learning pipeline for whole-slide images.",
@@ -510,6 +1091,37 @@
         "model-training",
         "survival-prediction",
         "molecular-prediction"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "slip-mil",
+      "name": "SLIP",
+      "tagline": "Slide-level prompt learning for few-shot MIL.",
+      "category": "vision-language-model",
+      "tasks": [
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "smartpath-r1",
+      "name": "SmartPath-R1",
+      "tagline": "Mixture-of-experts reasoner unifying ROI and whole-slide tasks.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "classification"
       ],
       "subspecialty": [
         "histopathology"
@@ -623,6 +1235,21 @@
       ]
     },
     {
+      "id": "vila-mil",
+      "name": "ViLa-MIL",
+      "tagline": "Dual-scale vision-language MIL for whole-slide classification.",
+      "category": "vision-language-model",
+      "tasks": [
+        "classification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "virchow2",
       "name": "Virchow2",
       "tagline": "Large pathology vision foundation model trained on a very large slide corpus.",
@@ -630,6 +1257,37 @@
       "tasks": [
         "classification",
         "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "wsi-bench",
+      "name": "WSI-Bench",
+      "tagline": "Whole-slide VQA benchmark organised around morphological description.",
+      "category": "benchmark",
+      "tasks": [
+        "vqa"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "wsi-llava",
+      "name": "WSI-LLaVA",
+      "tagline": "Multimodal model for whole-slide images with a morphology-aware benchmark.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "report-writing"
       ],
       "subspecialty": [
         "histopathology"

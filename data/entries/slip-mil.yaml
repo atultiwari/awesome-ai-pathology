@@ -1,0 +1,54 @@
+subcategories:
+- vlm-mil
+tasks:
+- classification
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G3
+platforms:
+- linux
+maintainers: []
+related:
+- vila-mil
+- clam
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: vision-language-model
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: slip-mil
+name: SLIP
+tagline: Slide-level prompt learning for few-shot MIL.
+links:
+  repo: https://github.com/LTS5/SLIP
+  paper: https://arxiv.org/abs/2503.17238
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: Draws prior knowledge from a language model about which tissue types matter for a given task,
+  then uses it to guide slide classification when labelled data is scarce.

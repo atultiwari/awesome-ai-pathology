@@ -1,0 +1,58 @@
+subcategories:
+- contrastive
+tasks:
+- classification
+- retrieval-search
+- tissue-segmentation
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+- G2
+- G3
+platforms:
+- linux
+maintainers: []
+related:
+- conch
+- pathreasoner-r1
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: vision-language-model
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: pathflip
+name: PathFLIP
+tagline: Fine-grained language-image pretraining grounding captions to regions.
+links:
+  repo: https://github.com/cyclexfy/PathFLIP
+  paper: https://doi.org/10.1609/aaai.v40i9.37649
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: Aligns slide captions to specific image regions rather than whole images, aiming to improve slide
+  classification, retrieval and lesion localisation.

@@ -1,0 +1,54 @@
+subcategories: []
+tasks:
+- model-training
+- retrieval-search
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+platforms:
+- web
+maintainers:
+- University of Warwick TIA Centre
+related:
+- quilt-1m
+- pathvqa
+licence: unknown
+licence_notes: Derived from published figures; review the terms before redistribution.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: dataset
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: arch-dataset
+name: ARCH
+tagline: Pathology image-caption dataset drawn from textbooks and articles.
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+links:
+  homepage: https://warwick.ac.uk/fac/cross_fac/tia/data/arch
+summary: Multiple-instance captioning dataset built from pathology textbooks and journal articles, used
+  for image-text pretraining and retrieval evaluation.

@@ -232,6 +232,14 @@ def _about() -> list[str]:
         f"[Issues]({REPO}/issues/new/choose). Pull requests open once the taxonomy settles — "
         "see [CONTRIBUTING.md](CONTRIBUTING.md).",
         "",
+        "## Acknowledgements",
+        "",
+        "The vision-language section was seeded from "
+        "[Awesome-Pathology-VLMs](https://github.com/wenhaozhang0066/Awesome-Pathology-VLMs), "
+        "whose patch/ROI/slide granularity convention is used here too. Regulatory claims are "
+        "sourced through [openFDA](https://open.fda.gov/) and linked to the FDA's own records. "
+        "Full credits in [ACKNOWLEDGEMENTS.md](ACKNOWLEDGEMENTS.md).",
+        "",
         "## Licence",
         "",
         "Content [CC BY 4.0](LICENSE) · code [MIT](LICENSE-CODE).",

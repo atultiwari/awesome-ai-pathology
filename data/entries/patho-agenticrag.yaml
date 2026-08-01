@@ -1,0 +1,57 @@
+subcategories:
+- agent
+tasks:
+- vqa
+- retrieval-search
+- education
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+platforms:
+- linux
+maintainers: []
+related:
+- patho-r1
+- pathagent
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: 'The interesting idea here is grounding: answers point back to a textbook page instead
+  of being asserted from nowhere.'
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: agent-mcp
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: patho-agenticrag
+name: Patho-AgenticRAG
+tagline: Multimodal retrieval-augmented generation over pathology textbooks.
+links:
+  repo: https://github.com/Wenchuan-Zhang/Patho-AgenticRAG
+  paper: https://doi.org/10.1609/aaai.v40i35.40239
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: Builds a searchable index over authoritative pathology textbook content supporting joint text
+  and image queries, so answers can be grounded in a citable source rather than model memory.

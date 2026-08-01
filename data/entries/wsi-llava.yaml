@@ -1,0 +1,56 @@
+subcategories:
+- generative
+tasks:
+- vqa
+- report-writing
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G2
+- G3
+platforms:
+- linux
+maintainers: []
+related:
+- slidechat
+- wsi-bench
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 32
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+category: vision-language-model
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: wsi-llava
+name: WSI-LLaVA
+tagline: Multimodal model for whole-slide images with a morphology-aware benchmark.
+links:
+  homepage: https://wsi-llava.github.io/
+  paper: https://arxiv.org/abs/2412.02141
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: Slide-level assistant released together with WSI-Bench, an evaluation set organised around morphological
+  description as well as diagnosis.

@@ -1,0 +1,53 @@
+subcategories: []
+tasks:
+- annotation
+- data-management
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+granularity:
+- G3
+platforms: []
+maintainers:
+- Proscia, Inc.
+related:
+- pathai-aisight-dx
+- indica-halo-ap-dx
+licence: proprietary
+licence_notes: null
+cost: paid
+self_hostable: null
+sends_data_offsite: null
+offline_capable: null
+hardware_floor: null
+bandwidth: null
+needs_scanner: true
+min_ram_gb: null
+clinician_note: null
+caveats: Clearance is specific to the indication for use stated in the FDA record and to the United States.
+  It implies nothing about availability or approval elsewhere. Verify the current indication and your
+  own jurisdiction's status before clinical use.
+featured: false
+showcase: false
+origin: industry
+stage: production
+category: commercial-product
+audience:
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: proscia-concentriq-dx
+name: Proscia Concentriq Dx
+tagline: Digital pathology platform for diagnostic viewing and workflow.
+regulatory:
+  status: fda-510k
+  detail: 510(k) cleared 2024-02-08 (K230839). Product code PSY — whole slide imaging system.
+  reference: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K230839
+  verified_on: '2026-08-02'
+links:
+  homepage: https://proscia.com/
+summary: Enterprise platform for storing, viewing and routing whole-slide images through a diagnostic
+  workflow, with an application layer for third-party algorithms.

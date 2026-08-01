@@ -1,0 +1,59 @@
+subcategories:
+- generative
+tasks:
+- vqa
+- report-writing
+- education
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+- G2
+platforms:
+- linux
+maintainers:
+- Mahmood Lab, Harvard Medical School
+related:
+- conch
+- uni
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: The published work is research; downstream commercial versions are separate products with their
+  own regulatory status, which is not covered by this entry.
+featured: false
+showcase: false
+origin: academic
+stage: production
+category: vision-language-model
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: pathchat
+name: PathChat
+tagline: Multimodal generative copilot for human pathology.
+links:
+  repo: https://github.com/fedshyvana/pathology_mllm_training
+  paper: https://doi.org/10.1038/s41586-024-07618-3
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: Vision-language assistant built on a pathology foundation encoder, able to take image and text
+  input together and hold a diagnostic conversation about a case.

@@ -1,0 +1,58 @@
+subcategories:
+- generative
+tasks:
+- vqa
+- education
+subspecialty:
+- histopathology
+- clinical-pathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+platforms:
+- linux
+maintainers:
+- Microsoft Research
+related:
+- quilt-llava
+- pa-llava
+licence: unknown
+licence_notes: Check the repository and model card before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: Biomedical-general rather than pathology-specific; histopathology is a minority of its training
+  data.
+featured: false
+showcase: false
+origin: industry
+stage: production
+category: vision-language-model
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: llava-med
+name: LLaVA-Med
+tagline: Biomedical vision-language assistant trained rapidly from PubMed figures.
+links:
+  repo: https://github.com/microsoft/LLaVA-Med
+  paper: https://arxiv.org/abs/2306.00890
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+summary: General biomedical multimodal assistant covering many imaging modalities including histopathology.
+  Frequently used as the baseline that pathology-specific assistants are compared against.

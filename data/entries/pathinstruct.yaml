@@ -1,0 +1,53 @@
+subcategories: []
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+- text
+granularity:
+- G1
+platforms:
+- web
+maintainers: []
+licence: unknown
+licence_notes: Check the dataset card before redistribution.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+category: dataset
+audience:
+- researcher
+tasks:
+- model-training
+- vqa
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: pathinstruct
+name: PathInstruct
+tagline: Pathology instruction-tuning dataset released with PathAsst.
+links:
+  dataset: https://huggingface.co/datasets/jamessyx/PathInstruct
+  paper: https://arxiv.org/abs/2305.15072
+summary: Around 180,000 instruction-response pairs for pathology, used to give a vision-language model
+  conversational and task-following behaviour.
+related:
+- pathasst
+- pathcap
