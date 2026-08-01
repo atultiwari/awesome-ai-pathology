@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- vqa
+- education
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+- text
+granularity:
+- G1
+platforms:
+- linux
+maintainers:
+- Quilt-LLaVA authors
+related:
+- plip
+- quilt-1m
+licence_notes: Check model and dataset cards; derived from third-party video content.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: quilt-llava
+name: Quilt-LLaVA
+tagline: Instruction-tuned pathology assistant trained from educational video narration.
+category: vision-language-model
+audience:
+- researcher
+stage: research
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  repo: https://github.com/aldraus/quilt-llava
+  homepage: https://quilt-llava.github.io/
+  paper: https://arxiv.org/abs/2312.04746
+origin: academic
+summary: Multimodal assistant instruction-tuned on localised narratives extracted from open histopathology
+  teaching videos, aimed at diagnostic reasoning across patches.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

@@ -1,0 +1,104 @@
+# Regulatory status. Field: regulatory.status (single value).
+#
+# POLICY (PLAN §12): status is recorded AS PUBLISHED BY THE REGULATOR, with a
+# link to the primary record and a verified_on date. Never as claimed by vendor
+# marketing. Clearance in one jurisdiction implies nothing about another.
+#
+# `clinical` marks statuses that permit some clinical use in their jurisdiction;
+# the generator renders these with a gold badge and an explicit caveat.
+
+fda-510k:
+  label: FDA 510(k)
+  short: FDA
+  clinical: true
+  badge_colour: gold
+  explanation: >
+    Cleared by the US FDA via the 510(k) pathway as substantially equivalent to
+    a predicate device. Clearance is specific to the stated indication for use.
+
+fda-de-novo:
+  label: FDA De Novo
+  short: FDA
+  clinical: true
+  badge_colour: gold
+  explanation: >
+    Authorised by the US FDA through the De Novo pathway for a novel device of
+    low-to-moderate risk with no predicate.
+
+fda-pma:
+  label: FDA PMA
+  short: FDA
+  clinical: true
+  badge_colour: gold
+  explanation: >
+    Approved by the US FDA through Premarket Approval, the most stringent
+    device pathway.
+
+ce-ivdr:
+  label: CE marked (IVDR)
+  short: CE
+  clinical: true
+  badge_colour: gold
+  explanation: >
+    CE marked under the EU In Vitro Diagnostic Regulation 2017/746. Check the
+    stated risk class and intended purpose.
+
+ukca:
+  label: UKCA marked
+  short: UKCA
+  clinical: true
+  badge_colour: gold
+  explanation: >
+    Conformity marking for Great Britain.
+
+cdsco:
+  label: CDSCO (India)
+  short: CDSCO
+  clinical: true
+  badge_colour: gold
+  explanation: >
+    Registered or licensed with India's Central Drugs Standard Control
+    Organisation under the Medical Devices Rules.
+
+tga:
+  label: TGA (Australia)
+  short: TGA
+  clinical: true
+  badge_colour: gold
+  explanation: >
+    Included in the Australian Register of Therapeutic Goods.
+
+pmda:
+  label: PMDA (Japan)
+  short: PMDA
+  clinical: true
+  badge_colour: gold
+  explanation: >
+    Approved or certified under Japan's Pharmaceuticals and Medical Devices Act.
+
+ruo:
+  label: Research use only
+  short: RUO
+  clinical: false
+  badge_colour: grey
+  explanation: >
+    Research use only. Not cleared, approved or CE marked for diagnostic use.
+    Must not be used for primary diagnosis or to direct patient management.
+
+not-applicable:
+  label: Not applicable
+  short: N/A
+  clinical: false
+  badge_colour: lightgrey
+  explanation: >
+    Not a diagnostic tool — a dataset, library, benchmark, standard or
+    educational resource, where device regulation does not apply.
+
+unknown:
+  label: Status unverified
+  short: "?"
+  clinical: false
+  badge_colour: red
+  explanation: >
+    Regulatory status has not yet been verified against a primary source.
+    Treat as research use only until confirmed.

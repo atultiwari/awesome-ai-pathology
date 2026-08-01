@@ -1,0 +1,58 @@
+subcategories: []
+tasks:
+- annotation
+- data-management
+- tissue-segmentation
+subspecialty:
+- any
+organs:
+- any
+modality:
+- wsi
+granularity:
+- G2
+- G3
+platforms:
+- web
+- docker
+- linux
+maintainers:
+- Emory University
+related:
+- cytomine
+- histomicstk
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: digital-slide-archive
+name: Digital Slide Archive
+tagline: Server platform for managing, annotating and analysing large slide collections.
+category: software-viewer
+audience:
+- researcher
+- developer
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: Apache-2.0
+cost: free
+links:
+  homepage: https://digitalslidearchive.github.io/digital_slide_archive/
+  repo: https://github.com/DigitalSlideArchive/digital_slide_archive
+origin: academic
+summary: Web platform built on Girder for organising whole-slide image collections, with annotation tooling
+  and a plugin system for running analysis jobs at scale.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

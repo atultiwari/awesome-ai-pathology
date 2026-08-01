@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- model-training
+- retrieval-search
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+- text
+granularity:
+- G1
+platforms:
+- web
+maintainers:
+- Quilt-1M authors
+related:
+- quilt-llava
+- plip
+licence_notes: Derived from third-party video content; review the terms before redistribution.
+self_hostable: false
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: quilt-1m
+name: Quilt-1M
+tagline: Histopathology image-text pairs mined from educational videos.
+category: dataset
+audience:
+- researcher
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  dataset: https://zenodo.org/records/8239942
+  repo: https://github.com/wisdomikezogwo/quilt1m
+  paper: https://arxiv.org/abs/2306.11207
+origin: academic
+summary: Large open histopathology image-caption corpus assembled from educational videos, used to train
+  pathology vision-language models.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

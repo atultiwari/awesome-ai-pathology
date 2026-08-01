@@ -1,0 +1,75 @@
+# What a reader wants to DO. Clinicians navigate by task, not by architecture.
+# Field: tasks (list, may be empty).
+
+annotation:
+  label: Annotate slides
+  clinician_facing: true
+nuclei-segmentation:
+  label: Segment nuclei
+  clinician_facing: true
+cell-detection:
+  label: Detect and count cells
+  clinician_facing: true
+tissue-segmentation:
+  label: Segment tissue regions
+  clinician_facing: true
+mitosis-counting:
+  label: Count mitoses
+  clinician_facing: true
+grading:
+  label: Grade tumours
+  clinician_facing: true
+biomarker-scoring:
+  label: Score biomarkers (Ki-67, HER2, PD-L1, TILs)
+  clinician_facing: true
+ihc-quantification:
+  label: Quantify IHC
+  clinician_facing: true
+quality-control:
+  label: Check slide quality and artefacts
+  clinician_facing: true
+stain-normalisation:
+  label: Normalise or deconvolve stains
+  clinician_facing: false
+virtual-staining:
+  label: Generate virtual stains
+  clinician_facing: false
+classification:
+  label: Classify slides or patches
+  clinician_facing: true
+report-writing:
+  label: Write or structure reports
+  clinician_facing: true
+survival-prediction:
+  label: Predict prognosis and survival
+  clinician_facing: false
+molecular-prediction:
+  label: Predict molecular status from morphology
+  clinician_facing: true
+spatial-transcriptomics:
+  label: Work with spatial transcriptomics
+  clinician_facing: false
+retrieval-search:
+  label: Search and retrieve similar images
+  clinician_facing: true
+vqa:
+  label: Ask questions about an image
+  clinician_facing: true
+model-training:
+  label: Train or fine-tune models
+  clinician_facing: false
+wsi-io:
+  label: Read and convert slide formats
+  clinician_facing: false
+data-management:
+  label: Manage slides and metadata
+  clinician_facing: true
+registration:
+  label: Register or align serial sections
+  clinician_facing: false
+telepathology:
+  label: Consult remotely
+  clinician_facing: true
+education:
+  label: Teach and learn
+  clinician_facing: true

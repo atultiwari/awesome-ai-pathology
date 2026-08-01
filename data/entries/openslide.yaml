@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- wsi-io
+subspecialty:
+- any
+organs:
+- any
+modality:
+- wsi
+granularity:
+- G3
+platforms:
+- windows
+- macos
+- linux
+maintainers:
+- Carnegie Mellon University
+related:
+- qupath
+- tiatoolbox
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: none
+needs_scanner: true
+min_ram_gb: 4
+clinician_note: null
+caveats: null
+featured: true
+showcase: false
+id: openslide
+name: OpenSlide
+tagline: C library with Python bindings for reading proprietary whole-slide formats.
+category: library-framework
+audience:
+- developer
+- researcher
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: LGPL-2.1
+cost: free
+links:
+  homepage: https://openslide.org/
+  repo: https://github.com/openslide/openslide
+origin: academic
+summary: The foundational library for reading vendor whole-slide formats (Aperio, Hamamatsu, Leica, MIRAX
+  and others) through one common interface. Most Python pathology tooling depends on it.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

@@ -1,0 +1,23 @@
+# Who an entry is for. Field: audience (list, at least one).
+# Drives the "I am a…" front doors in the README.
+
+clinician:
+  label: Pathologists
+  emoji: "🩺"
+  order: 10
+  blurb: Practising pathologists and trainees looking for tools they can use.
+researcher:
+  label: Researchers
+  emoji: "🔬"
+  order: 20
+  blurb: Computational pathology and medical-AI researchers.
+developer:
+  label: Developers
+  emoji: "💻"
+  order: 30
+  blurb: Engineers building pathology software and pipelines.
+educator:
+  label: Educators
+  emoji: "🎓"
+  order: 40
+  blurb: Teachers, trainers and residency programme staff.

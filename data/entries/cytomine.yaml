@@ -1,0 +1,62 @@
+subcategories: []
+tasks:
+- annotation
+- data-management
+- education
+- telepathology
+subspecialty:
+- any
+organs:
+- any
+modality:
+- wsi
+- brightfield
+granularity:
+- G2
+- G3
+platforms:
+- web
+- docker
+- linux
+maintainers:
+- University of Liège
+related:
+- digital-slide-archive
+- omero
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 16
+clinician_note: Runs on a server your institution controls, so several people can annotate the same slides
+  in a browser. Needs IT support to set up.
+caveats: Self-hosting requires a server and maintenance; not a laptop tool.
+featured: false
+showcase: false
+id: cytomine
+name: Cytomine
+tagline: Web-based collaborative platform for annotating and analysing whole-slide images.
+category: software-viewer
+audience:
+- researcher
+- educator
+- clinician
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: Apache-2.0
+cost: free
+links:
+  homepage: https://cytomine.org/
+  repo: https://github.com/cytomine
+origin: academic
+summary: Server-hosted platform for multi-user slide annotation, review and analysis, designed for collaborative
+  projects and teaching cohorts.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

@@ -1,0 +1,57 @@
+subcategories: []
+tasks:
+- classification
+- tissue-segmentation
+- model-training
+subspecialty:
+- histopathology
+organs:
+- lymph-node
+- breast
+modality:
+- wsi
+- he
+granularity:
+- G3
+platforms:
+- web
+maintainers:
+- Radboud UMC
+- UMC Utrecht
+related:
+- tcga
+- clam
+licence_notes: null
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: camelyon16
+name: CAMELYON16
+tagline: Lymph node metastasis detection challenge dataset.
+category: dataset
+audience:
+- researcher
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: CC0-1.0
+cost: free
+links:
+  homepage: https://camelyon16.grand-challenge.org/
+  paper: https://doi.org/10.1001/jama.2017.14585
+origin: academic
+summary: Sentinel lymph node whole-slide images with exhaustive metastasis annotations. The reference
+  benchmark for weakly and fully supervised WSI detection.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

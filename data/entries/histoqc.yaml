@@ -1,0 +1,56 @@
+subcategories: []
+tasks:
+- quality-control
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+granularity:
+- G3
+platforms:
+- linux
+- macos
+- windows
+maintainers:
+- Case Western Reserve University
+related:
+- qupath
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: none
+needs_scanner: true
+min_ram_gb: 8
+clinician_note: Checks a batch of scanned slides for problems like blur or pen marks before anyone spends
+  time on them.
+caveats: null
+featured: true
+showcase: false
+id: histoqc
+name: HistoQC
+tagline: Automated quality control for whole-slide images.
+category: task-specific-model
+audience:
+- researcher
+- clinician
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: BSD-3-Clause
+cost: free
+links:
+  repo: https://github.com/choosehappy/HistoQC
+  paper: https://doi.org/10.1200/CCI.18.00157
+origin: academic
+summary: Pipeline that flags slide artefacts — blur, pen marks, tissue folds, coverslip edges, bubbles
+  — and produces an interactive report for triaging a cohort before analysis.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

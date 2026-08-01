@@ -1,0 +1,22 @@
+# Maturity. Field: stage (single value).
+
+concept:
+  label: Concept
+  order: 10
+  blurb: An idea, prototype or proof of concept. Not usable in practice yet.
+research:
+  label: Research
+  order: 20
+  blurb: Published or released for research. Expect rough edges.
+beta:
+  label: Beta
+  order: 30
+  blurb: Usable, actively developed, interfaces may still change.
+production:
+  label: Production
+  order: 40
+  blurb: Mature and widely used. Stable enough to depend on.
+deprecated:
+  label: Deprecated
+  order: 50
+  blurb: No longer maintained. Listed for reference and for reproducing old work.

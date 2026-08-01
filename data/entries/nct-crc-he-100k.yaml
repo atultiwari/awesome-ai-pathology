@@ -1,0 +1,54 @@
+subcategories: []
+tasks:
+- classification
+- model-training
+- education
+subspecialty:
+- histopathology
+organs:
+- colon
+modality:
+- he
+granularity:
+- G1
+platforms:
+- web
+maintainers:
+- NCT Heidelberg
+related:
+- camelyon16
+licence_notes: null
+self_hostable: false
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: A good starting dataset if you are learning — small enough to work with on a laptop.
+caveats: null
+featured: true
+showcase: false
+id: nct-crc-he-100k
+name: NCT-CRC-HE-100K
+tagline: Colorectal tissue-type patch classification dataset.
+category: dataset
+audience:
+- researcher
+- educator
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: CC-BY-4.0
+cost: free
+links:
+  dataset: https://zenodo.org/records/1214456
+  paper: https://doi.org/10.1371/journal.pmed.1002730
+origin: academic
+summary: Around 100,000 colorectal H&E patches labelled into nine tissue classes. Small, permissively
+  licensed and CPU-tractable, which makes it the usual first dataset for teaching and prototyping.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

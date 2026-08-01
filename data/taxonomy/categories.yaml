@@ -1,0 +1,154 @@
+# Top-level content categories. One per entry (field: category).
+# `order` controls section order in the generated README.
+# `section` maps to the section number in the planning document.
+
+foundation-model:
+  label: Foundation Models
+  order: 10
+  emoji: "🧠"
+  description: >
+    Tile-level and slide-level vision encoders pretrained on large pathology
+    corpora, used as frozen feature extractors or fine-tuning backbones.
+
+vision-language-model:
+  label: Vision-Language Models
+  order: 20
+  emoji: "💬"
+  description: >
+    Models aligning pathology images with text — contrastive encoders,
+    instruction-tuned assistants, reasoning models, and agentic systems.
+
+task-specific-model:
+  label: Task-Specific Models
+  order: 30
+  emoji: "🎯"
+  description: >
+    Models solving one well-defined pathology task: nuclei segmentation,
+    mitosis detection, grading, biomarker scoring, quality control.
+
+spatial-omics:
+  label: Spatial & Multi-Omics
+  order: 40
+  emoji: "🧬"
+  description: >
+    Spatial transcriptomics from morphology, and multimodal integration of
+    whole-slide images with molecular data.
+
+software-viewer:
+  label: Software — Viewers & Platforms
+  order: 50
+  emoji: "🖥️"
+  description: >
+    Desktop and server applications for viewing, annotating, managing and
+    analysing whole-slide images.
+
+qupath-extension:
+  label: QuPath Extensions & Scripts
+  order: 60
+  emoji: "🧩"
+  description: >
+    Extensions, plugins and script collections that add capability to QuPath.
+
+library-framework:
+  label: Developer Libraries & Frameworks
+  order: 70
+  emoji: "📦"
+  description: >
+    Programming libraries for whole-slide I/O, preprocessing, multiple-instance
+    learning, and end-to-end computational pathology pipelines.
+
+dataset:
+  label: Datasets
+  order: 80
+  emoji: "🗂️"
+  description: >
+    Public or request-access image, image-text, and multimodal pathology
+    datasets.
+
+benchmark:
+  label: Benchmarks & Challenges
+  order: 90
+  emoji: "📊"
+  description: >
+    Evaluation suites, leaderboards and grand challenges for comparing methods
+    on common tasks.
+
+agent-mcp:
+  label: Agents & MCP Servers
+  order: 100
+  emoji: "🤖"
+  description: >
+    LLM agents, agentic frameworks, and Model Context Protocol servers that
+    give assistants access to pathology tools and data.
+
+prompt-skill:
+  label: Prompts & Skills
+  order: 110
+  emoji: "✍️"
+  description: >
+    Prompt libraries, Claude Skills, custom GPTs and similar assets built for
+    pathology workflows, with their failure modes documented.
+
+app:
+  label: Web & Mobile Apps
+  order: 120
+  emoji: "📱"
+  description: >
+    Applications a pathologist can open in a browser or install on a phone —
+    counters, calculators, grading aids, viewers, teaching tools.
+
+commercial-product:
+  label: Commercial Products
+  order: 130
+  emoji: "🏢"
+  description: >
+    Vendor products, listed factually with regulatory status. No rankings, no
+    endorsements, no performance claims outside the regulatory record or
+    peer-reviewed literature.
+
+standard-interop:
+  label: Standards & Interoperability
+  order: 140
+  emoji: "🔌"
+  description: >
+    DICOM, FHIR, SNOMED CT, LOINC, CAP protocols and the plumbing that turns a
+    demo into a deployed system.
+
+validation-regulatory:
+  label: Validation, QA & Regulatory Science
+  order: 150
+  emoji: "✅"
+  description: >
+    Validation guidance, reporting checklists, quality standards and
+    post-deployment monitoring practice.
+
+ethics-safety:
+  label: Ethics, Bias & Failure Modes
+  order: 160
+  emoji: "⚖️"
+  description: >
+    Known failure modes, dataset bias, site-specific confounding, calibration
+    and the limits of explainability.
+
+education:
+  label: Education & Training
+  order: 170
+  emoji: "🎓"
+  description: >
+    Courses, tutorials, atlases, slide boxes, societies and conferences for
+    learning pathology AI.
+
+hardware-lowresource:
+  label: Low-Resource Pathology & Hardware
+  order: 180
+  emoji: "🔬"
+  description: >
+    Tools and hardware for settings without a scanner, a cluster, or a budget —
+    smartphone microscopy, telepathology, offline-capable software.
+
+meta:
+  label: Meta — Other Lists & Community
+  order: 190
+  emoji: "🔗"
+  description: >
+    Other curated lists, newsletters, research groups and community resources.

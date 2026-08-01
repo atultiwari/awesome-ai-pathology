@@ -1,0 +1,49 @@
+subcategories: []
+tasks:
+- education
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- PathologyOutlines.com
+related: []
+licence_notes: Free to read; content is copyrighted by the publisher.
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: Not an AI tool, but the reference most pathologists already use — included because AI
+  outputs should always be checked against a trusted source.
+caveats: null
+featured: false
+showcase: false
+id: pathologyoutlines
+name: PathologyOutlines
+tagline: Free comprehensive online pathology reference.
+category: education
+audience:
+- clinician
+- educator
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  homepage: https://www.pathologyoutlines.com/
+origin: community
+summary: Widely used free reference covering diagnostic criteria, immunohistochemistry and differentials
+  across pathology, maintained by a large contributor network.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

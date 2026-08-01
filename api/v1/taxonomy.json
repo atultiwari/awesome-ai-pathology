@@ -1,0 +1,520 @@
+{
+  "generated_at": "2026-08-01",
+  "schema_version": "1.0.0",
+  "vocabularies": {
+    "categories": {
+      "foundation-model": {
+        "label": "Foundation Models",
+        "order": 10,
+        "emoji": "🧠",
+        "description": "Tile-level and slide-level vision encoders pretrained on large pathology corpora, used as frozen feature extractors or fine-tuning backbones.\n"
+      },
+      "vision-language-model": {
+        "label": "Vision-Language Models",
+        "order": 20,
+        "emoji": "💬",
+        "description": "Models aligning pathology images with text — contrastive encoders, instruction-tuned assistants, reasoning models, and agentic systems.\n"
+      },
+      "task-specific-model": {
+        "label": "Task-Specific Models",
+        "order": 30,
+        "emoji": "🎯",
+        "description": "Models solving one well-defined pathology task: nuclei segmentation, mitosis detection, grading, biomarker scoring, quality control.\n"
+      },
+      "spatial-omics": {
+        "label": "Spatial & Multi-Omics",
+        "order": 40,
+        "emoji": "🧬",
+        "description": "Spatial transcriptomics from morphology, and multimodal integration of whole-slide images with molecular data.\n"
+      },
+      "software-viewer": {
+        "label": "Software — Viewers & Platforms",
+        "order": 50,
+        "emoji": "🖥️",
+        "description": "Desktop and server applications for viewing, annotating, managing and analysing whole-slide images.\n"
+      },
+      "qupath-extension": {
+        "label": "QuPath Extensions & Scripts",
+        "order": 60,
+        "emoji": "🧩",
+        "description": "Extensions, plugins and script collections that add capability to QuPath.\n"
+      },
+      "library-framework": {
+        "label": "Developer Libraries & Frameworks",
+        "order": 70,
+        "emoji": "📦",
+        "description": "Programming libraries for whole-slide I/O, preprocessing, multiple-instance learning, and end-to-end computational pathology pipelines.\n"
+      },
+      "dataset": {
+        "label": "Datasets",
+        "order": 80,
+        "emoji": "🗂️",
+        "description": "Public or request-access image, image-text, and multimodal pathology datasets.\n"
+      },
+      "benchmark": {
+        "label": "Benchmarks & Challenges",
+        "order": 90,
+        "emoji": "📊",
+        "description": "Evaluation suites, leaderboards and grand challenges for comparing methods on common tasks.\n"
+      },
+      "agent-mcp": {
+        "label": "Agents & MCP Servers",
+        "order": 100,
+        "emoji": "🤖",
+        "description": "LLM agents, agentic frameworks, and Model Context Protocol servers that give assistants access to pathology tools and data.\n"
+      },
+      "prompt-skill": {
+        "label": "Prompts & Skills",
+        "order": 110,
+        "emoji": "✍️",
+        "description": "Prompt libraries, Claude Skills, custom GPTs and similar assets built for pathology workflows, with their failure modes documented.\n"
+      },
+      "app": {
+        "label": "Web & Mobile Apps",
+        "order": 120,
+        "emoji": "📱",
+        "description": "Applications a pathologist can open in a browser or install on a phone — counters, calculators, grading aids, viewers, teaching tools.\n"
+      },
+      "commercial-product": {
+        "label": "Commercial Products",
+        "order": 130,
+        "emoji": "🏢",
+        "description": "Vendor products, listed factually with regulatory status. No rankings, no endorsements, no performance claims outside the regulatory record or peer-reviewed literature.\n"
+      },
+      "standard-interop": {
+        "label": "Standards & Interoperability",
+        "order": 140,
+        "emoji": "🔌",
+        "description": "DICOM, FHIR, SNOMED CT, LOINC, CAP protocols and the plumbing that turns a demo into a deployed system.\n"
+      },
+      "validation-regulatory": {
+        "label": "Validation, QA & Regulatory Science",
+        "order": 150,
+        "emoji": "✅",
+        "description": "Validation guidance, reporting checklists, quality standards and post-deployment monitoring practice.\n"
+      },
+      "ethics-safety": {
+        "label": "Ethics, Bias & Failure Modes",
+        "order": 160,
+        "emoji": "⚖️",
+        "description": "Known failure modes, dataset bias, site-specific confounding, calibration and the limits of explainability.\n"
+      },
+      "education": {
+        "label": "Education & Training",
+        "order": 170,
+        "emoji": "🎓",
+        "description": "Courses, tutorials, atlases, slide boxes, societies and conferences for learning pathology AI.\n"
+      },
+      "hardware-lowresource": {
+        "label": "Low-Resource Pathology & Hardware",
+        "order": 180,
+        "emoji": "🔬",
+        "description": "Tools and hardware for settings without a scanner, a cluster, or a budget — smartphone microscopy, telepathology, offline-capable software.\n"
+      },
+      "meta": {
+        "label": "Meta — Other Lists & Community",
+        "order": 190,
+        "emoji": "🔗",
+        "description": "Other curated lists, newsletters, research groups and community resources.\n"
+      }
+    },
+    "tasks": {
+      "annotation": {
+        "label": "Annotate slides",
+        "clinician_facing": true
+      },
+      "nuclei-segmentation": {
+        "label": "Segment nuclei",
+        "clinician_facing": true
+      },
+      "cell-detection": {
+        "label": "Detect and count cells",
+        "clinician_facing": true
+      },
+      "tissue-segmentation": {
+        "label": "Segment tissue regions",
+        "clinician_facing": true
+      },
+      "mitosis-counting": {
+        "label": "Count mitoses",
+        "clinician_facing": true
+      },
+      "grading": {
+        "label": "Grade tumours",
+        "clinician_facing": true
+      },
+      "biomarker-scoring": {
+        "label": "Score biomarkers (Ki-67, HER2, PD-L1, TILs)",
+        "clinician_facing": true
+      },
+      "ihc-quantification": {
+        "label": "Quantify IHC",
+        "clinician_facing": true
+      },
+      "quality-control": {
+        "label": "Check slide quality and artefacts",
+        "clinician_facing": true
+      },
+      "stain-normalisation": {
+        "label": "Normalise or deconvolve stains",
+        "clinician_facing": false
+      },
+      "virtual-staining": {
+        "label": "Generate virtual stains",
+        "clinician_facing": false
+      },
+      "classification": {
+        "label": "Classify slides or patches",
+        "clinician_facing": true
+      },
+      "report-writing": {
+        "label": "Write or structure reports",
+        "clinician_facing": true
+      },
+      "survival-prediction": {
+        "label": "Predict prognosis and survival",
+        "clinician_facing": false
+      },
+      "molecular-prediction": {
+        "label": "Predict molecular status from morphology",
+        "clinician_facing": true
+      },
+      "spatial-transcriptomics": {
+        "label": "Work with spatial transcriptomics",
+        "clinician_facing": false
+      },
+      "retrieval-search": {
+        "label": "Search and retrieve similar images",
+        "clinician_facing": true
+      },
+      "vqa": {
+        "label": "Ask questions about an image",
+        "clinician_facing": true
+      },
+      "model-training": {
+        "label": "Train or fine-tune models",
+        "clinician_facing": false
+      },
+      "wsi-io": {
+        "label": "Read and convert slide formats",
+        "clinician_facing": false
+      },
+      "data-management": {
+        "label": "Manage slides and metadata",
+        "clinician_facing": true
+      },
+      "registration": {
+        "label": "Register or align serial sections",
+        "clinician_facing": false
+      },
+      "telepathology": {
+        "label": "Consult remotely",
+        "clinician_facing": true
+      },
+      "education": {
+        "label": "Teach and learn",
+        "clinician_facing": true
+      }
+    },
+    "subspecialties": {
+      "any": {
+        "label": "Any / General",
+        "order": 0
+      },
+      "histopathology": {
+        "label": "Histopathology / Surgical Pathology",
+        "order": 10
+      },
+      "cytopathology": {
+        "label": "Cytopathology",
+        "order": 20
+      },
+      "haematopathology": {
+        "label": "Haematopathology",
+        "order": 30
+      },
+      "molecular-pathology": {
+        "label": "Molecular Pathology & Genomics",
+        "order": 40
+      },
+      "dermatopathology": {
+        "label": "Dermatopathology",
+        "order": 50
+      },
+      "neuropathology": {
+        "label": "Neuropathology",
+        "order": 60
+      },
+      "forensic-pathology": {
+        "label": "Forensic Pathology",
+        "order": 70
+      },
+      "veterinary-pathology": {
+        "label": "Veterinary Pathology",
+        "order": 80
+      },
+      "autopsy": {
+        "label": "Autopsy Pathology",
+        "order": 90
+      },
+      "clinical-pathology": {
+        "label": "Clinical Pathology & Laboratory Medicine",
+        "order": 100
+      }
+    },
+    "organs": {
+      "any": {
+        "label": "Any / Organ-agnostic"
+      },
+      "breast": {
+        "label": "Breast"
+      },
+      "prostate": {
+        "label": "Prostate"
+      },
+      "bladder": {
+        "label": "Bladder"
+      },
+      "kidney": {
+        "label": "Kidney"
+      },
+      "lung": {
+        "label": "Lung"
+      },
+      "colon": {
+        "label": "Colon & Rectum"
+      },
+      "stomach": {
+        "label": "Stomach"
+      },
+      "oesophagus": {
+        "label": "Oesophagus"
+      },
+      "liver": {
+        "label": "Liver"
+      },
+      "pancreas": {
+        "label": "Pancreas"
+      },
+      "lymph-node": {
+        "label": "Lymph Node"
+      },
+      "bone-marrow": {
+        "label": "Bone Marrow"
+      },
+      "skin": {
+        "label": "Skin"
+      },
+      "brain": {
+        "label": "Brain & CNS"
+      },
+      "thyroid": {
+        "label": "Thyroid"
+      },
+      "adrenal": {
+        "label": "Adrenal"
+      },
+      "cervix": {
+        "label": "Cervix"
+      },
+      "endometrium": {
+        "label": "Endometrium"
+      },
+      "ovary": {
+        "label": "Ovary"
+      },
+      "testis": {
+        "label": "Testis"
+      },
+      "head-neck": {
+        "label": "Head & Neck"
+      },
+      "oral": {
+        "label": "Oral Cavity"
+      },
+      "bone": {
+        "label": "Bone"
+      },
+      "soft-tissue": {
+        "label": "Soft Tissue"
+      },
+      "eye": {
+        "label": "Eye"
+      },
+      "placenta": {
+        "label": "Placenta"
+      },
+      "heart": {
+        "label": "Heart"
+      }
+    },
+    "regulatory": {
+      "fda-510k": {
+        "label": "FDA 510(k)",
+        "short": "FDA",
+        "clinical": true,
+        "badge_colour": "gold",
+        "explanation": "Cleared by the US FDA via the 510(k) pathway as substantially equivalent to a predicate device. Clearance is specific to the stated indication for use.\n"
+      },
+      "fda-de-novo": {
+        "label": "FDA De Novo",
+        "short": "FDA",
+        "clinical": true,
+        "badge_colour": "gold",
+        "explanation": "Authorised by the US FDA through the De Novo pathway for a novel device of low-to-moderate risk with no predicate.\n"
+      },
+      "fda-pma": {
+        "label": "FDA PMA",
+        "short": "FDA",
+        "clinical": true,
+        "badge_colour": "gold",
+        "explanation": "Approved by the US FDA through Premarket Approval, the most stringent device pathway.\n"
+      },
+      "ce-ivdr": {
+        "label": "CE marked (IVDR)",
+        "short": "CE",
+        "clinical": true,
+        "badge_colour": "gold",
+        "explanation": "CE marked under the EU In Vitro Diagnostic Regulation 2017/746. Check the stated risk class and intended purpose.\n"
+      },
+      "ukca": {
+        "label": "UKCA marked",
+        "short": "UKCA",
+        "clinical": true,
+        "badge_colour": "gold",
+        "explanation": "Conformity marking for Great Britain.\n"
+      },
+      "cdsco": {
+        "label": "CDSCO (India)",
+        "short": "CDSCO",
+        "clinical": true,
+        "badge_colour": "gold",
+        "explanation": "Registered or licensed with India's Central Drugs Standard Control Organisation under the Medical Devices Rules.\n"
+      },
+      "tga": {
+        "label": "TGA (Australia)",
+        "short": "TGA",
+        "clinical": true,
+        "badge_colour": "gold",
+        "explanation": "Included in the Australian Register of Therapeutic Goods.\n"
+      },
+      "pmda": {
+        "label": "PMDA (Japan)",
+        "short": "PMDA",
+        "clinical": true,
+        "badge_colour": "gold",
+        "explanation": "Approved or certified under Japan's Pharmaceuticals and Medical Devices Act.\n"
+      },
+      "ruo": {
+        "label": "Research use only",
+        "short": "RUO",
+        "clinical": false,
+        "badge_colour": "grey",
+        "explanation": "Research use only. Not cleared, approved or CE marked for diagnostic use. Must not be used for primary diagnosis or to direct patient management.\n"
+      },
+      "not-applicable": {
+        "label": "Not applicable",
+        "short": "N/A",
+        "clinical": false,
+        "badge_colour": "lightgrey",
+        "explanation": "Not a diagnostic tool — a dataset, library, benchmark, standard or educational resource, where device regulation does not apply.\n"
+      },
+      "unknown": {
+        "label": "Status unverified",
+        "short": "?",
+        "clinical": false,
+        "badge_colour": "red",
+        "explanation": "Regulatory status has not yet been verified against a primary source. Treat as research use only until confirmed.\n"
+      }
+    },
+    "audience": {
+      "clinician": {
+        "label": "Pathologists",
+        "emoji": "🩺",
+        "order": 10,
+        "blurb": "Practising pathologists and trainees looking for tools they can use."
+      },
+      "researcher": {
+        "label": "Researchers",
+        "emoji": "🔬",
+        "order": 20,
+        "blurb": "Computational pathology and medical-AI researchers."
+      },
+      "developer": {
+        "label": "Developers",
+        "emoji": "💻",
+        "order": 30,
+        "blurb": "Engineers building pathology software and pipelines."
+      },
+      "educator": {
+        "label": "Educators",
+        "emoji": "🎓",
+        "order": 40,
+        "blurb": "Teachers, trainers and residency programme staff."
+      }
+    },
+    "stage": {
+      "concept": {
+        "label": "Concept",
+        "order": 10,
+        "blurb": "An idea, prototype or proof of concept. Not usable in practice yet."
+      },
+      "research": {
+        "label": "Research",
+        "order": 20,
+        "blurb": "Published or released for research. Expect rough edges."
+      },
+      "beta": {
+        "label": "Beta",
+        "order": 30,
+        "blurb": "Usable, actively developed, interfaces may still change."
+      },
+      "production": {
+        "label": "Production",
+        "order": 40,
+        "blurb": "Mature and widely used. Stable enough to depend on."
+      },
+      "deprecated": {
+        "label": "Deprecated",
+        "order": 50,
+        "blurb": "No longer maintained. Listed for reference and for reproducing old work."
+      }
+    }
+  },
+  "derived_facets": {
+    "runs-on-laptop": {
+      "label": "Runs on a laptop",
+      "emoji": "💻",
+      "blurb": "Needs no more than a consumer GPU, and often only a CPU. No workstation, no cluster, no cloud account.\n",
+      "rule": "hardware_floor in (cpu, consumer-gpu)"
+    },
+    "works-offline": {
+      "label": "Works offline",
+      "emoji": "🔌",
+      "blurb": "Runs without an internet connection once installed, and does not send slides to a remote server.\n",
+      "rule": "offline_capable is true AND sends_data_offsite is false"
+    },
+    "no-scanner-needed": {
+      "label": "No scanner needed",
+      "emoji": "📷",
+      "blurb": "Usable without a whole-slide scanner — works with photomicrographs, camera captures or existing image files.\n",
+      "rule": "needs_scanner is false"
+    },
+    "low-resource": {
+      "label": "Low-resource ready",
+      "emoji": "🌍",
+      "blurb": "Free, runs on modest hardware, works offline, and needs no scanner. The shortlist for a department starting from nothing.\n",
+      "rule": "cost in (free, free-for-academic) AND hardware_floor in (cpu, consumer-gpu) AND offline_capable is true AND needs_scanner is false\n"
+    }
+  },
+  "browse_directories": {
+    "categories": "category",
+    "tasks": "task",
+    "subspecialties": "subspecialty",
+    "organs": "organ",
+    "audience": "audience",
+    "regulatory": "regulatory",
+    "stage": "stage",
+    "settings": "setting"
+  }
+}

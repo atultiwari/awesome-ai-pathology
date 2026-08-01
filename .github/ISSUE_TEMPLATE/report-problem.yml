@@ -1,0 +1,59 @@
+name: Report a problem with an entry
+description: A broken link, a wrong fact, an out-of-date regulatory claim, or a project that has died.
+title: "[Fix] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Factual errors are taken seriously, especially regulatory and
+        data-privacy ones. Thank you for reporting.
+
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      placeholder: qupath
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - Broken or redirected link
+        - Wrong regulatory status
+        - Wrong data-privacy flag (sends_data_offsite)
+        - Wrong licence or cost
+        - Wrong hardware requirement
+        - Project is unmaintained or discontinued
+        - Description is inaccurate or misleading
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: What is wrong, and what should it say?
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: >
+        A link supporting the correction. For regulatory claims this must be the
+        regulator's own record.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: affiliation
+    attributes:
+      label: Disclosure
+      options:
+        - label: I am affiliated with this product.
+          required: false

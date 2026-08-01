@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- grading
+- classification
+- model-training
+subspecialty:
+- histopathology
+organs:
+- prostate
+modality:
+- wsi
+- he
+granularity:
+- G3
+platforms:
+- web
+maintainers:
+- Radboud UMC
+- Karolinska Institutet
+related:
+- tcga
+licence_notes: Kaggle competition terms apply; check before redistribution.
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: panda
+name: PANDA
+tagline: Prostate biopsy Gleason grading challenge dataset.
+category: dataset
+audience:
+- researcher
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  homepage: https://www.kaggle.com/competitions/prostate-cancer-grade-assessment
+  paper: https://doi.org/10.1038/s41591-021-01620-2
+origin: academic
+summary: The largest public prostate biopsy collection with Gleason grade labels, from two institutions,
+  used to benchmark automated grading against pathologist variability.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

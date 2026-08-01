@@ -1,0 +1,133 @@
+name: Suggest an entry
+description: Suggest a tool, model, dataset, app or resource for the catalogue.
+title: "[Add] "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting something.
+
+        **Only the first two fields are required.** Everything else is helpful
+        but will be researched and verified before the entry goes in, so leave
+        anything you are unsure about blank — a blank is far better than a guess.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: QuPath
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Homepage, repository, paper or model page.
+      placeholder: https://qupath.github.io/
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What does it do?
+      description: One or two plain sentences. What problem does it solve, and for whom?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Roughly what kind of thing is it?
+      options:
+        - Not sure
+        - Foundation model
+        - Vision-language model
+        - Task-specific model (segmentation, grading, scoring…)
+        - Software — viewer or platform
+        - QuPath extension
+        - Developer library or framework
+        - Dataset
+        - Benchmark or challenge
+        - Agent or MCP server
+        - Prompt library or AI skill
+        - Web or mobile app
+        - Commercial product
+        - Standard or interoperability resource
+        - Education or training resource
+        - Low-resource / hardware
+    validations:
+      required: false
+
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Who is it for?
+      multiple: true
+      options:
+        - Practising pathologists
+        - Researchers
+        - Developers
+        - Educators
+    validations:
+      required: false
+
+  - type: dropdown
+    id: cost
+    attributes:
+      label: What does it cost?
+      options:
+        - Not sure
+        - Free
+        - Free for academic use
+        - Free tier plus paid plans
+        - Paid
+    validations:
+      required: false
+
+  - type: dropdown
+    id: offsite
+    attributes:
+      label: Does it send images or data to someone else's server?
+      description: >
+        The most important question for anything used on patient material.
+        Please answer "Not sure" rather than guessing.
+      options:
+        - Not sure
+        - "No — everything stays on my machine"
+        - "Yes — it uploads to a remote service"
+    validations:
+      required: false
+
+  - type: input
+    id: regulatory
+    attributes:
+      label: Regulatory status, with a link to the regulator's record
+      description: >
+        Only if you know. FDA 510(k), CE-IVDR, UKCA, CDSCO and so on.
+        **Please link the regulator's own database entry, not the vendor's
+        website** — marketing claims are not accepted as a source. Leave blank
+        for research tools.
+      placeholder: e.g. FDA 510(k) K123456 — https://www.accessdata.fda.gov/...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: affiliation
+    attributes:
+      label: Disclosure
+      options:
+        - label: I am affiliated with this product (author, employee, vendor, or paid to promote it).
+          required: false
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked the catalogue and this is not already listed.
+          required: true
+        - label: This is a real, publicly accessible resource — not an announcement of something unreleased.
+          required: true

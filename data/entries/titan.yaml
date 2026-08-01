@@ -1,0 +1,58 @@
+subcategories: []
+tasks:
+- classification
+- retrieval-search
+- report-writing
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G3
+platforms:
+- linux
+maintainers:
+- Mahmood Lab, Harvard Medical School
+related:
+- uni
+- clam
+- conch
+licence_notes: Gated on Hugging Face; research terms apply.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 32
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: titan
+name: TITAN
+tagline: Multimodal whole-slide foundation model producing slide-level embeddings.
+category: foundation-model
+audience:
+- researcher
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: gated
+cost: free-for-academic
+links:
+  model: https://huggingface.co/MahmoodLab/TITAN
+  repo: https://github.com/mahmoodlab/TITAN
+  paper: https://doi.org/10.1038/s41591-025-03982-3
+origin: academic
+summary: Slide-level model combining visual self-supervision with vision-language alignment, giving whole-slide
+  embeddings usable without task-specific training.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

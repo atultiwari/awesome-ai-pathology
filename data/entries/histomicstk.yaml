@@ -1,0 +1,63 @@
+id: histomicstk
+name: HistomicsTK
+tagline: Python toolkit for histology image analysis and feature extraction.
+category: library-framework
+subcategories: []
+tasks:
+- nuclei-segmentation
+- stain-normalisation
+- ihc-quantification
+- wsi-io
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- ihc
+granularity:
+- G1
+- G2
+platforms:
+- linux
+- macos
+maintainers:
+- Kitware
+- Emory University
+related:
+- digital-slide-archive
+- tiatoolbox
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: none
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+audience:
+- researcher
+- developer
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: Apache-2.0
+cost: free
+links:
+  repo: https://github.com/DigitalSlideArchive/HistomicsTK
+  docs: https://digitalslidearchive.github.io/HistomicsTK/
+origin: academic
+summary: >-
+  Library of histology-specific image analysis routines — colour deconvolution, stain
+  normalisation, nucleus detection and morphometric feature extraction — usable standalone or as
+  the analysis layer behind Digital Slide Archive.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How this catalogue is curated
+    url: https://github.com/atultiwari/awesome-ai-pathology/blob/main/CONTRIBUTING.md
+    about: Inclusion criteria, the regulatory-sourcing rule, and why PRs are not open yet.
+  - name: Disclaimer
+    url: https://github.com/atultiwari/awesome-ai-pathology/blob/main/DISCLAIMER.md
+    about: Read before using anything here on patient material.

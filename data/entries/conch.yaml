@@ -1,0 +1,59 @@
+subcategories: []
+tasks:
+- classification
+- retrieval-search
+- vqa
+- tissue-segmentation
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- text
+granularity:
+- G1
+- G2
+- G3
+platforms:
+- linux
+maintainers:
+- Mahmood Lab, Harvard Medical School
+related:
+- plip
+- titan
+licence_notes: Gated on Hugging Face; non-commercial research terms.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: conch
+name: CONCH
+tagline: Vision-language foundation model for pathology image-text tasks.
+category: vision-language-model
+audience:
+- researcher
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: gated
+cost: free-for-academic
+links:
+  repo: https://github.com/mahmoodlab/CONCH
+  paper: https://doi.org/10.1038/s41591-024-02856-4
+origin: academic
+summary: Contrastively pretrained image-text model for pathology supporting zero-shot classification,
+  cross-modal retrieval, captioning and segmentation.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

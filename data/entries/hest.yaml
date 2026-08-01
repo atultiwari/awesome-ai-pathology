@@ -1,0 +1,58 @@
+subcategories: []
+tasks:
+- spatial-transcriptomics
+- model-training
+subspecialty:
+- molecular-pathology
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- omics
+granularity:
+- G2
+- G3
+platforms:
+- linux
+maintainers:
+- Mahmood Lab, Harvard Medical School
+related:
+- tcga
+licence_notes: Aggregates many source datasets, each with its own terms.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: hest
+name: HEST-1k / HEST-Bench
+tagline: Paired histology and spatial transcriptomics dataset and benchmark.
+category: benchmark
+audience:
+- researcher
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  repo: https://github.com/mahmoodlab/HEST
+  dataset: https://huggingface.co/datasets/MahmoodLab/hest
+  docs: https://hest.readthedocs.io/
+  paper: https://arxiv.org/abs/2406.16192
+origin: academic
+summary: Harmonised collection of spatial transcriptomics profiles paired with histology, plus a benchmark
+  for predicting expression from morphology.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

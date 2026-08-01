@@ -1,0 +1,61 @@
+subcategories: []
+tasks:
+- nuclei-segmentation
+- cell-detection
+subspecialty:
+- histopathology
+- cytopathology
+organs:
+- any
+modality:
+- he
+- ihc
+- fluorescence
+granularity:
+- G1
+- G2
+platforms:
+- windows
+- macos
+- linux
+maintainers:
+- StarDist authors
+related:
+- qupath-stardist
+- cellvit
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: none
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: null
+caveats: null
+featured: true
+showcase: false
+id: stardist
+name: StarDist
+tagline: Star-convex polygon nucleus detection.
+category: task-specific-model
+audience:
+- researcher
+- developer
+- clinician
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: BSD-3-Clause
+cost: free
+links:
+  repo: https://github.com/stardist/stardist
+  paper: https://arxiv.org/abs/1806.03535
+origin: academic
+summary: Instance segmentation method representing nuclei as star-convex polygons, robust on crowded nuclei
+  and the basis of the most-used QuPath segmentation extension.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

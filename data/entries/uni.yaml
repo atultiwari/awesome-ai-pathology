@@ -1,0 +1,60 @@
+subcategories: []
+tasks:
+- classification
+- model-training
+- retrieval-search
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+granularity:
+- G1
+platforms:
+- linux
+maintainers:
+- Mahmood Lab, Harvard Medical School
+related:
+- clam
+- trident
+- titan
+licence_notes: Access is gated on Hugging Face and the licence restricts commercial use. Read the terms
+  before any non-research application.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: Gated weights with a non-commercial licence. Trained on a corpus that is not public, so independent
+  replication is limited.
+featured: true
+showcase: false
+id: uni
+name: UNI
+tagline: Self-supervised vision foundation model for pathology tile encoding.
+category: foundation-model
+audience:
+- researcher
+- developer
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: gated
+cost: free-for-academic
+links:
+  model: https://huggingface.co/MahmoodLab/UNI
+  repo: https://github.com/mahmoodlab/UNI
+  paper: https://doi.org/10.1038/s41591-024-02857-3
+origin: academic
+summary: ViT encoder trained with DINOv2 on a large private histopathology corpus, used as a frozen tile-level
+  feature extractor across a wide range of downstream tasks.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

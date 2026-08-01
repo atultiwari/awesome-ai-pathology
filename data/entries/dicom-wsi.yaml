@@ -1,0 +1,56 @@
+subcategories: []
+tasks:
+- wsi-io
+- data-management
+- telepathology
+subspecialty:
+- any
+organs:
+- any
+modality:
+- wsi
+granularity:
+- G3
+platforms:
+- web
+maintainers:
+- DICOM Standards Committee
+related:
+- openslide
+licence_notes: Open standard published by NEMA; the specification is free to read.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: The reason a slide from one scanner can be opened by another vendor's software. Ask about
+  DICOM support before buying anything.
+caveats: null
+featured: true
+showcase: false
+id: dicom-wsi
+name: DICOM for Whole Slide Imaging
+tagline: The vendor-neutral standard for storing and exchanging pathology slides.
+category: standard-interop
+audience:
+- developer
+- clinician
+- researcher
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  homepage: https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_A.32.8.html
+  docs: https://dicom.nema.org/
+origin: community
+summary: The DICOM VL Whole Slide Microscopy Image IOD defines how scanned slides are represented, enabling
+  storage and exchange independent of scanner vendor.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

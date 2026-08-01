@@ -1,0 +1,60 @@
+subcategories: []
+tasks:
+- classification
+- tissue-segmentation
+subspecialty:
+- histopathology
+organs:
+- breast
+- prostate
+- lung
+- colon
+modality:
+- wsi
+- he
+granularity:
+- G1
+- G3
+platforms:
+- windows
+- macos
+- linux
+maintainers:
+- Stony Brook University
+related:
+- qupath
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: low
+needs_scanner: true
+min_ram_gb: 8
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: wsinfer
+name: WSInfer
+tagline: Runs pretrained patch classification models across whole slides, with a QuPath front end.
+category: qupath-extension
+audience:
+- researcher
+- clinician
+stage: beta
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: Apache-2.0
+cost: free
+links:
+  repo: https://github.com/SBU-BMI/wsinfer
+  docs: https://wsinfer.readthedocs.io/
+origin: academic
+summary: Toolkit and model zoo for running patch-level deep learning inference over whole-slide images,
+  usable from the command line or through a QuPath extension.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

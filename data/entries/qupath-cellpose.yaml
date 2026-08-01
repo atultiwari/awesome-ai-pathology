@@ -1,0 +1,59 @@
+subcategories: []
+tasks:
+- nuclei-segmentation
+- cell-detection
+subspecialty:
+- histopathology
+- cytopathology
+organs:
+- any
+modality:
+- he
+- ihc
+- fluorescence
+granularity:
+- G1
+- G2
+platforms:
+- windows
+- macos
+- linux
+maintainers:
+- EPFL BioImaging & Optics Platform
+related:
+- qupath
+- qupath-stardist
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: none
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: Another automatic cell-detection option inside QuPath. Needs a one-time Python setup.
+caveats: Requires a working local Cellpose environment; setup is the fiddly part.
+featured: false
+showcase: false
+id: qupath-cellpose
+name: QuPath Cellpose Extension
+tagline: Brings Cellpose and Omnipose segmentation into QuPath.
+category: qupath-extension
+audience:
+- clinician
+- researcher
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: GPL-3.0
+cost: free
+links:
+  repo: https://github.com/BIOP/qupath-extension-cellpose
+origin: academic
+summary: Community extension that calls a local Cellpose/Omnipose install from QuPath, adding generalist
+  cell segmentation models to the QuPath workflow.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

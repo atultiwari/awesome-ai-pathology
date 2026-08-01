@@ -1,0 +1,2931 @@
+{
+  "generated_at": "2026-08-01",
+  "schema_version": "1.0.0",
+  "count": 39,
+  "entries": [
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "maintainers": [
+        "Radboud UMC Computational Pathology Group"
+      ],
+      "related": [
+        "qupath"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "none",
+      "needs_scanner": true,
+      "min_ram_gb": 8,
+      "clinician_note": "A no-frills slide viewer. Opens big scanner files quickly and lets you draw regions.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "asap",
+      "name": "ASAP",
+      "tagline": "Fast whole-slide image viewer with annotation support.",
+      "category": "software-viewer",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "GPL-2.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/computationalpathologygroup/ASAP"
+      },
+      "origin": "academic",
+      "summary": "Lightweight viewer for multi-resolution whole-slide images with a simple annotation workflow, widely used to inspect and label slides for challenge datasets.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "text"
+      ],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Awesome-Pathology-VLMs contributors"
+      ],
+      "related": [
+        "conch",
+        "plip",
+        "quilt-llava"
+      ],
+      "licence_notes": null,
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "Research-focused. Useful if you want the academic papers rather than usable tools.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "awesome-pathology-vlms",
+      "name": "Awesome-Pathology-VLMs",
+      "tagline": "Curated list of pathology vision-language models, datasets and benchmarks.",
+      "category": "meta",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "Apache-2.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/wenhaozhang0066/Awesome-Pathology-VLMs"
+      },
+      "origin": "community",
+      "summary": "Focused bibliography of pathology vision-language models organised by training paradigm, with a useful patch/ROI/WSI granularity axis. A good deep reference for the VLM literature specifically.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "tissue-segmentation",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "lymph-node",
+        "breast"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Radboud UMC",
+        "UMC Utrecht"
+      ],
+      "related": [
+        "tcga",
+        "clam"
+      ],
+      "licence_notes": null,
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "camelyon16",
+      "name": "CAMELYON16",
+      "tagline": "Lymph node metastasis detection challenge dataset.",
+      "category": "dataset",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "CC0-1.0",
+      "cost": "free",
+      "links": {
+        "homepage": "https://camelyon16.grand-challenge.org/",
+        "paper": "https://doi.org/10.1001/jama.2017.14585"
+      },
+      "origin": "academic",
+      "summary": "Sentinel lymph node whole-slide images with exhaustive metastasis annotations. The reference benchmark for weakly and fully supervised WSI detection.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he"
+      ],
+      "granularity": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "University Hospital Essen IKIM"
+      ],
+      "related": [
+        "hovernet",
+        "stardist"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "cellvit",
+      "name": "CellViT",
+      "tagline": "Vision-transformer nucleus segmentation and classification.",
+      "category": "task-specific-model",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "Apache-2.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/TIO-IKIM/CellViT",
+        "paper": "https://doi.org/10.1016/j.media.2024.103143"
+      },
+      "origin": "academic",
+      "summary": "Transformer-based nucleus instance segmentation built on pretrained ViT encoders, with inference tooling for scaling detection across whole slides.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Mahmood Lab, Harvard Medical School"
+      ],
+      "related": [
+        "trident",
+        "titan"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "id": "clam",
+      "name": "CLAM",
+      "tagline": "Attention-based multiple-instance learning for weakly supervised whole-slide classification.",
+      "category": "library-framework",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "GPL-3.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/mahmoodlab/CLAM",
+        "paper": "https://doi.org/10.1038/s41551-020-00682-w"
+      },
+      "origin": "academic",
+      "summary": "Widely used reference implementation of attention-based MIL for slide-level classification from slide-level labels only, with heatmap interpretability. The default baseline in most WSI classification papers.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "retrieval-search",
+        "vqa",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Mahmood Lab, Harvard Medical School"
+      ],
+      "related": [
+        "plip",
+        "titan"
+      ],
+      "licence_notes": "Gated on Hugging Face; non-commercial research terms.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "conch",
+      "name": "CONCH",
+      "tagline": "Vision-language foundation model for pathology image-text tasks.",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "gated",
+      "cost": "free-for-academic",
+      "links": {
+        "repo": "https://github.com/mahmoodlab/CONCH",
+        "paper": "https://doi.org/10.1038/s41591-024-02856-4"
+      },
+      "origin": "academic",
+      "summary": "Contrastively pretrained image-text model for pathology supporting zero-shot classification, cross-modal retrieval, captioning and segmentation.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "data-management",
+        "education",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "brightfield"
+      ],
+      "granularity": [
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "web",
+        "docker",
+        "linux"
+      ],
+      "maintainers": [
+        "University of Liège"
+      ],
+      "related": [
+        "digital-slide-archive",
+        "omero"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": "Runs on a server your institution controls, so several people can annotate the same slides in a browser. Needs IT support to set up.",
+      "caveats": "Self-hosting requires a server and maintenance; not a laptop tool.",
+      "featured": false,
+      "showcase": false,
+      "id": "cytomine",
+      "name": "Cytomine",
+      "tagline": "Web-based collaborative platform for annotating and analysing whole-slide images.",
+      "category": "software-viewer",
+      "audience": [
+        "researcher",
+        "educator",
+        "clinician"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "Apache-2.0",
+      "cost": "free",
+      "links": {
+        "homepage": "https://cytomine.org/",
+        "repo": "https://github.com/cytomine"
+      },
+      "origin": "academic",
+      "summary": "Server-hosted platform for multi-user slide annotation, review and analysis, designed for collaborative projects and teaching cohorts.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "wsi-io",
+        "data-management",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "DICOM Standards Committee"
+      ],
+      "related": [
+        "openslide"
+      ],
+      "licence_notes": "Open standard published by NEMA; the specification is free to read.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "The reason a slide from one scanner can be opened by another vendor's software. Ask about DICOM support before buying anything.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "id": "dicom-wsi",
+      "name": "DICOM for Whole Slide Imaging",
+      "tagline": "The vendor-neutral standard for storing and exchanging pathology slides.",
+      "category": "standard-interop",
+      "audience": [
+        "developer",
+        "clinician",
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "homepage": "https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_A.32.8.html",
+        "docs": "https://dicom.nema.org/"
+      },
+      "origin": "community",
+      "summary": "The DICOM VL Whole Slide Microscopy Image IOD defines how scanned slides are represented, enabling storage and exchange independent of scanner vendor.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "data-management",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "web",
+        "docker",
+        "linux"
+      ],
+      "maintainers": [
+        "Emory University"
+      ],
+      "related": [
+        "cytomine",
+        "histomicstk"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "digital-slide-archive",
+      "name": "Digital Slide Archive",
+      "tagline": "Server platform for managing, annotating and analysing large slide collections.",
+      "category": "software-viewer",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "Apache-2.0",
+      "cost": "free",
+      "links": {
+        "homepage": "https://digitalslidearchive.github.io/digital_slide_archive/",
+        "repo": "https://github.com/DigitalSlideArchive/digital_slide_archive"
+      },
+      "origin": "academic",
+      "summary": "Web platform built on Girder for organising whole-slide image collections, with annotation tooling and a plugin system for running analysis jobs at scale.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "spatial-transcriptomics",
+        "model-training"
+      ],
+      "subspecialty": [
+        "molecular-pathology",
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "omics"
+      ],
+      "granularity": [
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Mahmood Lab, Harvard Medical School"
+      ],
+      "related": [
+        "tcga"
+      ],
+      "licence_notes": "Aggregates many source datasets, each with its own terms.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "hest",
+      "name": "HEST-1k / HEST-Bench",
+      "tagline": "Paired histology and spatial transcriptomics dataset and benchmark.",
+      "category": "benchmark",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/mahmoodlab/HEST",
+        "dataset": "https://huggingface.co/datasets/MahmoodLab/hest",
+        "docs": "https://hest.readthedocs.io/",
+        "paper": "https://arxiv.org/abs/2406.16192"
+      },
+      "origin": "academic",
+      "summary": "Harmonised collection of spatial transcriptomics profiles paired with histology, plus a benchmark for predicting expression from morphology.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "id": "histomicstk",
+      "name": "HistomicsTK",
+      "tagline": "Python toolkit for histology image analysis and feature extraction.",
+      "category": "library-framework",
+      "subcategories": [],
+      "tasks": [
+        "nuclei-segmentation",
+        "stain-normalisation",
+        "ihc-quantification",
+        "wsi-io"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "ihc"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "maintainers": [
+        "Kitware",
+        "Emory University"
+      ],
+      "related": [
+        "digital-slide-archive",
+        "tiatoolbox"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "none",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "Apache-2.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/DigitalSlideArchive/HistomicsTK",
+        "docs": "https://digitalslidearchive.github.io/HistomicsTK/"
+      },
+      "origin": "academic",
+      "summary": "Library of histology-specific image analysis routines — colour deconvolution, stain normalisation, nucleus detection and morphometric feature extraction — usable standalone or as the analysis layer behind Digital Slide Archive.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "quality-control"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "maintainers": [
+        "Case Western Reserve University"
+      ],
+      "related": [
+        "qupath"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "none",
+      "needs_scanner": true,
+      "min_ram_gb": 8,
+      "clinician_note": "Checks a batch of scanned slides for problems like blur or pen marks before anyone spends time on them.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "id": "histoqc",
+      "name": "HistoQC",
+      "tagline": "Automated quality control for whole-slide images.",
+      "category": "task-specific-model",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "BSD-3-Clause",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/choosehappy/HistoQC",
+        "paper": "https://doi.org/10.1200/CCI.18.00157"
+      },
+      "origin": "academic",
+      "summary": "Pipeline that flags slide artefacts — blur, pen marks, tissue folds, coverslip edges, bubbles — and produces an interactive report for triaging a cohort before analysis.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "colon",
+        "breast",
+        "any"
+      ],
+      "modality": [
+        "he"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "University of Warwick TIA Centre"
+      ],
+      "related": [
+        "stardist",
+        "cellvit",
+        "pannuke"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "hovernet",
+      "name": "HoVer-Net",
+      "tagline": "Simultaneous nucleus segmentation and classification in histology.",
+      "category": "task-specific-model",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "MIT",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/vqdang/hover_net",
+        "paper": "https://doi.org/10.1016/j.media.2019.101563"
+      },
+      "origin": "academic",
+      "summary": "Network predicting horizontal and vertical distances to nuclear centres to separate touching nuclei, while simultaneously classifying nucleus type. A standard baseline for nucleus tasks.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "model-training",
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "colon"
+      ],
+      "modality": [
+        "he"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "NCT Heidelberg"
+      ],
+      "related": [
+        "camelyon16"
+      ],
+      "licence_notes": null,
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "A good starting dataset if you are learning — small enough to work with on a laptop.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "id": "nct-crc-he-100k",
+      "name": "NCT-CRC-HE-100K",
+      "tagline": "Colorectal tissue-type patch classification dataset.",
+      "category": "dataset",
+      "audience": [
+        "researcher",
+        "educator"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "CC-BY-4.0",
+      "cost": "free",
+      "links": {
+        "dataset": "https://zenodo.org/records/1214456",
+        "paper": "https://doi.org/10.1371/journal.pmed.1002730"
+      },
+      "origin": "academic",
+      "summary": "Around 100,000 colorectal H&E patches labelled into nine tissue classes. Small, permissively licensed and CPU-tractable, which makes it the usual first dataset for teaching and prototyping.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "data-management",
+        "annotation"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "fluorescence",
+        "brightfield"
+      ],
+      "granularity": [
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "web",
+        "linux",
+        "docker"
+      ],
+      "maintainers": [
+        "Open Microscopy Environment"
+      ],
+      "related": [
+        "digital-slide-archive"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "omero",
+      "name": "OMERO",
+      "tagline": "Image data management server for microscopy, including whole-slide images.",
+      "category": "software-viewer",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "GPL-2.0",
+      "cost": "free",
+      "links": {
+        "homepage": "https://www.openmicroscopy.org/omero/",
+        "repo": "https://github.com/ome/openmicroscopy"
+      },
+      "origin": "academic",
+      "summary": "Long-established server and client suite for storing, annotating and sharing microscopy image data across many proprietary formats.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "wsi-io"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [
+        "Carnegie Mellon University"
+      ],
+      "related": [
+        "qupath",
+        "tiatoolbox"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "none",
+      "needs_scanner": true,
+      "min_ram_gb": 4,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "id": "openslide",
+      "name": "OpenSlide",
+      "tagline": "C library with Python bindings for reading proprietary whole-slide formats.",
+      "category": "library-framework",
+      "audience": [
+        "developer",
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "LGPL-2.1",
+      "cost": "free",
+      "links": {
+        "homepage": "https://openslide.org/",
+        "repo": "https://github.com/openslide/openslide"
+      },
+      "origin": "academic",
+      "summary": "The foundational library for reading vendor whole-slide formats (Aperio, Hamamatsu, Leica, MIRAX and others) through one common interface. Most Python pathology tooling depends on it.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "grading",
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "prostate"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Radboud UMC",
+        "Karolinska Institutet"
+      ],
+      "related": [
+        "tcga"
+      ],
+      "licence_notes": "Kaggle competition terms apply; check before redistribution.",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "panda",
+      "name": "PANDA",
+      "tagline": "Prostate biopsy Gleason grading challenge dataset.",
+      "category": "dataset",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "homepage": "https://www.kaggle.com/competitions/prostate-cancer-grade-assessment",
+        "paper": "https://doi.org/10.1038/s41591-021-01620-2"
+      },
+      "origin": "academic",
+      "summary": "The largest public prostate biopsy collection with Gleason grade labels, from two institutions, used to benchmark automated grading against pathologist variability.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "id": "pannuke",
+      "name": "PanNuke",
+      "tagline": "Pan-cancer nucleus instance segmentation and classification dataset.",
+      "category": "dataset",
+      "subcategories": [],
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "University of Warwick TIA Centre"
+      ],
+      "related": [
+        "hovernet",
+        "cellvit",
+        "stardist"
+      ],
+      "licence_notes": "Non-commercial research licence — check the terms before any commercial use.",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": "Nucleus class definitions are coarse and were produced semi-automatically then refined; treat per-class performance figures with corresponding caution.",
+      "featured": false,
+      "showcase": false,
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "homepage": "https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke",
+        "paper": "https://arxiv.org/abs/2003.10778"
+      },
+      "origin": "academic",
+      "summary": "Nucleus instance segmentation and classification dataset spanning 19 tissue types with five nucleus classes, semi-automatically annotated. One of the standard training and evaluation sets for nucleus models.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "wsi-io",
+        "nuclei-segmentation",
+        "stain-normalisation",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "ihc",
+        "multiplex"
+      ],
+      "granularity": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "maintainers": [
+        "Dana-Farber Cancer Institute AI Operations & Data Science"
+      ],
+      "related": [
+        "tiatoolbox"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "pathml",
+      "name": "PathML",
+      "tagline": "Python library for computational pathology preprocessing and modelling.",
+      "category": "library-framework",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "GPL-2.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/Dana-Farber-AIOS/pathml",
+        "docs": "https://pathml.readthedocs.io/"
+      },
+      "origin": "academic",
+      "summary": "Framework for building reproducible pathology pipelines, with support for brightfield, multiparametric and volumetric imaging and a preprocessing DSL.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Mahmood Lab, Harvard Medical School"
+      ],
+      "related": [
+        "titan",
+        "uni",
+        "trident"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "patho-bench",
+      "name": "Patho-Bench",
+      "tagline": "Standardised evaluation suite for pathology slide-level foundation models.",
+      "category": "benchmark",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "beta",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/mahmoodlab/Patho-Bench"
+      },
+      "origin": "academic",
+      "summary": "Harness for comparing slide-level foundation models across many public tasks under consistent splits and protocols, reducing the incomparability of self-reported numbers.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "education"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "PathologyOutlines.com"
+      ],
+      "related": [],
+      "licence_notes": "Free to read; content is copyrighted by the publisher.",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "Not an AI tool, but the reference most pathologists already use — included because AI outputs should always be checked against a trusted source.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "pathologyoutlines",
+      "name": "PathologyOutlines",
+      "tagline": "Free comprehensive online pathology reference.",
+      "category": "education",
+      "audience": [
+        "clinician",
+        "educator"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "homepage": "https://www.pathologyoutlines.com/"
+      },
+      "origin": "community",
+      "summary": "Widely used free reference covering diagnostic criteria, immunohistochemistry and differentials across pathology, maintained by a large contributor network.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "maintainers": [
+        "Owkin"
+      ],
+      "related": [
+        "uni",
+        "virchow2"
+      ],
+      "licence_notes": "Openly licensed — unusual among pathology foundation models and worth preferring where it performs comparably.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": "Notable because it is genuinely open — no access request, no non-commercial restriction.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "phikon-v2",
+      "name": "Phikon-v2",
+      "tagline": "Openly licensed pathology tile encoder trained on public cohorts.",
+      "category": "foundation-model",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "MIT",
+      "cost": "free",
+      "links": {
+        "model": "https://huggingface.co/owkin/phikon-v2",
+        "paper": "https://arxiv.org/abs/2409.09173"
+      },
+      "origin": "industry",
+      "summary": "ViT trained with DINOv2 on public histopathology cohorts and released under a permissive licence, making it one of the few pathology encoders usable without gated access.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "maintainers": [
+        "Stanford University"
+      ],
+      "related": [
+        "conch",
+        "quilt-llava"
+      ],
+      "licence_notes": "Check the model card and the OpenPath data terms before reuse.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": "Training data provenance is social media; coverage and label quality vary by subspecialty.",
+      "featured": false,
+      "showcase": false,
+      "id": "plip",
+      "name": "PLIP",
+      "tagline": "Pathology CLIP model trained on image-text pairs mined from social media.",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "research",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/PathologyFoundation/plip",
+        "demo": "https://huggingface.co/spaces/vinid/webplip",
+        "paper": "https://doi.org/10.1038/s41591-023-02504-3"
+      },
+      "origin": "academic",
+      "summary": "CLIP fine-tuned on the OpenPath corpus of pathology image-text pairs curated from public medical Twitter, enabling zero-shot classification and image-text retrieval.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "molecular-prediction",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G1",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Microsoft Research",
+        "Providence Health"
+      ],
+      "related": [
+        "uni",
+        "titan"
+      ],
+      "licence_notes": "Gated on Hugging Face; non-commercial research terms apply.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "prov-gigapath",
+      "name": "Prov-GigaPath",
+      "tagline": "Slide-level foundation model with a tile encoder and long-context aggregator.",
+      "category": "foundation-model",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "gated",
+      "cost": "free-for-academic",
+      "links": {
+        "model": "https://huggingface.co/prov-gigapath/prov-gigapath",
+        "repo": "https://github.com/prov-gigapath/prov-gigapath",
+        "paper": "https://doi.org/10.1038/s41586-024-07441-w"
+      },
+      "origin": "industry",
+      "summary": "Pairs a tile-level encoder with a LongNet-based slide aggregator so whole slides can be represented in one pass, evaluated on subtyping and mutation prediction.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "model-training",
+        "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Quilt-1M authors"
+      ],
+      "related": [
+        "quilt-llava",
+        "plip"
+      ],
+      "licence_notes": "Derived from third-party video content; review the terms before redistribution.",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "quilt-1m",
+      "name": "Quilt-1M",
+      "tagline": "Histopathology image-text pairs mined from educational videos.",
+      "category": "dataset",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "dataset": "https://zenodo.org/records/8239942",
+        "repo": "https://github.com/wisdomikezogwo/quilt1m",
+        "paper": "https://arxiv.org/abs/2306.11207"
+      },
+      "origin": "academic",
+      "summary": "Large open histopathology image-caption corpus assembled from educational videos, used to train pathology vision-language models.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "vqa",
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Quilt-LLaVA authors"
+      ],
+      "related": [
+        "plip",
+        "quilt-1m"
+      ],
+      "licence_notes": "Check model and dataset cards; derived from third-party video content.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "quilt-llava",
+      "name": "Quilt-LLaVA",
+      "tagline": "Instruction-tuned pathology assistant trained from educational video narration.",
+      "category": "vision-language-model",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "research",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/aldraus/quilt-llava",
+        "homepage": "https://quilt-llava.github.io/",
+        "paper": "https://arxiv.org/abs/2312.04746"
+      },
+      "origin": "academic",
+      "summary": "Multimodal assistant instruction-tuned on localised narratives extracted from open histopathology teaching videos, aimed at diagnostic reasoning across patches.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "annotation",
+        "cell-detection",
+        "ihc-quantification",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "brightfield",
+        "fluorescence",
+        "ihc",
+        "he"
+      ],
+      "granularity": [
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [
+        "University of Edinburgh"
+      ],
+      "related": [
+        "qupath-stardist",
+        "qupath-cellpose",
+        "qupath-instanseg",
+        "openslide"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "none",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": "Free, installs on an ordinary laptop, and does not upload your slides anywhere. The usual first stop if you have never used digital pathology software.",
+      "caveats": "Not a diagnostic device. Very large slides benefit from more RAM.",
+      "featured": true,
+      "showcase": false,
+      "id": "qupath",
+      "name": "QuPath",
+      "tagline": "Open-source desktop software for whole-slide image analysis and annotation.",
+      "category": "software-viewer",
+      "audience": [
+        "clinician",
+        "researcher",
+        "developer",
+        "educator"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "GPL-3.0",
+      "cost": "free",
+      "links": {
+        "homepage": "https://qupath.github.io/",
+        "repo": "https://github.com/qupath/qupath",
+        "docs": "https://qupath.readthedocs.io/",
+        "paper": "https://doi.org/10.1038/s41598-017-17204-5"
+      },
+      "origin": "academic",
+      "summary": "Cross-platform desktop application for whole-slide and microscopy image analysis, with scripting, an extension system, and strong annotation tooling. The de facto open-source starting point for digital pathology.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "cytopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "ihc",
+        "fluorescence"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [
+        "EPFL BioImaging & Optics Platform"
+      ],
+      "related": [
+        "qupath",
+        "qupath-stardist"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "none",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": "Another automatic cell-detection option inside QuPath. Needs a one-time Python setup.",
+      "caveats": "Requires a working local Cellpose environment; setup is the fiddly part.",
+      "featured": false,
+      "showcase": false,
+      "id": "qupath-cellpose",
+      "name": "QuPath Cellpose Extension",
+      "tagline": "Brings Cellpose and Omnipose segmentation into QuPath.",
+      "category": "qupath-extension",
+      "audience": [
+        "clinician",
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "GPL-3.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/BIOP/qupath-extension-cellpose"
+      },
+      "origin": "academic",
+      "summary": "Community extension that calls a local Cellpose/Omnipose install from QuPath, adding generalist cell segmentation models to the QuPath workflow.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "ihc",
+        "fluorescence"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [
+        "QuPath team"
+      ],
+      "related": [
+        "qupath",
+        "qupath-stardist"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "none",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": "Newer segmentation option that runs without a graphics card.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "qupath-instanseg",
+      "name": "QuPath InstanSeg Extension",
+      "tagline": "InstanSeg nucleus and cell segmentation inside QuPath.",
+      "category": "qupath-extension",
+      "audience": [
+        "clinician",
+        "researcher"
+      ],
+      "stage": "beta",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "Apache-2.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/qupath/qupath-extension-instanseg"
+      },
+      "origin": "academic",
+      "summary": "Extension exposing InstanSeg, an embedding-based instance segmentation method, with bundled models runnable on CPU directly from QuPath.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "cytopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "ihc",
+        "fluorescence"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [
+        "QuPath team"
+      ],
+      "related": [
+        "qupath",
+        "stardist"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "none",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": "Adds automatic nucleus detection to QuPath. Runs on a normal laptop, no coding needed.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "id": "qupath-stardist",
+      "name": "QuPath StarDist Extension",
+      "tagline": "Runs StarDist star-convex nucleus detection inside QuPath.",
+      "category": "qupath-extension",
+      "audience": [
+        "clinician",
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "Apache-2.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/qupath/qupath-extension-stardist",
+        "docs": "https://qupath.readthedocs.io/en/stable/docs/deep/stardist.html"
+      },
+      "origin": "academic",
+      "summary": "Official QuPath extension wrapping StarDist, giving point-and-click nucleus segmentation on H&E, IHC and fluorescence images without writing code.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "model-training",
+        "survival-prediction",
+        "molecular-prediction"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G1",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Slideflow contributors"
+      ],
+      "related": [
+        "clam",
+        "tiatoolbox"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "slideflow",
+      "name": "Slideflow",
+      "tagline": "End-to-end deep learning pipeline for whole-slide images.",
+      "category": "library-framework",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "GPL-3.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/slideflow/slideflow",
+        "docs": "https://slideflow.dev/"
+      },
+      "origin": "academic",
+      "summary": "Opinionated pipeline covering tessellation, training, MIL, explainability and deployment, with both TensorFlow and PyTorch backends and a slide viewer.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "cytopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "ihc",
+        "fluorescence"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [
+        "StarDist authors"
+      ],
+      "related": [
+        "qupath-stardist",
+        "cellvit"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "none",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "id": "stardist",
+      "name": "StarDist",
+      "tagline": "Star-convex polygon nucleus detection.",
+      "category": "task-specific-model",
+      "audience": [
+        "researcher",
+        "developer",
+        "clinician"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "BSD-3-Clause",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/stardist/stardist",
+        "paper": "https://arxiv.org/abs/1806.03535"
+      },
+      "origin": "academic",
+      "summary": "Instance segmentation method representing nuclei as star-convex polygons, robust on crowded nuclei and the basis of the most-used QuPath segmentation extension.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "model-training",
+        "molecular-prediction",
+        "survival-prediction"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "molecular-pathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "omics"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "National Cancer Institute"
+      ],
+      "related": [
+        "camelyon16",
+        "clam"
+      ],
+      "licence_notes": "Open and controlled-access tiers; controlled data requires dbGaP authorisation.",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Tissue-source-site signal is a well-documented confounder — split by site, not just by patient, or results inflate.",
+      "featured": true,
+      "showcase": false,
+      "id": "tcga",
+      "name": "TCGA",
+      "tagline": "Pan-cancer whole-slide and molecular data archive.",
+      "category": "dataset",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "unknown",
+      "cost": "free",
+      "links": {
+        "homepage": "https://www.cancer.gov/ccg/research/genome-sequencing/tcga",
+        "dataset": "https://portal.gdc.cancer.gov/"
+      },
+      "origin": "academic",
+      "summary": "The most widely used public source of paired whole-slide images and molecular data across cancer types, underpinning most published WSI classification, survival and biomarker work.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "wsi-io",
+        "tissue-segmentation",
+        "nuclei-segmentation",
+        "classification",
+        "stain-normalisation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "ihc"
+      ],
+      "granularity": [
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "maintainers": [
+        "University of Warwick TIA Centre"
+      ],
+      "related": [
+        "openslide",
+        "pathml"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "tiatoolbox",
+      "name": "TIAToolbox",
+      "tagline": "Python toolbox for computational pathology pipelines.",
+      "category": "library-framework",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "BSD-3-Clause",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/TissueImageAnalytics/tiatoolbox",
+        "docs": "https://tia-toolbox.readthedocs.io/",
+        "paper": "https://doi.org/10.1038/s43856-022-00186-5"
+      },
+      "origin": "academic",
+      "summary": "Batteries-included Python library covering slide reading, stain normalisation, patch extraction, pretrained models and end-to-end inference pipelines.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "retrieval-search",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he",
+        "text"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Mahmood Lab, Harvard Medical School"
+      ],
+      "related": [
+        "uni",
+        "clam",
+        "conch"
+      ],
+      "licence_notes": "Gated on Hugging Face; research terms apply.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "titan",
+      "name": "TITAN",
+      "tagline": "Multimodal whole-slide foundation model producing slide-level embeddings.",
+      "category": "foundation-model",
+      "audience": [
+        "researcher"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "gated",
+      "cost": "free-for-academic",
+      "links": {
+        "model": "https://huggingface.co/MahmoodLab/TITAN",
+        "repo": "https://github.com/mahmoodlab/TITAN",
+        "paper": "https://doi.org/10.1038/s41591-025-03982-3"
+      },
+      "origin": "academic",
+      "summary": "Slide-level model combining visual self-supervision with vision-language alignment, giving whole-slide embeddings usable without task-specific training.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "wsi-io",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi"
+      ],
+      "granularity": [
+        "G1",
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Mahmood Lab, Harvard Medical School"
+      ],
+      "related": [
+        "clam",
+        "uni",
+        "titan"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": true,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "trident",
+      "name": "TRIDENT",
+      "tagline": "Toolkit for whole-slide preprocessing and foundation-model feature extraction.",
+      "category": "library-framework",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "beta",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "GPL-3.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/mahmoodlab/TRIDENT"
+      },
+      "origin": "academic",
+      "summary": "Pipeline for tissue segmentation, patching and batch feature extraction across many pathology foundation models behind one interface.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "model-training",
+        "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Mahmood Lab, Harvard Medical School"
+      ],
+      "related": [
+        "clam",
+        "trident",
+        "titan"
+      ],
+      "licence_notes": "Access is gated on Hugging Face and the licence restricts commercial use. Read the terms before any non-research application.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": "Gated weights with a non-commercial licence. Trained on a corpus that is not public, so independent replication is limited.",
+      "featured": true,
+      "showcase": false,
+      "id": "uni",
+      "name": "UNI",
+      "tagline": "Self-supervised vision foundation model for pathology tile encoding.",
+      "category": "foundation-model",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "gated",
+      "cost": "free-for-academic",
+      "links": {
+        "model": "https://huggingface.co/MahmoodLab/UNI",
+        "repo": "https://github.com/mahmoodlab/UNI",
+        "paper": "https://doi.org/10.1038/s41591-024-02857-3"
+      },
+      "origin": "academic",
+      "summary": "ViT encoder trained with DINOv2 on a large private histopathology corpus, used as a frozen tile-level feature extractor across a wide range of downstream tasks.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G1"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Paige AI"
+      ],
+      "related": [
+        "uni",
+        "prov-gigapath"
+      ],
+      "licence_notes": "Gated on Hugging Face; check the model card for permitted use.",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "workstation-gpu",
+      "bandwidth": "high",
+      "needs_scanner": false,
+      "min_ram_gb": 32,
+      "clinician_note": null,
+      "caveats": "Industry-released with gated access; the training corpus is not public.",
+      "featured": false,
+      "showcase": false,
+      "id": "virchow2",
+      "name": "Virchow2",
+      "tagline": "Large pathology vision foundation model trained on a very large slide corpus.",
+      "category": "foundation-model",
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "gated",
+      "cost": "free-for-academic",
+      "links": {
+        "model": "https://huggingface.co/paige-ai/Virchow2",
+        "paper": "https://arxiv.org/abs/2408.00738"
+      },
+      "origin": "industry",
+      "summary": "Vision transformer trained self-supervised on a very large multi-institutional slide collection, released for research as a general-purpose tile encoder.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "classification",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "breast",
+        "prostate",
+        "lung",
+        "colon"
+      ],
+      "modality": [
+        "wsi",
+        "he"
+      ],
+      "granularity": [
+        "G1",
+        "G3"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [
+        "Stony Brook University"
+      ],
+      "related": [
+        "qupath"
+      ],
+      "licence_notes": null,
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": true,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "id": "wsinfer",
+      "name": "WSInfer",
+      "tagline": "Runs pretrained patch classification models across whole slides, with a QuPath front end.",
+      "category": "qupath-extension",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "stage": "beta",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-01"
+      },
+      "licence": "Apache-2.0",
+      "cost": "free",
+      "links": {
+        "repo": "https://github.com/SBU-BMI/wsinfer",
+        "docs": "https://wsinfer.readthedocs.io/"
+      },
+      "origin": "academic",
+      "summary": "Toolkit and model zoo for running patch-level deep learning inference over whole-slide images, usable from the command line or through a QuPath extension.",
+      "added_on": "2026-08-01",
+      "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+subcategories: []
+tasks:
+- classification
+- retrieval-search
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+- text
+granularity:
+- G1
+platforms:
+- linux
+- macos
+maintainers:
+- Stanford University
+related:
+- conch
+- quilt-llava
+licence_notes: Check the model card and the OpenPath data terms before reuse.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: null
+caveats: Training data provenance is social media; coverage and label quality vary by subspecialty.
+featured: false
+showcase: false
+id: plip
+name: PLIP
+tagline: Pathology CLIP model trained on image-text pairs mined from social media.
+category: vision-language-model
+audience:
+- researcher
+stage: research
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  repo: https://github.com/PathologyFoundation/plip
+  demo: https://huggingface.co/spaces/vinid/webplip
+  paper: https://doi.org/10.1038/s41591-023-02504-3
+origin: academic
+summary: CLIP fine-tuned on the OpenPath corpus of pathology image-text pairs curated from public medical
+  Twitter, enabling zero-shot classification and image-text retrieval.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

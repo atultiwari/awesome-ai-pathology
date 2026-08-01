@@ -1,0 +1,71 @@
+subcategories: []
+tasks:
+- annotation
+- cell-detection
+- ihc-quantification
+- tissue-segmentation
+subspecialty:
+- any
+organs:
+- any
+modality:
+- wsi
+- brightfield
+- fluorescence
+- ihc
+- he
+granularity:
+- G2
+- G3
+platforms:
+- windows
+- macos
+- linux
+maintainers:
+- University of Edinburgh
+related:
+- qupath-stardist
+- qupath-cellpose
+- qupath-instanseg
+- openslide
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: none
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: Free, installs on an ordinary laptop, and does not upload your slides anywhere. The usual
+  first stop if you have never used digital pathology software.
+caveats: Not a diagnostic device. Very large slides benefit from more RAM.
+featured: true
+showcase: false
+id: qupath
+name: QuPath
+tagline: Open-source desktop software for whole-slide image analysis and annotation.
+category: software-viewer
+audience:
+- clinician
+- researcher
+- developer
+- educator
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: GPL-3.0
+cost: free
+links:
+  homepage: https://qupath.github.io/
+  repo: https://github.com/qupath/qupath
+  docs: https://qupath.readthedocs.io/
+  paper: https://doi.org/10.1038/s41598-017-17204-5
+origin: academic
+summary: Cross-platform desktop application for whole-slide and microscopy image analysis, with scripting,
+  an extension system, and strong annotation tooling. The de facto open-source starting point for digital
+  pathology.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

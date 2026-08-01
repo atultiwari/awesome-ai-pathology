@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- classification
+- model-training
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+granularity:
+- G3
+platforms:
+- linux
+maintainers:
+- Mahmood Lab, Harvard Medical School
+related:
+- trident
+- titan
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 32
+clinician_note: null
+caveats: null
+featured: true
+showcase: false
+id: clam
+name: CLAM
+tagline: Attention-based multiple-instance learning for weakly supervised whole-slide classification.
+category: library-framework
+audience:
+- researcher
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: GPL-3.0
+cost: free
+links:
+  repo: https://github.com/mahmoodlab/CLAM
+  paper: https://doi.org/10.1038/s41551-020-00682-w
+origin: academic
+summary: Widely used reference implementation of attention-based MIL for slide-level classification from
+  slide-level labels only, with heatmap interpretability. The default baseline in most WSI classification
+  papers.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

@@ -1,0 +1,59 @@
+subcategories: []
+tasks:
+- classification
+- molecular-prediction
+- model-training
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+granularity:
+- G1
+- G3
+platforms:
+- linux
+maintainers:
+- Microsoft Research
+- Providence Health
+related:
+- uni
+- titan
+licence_notes: Gated on Hugging Face; non-commercial research terms apply.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: 32
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: prov-gigapath
+name: Prov-GigaPath
+tagline: Slide-level foundation model with a tile encoder and long-context aggregator.
+category: foundation-model
+audience:
+- researcher
+- developer
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: gated
+cost: free-for-academic
+links:
+  model: https://huggingface.co/prov-gigapath/prov-gigapath
+  repo: https://github.com/prov-gigapath/prov-gigapath
+  paper: https://doi.org/10.1038/s41586-024-07441-w
+origin: industry
+summary: Pairs a tile-level encoder with a LongNet-based slide aggregator so whole slides can be represented
+  in one pass, evaluated on subtyping and mutation prediction.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

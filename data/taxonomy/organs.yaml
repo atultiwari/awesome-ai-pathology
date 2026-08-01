@@ -1,0 +1,31 @@
+# Tier 2 axis — ORGAN SYSTEM. Cross-cuts every discipline.
+# Field: organs (list). Use `any` for organ-agnostic tools.
+
+any:      { label: Any / Organ-agnostic }
+breast:   { label: Breast }
+prostate: { label: Prostate }
+bladder:  { label: Bladder }
+kidney:   { label: Kidney }
+lung:     { label: Lung }
+colon:    { label: Colon & Rectum }
+stomach:  { label: Stomach }
+oesophagus: { label: Oesophagus }
+liver:    { label: Liver }
+pancreas: { label: Pancreas }
+lymph-node: { label: Lymph Node }
+bone-marrow: { label: Bone Marrow }
+skin:     { label: Skin }
+brain:    { label: Brain & CNS }
+thyroid:  { label: Thyroid }
+adrenal:  { label: Adrenal }
+cervix:   { label: Cervix }
+endometrium: { label: Endometrium }
+ovary:    { label: Ovary }
+testis:   { label: Testis }
+head-neck: { label: Head & Neck }
+oral:     { label: Oral Cavity }
+bone:     { label: Bone }
+soft-tissue: { label: Soft Tissue }
+eye:      { label: Eye }
+placenta: { label: Placenta }
+heart:    { label: Heart }

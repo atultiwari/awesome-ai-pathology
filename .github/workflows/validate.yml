@@ -1,0 +1,34 @@
+name: validate
+
+# Runs on every PR and push. Must live in THIS repo — a workflow in a private
+# repo cannot validate a pull request opened here.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Unit tests
+        run: python3 -m pytest tools/tests -q --cov=lib --cov-report=term-missing
+
+      - name: Validate catalogue
+        run: python3 tools/validate.py
+
+      - name: Generated files are current
+        run: python3 tools/generate.py --check

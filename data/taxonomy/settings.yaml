@@ -1,0 +1,73 @@
+# Resource-tier facets — the headline differentiator (PLAN §3).
+#
+# These are DERIVED facets: they are computed from entry fields rather than
+# hand-tagged, so they can never drift out of sync with the underlying facts.
+# The predicate for each is implemented in tools/lib/facets.py.
+
+facets:
+  runs-on-laptop:
+    label: Runs on a laptop
+    emoji: "💻"
+    blurb: >
+      Needs no more than a consumer GPU, and often only a CPU. No workstation,
+      no cluster, no cloud account.
+    rule: hardware_floor in (cpu, consumer-gpu)
+
+  works-offline:
+    label: Works offline
+    emoji: "🔌"
+    blurb: >
+      Runs without an internet connection once installed, and does not send
+      slides to a remote server.
+    rule: offline_capable is true AND sends_data_offsite is false
+
+  no-scanner-needed:
+    label: No scanner needed
+    emoji: "📷"
+    blurb: >
+      Usable without a whole-slide scanner — works with photomicrographs,
+      camera captures or existing image files.
+    rule: needs_scanner is false
+
+  low-resource:
+    label: Low-resource ready
+    emoji: "🌍"
+    blurb: >
+      Free, runs on modest hardware, works offline, and needs no scanner.
+      The shortlist for a department starting from nothing.
+    rule: >
+      cost in (free, free-for-academic) AND hardware_floor in (cpu, consumer-gpu)
+      AND offline_capable is true AND needs_scanner is false
+
+# ── Field vocabularies referenced by the schema ───────────────────────────
+
+hardware_floor:
+  cpu:             { label: CPU only,            order: 10 }
+  consumer-gpu:    { label: Consumer GPU,        order: 20 }
+  workstation-gpu: { label: Workstation GPU,     order: 30 }
+  multi-gpu:       { label: Multiple GPUs,       order: 40 }
+  cluster:         { label: Cluster,             order: 50 }
+  cloud-only:      { label: Cloud service only,  order: 60 }
+
+bandwidth:
+  none: { label: None needed after install, order: 10 }
+  low:  { label: Low,                       order: 20 }
+  high: { label: High,                      order: 30 }
+
+cost:
+  free:              { label: Free,                order: 10 }
+  free-for-academic: { label: Free for academic use, order: 20 }
+  freemium:          { label: Freemium,            order: 30 }
+  paid:              { label: Paid,                order: 40 }
+  unknown:           { label: Unknown,             order: 50 }
+
+origin:
+  academic:   { label: Academic }
+  industry:   { label: Industry }
+  community:  { label: Community }
+  individual: { label: Individual }
+
+granularity:
+  G1: { label: "G1 — Patch / tile" }
+  G2: { label: "G2 — Region of interest" }
+  G3: { label: "G3 — Whole-slide image" }

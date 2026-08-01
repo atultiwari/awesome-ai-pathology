@@ -1,0 +1,58 @@
+subcategories: []
+tasks:
+- data-management
+- annotation
+subspecialty:
+- any
+organs:
+- any
+modality:
+- wsi
+- fluorescence
+- brightfield
+granularity:
+- G2
+- G3
+platforms:
+- web
+- linux
+- docker
+maintainers:
+- Open Microscopy Environment
+related:
+- digital-slide-archive
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: omero
+name: OMERO
+tagline: Image data management server for microscopy, including whole-slide images.
+category: software-viewer
+audience:
+- researcher
+- developer
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: GPL-2.0
+cost: free
+links:
+  homepage: https://www.openmicroscopy.org/omero/
+  repo: https://github.com/ome/openmicroscopy
+origin: academic
+summary: Long-established server and client suite for storing, annotating and sharing microscopy image
+  data across many proprietary formats.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

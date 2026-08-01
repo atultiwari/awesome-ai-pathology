@@ -1,0 +1,57 @@
+subcategories: []
+tasks:
+- nuclei-segmentation
+- cell-detection
+subspecialty:
+- histopathology
+organs:
+- colon
+- breast
+- any
+modality:
+- he
+granularity:
+- G1
+- G2
+platforms:
+- linux
+maintainers:
+- University of Warwick TIA Centre
+related:
+- stardist
+- cellvit
+- pannuke
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: hovernet
+name: HoVer-Net
+tagline: Simultaneous nucleus segmentation and classification in histology.
+category: task-specific-model
+audience:
+- researcher
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: MIT
+cost: free
+links:
+  repo: https://github.com/vqdang/hover_net
+  paper: https://doi.org/10.1016/j.media.2019.101563
+origin: academic
+summary: Network predicting horizontal and vertical distances to nuclear centres to separate touching
+  nuclei, while simultaneously classifying nucleus type. A standard baseline for nucleus tasks.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

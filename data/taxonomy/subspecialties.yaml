@@ -1,0 +1,37 @@
+# Tier 1 axis — DISCIPLINE. How pathologists identify themselves.
+# Field: subspecialty (list). Organ systems live in organs.yaml — see PLAN §6.18.
+# Rule: dermatopathology is a discipline here; `skin` is an organ there.
+
+any:
+  label: Any / General
+  order: 0
+histopathology:
+  label: Histopathology / Surgical Pathology
+  order: 10
+cytopathology:
+  label: Cytopathology
+  order: 20
+haematopathology:
+  label: Haematopathology
+  order: 30
+molecular-pathology:
+  label: Molecular Pathology & Genomics
+  order: 40
+dermatopathology:
+  label: Dermatopathology
+  order: 50
+neuropathology:
+  label: Neuropathology
+  order: 60
+forensic-pathology:
+  label: Forensic Pathology
+  order: 70
+veterinary-pathology:
+  label: Veterinary Pathology
+  order: 80
+autopsy:
+  label: Autopsy Pathology
+  order: 90
+clinical-pathology:
+  label: Clinical Pathology & Laboratory Medicine
+  order: 100

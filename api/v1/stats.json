@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-08-01",
+  "total_entries": 39,
+  "by_category": {
+    "benchmark": 2,
+    "dataset": 6,
+    "education": 1,
+    "foundation-model": 5,
+    "library-framework": 7,
+    "meta": 1,
+    "qupath-extension": 4,
+    "software-viewer": 5,
+    "standard-interop": 1,
+    "task-specific-model": 4,
+    "vision-language-model": 3
+  },
+  "by_regulatory_status": {
+    "not-applicable": 12,
+    "ruo": 27
+  },
+  "by_stage": {
+    "beta": 4,
+    "production": 33,
+    "research": 2
+  },
+  "derived_facets": {
+    "runs-on-laptop": 29,
+    "works-offline": 31,
+    "no-scanner-needed": 25,
+    "low-resource": 18
+  },
+  "maintainer": {
+    "name": "Dr. Atul Tiwari",
+    "roles": [
+      "Associate Professor, Department of Pathology, Government Medical College, Chittorgarh, Rajasthan, India",
+      "Additional Nodal Officer (AI/ML), Department of Medical Education, Government of Rajasthan, India"
+    ],
+    "orcid": "0000-0002-8048-9541",
+    "declaration": "No commercial affiliations. No sponsored placements. No affiliate links.",
+    "independence": "This is a personal project. It is not an official publication of Government Medical College Chittorgarh or the Government of Rajasthan, and inclusion of any product does not constitute endorsement by any institution."
+  },
+  "repo": "https://github.com/atultiwari/awesome-ai-pathology",
+  "site": "https://pathologyai.org"
+}

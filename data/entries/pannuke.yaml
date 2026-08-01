@@ -1,0 +1,59 @@
+id: pannuke
+name: PanNuke
+tagline: Pan-cancer nucleus instance segmentation and classification dataset.
+category: dataset
+subcategories: []
+tasks:
+- nuclei-segmentation
+- cell-detection
+- model-training
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+granularity:
+- G1
+platforms:
+- web
+maintainers:
+- University of Warwick TIA Centre
+related:
+- hovernet
+- cellvit
+- stardist
+licence_notes: Non-commercial research licence — check the terms before any commercial use.
+self_hostable: false
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: null
+caveats: >-
+  Nucleus class definitions are coarse and were produced semi-automatically then refined; treat
+  per-class performance figures with corresponding caution.
+featured: false
+showcase: false
+audience:
+- researcher
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  homepage: https://warwick.ac.uk/fac/cross_fac/tia/data/pannuke
+  paper: https://arxiv.org/abs/2003.10778
+origin: academic
+summary: >-
+  Nucleus instance segmentation and classification dataset spanning 19 tissue types with five
+  nucleus classes, semi-automatically annotated. One of the standard training and evaluation sets
+  for nucleus models.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

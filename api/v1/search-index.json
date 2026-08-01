@@ -1,0 +1,661 @@
+{
+  "generated_at": "2026-08-01",
+  "entries": [
+    {
+      "id": "asap",
+      "name": "ASAP",
+      "tagline": "Fast whole-slide image viewer with annotation support.",
+      "category": "software-viewer",
+      "tasks": [
+        "annotation",
+        "data-management"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "awesome-pathology-vlms",
+      "name": "Awesome-Pathology-VLMs",
+      "tagline": "Curated list of pathology vision-language models, datasets and benchmarks.",
+      "category": "meta",
+      "tasks": [
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "camelyon16",
+      "name": "CAMELYON16",
+      "tagline": "Lymph node metastasis detection challenge dataset.",
+      "category": "dataset",
+      "tasks": [
+        "classification",
+        "tissue-segmentation",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "lymph-node",
+        "breast"
+      ]
+    },
+    {
+      "id": "cellvit",
+      "name": "CellViT",
+      "tagline": "Vision-transformer nucleus segmentation and classification.",
+      "category": "task-specific-model",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "clam",
+      "name": "CLAM",
+      "tagline": "Attention-based multiple-instance learning for weakly supervised whole-slide classification.",
+      "category": "library-framework",
+      "tasks": [
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "conch",
+      "name": "CONCH",
+      "tagline": "Vision-language foundation model for pathology image-text tasks.",
+      "category": "vision-language-model",
+      "tasks": [
+        "classification",
+        "retrieval-search",
+        "vqa",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "cytomine",
+      "name": "Cytomine",
+      "tagline": "Web-based collaborative platform for annotating and analysing whole-slide images.",
+      "category": "software-viewer",
+      "tasks": [
+        "annotation",
+        "data-management",
+        "education",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "dicom-wsi",
+      "name": "DICOM for Whole Slide Imaging",
+      "tagline": "The vendor-neutral standard for storing and exchanging pathology slides.",
+      "category": "standard-interop",
+      "tasks": [
+        "wsi-io",
+        "data-management",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "digital-slide-archive",
+      "name": "Digital Slide Archive",
+      "tagline": "Server platform for managing, annotating and analysing large slide collections.",
+      "category": "software-viewer",
+      "tasks": [
+        "annotation",
+        "data-management",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "hest",
+      "name": "HEST-1k / HEST-Bench",
+      "tagline": "Paired histology and spatial transcriptomics dataset and benchmark.",
+      "category": "benchmark",
+      "tasks": [
+        "spatial-transcriptomics",
+        "model-training"
+      ],
+      "subspecialty": [
+        "molecular-pathology",
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "histomicstk",
+      "name": "HistomicsTK",
+      "tagline": "Python toolkit for histology image analysis and feature extraction.",
+      "category": "library-framework",
+      "tasks": [
+        "nuclei-segmentation",
+        "stain-normalisation",
+        "ihc-quantification",
+        "wsi-io"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "histoqc",
+      "name": "HistoQC",
+      "tagline": "Automated quality control for whole-slide images.",
+      "category": "task-specific-model",
+      "tasks": [
+        "quality-control"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "hovernet",
+      "name": "HoVer-Net",
+      "tagline": "Simultaneous nucleus segmentation and classification in histology.",
+      "category": "task-specific-model",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "colon",
+        "breast",
+        "any"
+      ]
+    },
+    {
+      "id": "nct-crc-he-100k",
+      "name": "NCT-CRC-HE-100K",
+      "tagline": "Colorectal tissue-type patch classification dataset.",
+      "category": "dataset",
+      "tasks": [
+        "classification",
+        "model-training",
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "colon"
+      ]
+    },
+    {
+      "id": "omero",
+      "name": "OMERO",
+      "tagline": "Image data management server for microscopy, including whole-slide images.",
+      "category": "software-viewer",
+      "tasks": [
+        "data-management",
+        "annotation"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "openslide",
+      "name": "OpenSlide",
+      "tagline": "C library with Python bindings for reading proprietary whole-slide formats.",
+      "category": "library-framework",
+      "tasks": [
+        "wsi-io"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "panda",
+      "name": "PANDA",
+      "tagline": "Prostate biopsy Gleason grading challenge dataset.",
+      "category": "dataset",
+      "tasks": [
+        "grading",
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "prostate"
+      ]
+    },
+    {
+      "id": "pannuke",
+      "name": "PanNuke",
+      "tagline": "Pan-cancer nucleus instance segmentation and classification dataset.",
+      "category": "dataset",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathml",
+      "name": "PathML",
+      "tagline": "Python library for computational pathology preprocessing and modelling.",
+      "category": "library-framework",
+      "tasks": [
+        "wsi-io",
+        "nuclei-segmentation",
+        "stain-normalisation",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "patho-bench",
+      "name": "Patho-Bench",
+      "tagline": "Standardised evaluation suite for pathology slide-level foundation models.",
+      "category": "benchmark",
+      "tasks": [
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathologyoutlines",
+      "name": "PathologyOutlines",
+      "tagline": "Free comprehensive online pathology reference.",
+      "category": "education",
+      "tasks": [
+        "education"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "phikon-v2",
+      "name": "Phikon-v2",
+      "tagline": "Openly licensed pathology tile encoder trained on public cohorts.",
+      "category": "foundation-model",
+      "tasks": [
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "plip",
+      "name": "PLIP",
+      "tagline": "Pathology CLIP model trained on image-text pairs mined from social media.",
+      "category": "vision-language-model",
+      "tasks": [
+        "classification",
+        "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "prov-gigapath",
+      "name": "Prov-GigaPath",
+      "tagline": "Slide-level foundation model with a tile encoder and long-context aggregator.",
+      "category": "foundation-model",
+      "tasks": [
+        "classification",
+        "molecular-prediction",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "quilt-1m",
+      "name": "Quilt-1M",
+      "tagline": "Histopathology image-text pairs mined from educational videos.",
+      "category": "dataset",
+      "tasks": [
+        "model-training",
+        "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "quilt-llava",
+      "name": "Quilt-LLaVA",
+      "tagline": "Instruction-tuned pathology assistant trained from educational video narration.",
+      "category": "vision-language-model",
+      "tasks": [
+        "vqa",
+        "education"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "qupath",
+      "name": "QuPath",
+      "tagline": "Open-source desktop software for whole-slide image analysis and annotation.",
+      "category": "software-viewer",
+      "tasks": [
+        "annotation",
+        "cell-detection",
+        "ihc-quantification",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "qupath-cellpose",
+      "name": "QuPath Cellpose Extension",
+      "tagline": "Brings Cellpose and Omnipose segmentation into QuPath.",
+      "category": "qupath-extension",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "cytopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "qupath-instanseg",
+      "name": "QuPath InstanSeg Extension",
+      "tagline": "InstanSeg nucleus and cell segmentation inside QuPath.",
+      "category": "qupath-extension",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "qupath-stardist",
+      "name": "QuPath StarDist Extension",
+      "tagline": "Runs StarDist star-convex nucleus detection inside QuPath.",
+      "category": "qupath-extension",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "cytopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "slideflow",
+      "name": "Slideflow",
+      "tagline": "End-to-end deep learning pipeline for whole-slide images.",
+      "category": "library-framework",
+      "tasks": [
+        "classification",
+        "model-training",
+        "survival-prediction",
+        "molecular-prediction"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "stardist",
+      "name": "StarDist",
+      "tagline": "Star-convex polygon nucleus detection.",
+      "category": "task-specific-model",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "cytopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "tcga",
+      "name": "TCGA",
+      "tagline": "Pan-cancer whole-slide and molecular data archive.",
+      "category": "dataset",
+      "tasks": [
+        "model-training",
+        "molecular-prediction",
+        "survival-prediction"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "molecular-pathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "tiatoolbox",
+      "name": "TIAToolbox",
+      "tagline": "Python toolbox for computational pathology pipelines.",
+      "category": "library-framework",
+      "tasks": [
+        "wsi-io",
+        "tissue-segmentation",
+        "nuclei-segmentation",
+        "classification",
+        "stain-normalisation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "titan",
+      "name": "TITAN",
+      "tagline": "Multimodal whole-slide foundation model producing slide-level embeddings.",
+      "category": "foundation-model",
+      "tasks": [
+        "classification",
+        "retrieval-search",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "trident",
+      "name": "TRIDENT",
+      "tagline": "Toolkit for whole-slide preprocessing and foundation-model feature extraction.",
+      "category": "library-framework",
+      "tasks": [
+        "wsi-io",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "uni",
+      "name": "UNI",
+      "tagline": "Self-supervised vision foundation model for pathology tile encoding.",
+      "category": "foundation-model",
+      "tasks": [
+        "classification",
+        "model-training",
+        "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "virchow2",
+      "name": "Virchow2",
+      "tagline": "Large pathology vision foundation model trained on a very large slide corpus.",
+      "category": "foundation-model",
+      "tasks": [
+        "classification",
+        "model-training"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "wsinfer",
+      "name": "WSInfer",
+      "tagline": "Runs pretrained patch classification models across whole slides, with a QuPath front end.",
+      "category": "qupath-extension",
+      "tasks": [
+        "classification",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "breast",
+        "prostate",
+        "lung",
+        "colon"
+      ]
+    }
+  ]
+}

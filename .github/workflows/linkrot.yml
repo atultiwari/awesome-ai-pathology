@@ -1,0 +1,58 @@
+name: link rot
+
+# Weekly sweep. Only genuine rot (404, DNS, TLS) fails; rate limiting and
+# anti-bot walls are reported as warnings so the check stays trustworthy.
+on:
+  schedule:
+    - cron: '17 6 * * 1'   # Mondays, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Check every link
+        id: check
+        run: |
+          set +e
+          python3 tools/validate.py --check-links > linkcheck.txt 2>&1
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+          cat linkcheck.txt
+
+      - name: Open an issue if links are broken
+        if: steps.check.outputs.status != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('linkcheck.txt', 'utf8');
+            const title = 'Broken links detected by the weekly sweep';
+            const existing = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'link-rot',
+            });
+            const text = ['Weekly link check failed.', '', '```', body.slice(0, 55000), '```'].join('\n');
+            if (existing.data.length) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.data[0].number, body: text,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body: text, labels: ['link-rot'],
+              });
+            }

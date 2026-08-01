@@ -1,0 +1,57 @@
+subcategories: []
+tasks:
+- classification
+- model-training
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+granularity:
+- G1
+platforms:
+- linux
+- macos
+maintainers:
+- Owkin
+related:
+- uni
+- virchow2
+licence_notes: Openly licensed — unusual among pathology foundation models and worth preferring where
+  it performs comparably.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: Notable because it is genuinely open — no access request, no non-commercial restriction.
+caveats: null
+featured: false
+showcase: false
+id: phikon-v2
+name: Phikon-v2
+tagline: Openly licensed pathology tile encoder trained on public cohorts.
+category: foundation-model
+audience:
+- researcher
+- developer
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: MIT
+cost: free
+links:
+  model: https://huggingface.co/owkin/phikon-v2
+  paper: https://arxiv.org/abs/2409.09173
+origin: industry
+summary: ViT trained with DINOv2 on public histopathology cohorts and released under a permissive licence,
+  making it one of the few pathology encoders usable without gated access.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

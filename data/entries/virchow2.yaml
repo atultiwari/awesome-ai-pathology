@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- classification
+- model-training
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+granularity:
+- G1
+platforms:
+- linux
+maintainers:
+- Paige AI
+related:
+- uni
+- prov-gigapath
+licence_notes: Gated on Hugging Face; check the model card for permitted use.
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 32
+clinician_note: null
+caveats: Industry-released with gated access; the training corpus is not public.
+featured: false
+showcase: false
+id: virchow2
+name: Virchow2
+tagline: Large pathology vision foundation model trained on a very large slide corpus.
+category: foundation-model
+audience:
+- researcher
+- developer
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: gated
+cost: free-for-academic
+links:
+  model: https://huggingface.co/paige-ai/Virchow2
+  paper: https://arxiv.org/abs/2408.00738
+origin: industry
+summary: Vision transformer trained self-supervised on a very large multi-institutional slide collection,
+  released for research as a general-purpose tile encoder.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

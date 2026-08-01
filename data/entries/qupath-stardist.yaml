@@ -1,0 +1,60 @@
+subcategories: []
+tasks:
+- nuclei-segmentation
+- cell-detection
+subspecialty:
+- histopathology
+- cytopathology
+organs:
+- any
+modality:
+- he
+- ihc
+- fluorescence
+granularity:
+- G1
+- G2
+platforms:
+- windows
+- macos
+- linux
+maintainers:
+- QuPath team
+related:
+- qupath
+- stardist
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: none
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: Adds automatic nucleus detection to QuPath. Runs on a normal laptop, no coding needed.
+caveats: null
+featured: true
+showcase: false
+id: qupath-stardist
+name: QuPath StarDist Extension
+tagline: Runs StarDist star-convex nucleus detection inside QuPath.
+category: qupath-extension
+audience:
+- clinician
+- researcher
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: Apache-2.0
+cost: free
+links:
+  repo: https://github.com/qupath/qupath-extension-stardist
+  docs: https://qupath.readthedocs.io/en/stable/docs/deep/stardist.html
+origin: academic
+summary: Official QuPath extension wrapping StarDist, giving point-and-click nucleus segmentation on H&E,
+  IHC and fluorescence images without writing code.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

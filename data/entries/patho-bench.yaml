@@ -1,0 +1,53 @@
+subcategories: []
+tasks:
+- classification
+- model-training
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+granularity:
+- G3
+platforms:
+- linux
+maintainers:
+- Mahmood Lab, Harvard Medical School
+related:
+- titan
+- uni
+- trident
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: true
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: patho-bench
+name: Patho-Bench
+tagline: Standardised evaluation suite for pathology slide-level foundation models.
+category: benchmark
+audience:
+- researcher
+stage: beta
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  repo: https://github.com/mahmoodlab/Patho-Bench
+origin: academic
+summary: Harness for comparing slide-level foundation models across many public tasks under consistent
+  splits and protocols, reducing the incomparability of self-reported numbers.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

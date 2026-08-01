@@ -1,0 +1,61 @@
+subcategories: []
+tasks:
+- wsi-io
+- nuclei-segmentation
+- stain-normalisation
+- model-training
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- wsi
+- he
+- ihc
+- multiplex
+granularity:
+- G1
+- G2
+- G3
+platforms:
+- linux
+- macos
+maintainers:
+- Dana-Farber Cancer Institute AI Operations & Data Science
+related:
+- tiatoolbox
+licence_notes: null
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: low
+needs_scanner: true
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+id: pathml
+name: PathML
+tagline: Python library for computational pathology preprocessing and modelling.
+category: library-framework
+audience:
+- researcher
+- developer
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-01'
+licence: GPL-2.0
+cost: free
+links:
+  repo: https://github.com/Dana-Farber-AIOS/pathml
+  docs: https://pathml.readthedocs.io/
+origin: academic
+summary: Framework for building reproducible pathology pipelines, with support for brightfield, multiparametric
+  and volumetric imaging and a preprocessing DSL.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'

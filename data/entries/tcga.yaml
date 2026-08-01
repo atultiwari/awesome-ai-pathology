@@ -1,0 +1,58 @@
+subcategories: []
+tasks:
+- model-training
+- molecular-prediction
+- survival-prediction
+subspecialty:
+- histopathology
+- molecular-pathology
+organs:
+- any
+modality:
+- wsi
+- he
+- omics
+granularity:
+- G3
+platforms:
+- web
+maintainers:
+- National Cancer Institute
+related:
+- camelyon16
+- clam
+licence_notes: Open and controlled-access tiers; controlled data requires dbGaP authorisation.
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: Tissue-source-site signal is a well-documented confounder — split by site, not just by patient,
+  or results inflate.
+featured: true
+showcase: false
+id: tcga
+name: TCGA
+tagline: Pan-cancer whole-slide and molecular data archive.
+category: dataset
+audience:
+- researcher
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-01'
+licence: unknown
+cost: free
+links:
+  homepage: https://www.cancer.gov/ccg/research/genome-sequencing/tcga
+  dataset: https://portal.gdc.cancer.gov/
+origin: academic
+summary: The most widely used public source of paired whole-slide images and molecular data across cancer
+  types, underpinning most published WSI classification, survival and biomarker work.
+added_on: '2026-08-01'
+last_verified: '2026-08-01'
