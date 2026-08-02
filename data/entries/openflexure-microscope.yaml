@@ -1,0 +1,59 @@
+subcategories: []
+tasks:
+- telepathology
+- education
+- annotation
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- linux
+- web
+maintainers:
+- OpenFlexure Project
+- University of Bath
+related:
+- grundium-ocus
+- qupath
+licence: CERN-OHL-S-2.0
+licence_notes: Open hardware licence; the software is separately open-source.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: none
+needs_scanner: false
+min_ram_gb: 4
+clinician_note: The genuinely low-cost option. You print the body, add optics and a Raspberry Pi, and
+  get automated scanning for telepathology or teaching.
+caveats: Not a diagnostic device, and image quality does not match a commercial scanner. Appropriate for
+  education, documentation and second opinions rather than primary diagnosis.
+featured: true
+showcase: false
+origin: community
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- clinician
+- educator
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+category: hardware-lowresource
+id: openflexure-microscope
+name: OpenFlexure Microscope
+tagline: Open-source 3D-printed automated microscope for low-resource settings.
+links:
+  homepage: https://openflexure.org/about/pathology
+  repo: https://gitlab.com/openflexure/openflexure-microscope
+summary: 3D-printable motorised microscope that automates scanning and stitches composite images viewable
+  on a laptop, tablet or phone. Designed explicitly for settings where a commercial scanner is out of
+  reach.

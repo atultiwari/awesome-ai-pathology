@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01",
+  "generated_at": "2026-08-02",
   "entries": [
     {
       "id": "arch-dataset",
@@ -80,6 +80,19 @@
       ]
     },
     {
+      "id": "batch-effect-acquisition-site",
+      "name": "Predicting Acquisition Site from TCGA Images",
+      "tagline": "Independent confirmation that acquisition site leaks into the pixels.",
+      "category": "ethics-safety",
+      "tasks": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "camelyon16",
       "name": "CAMELYON16",
       "tagline": "Lymph node metastasis detection challenge dataset.",
@@ -98,6 +111,21 @@
       ]
     },
     {
+      "id": "cap-wsi-validation-guideline",
+      "name": "CAP Guideline — Validating Whole Slide Imaging",
+      "tagline": "The reference guideline for validating a WSI system for diagnostic use.",
+      "category": "validation-regulatory",
+      "tasks": [
+        "quality-control"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "cellvit",
       "name": "CellViT",
       "tagline": "Vision-transformer nucleus segmentation and classification.",
@@ -108,6 +136,19 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "claim-checklist",
+      "name": "CLAIM",
+      "tagline": "Checklist for artificial intelligence in medical imaging.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"
@@ -158,6 +199,19 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "consort-spirit-ai",
+      "name": "CONSORT-AI and SPIRIT-AI",
+      "tagline": "Trial reporting and protocol guidelines for AI interventions.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"
@@ -216,6 +270,19 @@
       ]
     },
     {
+      "id": "decide-ai",
+      "name": "DECIDE-AI",
+      "tagline": "Reporting guideline for early live clinical evaluation of AI decision support.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "dicom-wsi",
       "name": "DICOM for Whole Slide Imaging",
       "tagline": "The vendor-neutral standard for storing and exchanging pathology slides.",
@@ -250,6 +317,22 @@
       ]
     },
     {
+      "id": "dpa-telepathology-resources",
+      "name": "Digital Pathology Association",
+      "tagline": "Professional body publishing practical digital pathology guidance.",
+      "category": "education",
+      "tasks": [
+        "education",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "dr-llava",
       "name": "Dr-LLaVA",
       "tagline": "Instruction tuning grounded in symbolic clinical reasoning.",
@@ -274,6 +357,62 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "eu-ivdr",
+      "name": "EU IVDR 2017/746",
+      "tagline": "The regulation governing in vitro diagnostic devices in the European Union.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "fda-gmlp",
+      "name": "Good Machine Learning Practice for Medical Device Development",
+      "tagline": "Ten guiding principles agreed by the FDA, Health Canada and the MHRA.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "fda-samd-pccp",
+      "name": "FDA Predetermined Change Control Plans for AI Devices",
+      "tagline": "How a cleared AI device may be updated without a new submission.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "grundium-ocus",
+      "name": "Grundium Ocus",
+      "tagline": "Portable single-slide scanner at a fraction of the cost of a bulk system.",
+      "category": "hardware-lowresource",
+      "tasks": [
+        "wsi-io",
+        "telepathology",
+        "education"
+      ],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"
@@ -365,6 +504,19 @@
       ]
     },
     {
+      "id": "iec-62304",
+      "name": "IEC 62304",
+      "tagline": "International standard for medical device software lifecycle processes.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "indica-halo-ap-dx",
       "name": "Indica Labs HALO AP Dx",
       "tagline": "Anatomic pathology workflow and image analysis platform.",
@@ -376,6 +528,32 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "iso-14971",
+      "name": "ISO 14971",
+      "tagline": "Risk management standard for medical devices.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "known-failure-modes",
+      "name": "Known Failure Modes in Pathology AI",
+      "tagline": "A plain-language index of how these systems actually go wrong.",
+      "category": "ethics-safety",
+      "tasks": [],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"
@@ -466,10 +644,42 @@
       ]
     },
     {
+      "id": "openflexure-microscope",
+      "name": "OpenFlexure Microscope",
+      "tagline": "Open-source 3D-printed automated microscope for low-resource settings.",
+      "category": "hardware-lowresource",
+      "tasks": [
+        "telepathology",
+        "education",
+        "annotation"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "openslide",
       "name": "OpenSlide",
       "tagline": "C library with Python bindings for reading proprietary whole-slide formats.",
       "category": "library-framework",
+      "tasks": [
+        "wsi-io"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "openwsi",
+      "name": "OpenWSI",
+      "tagline": "Low-cost high-throughput whole slide imaging from open-source hardware.",
+      "category": "hardware-lowresource",
       "tasks": [
         "wsi-io"
       ],
@@ -1066,6 +1276,19 @@
       ]
     },
     {
+      "id": "site-specific-signatures",
+      "name": "Site-Specific Digital Histology Signatures",
+      "tagline": "Evidence that models can learn the submitting site instead of the biology.",
+      "category": "ethics-safety",
+      "tasks": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "slidechat",
       "name": "SlideChat",
       "tagline": "Vision-language assistant operating on whole slides rather than patches.",
@@ -1125,6 +1348,32 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "stain-scanner-variability",
+      "name": "Stain and Scanner Variability",
+      "tagline": "Why a model trained in one laboratory degrades in another.",
+      "category": "ethics-safety",
+      "tasks": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "stard-ai",
+      "name": "STARD-AI",
+      "tagline": "Reporting guideline for AI diagnostic accuracy studies.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"
@@ -1212,6 +1461,19 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "tripod-ai",
+      "name": "TRIPOD+AI",
+      "tagline": "Reporting guideline for clinical prediction models using machine learning.",
+      "category": "validation-regulatory",
+      "tasks": [],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"

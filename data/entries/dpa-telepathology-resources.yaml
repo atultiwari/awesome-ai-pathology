@@ -1,0 +1,51 @@
+subcategories: []
+tasks:
+- education
+- telepathology
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- Digital Pathology Association
+related:
+- cap-wsi-validation-guideline
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: A good starting point if your department is considering going digital and wants peer experience
+  rather than vendor material.
+caveats: null
+featured: false
+showcase: false
+origin: community
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- clinician
+- educator
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+category: education
+id: dpa-telepathology-resources
+name: Digital Pathology Association
+tagline: Professional body publishing practical digital pathology guidance.
+links:
+  homepage: https://digitalpathologyassociation.org/
+summary: Professional association publishing white papers, webinars and practical guidance on adopting
+  digital pathology, including validation and telepathology workflows.

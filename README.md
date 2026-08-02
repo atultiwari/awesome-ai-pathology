@@ -2,7 +2,7 @@
 
 <p align='center'>
   <a href='https://github.com/sindresorhus/awesome'><img src='https://awesome.re/badge.svg' alt='Awesome'></a>
-  <img src='https://img.shields.io/badge/entries-80-blue.svg' alt='entries'>
+  <img src='https://img.shields.io/badge/entries-99-blue.svg' alt='entries'>
   <a href='LICENSE'><img src='https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg' alt='content licence'></a>
   <a href='LICENSE-CODE'><img src='https://img.shields.io/badge/code-MIT-lightgrey.svg' alt='code licence'></a>
 </p>
@@ -42,7 +42,10 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 - [Agents & MCP Servers](#agents--mcp-servers) (3)
 - [Commercial Products](#commercial-products) (13)
 - [Standards & Interoperability](#standards--interoperability) (1)
-- [Education & Training](#education--training) (1)
+- [Validation, QA & Regulatory Science](#validation-qa--regulatory-science) (11)
+- [Ethics, Bias & Failure Modes](#ethics-bias--failure-modes) (4)
+- [Education & Training](#education--training) (2)
+- [Low-Resource Pathology & Hardware](#low-resource-pathology--hardware) (3)
 - [Meta — Other Lists & Community](#meta--other-lists--community) (1)
 
 ---
@@ -224,15 +227,61 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 
 [Browse all Standards & Interoperability →](browse/category/standard-interop.md)
 
+## Validation, QA & Regulatory Science
+
+✅ Validation guidance, reporting checklists, quality standards and post-deployment monitoring practice.
+
+| Name | What it does | Status | Cost / Hardware | Tasks | Links |
+| --- | --- | --- | --- | --- | --- |
+| **[CAP Guideline — Validating Whole Slide Imaging](https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/validating-whole-slide-imaging-for-diagnostic-purposes-in-pathology)** | The reference guideline for validating a WSI system for diagnostic use. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | [`Check slide quality and artefacts`](browse/task/quality-control.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/validating-whole-slide-imaging-for-diagnostic-purposes-in-pathology) |
+| **[CLAIM](https://pubs.rsna.org/journal/ai)** | Checklist for artificial intelligence in medical imaging. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://pubs.rsna.org/journal/ai) |
+| **CONSORT-AI and SPIRIT-AI** | Trial reporting and protocol guidelines for AI interventions. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1038/s41591-020-1034-x) |
+| **DECIDE-AI** | Reporting guideline for early live clinical evaluation of AI decision support. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1136/bmj-2022-070904) |
+| **[EU IVDR 2017/746](https://eur-lex.europa.eu/eli/reg/2017/746/oj)** | The regulation governing in vitro diagnostic devices in the European Union. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://eur-lex.europa.eu/eli/reg/2017/746/oj) |
+| **[Good Machine Learning Practice for Medical Device Development](https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles)** | Ten guiding principles agreed by the FDA, Health Canada and the MHRA. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles) |
+| **[FDA Predetermined Change Control Plans for AI Devices](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence)** | How a cleared AI device may be updated without a new submission. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence) |
+| **[IEC 62304](https://www.iso.org/standard/38421.html)** | International standard for medical device software lifecycle processes. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | paid · cpu | — | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.iso.org/standard/38421.html) |
+| **[ISO 14971](https://www.iso.org/standard/72704.html)** | Risk management standard for medical devices. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | paid · cpu | — | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.iso.org/standard/72704.html) |
+| **STARD-AI** | Reporting guideline for AI diagnostic accuracy studies. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://www.nature.com/articles/s41591-025-03953-8) |
+| **TRIPOD+AI** | Reporting guideline for clinical prediction models using machine learning. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1136/bmj-2023-078378) |
+
+[Browse all Validation, QA & Regulatory Science →](browse/category/validation-regulatory.md)
+
+## Ethics, Bias & Failure Modes
+
+⚖️ Known failure modes, dataset bias, site-specific confounding, calibration and the limits of explainability.
+
+| Name | What it does | Status | Cost / Hardware | Tasks | Links |
+| --- | --- | --- | --- | --- | --- |
+| **Predicting Acquisition Site from TCGA Images** | Independent confirmation that acquisition site leaks into the pixels. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10189924/) |
+| **[Known Failure Modes in Pathology AI](https://github.com/atultiwari/awesome-ai-pathology/blob/main/DISCLAIMER.md)** | A plain-language index of how these systems actually go wrong. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://github.com/atultiwari/awesome-ai-pathology/blob/main/DISCLAIMER.md) |
+| **Site-Specific Digital Histology Signatures** | Evidence that models can learn the submitting site instead of the biology. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1038/s41467-021-24698-1) |
+| **Stain and Scanner Variability** | Why a model trained in one laboratory degrades in another. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1038/s43856-022-00186-5) |
+
+[Browse all Ethics, Bias & Failure Modes →](browse/category/ethics-safety.md)
+
 ## Education & Training
 
 🎓 Courses, tutorials, atlases, slide boxes, societies and conferences for learning pathology AI.
 
 | Name | What it does | Status | Cost / Hardware | Tasks | Links |
 | --- | --- | --- | --- | --- | --- |
+| **[Digital Pathology Association](https://digitalpathologyassociation.org/)** | Professional body publishing practical digital pathology guidance. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | [`Teach and learn`](browse/task/education.md) [`Consult remotely`](browse/task/telepathology.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://digitalpathologyassociation.org/) |
 | **[PathologyOutlines](https://www.pathologyoutlines.com/)** | Free comprehensive online pathology reference. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | [`Teach and learn`](browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.pathologyoutlines.com/) |
 
 [Browse all Education & Training →](browse/category/education.md)
+
+## Low-Resource Pathology & Hardware
+
+🔬 Tools and hardware for settings without a scanner, a cluster, or a budget — smartphone microscopy, telepathology, offline-capable software.
+
+| Name | What it does | Status | Cost / Hardware | Tasks | Links |
+| --- | --- | --- | --- | --- | --- |
+| **[Grundium Ocus](https://www.grundium.com/)** | Portable single-slide scanner at a fraction of the cost of a bulk system. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | paid · cpu | [`Read and convert slide formats`](browse/task/wsi-io.md) [`Consult remotely`](browse/task/telepathology.md) [`Teach and learn`](browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.grundium.com/) |
+| **[OpenFlexure Microscope](https://openflexure.org/about/pathology)** | Open-source 3D-printed automated microscope for low-resource settings. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · cpu · 🌍 | [`Consult remotely`](browse/task/telepathology.md) [`Teach and learn`](browse/task/education.md) [`Annotate slides`](browse/task/annotation.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://gitlab.com/openflexure/openflexure-microscope) [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://openflexure.org/about/pathology) |
+| **OpenWSI** | Low-cost high-throughput whole slide imaging from open-source hardware. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · cpu · 🌍 | [`Read and convert slide formats`](browse/task/wsi-io.md) | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://arxiv.org/abs/1912.03446) |
+
+[Browse all Low-Resource Pathology & Hardware →](browse/category/hardware-lowresource.md)
 
 ## Meta — Other Lists & Community
 

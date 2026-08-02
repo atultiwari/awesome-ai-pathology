@@ -1,0 +1,50 @@
+subcategories: []
+tasks: []
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- European Union
+related:
+- cap-wsi-validation-guideline
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: '''CE marked'' under the old directive and under IVDR are not the same claim. Check which
+  one a vendor means.'
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- developer
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: eu-ivdr
+category: validation-regulatory
+name: EU IVDR 2017/746
+tagline: The regulation governing in vitro diagnostic devices in the European Union.
+links:
+  homepage: https://eur-lex.europa.eu/eli/reg/2017/746/oj
+summary: Full legal text of the In Vitro Diagnostic Regulation, which governs CE marking for diagnostic
+  software including pathology algorithms, and which reclassified much software upward in risk class compared
+  with the previous directive.

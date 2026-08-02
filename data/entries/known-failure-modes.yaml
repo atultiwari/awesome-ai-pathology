@@ -1,0 +1,54 @@
+subcategories: []
+tasks: []
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- Awesome AI in Pathology
+related:
+- site-specific-signatures
+- cleanslide
+- decide-ai
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: Read this before trusting any performance figure. Most published accuracy is measured
+  under conditions that do not resemble a working laboratory.
+caveats: Maintained by this project rather than drawn from a single source; each failure mode links to
+  its own primary literature.
+featured: true
+showcase: false
+origin: community
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- clinician
+- researcher
+- educator
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: known-failure-modes
+category: ethics-safety
+name: Known Failure Modes in Pathology AI
+tagline: A plain-language index of how these systems actually go wrong.
+links:
+  homepage: https://github.com/atultiwari/awesome-ai-pathology/blob/main/DISCLAIMER.md
+summary: 'Curated index of documented failure modes: site and batch confounding, scanner and stain variability,
+  distribution shift after deployment, miscalibrated confidence, hallucinated findings in generative models,
+  and automation bias in the reader.'

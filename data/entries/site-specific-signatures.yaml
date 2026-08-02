@@ -1,0 +1,51 @@
+subcategories: []
+tasks: []
+subspecialty:
+- histopathology
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers: []
+related:
+- tcga
+- cleanslide
+- batch-effect-acquisition-site
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: The most important cautionary result in computational pathology. It explains why a model
+  reporting excellent accuracy on TCGA may fail completely on your slides.
+caveats: null
+featured: true
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- researcher
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: site-specific-signatures
+category: ethics-safety
+name: Site-Specific Digital Histology Signatures
+tagline: Evidence that models can learn the submitting site instead of the biology.
+links:
+  paper: https://doi.org/10.1038/s41467-021-24698-1
+summary: Shows that images from different TCGA submitting sites are distinguishable by deep learning,
+  that stain normalisation and augmentation do not remove the signal, and that this produces biased accuracy
+  for survival, mutation and stage prediction.

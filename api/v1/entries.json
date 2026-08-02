@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-01",
+  "generated_at": "2026-08-02",
   "schema_version": "1.0.0",
-  "count": 80,
+  "count": 99,
   "entries": [
     {
       "subcategories": [],
@@ -352,6 +352,67 @@
     },
     {
       "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [],
+      "related": [
+        "site-specific-signatures",
+        "tcga"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "batch-effect-acquisition-site",
+      "category": "ethics-safety",
+      "name": "Predicting Acquisition Site from TCGA Images",
+      "tagline": "Independent confirmation that acquisition site leaks into the pixels.",
+      "links": {
+        "paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10189924/"
+      },
+      "summary": "Demonstrates that networks can identify which institution produced a TCGA slide, reinforcing that site is a confounder that must be controlled in study design rather than assumed away.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
       "tasks": [
         "classification",
         "tissue-segmentation",
@@ -428,6 +489,71 @@
     {
       "subcategories": [],
       "tasks": [
+        "quality-control"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "College of American Pathologists"
+      ],
+      "related": [
+        "leica-aperio-gt450-dx",
+        "philips-intellisite"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "If your laboratory is going digital, this is the document your validation study will be judged against. Read it before you buy a scanner, not after.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "cap-wsi-validation-guideline",
+      "category": "validation-regulatory",
+      "name": "CAP Guideline — Validating Whole Slide Imaging",
+      "tagline": "The reference guideline for validating a WSI system for diagnostic use.",
+      "links": {
+        "homepage": "https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/validating-whole-slide-imaging-for-diagnostic-purposes-in-pathology"
+      },
+      "summary": "Evidence-based guidance from CAP, with ASCP and the Association for Pathology Informatics, on how a laboratory should validate a whole slide imaging system before using it for diagnosis. Originally issued 2013 and updated in 2021 using the GRADE framework.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
         "nuclei-segmentation",
         "cell-detection"
       ],
@@ -491,6 +617,69 @@
       "summary": "Transformer-based nucleus instance segmentation built on pretrained ViT encoders, with inference tooling for scaling detection across whole slides.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Radiology: Artificial Intelligence"
+      ],
+      "related": [
+        "tripod-ai",
+        "stard-ai"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "claim-checklist",
+      "category": "validation-regulatory",
+      "name": "CLAIM",
+      "tagline": "Checklist for artificial intelligence in medical imaging.",
+      "links": {
+        "homepage": "https://pubs.rsna.org/journal/ai"
+      },
+      "summary": "Reporting checklist aimed specifically at medical imaging AI, covering data handling, ground truth definition, model description and evaluation. Widely requested by imaging journals at submission.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -712,6 +901,69 @@
       "summary": "Contrastively pretrained image-text model for pathology supporting zero-shot classification, cross-modal retrieval, captioning and segmentation.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "CONSORT-AI / SPIRIT-AI Working Group"
+      ],
+      "related": [
+        "decide-ai",
+        "tripod-ai"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "consort-spirit-ai",
+      "category": "validation-regulatory",
+      "name": "CONSORT-AI and SPIRIT-AI",
+      "tagline": "Trial reporting and protocol guidelines for AI interventions.",
+      "links": {
+        "paper": "https://doi.org/10.1038/s41591-020-1034-x"
+      },
+      "summary": "Extensions of the CONSORT and SPIRIT statements for randomised trials evaluating interventions that include an AI component, published together in Nature Medicine.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -950,6 +1202,70 @@
     },
     {
       "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "DECIDE-AI Steering Group"
+      ],
+      "related": [
+        "tripod-ai",
+        "consort-spirit-ai"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "The stage most pathology AI has never been through. Worth asking a vendor whether their product has.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "decide-ai",
+      "category": "validation-regulatory",
+      "name": "DECIDE-AI",
+      "tagline": "Reporting guideline for early live clinical evaluation of AI decision support.",
+      "links": {
+        "paper": "https://doi.org/10.1136/bmj-2022-070904"
+      },
+      "summary": "Covers the stage between offline validation and a full trial — the first time an AI system is used by real clinicians on real patients — with emphasis on safety and human factors rather than accuracy alone.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
       "tasks": [
         "wsi-io",
         "data-management",
@@ -1098,6 +1414,72 @@
       }
     },
     {
+      "subcategories": [],
+      "tasks": [
+        "education",
+        "telepathology"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Digital Pathology Association"
+      ],
+      "related": [
+        "cap-wsi-validation-guideline"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "A good starting point if your department is considering going digital and wants peer experience rather than vendor material.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "clinician",
+        "educator"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "category": "education",
+      "id": "dpa-telepathology-resources",
+      "name": "Digital Pathology Association",
+      "tagline": "Professional body publishing practical digital pathology guidance.",
+      "links": {
+        "homepage": "https://digitalpathologyassociation.org/"
+      },
+      "summary": "Professional association publishing white papers, webinars and practical guidance on adopting digital pathology, including validation and telepathology workflows.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [
         "generative"
       ],
@@ -1234,6 +1616,266 @@
         "verified_on": "2026-08-02"
       },
       "summary": "Builds a large set of preferred and rejected response pairs and applies iterative preference optimisation, targeting multimodal hallucination and biased answers — a failure mode that matters more in pathology than in general vision tasks.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "European Union"
+      ],
+      "related": [
+        "cap-wsi-validation-guideline"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "'CE marked' under the old directive and under IVDR are not the same claim. Check which one a vendor means.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "developer",
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "eu-ivdr",
+      "category": "validation-regulatory",
+      "name": "EU IVDR 2017/746",
+      "tagline": "The regulation governing in vitro diagnostic devices in the European Union.",
+      "links": {
+        "homepage": "https://eur-lex.europa.eu/eli/reg/2017/746/oj"
+      },
+      "summary": "Full legal text of the In Vitro Diagnostic Regulation, which governs CE marking for diagnostic software including pathology algorithms, and which reclassified much software upward in risk class compared with the previous directive.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "US FDA",
+        "Health Canada",
+        "MHRA"
+      ],
+      "related": [
+        "fda-samd-pccp",
+        "iec-62304"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "Short, plain and non-technical. The quickest way to see what regulators expect of a medical AI product.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "developer",
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "fda-gmlp",
+      "category": "validation-regulatory",
+      "name": "Good Machine Learning Practice for Medical Device Development",
+      "tagline": "Ten guiding principles agreed by the FDA, Health Canada and the MHRA.",
+      "links": {
+        "homepage": "https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles"
+      },
+      "summary": "Joint statement of ten principles covering data quality, representativeness, training and test independence, human factors and lifecycle monitoring for medical-device machine learning.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "US FDA"
+      ],
+      "related": [
+        "fda-gmlp"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "developer"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "fda-samd-pccp",
+      "category": "validation-regulatory",
+      "name": "FDA Predetermined Change Control Plans for AI Devices",
+      "tagline": "How a cleared AI device may be updated without a new submission.",
+      "links": {
+        "homepage": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence"
+      },
+      "summary": "FDA guidance on describing, in advance, the modifications an AI-enabled device may undergo after clearance and how they will be validated — the mechanism that makes a continuously-learning device regulable at all.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "wsi-io",
+        "telepathology",
+        "education"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Grundium Oy"
+      ],
+      "related": [
+        "openflexure-microscope",
+        "openslide"
+      ],
+      "licence": "proprietary",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "paid",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "A realistic entry point for a department that cannot justify a bulk scanner. Small enough to sit on a desk.",
+      "caveats": "Regulatory status varies by model and jurisdiction and was NOT verified against a primary regulator record for this entry — confirm before any diagnostic use.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "clinician",
+        "educator",
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "category": "hardware-lowresource",
+      "id": "grundium-ocus",
+      "name": "Grundium Ocus",
+      "tagline": "Portable single-slide scanner at a fraction of the cost of a bulk system.",
+      "links": {
+        "homepage": "https://www.grundium.com/"
+      },
+      "summary": "Compact desktop scanner handling one slide at a time, aimed at telepathology, consultation, case documentation and teaching rather than high-volume clinical throughput.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -1614,6 +2256,69 @@
     },
     {
       "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "IEC"
+      ],
+      "related": [
+        "iso-14971",
+        "fda-gmlp"
+      ],
+      "licence": "proprietary",
+      "licence_notes": "The standard must be purchased from IEC or a national body.",
+      "cost": "paid",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Not free. Budget for it if you intend to build a regulated product.",
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "developer"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "iec-62304",
+      "category": "validation-regulatory",
+      "name": "IEC 62304",
+      "tagline": "International standard for medical device software lifecycle processes.",
+      "links": {
+        "homepage": "https://www.iso.org/standard/38421.html"
+      },
+      "summary": "Defines the lifecycle requirements for medical device software: planning, requirements, architecture, verification, release and maintenance, scaled by safety class.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
       "tasks": [
         "annotation",
         "data-management",
@@ -1674,6 +2379,134 @@
         "homepage": "https://indicalab.com/"
       },
       "summary": "Case management and viewing platform for anatomic pathology, from a company whose research image-analysis software is widely used in academic laboratories.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "ISO"
+      ],
+      "related": [
+        "iec-62304"
+      ],
+      "licence": "proprietary",
+      "licence_notes": "The standard must be purchased.",
+      "cost": "paid",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "Not free.",
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "developer"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "iso-14971",
+      "category": "validation-regulatory",
+      "name": "ISO 14971",
+      "tagline": "Risk management standard for medical devices.",
+      "links": {
+        "homepage": "https://www.iso.org/standard/72704.html"
+      },
+      "summary": "The framework regulators expect for identifying hazards, estimating risk and showing that residual risk is acceptable. Underpins nearly every other device requirement.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Awesome AI in Pathology"
+      ],
+      "related": [
+        "site-specific-signatures",
+        "cleanslide",
+        "decide-ai"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "Read this before trusting any performance figure. Most published accuracy is measured under conditions that do not resemble a working laboratory.",
+      "caveats": "Maintained by this project rather than drawn from a single source; each failure mode links to its own primary literature.",
+      "featured": true,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "clinician",
+        "researcher",
+        "educator"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "known-failure-modes",
+      "category": "ethics-safety",
+      "name": "Known Failure Modes in Pathology AI",
+      "tagline": "A plain-language index of how these systems actually go wrong.",
+      "links": {
+        "homepage": "https://github.com/atultiwari/awesome-ai-pathology/blob/main/DISCLAIMER.md"
+      },
+      "summary": "Curated index of documented failure modes: site and batch confounding, scanner and stain variability, distribution shift after deployment, miscalibrated confidence, hallucinated findings in generative models, and automation bias in the reader.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -2056,6 +2889,78 @@
     {
       "subcategories": [],
       "tasks": [
+        "telepathology",
+        "education",
+        "annotation"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "linux",
+        "web"
+      ],
+      "maintainers": [
+        "OpenFlexure Project",
+        "University of Bath"
+      ],
+      "related": [
+        "grundium-ocus",
+        "qupath"
+      ],
+      "licence": "CERN-OHL-S-2.0",
+      "licence_notes": "Open hardware licence; the software is separately open-source.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "none",
+      "needs_scanner": false,
+      "min_ram_gb": 4,
+      "clinician_note": "The genuinely low-cost option. You print the body, add optics and a Raspberry Pi, and get automated scanning for telepathology or teaching.",
+      "caveats": "Not a diagnostic device, and image quality does not match a commercial scanner. Appropriate for education, documentation and second opinions rather than primary diagnosis.",
+      "featured": true,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "clinician",
+        "educator",
+        "researcher"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "category": "hardware-lowresource",
+      "id": "openflexure-microscope",
+      "name": "OpenFlexure Microscope",
+      "tagline": "Open-source 3D-printed automated microscope for low-resource settings.",
+      "links": {
+        "homepage": "https://openflexure.org/about/pathology",
+        "repo": "https://gitlab.com/openflexure/openflexure-microscope"
+      },
+      "summary": "3D-printable motorised microscope that automates scanning and stitches composite images viewable on a laptop, tablet or phone. Designed explicitly for settings where a commercial scanner is out of reach.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
         "wsi-io"
       ],
       "subspecialty": [
@@ -2119,6 +3024,69 @@
       "summary": "The foundational library for reading vendor whole-slide formats (Aperio, Hamamatsu, Leica, MIRAX and others) through one common interface. Most Python pathology tooling depends on it.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [
+        "wsi-io"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "openflexure-microscope"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": "A research design rather than a product; building it requires hardware skills.",
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "researcher",
+        "developer"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "category": "hardware-lowresource",
+      "id": "openwsi",
+      "name": "OpenWSI",
+      "tagline": "Low-cost high-throughput whole slide imaging from open-source hardware.",
+      "links": {
+        "paper": "https://arxiv.org/abs/1912.03446"
+      },
+      "summary": "Whole slide imaging system built from off-the-shelf and open-source components, using single-frame autofocusing to keep cost and complexity down.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -4746,6 +5714,69 @@
       }
     },
     {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [],
+      "related": [
+        "tcga",
+        "cleanslide",
+        "batch-effect-acquisition-site"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "The most important cautionary result in computational pathology. It explains why a model reporting excellent accuracy on TCGA may fail completely on your slides.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "site-specific-signatures",
+      "category": "ethics-safety",
+      "name": "Site-Specific Digital Histology Signatures",
+      "tagline": "Evidence that models can learn the submitting site instead of the biology.",
+      "links": {
+        "paper": "https://doi.org/10.1038/s41467-021-24698-1"
+      },
+      "summary": "Shows that images from different TCGA submitting sites are distinguishable by deep learning, that stain normalisation and augmentation do not remove the signal, and that this produces biased accuracy for survival, mutation and stage prediction.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [
         "generative"
       ],
@@ -5034,6 +6065,133 @@
         "verified_on": "2026-08-02"
       },
       "summary": "Combines scale-dependent fine-tuning with task-aware reinforcement learning and expert routing so one model can serve both region-level and slide-level questions.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [],
+      "related": [
+        "tiatoolbox",
+        "site-specific-signatures",
+        "histoqc"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "stain-scanner-variability",
+      "category": "ethics-safety",
+      "name": "Stain and Scanner Variability",
+      "tagline": "Why a model trained in one laboratory degrades in another.",
+      "links": {
+        "paper": "https://doi.org/10.1038/s43856-022-00186-5"
+      },
+      "summary": "Collected evidence and tooling around colour, stain protocol and scanner differences as a source of performance loss, and the normalisation approaches used to mitigate it — none of which fully solve the problem.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "STARD-AI Steering Group"
+      ],
+      "related": [
+        "tripod-ai",
+        "claim-checklist"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "stard-ai",
+      "category": "validation-regulatory",
+      "name": "STARD-AI",
+      "tagline": "Reporting guideline for AI diagnostic accuracy studies.",
+      "links": {
+        "paper": "https://www.nature.com/articles/s41591-025-03953-8"
+      },
+      "summary": "Extension of the STARD statement for studies reporting the diagnostic accuracy of an AI-based test, developed through a multi-stakeholder consensus process.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -5419,6 +6577,71 @@
       "summary": "Pipeline for tissue segmentation, patching and batch feature extraction across many pathology foundation models behind one interface.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "subcategories": [],
+      "tasks": [],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "TRIPOD+AI Group"
+      ],
+      "related": [
+        "stard-ai",
+        "claim-checklist",
+        "decide-ai"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Published document; check the publisher's terms for reuse.",
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "A quick way to judge a paper: if it does not report these items, you cannot tell whether the model would work in your laboratory.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "tripod-ai",
+      "category": "validation-regulatory",
+      "name": "TRIPOD+AI",
+      "tagline": "Reporting guideline for clinical prediction models using machine learning.",
+      "links": {
+        "paper": "https://doi.org/10.1136/bmj-2023-078378"
+      },
+      "summary": "Updated TRIPOD statement covering prediction models built with regression or machine learning. Published in the BMJ in 2024, it sets out what a paper must report for its model to be assessable by anyone else.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,

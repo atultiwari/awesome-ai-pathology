@@ -1,0 +1,51 @@
+subcategories: []
+tasks:
+- quality-control
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- College of American Pathologists
+related:
+- leica-aperio-gt450-dx
+- philips-intellisite
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: If your laboratory is going digital, this is the document your validation study will be
+  judged against. Read it before you buy a scanner, not after.
+caveats: null
+featured: true
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: cap-wsi-validation-guideline
+category: validation-regulatory
+name: CAP Guideline — Validating Whole Slide Imaging
+tagline: The reference guideline for validating a WSI system for diagnostic use.
+links:
+  homepage: https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/validating-whole-slide-imaging-for-diagnostic-purposes-in-pathology
+summary: Evidence-based guidance from CAP, with ASCP and the Association for Pathology Informatics, on
+  how a laboratory should validate a whole slide imaging system before using it for diagnosis. Originally
+  issued 2013 and updated in 2021 using the GRADE framework.

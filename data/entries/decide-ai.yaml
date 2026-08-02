@@ -1,0 +1,51 @@
+subcategories: []
+tasks: []
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- DECIDE-AI Steering Group
+related:
+- tripod-ai
+- consort-spirit-ai
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: The stage most pathology AI has never been through. Worth asking a vendor whether their
+  product has.
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- researcher
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: decide-ai
+category: validation-regulatory
+name: DECIDE-AI
+tagline: Reporting guideline for early live clinical evaluation of AI decision support.
+links:
+  paper: https://doi.org/10.1136/bmj-2022-070904
+summary: Covers the stage between offline validation and a full trial — the first time an AI system is
+  used by real clinicians on real patients — with emphasis on safety and human factors rather than accuracy
+  alone.

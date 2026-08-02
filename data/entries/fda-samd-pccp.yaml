@@ -1,0 +1,48 @@
+subcategories: []
+tasks: []
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- US FDA
+related:
+- fda-gmlp
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- developer
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: fda-samd-pccp
+category: validation-regulatory
+name: FDA Predetermined Change Control Plans for AI Devices
+tagline: How a cleared AI device may be updated without a new submission.
+links:
+  homepage: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence
+summary: FDA guidance on describing, in advance, the modifications an AI-enabled device may undergo after
+  clearance and how they will be validated — the mechanism that makes a continuously-learning device regulable
+  at all.

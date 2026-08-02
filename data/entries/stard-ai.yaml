@@ -1,0 +1,49 @@
+subcategories: []
+tasks: []
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- STARD-AI Steering Group
+related:
+- tripod-ai
+- claim-checklist
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- researcher
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: stard-ai
+category: validation-regulatory
+name: STARD-AI
+tagline: Reporting guideline for AI diagnostic accuracy studies.
+links:
+  paper: https://www.nature.com/articles/s41591-025-03953-8
+summary: Extension of the STARD statement for studies reporting the diagnostic accuracy of an AI-based
+  test, developed through a multi-stakeholder consensus process.

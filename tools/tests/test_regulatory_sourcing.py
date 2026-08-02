@@ -69,9 +69,15 @@ def test_fda_record_host_is_not_bot_hostile_listed():
 
     Adding accessdata.fda.gov to BOT_HOSTILE_HOSTS would silently turn a dead
     regulatory reference into a warning. Explicitly forbidden.
+
+    Note www.fda.gov IS listed — it hosts guidance documents rather than device
+    records, and it actively blocks automation. The two hosts are treated
+    differently on purpose.
     """
     for host in FDA_HOSTS:
-        assert host not in BOT_HOSTILE_HOSTS
+        assert host not in BOT_HOSTILE_HOSTS, (
+            f"{host} holds our regulatory citations; a dead link there must be an error"
+        )
 
 
 def test_user_agent_is_not_the_pattern_fda_rejects():

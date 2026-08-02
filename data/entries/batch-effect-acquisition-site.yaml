@@ -1,0 +1,47 @@
+subcategories: []
+tasks: []
+subspecialty:
+- histopathology
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers: []
+related:
+- site-specific-signatures
+- tcga
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: batch-effect-acquisition-site
+category: ethics-safety
+name: Predicting Acquisition Site from TCGA Images
+tagline: Independent confirmation that acquisition site leaks into the pixels.
+links:
+  paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC10189924/
+summary: Demonstrates that networks can identify which institution produced a TCGA slide, reinforcing
+  that site is a confounder that must be controlled in study design rather than assumed away.

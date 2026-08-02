@@ -45,6 +45,15 @@ BOT_HOSTILE_HOSTS = frozenset({
     "linkinghub.elsevier.com", "www.sciencedirect.com",
     "onlinelibrary.wiley.com", "www.nature.com",
     "ieeexplore.ieee.org", "pubs.rsna.org", "ascopubs.org",
+    "zenodo.org",
+    # www.fda.gov 302s scripted requests to /apology_objects/abuse-detection-
+    # apology.html, which then 404s (verified 2026-08-02). Guidance-document
+    # URLs here are correct; the block is deliberate abuse detection.
+    #
+    # accessdata.fda.gov is DELIBERATELY ABSENT: it holds the device clearance
+    # records our regulatory claims cite, and a genuine 404 there must fail the
+    # build rather than warn. Enforced by test_regulatory_sourcing.py.
+    "www.fda.gov", "fda.gov",
 })
 
 Severity = Literal["error", "warning"]

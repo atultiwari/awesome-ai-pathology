@@ -1,0 +1,48 @@
+subcategories: []
+tasks: []
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- IEC
+related:
+- iso-14971
+- fda-gmlp
+licence: proprietary
+licence_notes: The standard must be purchased from IEC or a national body.
+cost: paid
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: Not free. Budget for it if you intend to build a regulated product.
+featured: false
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- developer
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: iec-62304
+category: validation-regulatory
+name: IEC 62304
+tagline: International standard for medical device software lifecycle processes.
+links:
+  homepage: https://www.iso.org/standard/38421.html
+summary: 'Defines the lifecycle requirements for medical device software: planning, requirements, architecture,
+  verification, release and maintenance, scaled by safety class.'

@@ -1,0 +1,50 @@
+subcategories: []
+tasks: []
+subspecialty:
+- histopathology
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers: []
+related:
+- tiatoolbox
+- site-specific-signatures
+- histoqc
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- researcher
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: stain-scanner-variability
+category: ethics-safety
+name: Stain and Scanner Variability
+tagline: Why a model trained in one laboratory degrades in another.
+links:
+  paper: https://doi.org/10.1038/s43856-022-00186-5
+summary: Collected evidence and tooling around colour, stain protocol and scanner differences as a source
+  of performance loss, and the normalisation approaches used to mitigate it — none of which fully solve
+  the problem.

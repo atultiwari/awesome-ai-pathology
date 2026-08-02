@@ -1,0 +1,48 @@
+subcategories: []
+tasks:
+- wsi-io
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- linux
+maintainers: []
+related:
+- openflexure-microscope
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: A research design rather than a product; building it requires hardware skills.
+featured: false
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- researcher
+- developer
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+category: hardware-lowresource
+id: openwsi
+name: OpenWSI
+tagline: Low-cost high-throughput whole slide imaging from open-source hardware.
+links:
+  paper: https://arxiv.org/abs/1912.03446
+summary: Whole slide imaging system built from off-the-shelf and open-source components, using single-frame
+  autofocusing to keep cost and complexity down.

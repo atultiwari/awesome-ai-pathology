@@ -1,0 +1,52 @@
+subcategories: []
+tasks: []
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- US FDA
+- Health Canada
+- MHRA
+related:
+- fda-samd-pccp
+- iec-62304
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: Short, plain and non-technical. The quickest way to see what regulators expect of a medical
+  AI product.
+caveats: null
+featured: true
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- developer
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: fda-gmlp
+category: validation-regulatory
+name: Good Machine Learning Practice for Medical Device Development
+tagline: Ten guiding principles agreed by the FDA, Health Canada and the MHRA.
+links:
+  homepage: https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles
+summary: Joint statement of ten principles covering data quality, representativeness, training and test
+  independence, human factors and lifecycle monitoring for medical-device machine learning.

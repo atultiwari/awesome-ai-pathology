@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- wsi-io
+- telepathology
+- education
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- Grundium Oy
+related:
+- openflexure-microscope
+- openslide
+licence: proprietary
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: paid
+self_hostable: false
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: A realistic entry point for a department that cannot justify a bulk scanner. Small enough
+  to sit on a desk.
+caveats: Regulatory status varies by model and jurisdiction and was NOT verified against a primary regulator
+  record for this entry — confirm before any diagnostic use.
+featured: false
+showcase: false
+origin: industry
+stage: production
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- clinician
+- educator
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+category: hardware-lowresource
+id: grundium-ocus
+name: Grundium Ocus
+tagline: Portable single-slide scanner at a fraction of the cost of a bulk system.
+links:
+  homepage: https://www.grundium.com/
+summary: Compact desktop scanner handling one slide at a time, aimed at telepathology, consultation, case
+  documentation and teaching rather than high-volume clinical throughput.

@@ -1,0 +1,52 @@
+subcategories: []
+tasks: []
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- TRIPOD+AI Group
+related:
+- stard-ai
+- claim-checklist
+- decide-ai
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: 'A quick way to judge a paper: if it does not report these items, you cannot tell whether
+  the model would work in your laboratory.'
+caveats: null
+featured: true
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- researcher
+- clinician
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: tripod-ai
+category: validation-regulatory
+name: TRIPOD+AI
+tagline: Reporting guideline for clinical prediction models using machine learning.
+links:
+  paper: https://doi.org/10.1136/bmj-2023-078378
+summary: Updated TRIPOD statement covering prediction models built with regression or machine learning.
+  Published in the BMJ in 2024, it sets out what a paper must report for its model to be assessable by
+  anyone else.

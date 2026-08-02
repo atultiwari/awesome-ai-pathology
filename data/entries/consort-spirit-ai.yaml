@@ -1,0 +1,48 @@
+subcategories: []
+tasks: []
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- CONSORT-AI / SPIRIT-AI Working Group
+related:
+- decide-ai
+- tripod-ai
+licence: unknown
+licence_notes: Published document; check the publisher's terms for reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+audience:
+- researcher
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: consort-spirit-ai
+category: validation-regulatory
+name: CONSORT-AI and SPIRIT-AI
+tagline: Trial reporting and protocol guidelines for AI interventions.
+links:
+  paper: https://doi.org/10.1038/s41591-020-1034-x
+summary: Extensions of the CONSORT and SPIRIT statements for randomised trials evaluating interventions
+  that include an AI component, published together in Nature Medicine.
