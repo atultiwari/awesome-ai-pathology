@@ -1,0 +1,49 @@
+category: standard-interop
+subcategories: []
+tasks:
+- data-management
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- World Health Organization
+related:
+- cap-ecc
+- snomed-ct
+licence: unknown
+licence_notes: null
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: community
+stage: production
+audience:
+- clinician
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: icd-o-3
+name: ICD-O-3
+tagline: Topography and morphology coding for cancer registries.
+links:
+  homepage: https://www.who.int/standards/classifications/other-classifications/international-classification-of-diseases-for-oncology
+summary: WHO classification coding tumour site and morphology, the coding backbone of cancer registration
+  worldwide.

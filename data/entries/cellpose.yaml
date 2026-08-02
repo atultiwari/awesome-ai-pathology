@@ -1,0 +1,61 @@
+category: task-specific-model
+subcategories: []
+subspecialty:
+- histopathology
+- cytopathology
+organs:
+- any
+modality:
+- he
+- ihc
+- fluorescence
+granularity:
+- G1
+- G2
+platforms:
+- windows
+- macos
+- linux
+maintainers:
+- HHMI Janelia
+related:
+- qupath-cellpose
+- stardist
+- instanseg
+licence: BSD-3-Clause
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: Usable from QuPath via an extension if you would rather not touch Python.
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+audience:
+- researcher
+- clinician
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: cellpose
+name: Cellpose
+tagline: Generalist cell and nucleus segmentation across imaging modalities.
+tasks:
+- nuclei-segmentation
+- cell-detection
+links:
+  repo: https://github.com/MouseLand/cellpose
+  paper: https://doi.org/10.1038/s41592-020-01018-x
+summary: Widely used generalist segmentation model that works across many microscopy types without retraining,
+  with a human-in-the-loop retraining workflow when it does not.

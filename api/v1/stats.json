@@ -1,10 +1,10 @@
 {
   "generated_at": "2026-08-02",
-  "total_entries": 111,
+  "total_entries": 125,
   "by_category": {
     "agent-mcp": 4,
     "app": 2,
-    "benchmark": 6,
+    "benchmark": 7,
     "commercial-product": 13,
     "dataset": 9,
     "education": 4,
@@ -17,27 +17,27 @@
     "qupath-extension": 4,
     "software-viewer": 5,
     "spatial-omics": 5,
-    "standard-interop": 1,
-    "task-specific-model": 4,
+    "standard-interop": 8,
+    "task-specific-model": 10,
     "validation-regulatory": 11,
     "vision-language-model": 21
   },
   "by_regulatory_status": {
     "fda-510k": 11,
     "fda-de-novo": 2,
-    "not-applicable": 40,
-    "ruo": 58
+    "not-applicable": 48,
+    "ruo": 64
   },
   "by_stage": {
-    "beta": 4,
-    "production": 78,
-    "research": 29
+    "beta": 5,
+    "production": 90,
+    "research": 30
   },
   "derived_facets": {
-    "runs-on-laptop": 77,
-    "works-offline": 66,
-    "no-scanner-needed": 70,
-    "low-resource": 39
+    "runs-on-laptop": 91,
+    "works-offline": 73,
+    "no-scanner-needed": 83,
+    "low-resource": 45
   },
   "maintainer": {
     "name": "Dr. Atul Tiwari",

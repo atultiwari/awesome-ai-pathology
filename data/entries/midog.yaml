@@ -1,0 +1,62 @@
+category: benchmark
+subcategories: []
+subspecialty:
+- histopathology
+- veterinary-pathology
+organs:
+- breast
+- skin
+- any
+modality:
+- he
+granularity:
+- G1
+- G2
+platforms:
+- linux
+maintainers:
+- DeepMicroscopy
+related:
+- known-failure-modes
+- site-specific-signatures
+- cellvit
+licence: unknown
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: Mitotic count drives grading in several tumours, and it is one of the least reproducible
+  things pathologists do — which is exactly why this benchmark measures generalisation rather than headline
+  accuracy.
+caveats: null
+featured: true
+showcase: false
+origin: academic
+stage: production
+audience:
+- researcher
+- clinician
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: midog
+name: MIDOG Challenge
+tagline: Mitosis detection benchmarked across scanners, tumours and species.
+tasks:
+- mitosis-counting
+- cell-detection
+links:
+  homepage: https://midog2025.grand-challenge.org/
+  repo: https://github.com/DeepMicroscopy/MIDOG
+  paper: https://arxiv.org/abs/2204.03742
+summary: 'Challenge series built specifically around domain shift: models must count mitoses on scanners,
+  tumour types and species they were not trained on. Successive editions have widened the domain gap deliberately.'

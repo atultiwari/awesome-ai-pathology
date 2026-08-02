@@ -1,0 +1,54 @@
+category: standard-interop
+subcategories: []
+tasks:
+- wsi-io
+- data-management
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- Open Microscopy Environment
+related:
+- dicom-wsi
+- openslide
+- omero
+licence: BSD-2-Clause
+licence_notes: null
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: Matters if slides are going to the cloud — proprietary scanner formats were not designed
+  for that.
+caveats: null
+featured: false
+showcase: false
+origin: community
+stage: production
+audience:
+- developer
+- researcher
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: ome-ngff
+name: OME-Zarr / NGFF
+tagline: Cloud-native chunked format for bioimaging, including whole slides.
+links:
+  homepage: https://ngff.openmicroscopy.org/
+  repo: https://github.com/ome/ngff
+summary: Next-generation file format storing large multi-resolution images as chunked arrays, designed
+  to be read efficiently from object storage rather than a local disk.

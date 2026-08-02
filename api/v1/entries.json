@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-02",
   "schema_version": "1.0.0",
-  "count": 111,
+  "count": 125,
   "entries": [
     {
       "subcategories": [],
@@ -487,6 +487,75 @@
       }
     },
     {
+      "category": "standard-interop",
+      "subcategories": [],
+      "tasks": [
+        "report-writing",
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "College of American Pathologists"
+      ],
+      "related": [
+        "snomed-ct",
+        "hl7-fhir",
+        "icd-o-3"
+      ],
+      "licence": "unknown",
+      "licence_notes": null,
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "The reason synoptic reporting exists: every element you fill in becomes a field a registry or a trial can actually use.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "audience": [
+        "clinician",
+        "developer"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "cap-ecc",
+      "name": "CAP electronic Cancer Checklists (eCC)",
+      "tagline": "Machine-readable cancer synoptic reporting protocols.",
+      "links": {
+        "homepage": "https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools",
+        "paper": "https://doi.org/10.5858/arpa.2020-0126-RA"
+      },
+      "summary": "Machine-readable XML encoding of the CAP cancer case summaries, structured as coded question-and-answer pairs so synoptic reports become queryable data rather than prose. SNOMED CT encoded since 2007.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "quality-control"
@@ -544,6 +613,85 @@
         "homepage": "https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/validating-whole-slide-imaging-for-diagnostic-purposes-in-pathology"
       },
       "summary": "Evidence-based guidance from CAP, with ASCP and the Association for Pathology Informatics, on how a laboratory should validate a whole slide imaging system before using it for diagnosis. Originally issued 2013 and updated in 2021 using the GRADE framework.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "category": "task-specific-model",
+      "subcategories": [],
+      "subspecialty": [
+        "histopathology",
+        "cytopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "ihc",
+        "fluorescence"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [
+        "HHMI Janelia"
+      ],
+      "related": [
+        "qupath-cellpose",
+        "stardist",
+        "instanseg"
+      ],
+      "licence": "BSD-3-Clause",
+      "licence_notes": "Check the repository before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": "Usable from QuPath via an extension if you would rather not touch Python.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "cellpose",
+      "name": "Cellpose",
+      "tagline": "Generalist cell and nucleus segmentation across imaging modalities.",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "links": {
+        "repo": "https://github.com/MouseLand/cellpose",
+        "paper": "https://doi.org/10.1038/s41592-020-01018-x"
+      },
+      "summary": "Widely used generalist segmentation model that works across many microscopy types without retraining, with a human-in-the-loop retraining workflow when it does not.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -1335,6 +1483,72 @@
       }
     },
     {
+      "category": "standard-interop",
+      "subcategories": [],
+      "tasks": [
+        "report-writing",
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "DICOM Standards Committee"
+      ],
+      "related": [
+        "dicom-wsi",
+        "hl7-fhir"
+      ],
+      "licence": "unknown",
+      "licence_notes": null,
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "Ask an AI vendor how their results are stored. If the answer is a bespoke database, your results are locked in.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "audience": [
+        "developer"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "dicom-sr",
+      "name": "DICOM Structured Reporting",
+      "tagline": "Encoding measurements and findings as structured DICOM objects.",
+      "links": {
+        "homepage": "https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.17.html"
+      },
+      "summary": "The mechanism for storing AI outputs — measurements, annotations, findings — as structured objects alongside the image rather than as a separate proprietary file.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "wsi-io",
@@ -1956,6 +2170,79 @@
       }
     },
     {
+      "category": "task-specific-model",
+      "subcategories": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he"
+      ],
+      "granularity": [
+        "G3"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "University Hospital Cologne"
+      ],
+      "related": [
+        "histoqc",
+        "tcga",
+        "known-failure-modes"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": true,
+      "min_ram_gb": 16,
+      "clinician_note": "Run this before trusting any result computed on a batch of scanned slides. Most 'model failure' turns out to be slide quality.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "grandqc",
+      "name": "GrandQC",
+      "tagline": "Tissue detection and multi-class artefact segmentation for whole slides.",
+      "tasks": [
+        "quality-control",
+        "tissue-segmentation"
+      ],
+      "links": {
+        "repo": "https://github.com/cpath-ukk/grandqc",
+        "paper": "https://doi.org/10.1038/s41467-024-54769-y"
+      },
+      "summary": "Segments tissue and the common artefacts that ruin downstream analysis — tissue folds, pen marks, bubbles, edges, black spots, foreign objects and out-of-focus regions. Released with a manually annotated test set and QC masks for all of TCGA.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "wsi-io",
@@ -2386,6 +2673,74 @@
       }
     },
     {
+      "category": "standard-interop",
+      "subcategories": [],
+      "tasks": [
+        "data-management",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "HL7 International"
+      ],
+      "related": [
+        "dicom-wsi",
+        "snomed-ct",
+        "cap-ecc"
+      ],
+      "licence": "unknown",
+      "licence_notes": null,
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "If a vendor cannot tell you how their output reaches your LIS, this is the vocabulary in which to ask the question.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "audience": [
+        "developer",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "hl7-fhir",
+      "name": "HL7 FHIR",
+      "tagline": "The interoperability standard for exchanging health data, including reports.",
+      "links": {
+        "homepage": "https://hl7.org/fhir/"
+      },
+      "summary": "Resource-based standard for health data exchange. DiagnosticReport, Specimen, Observation and ImagingStudy are the resources a pathology system needs to speak to the rest of the hospital.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "nuclei-segmentation",
@@ -2461,6 +2816,79 @@
       }
     },
     {
+      "category": "task-specific-model",
+      "subcategories": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "University of Bern"
+      ],
+      "related": [
+        "hovernet",
+        "cellvit",
+        "pannuke"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "hovernext",
+      "name": "HoVer-NeXt",
+      "tagline": "Faster successor to HoVer-Net for nucleus segmentation and classification.",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "links": {
+        "repo": "https://github.com/digitalpathologybern/hover_next_inference"
+      },
+      "summary": "Reimplementation aimed at making whole-slide nucleus segmentation and classification tractable at scale rather than on selected tiles.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "classification",
@@ -2521,6 +2949,71 @@
         "homepage": "https://ibex-ai.com/"
       },
       "summary": "Software that reviews already-diagnosed cases and flags discrepancies between the algorithm's assessment and the recorded diagnosis, intended as a quality-control second read rather than a primary diagnostic step.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "category": "standard-interop",
+      "subcategories": [],
+      "tasks": [
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "World Health Organization"
+      ],
+      "related": [
+        "cap-ecc",
+        "snomed-ct"
+      ],
+      "licence": "unknown",
+      "licence_notes": null,
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "audience": [
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "icd-o-3",
+      "name": "ICD-O-3",
+      "tagline": "Topography and morphology coding for cancer registries.",
+      "links": {
+        "homepage": "https://www.who.int/standards/classifications/other-classifications/international-classification-of-diseases-for-oncology"
+      },
+      "summary": "WHO classification coding tumour site and morphology, the coding backbone of cancer registration worldwide.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -2653,6 +3146,81 @@
         "homepage": "https://indicalab.com/"
       },
       "summary": "Case management and viewing platform for anatomic pathology, from a company whose research image-analysis software is widely used in academic laboratories.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "category": "task-specific-model",
+      "subcategories": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he",
+        "ihc",
+        "fluorescence"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "qupath-instanseg",
+        "cellpose",
+        "stardist"
+      ],
+      "licence": "Apache-2.0",
+      "licence_notes": "Check the repository before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "beta",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "instanseg",
+      "name": "InstanSeg",
+      "tagline": "Embedding-based cell segmentation that runs acceptably on a CPU.",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "links": {
+        "repo": "https://github.com/instanseg/instanseg"
+      },
+      "summary": "Instance segmentation approach designed for speed, able to run without a dedicated GPU — which matters more than raw accuracy when there is no workstation available.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -3007,6 +3575,150 @@
       }
     },
     {
+      "category": "standard-interop",
+      "subcategories": [],
+      "tasks": [
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Regenstrief Institute"
+      ],
+      "related": [
+        "snomed-ct",
+        "hl7-fhir"
+      ],
+      "licence": "unknown",
+      "licence_notes": null,
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": null,
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "audience": [
+        "developer",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "loinc",
+      "name": "LOINC",
+      "tagline": "Universal codes for laboratory observations and report sections.",
+      "links": {
+        "homepage": "https://loinc.org/"
+      },
+      "summary": "Naming system for tests, measurements and document sections, used alongside SNOMED CT so that the question and the answer are both coded.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "category": "benchmark",
+      "subcategories": [],
+      "subspecialty": [
+        "histopathology",
+        "veterinary-pathology"
+      ],
+      "organs": [
+        "breast",
+        "skin",
+        "any"
+      ],
+      "modality": [
+        "he"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "DeepMicroscopy"
+      ],
+      "related": [
+        "known-failure-modes",
+        "site-specific-signatures",
+        "cellvit"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Check the repository before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": "Mitotic count drives grading in several tumours, and it is one of the least reproducible things pathologists do — which is exactly why this benchmark measures generalisation rather than headline accuracy.",
+      "caveats": null,
+      "featured": true,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "midog",
+      "name": "MIDOG Challenge",
+      "tagline": "Mitosis detection benchmarked across scanners, tumours and species.",
+      "tasks": [
+        "mitosis-counting",
+        "cell-detection"
+      ],
+      "links": {
+        "homepage": "https://midog2025.grand-challenge.org/",
+        "repo": "https://github.com/DeepMicroscopy/MIDOG",
+        "paper": "https://arxiv.org/abs/2204.03742"
+      },
+      "summary": "Challenge series built specifically around domain shift: models must count mitoses on scanners, tumour types and species they were not trained on. Successive editions have widened the domain gap deliberately.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [
         "contrastive"
       ],
@@ -3150,6 +3862,75 @@
       "summary": "Around 100,000 colorectal H&E patches labelled into nine tissue classes. Small, permissively licensed and CPU-tractable, which makes it the usual first dataset for teaching and prototyping.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "category": "standard-interop",
+      "subcategories": [],
+      "tasks": [
+        "wsi-io",
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "Open Microscopy Environment"
+      ],
+      "related": [
+        "dicom-wsi",
+        "openslide",
+        "omero"
+      ],
+      "licence": "BSD-2-Clause",
+      "licence_notes": null,
+      "cost": "free",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "Matters if slides are going to the cloud — proprietary scanner formats were not designed for that.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "audience": [
+        "developer",
+        "researcher"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "ome-ngff",
+      "name": "OME-Zarr / NGFF",
+      "tagline": "Cloud-native chunked format for bioimaging, including whole slides.",
+      "links": {
+        "homepage": "https://ngff.openmicroscopy.org/",
+        "repo": "https://github.com/ome/ngff"
+      },
+      "summary": "Next-generation file format storing large multi-resolution images as chunked arrays, designed to be read efficiently from object storage rather than a local disk.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -6265,6 +7046,81 @@
       }
     },
     {
+      "category": "task-specific-model",
+      "subcategories": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "maintainers": [
+        "Meta AI"
+      ],
+      "related": [
+        "qupath",
+        "cellpose",
+        "stardist"
+      ],
+      "licence": "Apache-2.0",
+      "licence_notes": "Check the repository before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "consumer-gpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 16,
+      "clinician_note": "Its practical value in pathology today is speeding up manual annotation, not replacing it.",
+      "caveats": "Not trained on pathology. Performance on nuclei is well below purpose-built models; treat pathology-specific fine-tunes separately.",
+      "featured": false,
+      "showcase": false,
+      "origin": "industry",
+      "stage": "research",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "sam-pathology",
+      "name": "Segment Anything for Pathology",
+      "tagline": "Applying foundation segmentation models to histology.",
+      "tasks": [
+        "annotation",
+        "nuclei-segmentation",
+        "tissue-segmentation"
+      ],
+      "links": {
+        "repo": "https://github.com/facebookresearch/segment-anything",
+        "paper": "https://arxiv.org/abs/2304.02643"
+      },
+      "summary": "General-purpose promptable segmentation model that has been widely adapted for histology, most usefully as an interactive annotation accelerator rather than as an unattended segmenter.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
       "subcategories": [],
       "tasks": [
         "annotation",
@@ -6685,6 +7541,74 @@
         "verified_on": "2026-08-02"
       },
       "summary": "Combines scale-dependent fine-tuning with task-aware reinforcement learning and expert routing so one model can serve both region-level and slide-level questions.",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "category": "standard-interop",
+      "subcategories": [],
+      "tasks": [
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [],
+      "granularity": [],
+      "platforms": [
+        "web"
+      ],
+      "maintainers": [
+        "SNOMED International"
+      ],
+      "related": [
+        "cap-ecc",
+        "hl7-fhir",
+        "loinc"
+      ],
+      "licence": "unknown",
+      "licence_notes": "Free in member countries; licensing applies elsewhere. Check your national release centre.",
+      "cost": "free-for-academic",
+      "self_hostable": false,
+      "sends_data_offsite": false,
+      "offline_capable": false,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": null,
+      "clinician_note": "The difference between a report a computer can count and one it can only store.",
+      "caveats": null,
+      "featured": false,
+      "showcase": false,
+      "origin": "community",
+      "stage": "production",
+      "audience": [
+        "developer",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "not-applicable",
+        "detail": null,
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "snomed-ct",
+      "name": "SNOMED CT",
+      "tagline": "Clinical terminology underpinning coded pathology reporting.",
+      "links": {
+        "homepage": "https://www.snomed.org/",
+        "docs": "https://docs.snomed.org/implementation-guides/cancer-synoptic-reporting-implementation-guide/1-introduction"
+      },
+      "summary": "The terminology that makes a diagnosis machine-comparable rather than free text, with a dedicated implementation guide for cancer synoptic reporting.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,
@@ -7266,6 +8190,77 @@
       "summary": "Slide-level model combining visual self-supervision with vision-language alignment, giving whole-slide embeddings usable without task-specific training.",
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
+      "metrics": {
+        "github_stars": null,
+        "last_commit": null,
+        "hf_downloads": null,
+        "refreshed_on": null
+      }
+    },
+    {
+      "category": "task-specific-model",
+      "subcategories": [],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ],
+      "modality": [
+        "he"
+      ],
+      "granularity": [
+        "G1",
+        "G2"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "maintainers": [],
+      "related": [
+        "stain-scanner-variability",
+        "tiatoolbox"
+      ],
+      "licence": "MIT",
+      "licence_notes": "Check the repository before any reuse.",
+      "cost": "free",
+      "self_hostable": true,
+      "sends_data_offsite": false,
+      "offline_capable": true,
+      "hardware_floor": "cpu",
+      "bandwidth": "low",
+      "needs_scanner": false,
+      "min_ram_gb": 8,
+      "clinician_note": null,
+      "caveats": "Normalisation reduces but does not eliminate inter-laboratory variation — see the stain and scanner variability entry before assuming it solves domain shift.",
+      "featured": false,
+      "showcase": false,
+      "origin": "academic",
+      "stage": "production",
+      "audience": [
+        "researcher",
+        "clinician"
+      ],
+      "regulatory": {
+        "status": "ruo",
+        "detail": "Research use only. Not for primary diagnosis.",
+        "reference": null,
+        "verified_on": "2026-08-02"
+      },
+      "added_on": "2026-08-02",
+      "last_verified": "2026-08-02",
+      "id": "torchstain",
+      "name": "torchstain",
+      "tagline": "Stain normalisation as a differentiable, GPU-capable operation.",
+      "tasks": [
+        "stain-normalisation"
+      ],
+      "links": {
+        "repo": "https://github.com/EIDOSLAB/torchstain"
+      },
+      "summary": "Implements the standard stain normalisation methods (Macenko, Reinhard, Vahadane) in PyTorch, TensorFlow and NumPy so normalisation can sit inside a training pipeline rather than as a preprocessing step.",
       "metrics": {
         "github_stars": null,
         "last_commit": null,

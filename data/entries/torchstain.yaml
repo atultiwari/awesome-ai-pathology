@@ -1,0 +1,56 @@
+category: task-specific-model
+subcategories: []
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+granularity:
+- G1
+- G2
+platforms:
+- windows
+- macos
+- linux
+maintainers: []
+related:
+- stain-scanner-variability
+- tiatoolbox
+licence: MIT
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: 8
+clinician_note: null
+caveats: Normalisation reduces but does not eliminate inter-laboratory variation — see the stain and scanner
+  variability entry before assuming it solves domain shift.
+featured: false
+showcase: false
+origin: academic
+stage: production
+audience:
+- researcher
+- clinician
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: torchstain
+name: torchstain
+tagline: Stain normalisation as a differentiable, GPU-capable operation.
+tasks:
+- stain-normalisation
+links:
+  repo: https://github.com/EIDOSLAB/torchstain
+summary: Implements the standard stain normalisation methods (Macenko, Reinhard, Vahadane) in PyTorch,
+  TensorFlow and NumPy so normalisation can sit inside a training pipeline rather than as a preprocessing
+  step.

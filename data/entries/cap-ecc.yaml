@@ -1,0 +1,54 @@
+category: standard-interop
+subcategories: []
+tasks:
+- report-writing
+- data-management
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- College of American Pathologists
+related:
+- snomed-ct
+- hl7-fhir
+- icd-o-3
+licence: unknown
+licence_notes: null
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: 'The reason synoptic reporting exists: every element you fill in becomes a field a registry
+  or a trial can actually use.'
+caveats: null
+featured: true
+showcase: false
+origin: community
+stage: production
+audience:
+- clinician
+- developer
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: cap-ecc
+name: CAP electronic Cancer Checklists (eCC)
+tagline: Machine-readable cancer synoptic reporting protocols.
+links:
+  homepage: https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools
+  paper: https://doi.org/10.5858/arpa.2020-0126-RA
+summary: Machine-readable XML encoding of the CAP cancer case summaries, structured as coded question-and-answer
+  pairs so synoptic reports become queryable data rather than prose. SNOMED CT encoded since 2007.

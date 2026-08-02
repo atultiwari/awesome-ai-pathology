@@ -1,0 +1,52 @@
+category: standard-interop
+subcategories: []
+tasks:
+- data-management
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- SNOMED International
+related:
+- cap-ecc
+- hl7-fhir
+- loinc
+licence: unknown
+licence_notes: Free in member countries; licensing applies elsewhere. Check your national release centre.
+cost: free-for-academic
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: The difference between a report a computer can count and one it can only store.
+caveats: null
+featured: false
+showcase: false
+origin: community
+stage: production
+audience:
+- developer
+- clinician
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: snomed-ct
+name: SNOMED CT
+tagline: Clinical terminology underpinning coded pathology reporting.
+links:
+  homepage: https://www.snomed.org/
+  docs: https://docs.snomed.org/implementation-guides/cancer-synoptic-reporting-implementation-guide/1-introduction
+summary: The terminology that makes a diagnosis machine-comparable rather than free text, with a dedicated
+  implementation guide for cancer synoptic reporting.

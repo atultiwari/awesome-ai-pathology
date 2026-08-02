@@ -1,0 +1,55 @@
+category: task-specific-model
+subcategories: []
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+granularity:
+- G1
+- G2
+platforms:
+- linux
+maintainers:
+- University of Bern
+related:
+- hovernet
+- cellvit
+- pannuke
+licence: unknown
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: production
+audience:
+- researcher
+- clinician
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: hovernext
+name: HoVer-NeXt
+tagline: Faster successor to HoVer-Net for nucleus segmentation and classification.
+tasks:
+- nuclei-segmentation
+- cell-detection
+links:
+  repo: https://github.com/digitalpathologybern/hover_next_inference
+summary: Reimplementation aimed at making whole-slide nucleus segmentation and classification tractable
+  at scale rather than on selected tiles.

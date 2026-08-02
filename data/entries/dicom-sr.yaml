@@ -1,0 +1,51 @@
+category: standard-interop
+subcategories: []
+tasks:
+- report-writing
+- data-management
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- DICOM Standards Committee
+related:
+- dicom-wsi
+- hl7-fhir
+licence: unknown
+licence_notes: null
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: Ask an AI vendor how their results are stored. If the answer is a bespoke database, your
+  results are locked in.
+caveats: null
+featured: false
+showcase: false
+origin: community
+stage: production
+audience:
+- developer
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: dicom-sr
+name: DICOM Structured Reporting
+tagline: Encoding measurements and findings as structured DICOM objects.
+links:
+  homepage: https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.17.html
+summary: The mechanism for storing AI outputs — measurements, annotations, findings — as structured objects
+  alongside the image rather than as a separate proprietary file.

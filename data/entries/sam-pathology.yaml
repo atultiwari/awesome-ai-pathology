@@ -1,0 +1,59 @@
+category: task-specific-model
+subcategories: []
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+granularity:
+- G1
+- G2
+platforms:
+- linux
+maintainers:
+- Meta AI
+related:
+- qupath
+- cellpose
+- stardist
+licence: Apache-2.0
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: Its practical value in pathology today is speeding up manual annotation, not replacing
+  it.
+caveats: Not trained on pathology. Performance on nuclei is well below purpose-built models; treat pathology-specific
+  fine-tunes separately.
+featured: false
+showcase: false
+origin: industry
+stage: research
+audience:
+- researcher
+- clinician
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: sam-pathology
+name: Segment Anything for Pathology
+tagline: Applying foundation segmentation models to histology.
+tasks:
+- annotation
+- nuclei-segmentation
+- tissue-segmentation
+links:
+  repo: https://github.com/facebookresearch/segment-anything
+  paper: https://arxiv.org/abs/2304.02643
+summary: General-purpose promptable segmentation model that has been widely adapted for histology, most
+  usefully as an interactive annotation accelerator rather than as an unattended segmenter.

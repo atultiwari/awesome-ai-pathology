@@ -111,6 +111,22 @@
       ]
     },
     {
+      "id": "cap-ecc",
+      "name": "CAP electronic Cancer Checklists (eCC)",
+      "tagline": "Machine-readable cancer synoptic reporting protocols.",
+      "category": "standard-interop",
+      "tasks": [
+        "report-writing",
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "cap-wsi-validation-guideline",
       "name": "CAP Guideline — Validating Whole Slide Imaging",
       "tagline": "The reference guideline for validating a WSI system for diagnostic use.",
@@ -120,6 +136,23 @@
       ],
       "subspecialty": [
         "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "cellpose",
+      "name": "Cellpose",
+      "tagline": "Generalist cell and nucleus segmentation across imaging modalities.",
+      "category": "task-specific-model",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "cytopathology"
       ],
       "organs": [
         "any"
@@ -300,6 +333,22 @@
       ]
     },
     {
+      "id": "dicom-sr",
+      "name": "DICOM Structured Reporting",
+      "tagline": "Encoding measurements and findings as structured DICOM objects.",
+      "category": "standard-interop",
+      "tasks": [
+        "report-writing",
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "dicom-wsi",
       "name": "DICOM for Whole Slide Imaging",
       "tagline": "The vendor-neutral standard for storing and exchanging pathology slides.",
@@ -436,6 +485,22 @@
       ]
     },
     {
+      "id": "grandqc",
+      "name": "GrandQC",
+      "tagline": "Tissue detection and multi-class artefact segmentation for whole slides.",
+      "category": "task-specific-model",
+      "tasks": [
+        "quality-control",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "grundium-ocus",
       "name": "Grundium Ocus",
       "tagline": "Portable single-slide scanner at a fraction of the cost of a bulk system.",
@@ -536,6 +601,22 @@
       ]
     },
     {
+      "id": "hl7-fhir",
+      "name": "HL7 FHIR",
+      "tagline": "The interoperability standard for exchanging health data, including reports.",
+      "category": "standard-interop",
+      "tasks": [
+        "data-management",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "hovernet",
       "name": "HoVer-Net",
       "tagline": "Simultaneous nucleus segmentation and classification in histology.",
@@ -554,6 +635,22 @@
       ]
     },
     {
+      "id": "hovernext",
+      "name": "HoVer-NeXt",
+      "tagline": "Faster successor to HoVer-Net for nucleus segmentation and classification.",
+      "category": "task-specific-model",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "ibex-galen-second-read",
       "name": "Ibex Galen Second Read",
       "tagline": "AI second-read quality control for biopsy whole-slide images.",
@@ -568,6 +665,21 @@
       "organs": [
         "prostate",
         "breast"
+      ]
+    },
+    {
+      "id": "icd-o-3",
+      "name": "ICD-O-3",
+      "tagline": "Topography and morphology coding for cancer registries.",
+      "category": "standard-interop",
+      "tasks": [
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
       ]
     },
     {
@@ -592,6 +704,22 @@
         "annotation",
         "data-management",
         "ihc-quantification"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "instanseg",
+      "name": "InstanSeg",
+      "tagline": "Embedding-based cell segmentation that runs acceptably on a CPU.",
+      "category": "task-specific-model",
+      "tasks": [
+        "nuclei-segmentation",
+        "cell-detection"
       ],
       "subspecialty": [
         "histopathology"
@@ -677,6 +805,40 @@
       ]
     },
     {
+      "id": "loinc",
+      "name": "LOINC",
+      "tagline": "Universal codes for laboratory observations and report sections.",
+      "category": "standard-interop",
+      "tasks": [
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "midog",
+      "name": "MIDOG Challenge",
+      "tagline": "Mitosis detection benchmarked across scanners, tumours and species.",
+      "category": "benchmark",
+      "tasks": [
+        "mitosis-counting",
+        "cell-detection"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "veterinary-pathology"
+      ],
+      "organs": [
+        "breast",
+        "skin",
+        "any"
+      ]
+    },
+    {
       "id": "musk",
       "name": "MUSK",
       "tagline": "Vision-language foundation model for precision oncology.",
@@ -709,6 +871,22 @@
       ],
       "organs": [
         "colon"
+      ]
+    },
+    {
+      "id": "ome-ngff",
+      "name": "OME-Zarr / NGFF",
+      "tagline": "Cloud-native chunked format for bioimaging, including whole slides.",
+      "category": "standard-interop",
+      "tasks": [
+        "wsi-io",
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
       ]
     },
     {
@@ -1409,6 +1587,23 @@
       ]
     },
     {
+      "id": "sam-pathology",
+      "name": "Segment Anything for Pathology",
+      "tagline": "Applying foundation segmentation models to histology.",
+      "category": "task-specific-model",
+      "tasks": [
+        "annotation",
+        "nuclei-segmentation",
+        "tissue-segmentation"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "sectra-digital-pathology",
       "name": "Sectra Digital Pathology Module",
       "tagline": "Digital pathology module within an enterprise imaging platform.",
@@ -1498,6 +1693,21 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "snomed-ct",
+      "name": "SNOMED CT",
+      "tagline": "Clinical terminology underpinning coded pathology reporting.",
+      "category": "standard-interop",
+      "tasks": [
+        "data-management"
+      ],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"
@@ -1624,6 +1834,21 @@
         "classification",
         "retrieval-search",
         "report-writing"
+      ],
+      "subspecialty": [
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "torchstain",
+      "name": "torchstain",
+      "tagline": "Stain normalisation as a differentiable, GPU-capable operation.",
+      "category": "task-specific-model",
+      "tasks": [
+        "stain-normalisation"
       ],
       "subspecialty": [
         "histopathology"

@@ -1,0 +1,57 @@
+category: task-specific-model
+subcategories: []
+subspecialty:
+- histopathology
+organs:
+- any
+modality:
+- he
+granularity:
+- G3
+platforms:
+- linux
+maintainers:
+- University Hospital Cologne
+related:
+- histoqc
+- tcga
+- known-failure-modes
+licence: unknown
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: low
+needs_scanner: true
+min_ram_gb: 16
+clinician_note: Run this before trusting any result computed on a batch of scanned slides. Most 'model
+  failure' turns out to be slide quality.
+caveats: null
+featured: true
+showcase: false
+origin: academic
+stage: production
+audience:
+- researcher
+- clinician
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: grandqc
+name: GrandQC
+tagline: Tissue detection and multi-class artefact segmentation for whole slides.
+tasks:
+- quality-control
+- tissue-segmentation
+links:
+  repo: https://github.com/cpath-ukk/grandqc
+  paper: https://doi.org/10.1038/s41467-024-54769-y
+summary: Segments tissue and the common artefacts that ruin downstream analysis — tissue folds, pen marks,
+  bubbles, edges, black spots, foreign objects and out-of-focus regions. Released with a manually annotated
+  test set and QC masks for all of TCGA.

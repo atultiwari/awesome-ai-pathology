@@ -1,0 +1,53 @@
+category: standard-interop
+subcategories: []
+tasks:
+- data-management
+- report-writing
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers:
+- HL7 International
+related:
+- dicom-wsi
+- snomed-ct
+- cap-ecc
+licence: unknown
+licence_notes: null
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: If a vendor cannot tell you how their output reaches your LIS, this is the vocabulary
+  in which to ask the question.
+caveats: null
+featured: true
+showcase: false
+origin: community
+stage: production
+audience:
+- developer
+- clinician
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: hl7-fhir
+name: HL7 FHIR
+tagline: The interoperability standard for exchanging health data, including reports.
+links:
+  homepage: https://hl7.org/fhir/
+summary: Resource-based standard for health data exchange. DiagnosticReport, Specimen, Observation and
+  ImagingStudy are the resources a pathology system needs to speak to the rest of the hospital.
