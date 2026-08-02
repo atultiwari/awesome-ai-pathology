@@ -56,3 +56,8 @@ regulatory:
   verified_on: '2026-08-02'
 summary: Uses an LLM to plan slide exploration, locate informative regions, extract visual cues and assemble
   them into a reasoning trajectory, without task-specific training.
+metrics:
+  github_stars: 44
+  last_commit: '2026-06-20'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

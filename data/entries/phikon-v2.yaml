@@ -55,3 +55,8 @@ summary: ViT trained with DINOv2 on public histopathology cohorts and released u
   making it one of the few pathology encoders usable without gated access.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: null
+  last_commit: null
+  hf_downloads: 23958
+  refreshed_on: '2026-08-03'

@@ -53,3 +53,8 @@ links:
   paper: https://doi.org/10.1038/s41551-020-0578-x
 summary: Convolutional model trained on matched breast histology and spatial transcriptomics to predict
   local expression from image tiles. The reference point most later work compares against.
+metrics:
+  github_stars: 148
+  last_commit: '2021-09-08'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

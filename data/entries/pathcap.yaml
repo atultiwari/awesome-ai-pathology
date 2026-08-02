@@ -50,3 +50,8 @@ summary: Roughly 207,000 pathology image-text pairs curated for vision-language 
 related:
 - pathasst
 - pathinstruct
+metrics:
+  github_stars: null
+  last_commit: null
+  hf_downloads: 53
+  refreshed_on: '2026-08-03'

@@ -57,3 +57,8 @@ links:
   paper: https://arxiv.org/abs/2304.02643
 summary: General-purpose promptable segmentation model that has been widely adapted for histology, most
   usefully as an interactive annotation accelerator rather than as an unattended segmenter.
+metrics:
+  github_stars: 54633
+  last_commit: '2024-09-18'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

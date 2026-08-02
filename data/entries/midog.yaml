@@ -60,3 +60,8 @@ links:
   paper: https://arxiv.org/abs/2204.03742
 summary: 'Challenge series built specifically around domain shift: models must count mitoses on scanners,
   tumour types and species they were not trained on. Successive editions have widened the domain gap deliberately.'
+metrics:
+  github_stars: 14
+  last_commit: '2022-06-19'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

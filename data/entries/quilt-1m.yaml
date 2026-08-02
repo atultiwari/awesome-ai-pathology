@@ -53,3 +53,8 @@ summary: Large open histopathology image-caption corpus assembled from education
   pathology vision-language models.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 186
+  last_commit: '2024-01-18'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

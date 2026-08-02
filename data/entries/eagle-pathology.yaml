@@ -52,3 +52,8 @@ regulatory:
 summary: Builds a large set of preferred and rejected response pairs and applies iterative preference
   optimisation, targeting multimodal hallucination and biased answers — a failure mode that matters more
   in pathology than in general vision tasks.
+metrics:
+  github_stars: 2
+  last_commit: '2025-12-16'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

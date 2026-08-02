@@ -53,3 +53,8 @@ links:
   paper: https://arxiv.org/abs/2401.16355
 summary: Multiple-choice benchmark of roughly 33,000 questions over 24,000 images, assembled from several
   sources and checked by pathologists.
+metrics:
+  github_stars: 39
+  last_commit: '2024-12-11'
+  hf_downloads: 127
+  refreshed_on: '2026-08-03'

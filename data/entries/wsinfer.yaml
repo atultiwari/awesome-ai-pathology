@@ -58,3 +58,8 @@ summary: Toolkit and model zoo for running patch-level deep learning inference o
   usable from the command line or through a QuPath extension.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 86
+  last_commit: '2024-07-11'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

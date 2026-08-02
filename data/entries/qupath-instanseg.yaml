@@ -56,3 +56,8 @@ summary: Extension exposing InstanSeg, an embedding-based instance segmentation 
   runnable on CPU directly from QuPath.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 29
+  last_commit: '2026-07-02'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

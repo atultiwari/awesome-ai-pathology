@@ -52,3 +52,8 @@ links:
   repo: https://github.com/ome/ngff
 summary: Next-generation file format storing large multi-resolution images as chunked arrays, designed
   to be read efficiently from object storage rather than a local disk.
+metrics:
+  github_stars: 168
+  last_commit: '2026-07-31'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

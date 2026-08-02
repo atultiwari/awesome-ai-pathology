@@ -53,3 +53,8 @@ links:
   paper: https://arxiv.org/abs/2003.10286
 summary: Early and still widely cited pathology VQA set of roughly 5,000 images and 32,000 question-answer
   pairs, used as a standard comparison point.
+metrics:
+  github_stars: 15
+  last_commit: '2022-12-09'
+  hf_downloads: 4819
+  refreshed_on: '2026-08-03'

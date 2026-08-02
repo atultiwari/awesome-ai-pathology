@@ -121,7 +121,11 @@ def table_header() -> str:
 
 
 def _flags(entry: Entry) -> str:
-    """Inline warning and disclosure markers."""
+    """Inline warning and disclosure markers.
+
+    Dormancy is shown on every row, not only on the Stale Shelf page — the
+    reader deciding whether to adopt something should not have to go looking.
+    """
     marks: list[str] = []
     if entry.get("showcase"):
         marks.append("`built by the maintainer`")
@@ -129,6 +133,9 @@ def _flags(entry: Entry) -> str:
         marks.append("⚠️ `uploads your data`")
     if entry.get("stage") == "deprecated":
         marks.append("`unmaintained`")
+    elif "stale-shelf" in derived_facets(entry):
+        last = (entry.get("metrics") or {}).get("last_commit")
+        marks.append(f"🕯️ `dormant since {last[:7]}`" if last else "🕯️ `dormant`")
     return " ".join(marks)
 
 

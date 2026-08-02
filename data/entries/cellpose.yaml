@@ -59,3 +59,8 @@ links:
   paper: https://doi.org/10.1038/s41592-020-01018-x
 summary: Widely used generalist segmentation model that works across many microscopy types without retraining,
   with a human-in-the-loop retraining workflow when it does not.
+metrics:
+  github_stars: 2293
+  last_commit: '2026-06-14'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

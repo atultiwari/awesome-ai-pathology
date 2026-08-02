@@ -52,3 +52,8 @@ regulatory:
   verified_on: '2026-08-02'
 summary: Uses text descriptions at two magnifications as prompts to steer multiple-instance learning,
   transferring vision-language priors into slide classification.
+metrics:
+  github_stars: 103
+  last_commit: '2026-04-06'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

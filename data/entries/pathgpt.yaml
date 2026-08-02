@@ -54,3 +54,8 @@ links:
 summary: Clinico-pathological scenarios written across ten subspecialties, each reviewed by a subspecialty
   pathologist, and composed from named prompt modules — persona, clinical scenario, question type, reflection
   and references — then evaluated open-ended and multiple-choice.
+metrics:
+  github_stars: 1
+  last_commit: '2024-03-14'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

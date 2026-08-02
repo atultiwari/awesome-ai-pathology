@@ -53,3 +53,8 @@ summary: Transformer-based nucleus instance segmentation built on pretrained ViT
   tooling for scaling detection across whole slides.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 391
+  last_commit: '2025-07-23'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

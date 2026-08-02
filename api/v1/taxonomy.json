@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02",
+  "generated_at": "2026-08-03",
   "schema_version": "1.0.0",
   "vocabularies": {
     "categories": {
@@ -505,6 +505,12 @@
       "emoji": "🌍",
       "blurb": "Free, runs on modest hardware, works offline, and needs no scanner. The shortlist for a department starting from nothing.\n",
       "rule": "cost in (free, free-for-academic) AND hardware_floor in (cpu, consumer-gpu) AND offline_capable is true AND needs_scanner is false\n"
+    },
+    "stale-shelf": {
+      "label": "The Stale Shelf",
+      "emoji": "🕯️",
+      "blurb": "Listed honestly rather than quietly dropped — projects marked deprecated, or whose upstream repository has been silent for well over a year. Some are simply finished and stable; others are abandoned. Check before you build on any of them. Entries with no commit history are never listed here: absence of evidence is not evidence of abandonment.\n",
+      "rule": "stage is deprecated OR last_commit older than 550 days"
     }
   },
   "browse_directories": {

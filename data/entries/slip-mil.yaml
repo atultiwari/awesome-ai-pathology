@@ -52,3 +52,8 @@ regulatory:
   verified_on: '2026-08-02'
 summary: Draws prior knowledge from a language model about which tissue types matter for a given task,
   then uses it to guide slide classification when labelled data is scarce.
+metrics:
+  github_stars: 4
+  last_commit: '2025-08-19'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

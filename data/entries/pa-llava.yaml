@@ -53,3 +53,8 @@ regulatory:
   verified_on: '2026-08-02'
 summary: Domain-specific assistant using a PLIP-derived encoder, trained first for domain alignment and
   then for instruction following on pathology question answering.
+metrics:
+  github_stars: 65
+  last_commit: '2025-06-18'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

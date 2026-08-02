@@ -53,3 +53,8 @@ summary: Multimodal assistant instruction-tuned on localised narratives extracte
   teaching videos, aimed at diagnostic reasoning across patches.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 89
+  last_commit: '2024-06-28'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

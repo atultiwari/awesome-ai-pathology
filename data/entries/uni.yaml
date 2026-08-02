@@ -58,3 +58,8 @@ summary: ViT encoder trained with DINOv2 on a large private histopathology corpu
   feature extractor across a wide range of downstream tasks.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 763
+  last_commit: '2025-03-26'
+  hf_downloads: 101153
+  refreshed_on: '2026-08-03'

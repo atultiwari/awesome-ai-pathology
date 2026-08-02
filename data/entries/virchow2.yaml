@@ -53,3 +53,8 @@ summary: Vision transformer trained self-supervised on a very large multi-instit
   released for research as a general-purpose tile encoder.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: null
+  last_commit: null
+  hf_downloads: 70606
+  refreshed_on: '2026-08-03'

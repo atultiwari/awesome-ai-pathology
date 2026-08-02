@@ -54,3 +54,8 @@ regulatory:
   verified_on: '2026-08-02'
 summary: Applies continued pretraining, supervised fine-tuning on reasoning traces, then reinforcement
   learning, releasing the PathCoT reasoning dataset alongside.
+metrics:
+  github_stars: 101
+  last_commit: '2025-11-17'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

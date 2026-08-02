@@ -53,3 +53,8 @@ summary: The foundational library for reading vendor whole-slide formats (Aperio
   and others) through one common interface. Most Python pathology tooling depends on it.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 510
+  last_commit: '2026-08-02'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

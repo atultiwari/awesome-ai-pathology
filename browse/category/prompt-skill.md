@@ -8,7 +8,7 @@ Prompt libraries, Claude Skills, custom GPTs and similar assets built for pathol
 
 | Name | What it does | Status | Cost / Hardware | Tasks | Links |
 | --- | --- | --- | --- | --- | --- |
-| **[PathGPT](https://github.com/slrenne/PathGPT)** | Structured pathology prompt library built on explicit prompt patterns. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](../../browse/regulatory/ruo.md) | free · cpu | [`Ask questions about an image`](../../browse/task/vqa.md) [`Teach and learn`](../../browse/task/education.md) [`Write or structure reports`](../../browse/task/report-writing.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/slrenne/PathGPT) |
+| **[PathGPT](https://github.com/slrenne/PathGPT)** 🕯️ `dormant since 2024-03` | Structured pathology prompt library built on explicit prompt patterns. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](../../browse/regulatory/ruo.md) | free · cpu | [`Ask questions about an image`](../../browse/task/vqa.md) [`Teach and learn`](../../browse/task/education.md) [`Write or structure reports`](../../browse/task/report-writing.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/slrenne/PathGPT) |
 
 ---
 

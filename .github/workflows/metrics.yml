@@ -1,0 +1,65 @@
+name: metrics
+
+# Nightly activity refresh: GitHub stars and last-commit date, Hugging Face
+# downloads. Opens a PULL REQUEST rather than pushing to main — every content
+# change on this repository is human-approved.
+on:
+  schedule:
+    - cron: '41 3 * * *'   # 03:41 UTC daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Refresh metrics
+        env:
+          # The default token lifts the API rate limit from 60 to 5,000/hour.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/refresh_metrics.py
+
+      - name: Regenerate derived files
+        run: python3 tools/generate.py
+
+      - name: Validate (bot mode — metrics block may be populated)
+        run: python3 tools/validate.py --bot
+
+      - name: Open a pull request if anything changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: refresh activity metrics"
+          branch: bot/metrics-refresh
+          delete-branch: true
+          title: "chore: refresh activity metrics"
+          body: |
+            Nightly activity refresh from the `metrics` workflow.
+
+            Updates GitHub stars and last-commit dates, and Hugging Face
+            download counts, then regenerates the derived files. Entries whose
+            upstream has been silent past the threshold move onto the
+            **Stale Shelf**.
+
+            Failed lookups keep their previous values, so a transient API
+            outage cannot make a live project look abandoned.
+
+            Review the diff before merging — bots do not push to `main` here.
+          labels: |
+            bot
+            metrics

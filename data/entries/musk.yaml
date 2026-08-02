@@ -58,3 +58,8 @@ regulatory:
   verified_on: '2026-08-02'
 summary: Trained on large volumes of unpaired image and text data as well as paired examples, then applied
   to retrieval, visual question answering, classification and molecular biomarker prediction.
+metrics:
+  github_stars: 241
+  last_commit: '2025-10-26'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

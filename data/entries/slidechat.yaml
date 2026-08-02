@@ -54,3 +54,8 @@ regulatory:
   verified_on: '2026-08-02'
 summary: Assistant designed for gigapixel whole-slide input, released with the Slide-Instruction training
   set and the SlideBench-VQA evaluation set built from TCGA and BCNB.
+metrics:
+  github_stars: 126
+  last_commit: '2026-04-02'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

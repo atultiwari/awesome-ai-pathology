@@ -51,3 +51,8 @@ summary: Around 180,000 instruction-response pairs for pathology, used to give a
 related:
 - pathasst
 - pathcap
+metrics:
+  github_stars: null
+  last_commit: null
+  hf_downloads: 21
+  refreshed_on: '2026-08-03'

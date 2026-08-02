@@ -57,3 +57,8 @@ summary: Pairs a tile-level encoder with a LongNet-based slide aggregator so who
   in one pass, evaluated on subtyping and mutation prediction.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 626
+  last_commit: '2026-07-20'
+  hf_downloads: 66496
+  refreshed_on: '2026-08-03'

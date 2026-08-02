@@ -6,7 +6,7 @@
 
 | Name | What it does | Status | Cost / Hardware | Tasks | Links |
 | --- | --- | --- | --- | --- | --- |
-| **[Dr-LLaVA](https://github.com/AlaaLab/Dr-LLaVA)** | Instruction tuning grounded in symbolic clinical reasoning. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](../../browse/regulatory/ruo.md) | free · consumer gpu · 🌍 | [`Ask questions about an image`](../../browse/task/vqa.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/AlaaLab/Dr-LLaVA) [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://arxiv.org/abs/2405.19567) |
+| **[Dr-LLaVA](https://github.com/AlaaLab/Dr-LLaVA)** 🕯️ `dormant since 2024-12` | Instruction tuning grounded in symbolic clinical reasoning. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](../../browse/regulatory/ruo.md) | free · consumer gpu · 🌍 | [`Ask questions about an image`](../../browse/task/vqa.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/AlaaLab/Dr-LLaVA) [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://arxiv.org/abs/2405.19567) |
 
 ---
 

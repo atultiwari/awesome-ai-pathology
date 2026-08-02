@@ -55,3 +55,8 @@ links:
 summary: TCGA-derived benchmark of about 149,000 four-option questions over 9,985 diagnostic slides, with
   train/validation/test splits disjoint by patient AND by tissue source site, and a blind image-free baseline
   reported for every task.
+metrics:
+  github_stars: 1
+  last_commit: '2026-07-23'
+  hf_downloads: 30
+  refreshed_on: '2026-08-03'

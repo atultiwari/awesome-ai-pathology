@@ -55,3 +55,8 @@ summary: Network predicting horizontal and vertical distances to nuclear centres
   nuclei, while simultaneously classifying nucleus type. A standard baseline for nucleus tasks.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 734
+  last_commit: '2023-10-27'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

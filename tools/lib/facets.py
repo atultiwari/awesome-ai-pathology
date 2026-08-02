@@ -14,6 +14,11 @@ from lib.entries import Entry
 LAPTOP_HARDWARE = frozenset({"cpu", "consumer-gpu"})
 FREE_COSTS = frozenset({"free", "free-for-academic"})
 
+# An upstream repository silent for this long is treated as dormant. Long
+# enough that a stable, finished tool is not wrongly shamed; short enough that
+# genuinely abandoned work is visible.
+STALE_AFTER_DAYS = 550
+
 
 def _runs_on_laptop(entry: Entry) -> bool:
     return entry.get("hardware_floor") in LAPTOP_HARDWARE
@@ -36,11 +41,39 @@ def _low_resource(entry: Entry) -> bool:
     )
 
 
+def _stale(entry: Entry) -> bool:
+    """Marked deprecated, or upstream has been quiet for a long time.
+
+    Being honest about dead projects is the point — an awesome list that hides
+    them is worse than useless, because the reader assumes everything listed is
+    alive. An entry with no last_commit is NOT stale: absence of evidence is not
+    evidence of abandonment.
+    """
+    if entry.get("stage") == "deprecated":
+        return True
+
+    last_commit = (entry.get("metrics") or {}).get("last_commit")
+    if not last_commit:
+        return False
+    return _days_since(last_commit) > STALE_AFTER_DAYS
+
+
+def _days_since(iso_date: str) -> float:
+    from datetime import date
+
+    try:
+        then = date.fromisoformat(str(iso_date)[:10])
+    except ValueError:
+        return 0.0
+    return (date.today() - then).days
+
+
 DERIVED: Mapping[str, Callable[[Entry], bool]] = {
     "runs-on-laptop": _runs_on_laptop,
     "works-offline": _works_offline,
     "no-scanner-needed": _no_scanner_needed,
     "low-resource": _low_resource,
+    "stale-shelf": _stale,
 }
 
 

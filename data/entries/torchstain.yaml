@@ -54,3 +54,8 @@ links:
 summary: Implements the standard stain normalisation methods (Macenko, Reinhard, Vahadane) in PyTorch,
   TensorFlow and NumPy so normalisation can sit inside a training pipeline rather than as a preprocessing
   step.
+metrics:
+  github_stars: 188
+  last_commit: '2025-11-13'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

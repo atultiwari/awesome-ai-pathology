@@ -49,3 +49,8 @@ summary: Focused bibliography of pathology vision-language models organised by t
   a useful patch/ROI/WSI granularity axis. A good deep reference for the VLM literature specifically.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 12
+  last_commit: '2026-07-22'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

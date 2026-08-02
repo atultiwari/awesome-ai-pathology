@@ -54,3 +54,8 @@ summary: Pipeline that flags slide artefacts — blur, pen marks, tissue folds, 
   — and produces an interactive report for triaging a cohort before analysis.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 329
+  last_commit: '2026-04-13'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

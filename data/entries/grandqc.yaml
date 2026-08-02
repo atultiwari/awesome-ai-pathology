@@ -55,3 +55,8 @@ links:
 summary: Segments tissue and the common artefacts that ruin downstream analysis — tissue folds, pen marks,
   bubbles, edges, black spots, foreign objects and out-of-focus regions. Released with a manually annotated
   test set and QC masks for all of TCGA.
+metrics:
+  github_stars: 113
+  last_commit: '2025-12-27'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

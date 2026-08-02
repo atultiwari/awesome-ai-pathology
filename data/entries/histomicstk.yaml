@@ -55,9 +55,13 @@ links:
   repo: https://github.com/DigitalSlideArchive/HistomicsTK
   docs: https://digitalslidearchive.github.io/HistomicsTK/
 origin: academic
-summary: >-
-  Library of histology-specific image analysis routines — colour deconvolution, stain
-  normalisation, nucleus detection and morphometric feature extraction — usable standalone or as
-  the analysis layer behind Digital Slide Archive.
+summary: Library of histology-specific image analysis routines — colour deconvolution, stain normalisation,
+  nucleus detection and morphometric feature extraction — usable standalone or as the analysis layer behind
+  Digital Slide Archive.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 480
+  last_commit: '2026-07-31'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

@@ -53,3 +53,8 @@ links:
   repo: https://github.com/digitalpathologybern/hover_next_inference
 summary: Reimplementation aimed at making whole-slide nucleus segmentation and classification tractable
   at scale rather than on selected tiles.
+metrics:
+  github_stars: 51
+  last_commit: '2025-10-26'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

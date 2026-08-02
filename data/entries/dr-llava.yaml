@@ -52,3 +52,8 @@ regulatory:
   verified_on: '2026-08-02'
 summary: Constrains a vision-language assistant with symbolic representations of clinical reasoning steps,
   so that its answers follow a defensible diagnostic sequence rather than arriving at conclusions unaccountably.
+metrics:
+  github_stars: 4
+  last_commit: '2024-12-04'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

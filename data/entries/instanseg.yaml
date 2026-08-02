@@ -56,3 +56,8 @@ links:
   repo: https://github.com/instanseg/instanseg
 summary: Instance segmentation approach designed for speed, able to run without a dedicated GPU — which
   matters more than raw accuracy when there is no workstation available.
+metrics:
+  github_stars: 233
+  last_commit: '2026-07-30'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

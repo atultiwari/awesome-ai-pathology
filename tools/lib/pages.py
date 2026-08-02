@@ -168,12 +168,26 @@ def _browse_matrix(entries: Sequence[Entry], taxonomy: Taxonomy) -> list[str]:
 
     derived = derived_index(entries)
     declared = taxonomy.settings_facets()
+
+    # The Stale Shelf is an honesty signal, not a constraint — it gets its own
+    # line rather than sitting beside "runs on a laptop".
+    constraint_keys = [k for k in DERIVED if k != "stale-shelf" and derived.get(k)]
     lines.append("**Constraints**  " + " · ".join(
         f"[{declared.get(key, {}).get('emoji','')} "
         f"{declared.get(key, {}).get('label', key)}]({facet_page_path('settings', key)})".strip()
-        for key in DERIVED if derived.get(key)
+        for key in constraint_keys
     ))
     lines.append("")
+
+    if derived.get("stale-shelf"):
+        count = len(derived["stale-shelf"])
+        lines += [
+            f"**Freshness**  [🕯️ The Stale Shelf]({facet_page_path('settings', 'stale-shelf')}) "
+            f"— {count} listed projects whose upstream has gone quiet. Shown rather than "
+            "quietly dropped, because a list that hides dead projects implies everything "
+            "else is alive.",
+            "",
+        ]
 
     reg = facet_index(entries, "_regulatory_status")
     lines.append("**Regulatory status**  " + " · ".join(

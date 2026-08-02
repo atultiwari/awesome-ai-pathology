@@ -53,3 +53,8 @@ summary: Uses a knowledge graph to tie pathological findings to clinical reasoni
 related:
 - patho-r1
 - pathflip
+metrics:
+  github_stars: 28
+  last_commit: '2026-01-28'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

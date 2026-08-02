@@ -54,3 +54,8 @@ summary: CLIP fine-tuned on the OpenPath corpus of pathology image-text pairs cu
   Twitter, enabling zero-shot classification and image-text retrieval.
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
+metrics:
+  github_stars: 382
+  last_commit: '2023-09-20'
+  hf_downloads: null
+  refreshed_on: '2026-08-03'

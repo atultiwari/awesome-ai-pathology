@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02",
+  "generated_at": "2026-08-03",
   "total_entries": 125,
   "by_category": {
     "agent-mcp": 4,
@@ -37,7 +37,8 @@
     "runs-on-laptop": 91,
     "works-offline": 73,
     "no-scanner-needed": 83,
-    "low-resource": 45
+    "low-resource": 45,
+    "stale-shelf": 16
   },
   "maintainer": {
     "name": "Dr. Atul Tiwari",
