@@ -1,0 +1,54 @@
+subcategories: []
+tasks:
+- spatial-transcriptomics
+- molecular-prediction
+subspecialty:
+- molecular-pathology
+- histopathology
+organs:
+- any
+modality:
+- he
+- omics
+granularity:
+- G1
+platforms:
+- linux
+maintainers: []
+related:
+- istar
+- st-net
+licence: unknown
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+audience:
+- researcher
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+category: spatial-omics
+id: hist2st
+name: Hist2ST / HisToGene
+tagline: Transformer and graph approaches to expression prediction from histology.
+links:
+  paper: https://doi.org/10.1093/bib/bbac297
+summary: Two closely related lines of work applying vision transformers, and transformers combined with
+  graph neural networks, to predict spatial expression from histology spots — modelling relationships
+  between spots rather than each in isolation.

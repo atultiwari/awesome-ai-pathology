@@ -2,7 +2,7 @@
 
 <p align='center'>
   <a href='https://github.com/sindresorhus/awesome'><img src='https://awesome.re/badge.svg' alt='Awesome'></a>
-  <img src='https://img.shields.io/badge/entries-99-blue.svg' alt='entries'>
+  <img src='https://img.shields.io/badge/entries-111-blue.svg' alt='entries'>
   <a href='LICENSE'><img src='https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg' alt='content licence'></a>
   <a href='LICENSE-CODE'><img src='https://img.shields.io/badge/code-MIT-lightgrey.svg' alt='code licence'></a>
 </p>
@@ -34,17 +34,20 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 - [Foundation Models](#foundation-models) (5)
 - [Vision-Language Models](#vision-language-models) (21)
 - [Task-Specific Models](#task-specific-models) (4)
+- [Spatial & Multi-Omics](#spatial--multi-omics) (5)
 - [Software — Viewers & Platforms](#software--viewers--platforms) (5)
 - [QuPath Extensions & Scripts](#qupath-extensions--scripts) (4)
 - [Developer Libraries & Frameworks](#developer-libraries--frameworks) (7)
 - [Datasets](#datasets) (9)
 - [Benchmarks & Challenges](#benchmarks--challenges) (6)
-- [Agents & MCP Servers](#agents--mcp-servers) (3)
+- [Agents & MCP Servers](#agents--mcp-servers) (4)
+- [Prompts & Skills](#prompts--skills) (1)
+- [Web & Mobile Apps](#web--mobile-apps) (2)
 - [Commercial Products](#commercial-products) (13)
 - [Standards & Interoperability](#standards--interoperability) (1)
 - [Validation, QA & Regulatory Science](#validation-qa--regulatory-science) (11)
-- [Ethics, Bias & Failure Modes](#ethics-bias--failure-modes) (4)
-- [Education & Training](#education--training) (2)
+- [Ethics, Bias & Failure Modes](#ethics-bias--failure-modes) (5)
+- [Education & Training](#education--training) (4)
 - [Low-Resource Pathology & Hardware](#low-resource-pathology--hardware) (3)
 - [Meta — Other Lists & Community](#meta--other-lists--community) (1)
 
@@ -106,6 +109,20 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 | **[StarDist](https://github.com/stardist/stardist)** | Star-convex polygon nucleus detection. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · cpu · 🌍 | [`Segment nuclei`](browse/task/nuclei-segmentation.md) [`Detect and count cells`](browse/task/cell-detection.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/stardist/stardist) [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://arxiv.org/abs/1806.03535) |
 
 [Browse all Task-Specific Models →](browse/category/task-specific-model.md)
+
+## Spatial & Multi-Omics
+
+🧬 Spatial transcriptomics from morphology, and multimodal integration of whole-slide images with molecular data.
+
+| Name | What it does | Status | Cost / Hardware | Tasks | Links |
+| --- | --- | --- | --- | --- | --- |
+| **DeepSpot** | Uses spatial context from surrounding tissue to improve expression prediction. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · consumer gpu · 🌍 | [`Work with spatial transcriptomics`](browse/task/spatial-transcriptomics.md) [`Predict molecular status from morphology`](browse/task/molecular-prediction.md) | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://www.medrxiv.org/content/10.1101/2025.02.09.25321567v2.full) |
+| **GHIST** | Single-cell resolution spatial gene expression from histology. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · consumer gpu · 🌍 | [`Work with spatial transcriptomics`](browse/task/spatial-transcriptomics.md) [`Predict molecular status from morphology`](browse/task/molecular-prediction.md) | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12446070/) |
+| **Hist2ST / HisToGene** | Transformer and graph approaches to expression prediction from histology. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · consumer gpu · 🌍 | [`Work with spatial transcriptomics`](browse/task/spatial-transcriptomics.md) [`Predict molecular status from morphology`](browse/task/molecular-prediction.md) | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1093/bib/bbac297) |
+| **[iStar](https://github.com/daviddaiweizhang/istar)** | Super-resolution spatial gene expression from histology and spatial transcriptomics. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · workstation gpu | [`Work with spatial transcriptomics`](browse/task/spatial-transcriptomics.md) [`Predict molecular status from morphology`](browse/task/molecular-prediction.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/daviddaiweizhang/istar) [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://www.nature.com/articles/s41587-023-02019-9) |
+| **[ST-Net](https://github.com/bryanhe/ST-Net)** | Early demonstration that gene expression can be predicted from H&E alone. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · consumer gpu · 🌍 | [`Work with spatial transcriptomics`](browse/task/spatial-transcriptomics.md) [`Predict molecular status from morphology`](browse/task/molecular-prediction.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/bryanhe/ST-Net) [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1038/s41551-020-0578-x) |
+
+[Browse all Spatial & Multi-Omics →](browse/category/spatial-omics.md)
 
 ## Software — Viewers & Platforms
 
@@ -190,10 +207,32 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 | Name | What it does | Status | Cost / Hardware | Tasks | Links |
 | --- | --- | --- | --- | --- | --- |
 | **CPathAgent** | Agent that navigates a slide the way a pathologist moves a microscope. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · workstation gpu | [`Ask questions about an image`](browse/task/vqa.md) [`Classify slides or patches`](browse/task/classification.md) [`Write or structure reports`](browse/task/report-writing.md) | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://arxiv.org/abs/2505.20510) |
+| **[Owkin Pathology Explorer](https://www.owkin.com/newsfeed/owkins-specialized-biological-ai-agent-pathology-explorer-launches-with-anthropics-claude-for-healthcare-and-life-sciences)** ⚠️ `uploads your data` | Pathology analysis agent reachable over the Model Context Protocol. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | paid · cloud only | [`Classify slides or patches`](browse/task/classification.md) [`Segment tissue regions`](browse/task/tissue-segmentation.md) [`Predict prognosis and survival`](browse/task/survival-prediction.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.owkin.com/newsfeed/owkins-specialized-biological-ai-agent-pathology-explorer-launches-with-anthropics-claude-for-healthcare-and-life-sciences) |
 | **[PathAgent](https://github.com/G14nTDo4/PathAgent)** ⚠️ `uploads your data` | Training-free LLM agent that explores whole slides and reasons over findings. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · cloud only | [`Ask questions about an image`](browse/task/vqa.md) [`Write or structure reports`](browse/task/report-writing.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/G14nTDo4/PathAgent) [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://arxiv.org/abs/2511.17052) |
 | **[Patho-AgenticRAG](https://github.com/Wenchuan-Zhang/Patho-AgenticRAG)** | Multimodal retrieval-augmented generation over pathology textbooks. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · consumer gpu · 🌍 | [`Ask questions about an image`](browse/task/vqa.md) [`Search and retrieve similar images`](browse/task/retrieval-search.md) [`Teach and learn`](browse/task/education.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/Wenchuan-Zhang/Patho-AgenticRAG) [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1609/aaai.v40i35.40239) |
 
 [Browse all Agents & MCP Servers →](browse/category/agent-mcp.md)
+
+## Prompts & Skills
+
+✍️ Prompt libraries, Claude Skills, custom GPTs and similar assets built for pathology workflows, with their failure modes documented.
+
+| Name | What it does | Status | Cost / Hardware | Tasks | Links |
+| --- | --- | --- | --- | --- | --- |
+| **[PathGPT](https://github.com/slrenne/PathGPT)** | Structured pathology prompt library built on explicit prompt patterns. | [![Research use only](https://img.shields.io/badge/Status-RUO-grey)](browse/regulatory/ruo.md) | free · cpu | [`Ask questions about an image`](browse/task/vqa.md) [`Teach and learn`](browse/task/education.md) [`Write or structure reports`](browse/task/report-writing.md) | [![Code](https://img.shields.io/badge/Code-link-green)](https://github.com/slrenne/PathGPT) |
+
+[Browse all Prompts & Skills →](browse/category/prompt-skill.md)
+
+## Web & Mobile Apps
+
+📱 Applications a pathologist can open in a browser or install on a phone — counters, calculators, grading aids, viewers, teaching tools.
+
+| Name | What it does | Status | Cost / Hardware | Tasks | Links |
+| --- | --- | --- | --- | --- | --- |
+| **[Hematogones.com](https://hematogones.com/)** | Free browser tools and synoptic reporting templates for laboratory work. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | [`Write or structure reports`](browse/task/report-writing.md) [`Teach and learn`](browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://hematogones.com/) |
+| **[Apps for Pathologists](https://pathologyapps.com/)** | Differential diagnosis outlines organised by organ system and bench. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | freemium · cpu | [`Teach and learn`](browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://pathologyapps.com/) |
+
+[Browse all Web & Mobile Apps →](browse/category/app.md)
 
 ## Commercial Products
 
@@ -256,6 +295,7 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 | **Predicting Acquisition Site from TCGA Images** | Independent confirmation that acquisition site leaks into the pixels. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10189924/) |
 | **[Known Failure Modes in Pathology AI](https://github.com/atultiwari/awesome-ai-pathology/blob/main/DISCLAIMER.md)** | A plain-language index of how these systems actually go wrong. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://github.com/atultiwari/awesome-ai-pathology/blob/main/DISCLAIMER.md) |
 | **Site-Specific Digital Histology Signatures** | Evidence that models can learn the submitting site instead of the biology. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1038/s41467-021-24698-1) |
+| **Data Quality in Histology-to-Expression Prediction** | How much reported performance is an artefact of the evaluation setup. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | [`Work with spatial transcriptomics`](browse/task/spatial-transcriptomics.md) | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://pmc.ncbi.nlm.nih.gov/articles/PMC12439975/) |
 | **Stain and Scanner Variability** | Why a model trained in one laboratory degrades in another. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | — | [![Paper](https://img.shields.io/badge/Paper-link-1f77b4)](https://doi.org/10.1038/s43856-022-00186-5) |
 
 [Browse all Ethics, Bias & Failure Modes →](browse/category/ethics-safety.md)
@@ -267,7 +307,9 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 | Name | What it does | Status | Cost / Hardware | Tasks | Links |
 | --- | --- | --- | --- | --- | --- |
 | **[Digital Pathology Association](https://digitalpathologyassociation.org/)** | Professional body publishing practical digital pathology guidance. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | [`Teach and learn`](browse/task/education.md) [`Consult remotely`](browse/task/telepathology.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://digitalpathologyassociation.org/) |
+| **[PathDojo](https://pathdojo.com/)** | Practice cases and self-testing for pathologists and trainees. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | freemium · cpu | [`Teach and learn`](browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://pathdojo.com/) |
 | **[PathologyOutlines](https://www.pathologyoutlines.com/)** | Free comprehensive online pathology reference. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | [`Teach and learn`](browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.pathologyoutlines.com/) |
+| **[WebPathology](https://www.webpathology.com/)** | Free image atlas of benign and malignant entities. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](browse/regulatory/not-applicable.md) | free · cpu | [`Teach and learn`](browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.webpathology.com/) |
 
 [Browse all Education & Training →](browse/category/education.md)
 

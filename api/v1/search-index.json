@@ -283,6 +283,23 @@
       ]
     },
     {
+      "id": "deepspot",
+      "name": "DeepSpot",
+      "tagline": "Uses spatial context from surrounding tissue to improve expression prediction.",
+      "category": "spatial-omics",
+      "tasks": [
+        "spatial-transcriptomics",
+        "molecular-prediction"
+      ],
+      "subspecialty": [
+        "molecular-pathology",
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "dicom-wsi",
       "name": "DICOM for Whole Slide Imaging",
       "tagline": "The vendor-neutral standard for storing and exchanging pathology slides.",
@@ -402,6 +419,23 @@
       ]
     },
     {
+      "id": "ghist",
+      "name": "GHIST",
+      "tagline": "Single-cell resolution spatial gene expression from histology.",
+      "category": "spatial-omics",
+      "tasks": [
+        "spatial-transcriptomics",
+        "molecular-prediction"
+      ],
+      "subspecialty": [
+        "molecular-pathology",
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "grundium-ocus",
       "name": "Grundium Ocus",
       "tagline": "Portable single-slide scanner at a fraction of the cost of a bulk system.",
@@ -419,6 +453,22 @@
       ]
     },
     {
+      "id": "hematogones",
+      "name": "Hematogones.com",
+      "tagline": "Free browser tools and synoptic reporting templates for laboratory work.",
+      "category": "app",
+      "tasks": [
+        "report-writing",
+        "education"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "hest",
       "name": "HEST-1k / HEST-Bench",
       "tagline": "Paired histology and spatial transcriptomics dataset and benchmark.",
@@ -426,6 +476,23 @@
       "tasks": [
         "spatial-transcriptomics",
         "model-training"
+      ],
+      "subspecialty": [
+        "molecular-pathology",
+        "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "hist2st",
+      "name": "Hist2ST / HisToGene",
+      "tagline": "Transformer and graph approaches to expression prediction from histology.",
+      "category": "spatial-omics",
+      "tasks": [
+        "spatial-transcriptomics",
+        "molecular-prediction"
       ],
       "subspecialty": [
         "molecular-pathology",
@@ -541,6 +608,23 @@
       "tasks": [],
       "subspecialty": [
         "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "istar",
+      "name": "iStar",
+      "tagline": "Super-resolution spatial gene expression from histology and spatial transcriptomics.",
+      "category": "spatial-omics",
+      "tasks": [
+        "spatial-transcriptomics",
+        "molecular-prediction"
+      ],
+      "subspecialty": [
+        "molecular-pathology",
+        "histopathology"
       ],
       "organs": [
         "any"
@@ -685,6 +769,25 @@
       ],
       "subspecialty": [
         "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "owkin-pathology-explorer",
+      "name": "Owkin Pathology Explorer",
+      "tagline": "Pathology analysis agent reachable over the Model Context Protocol.",
+      "category": "agent-mcp",
+      "tasks": [
+        "classification",
+        "tissue-segmentation",
+        "survival-prediction",
+        "retrieval-search"
+      ],
+      "subspecialty": [
+        "histopathology",
+        "molecular-pathology"
       ],
       "organs": [
         "any"
@@ -853,6 +956,21 @@
       ]
     },
     {
+      "id": "pathdojo",
+      "name": "PathDojo",
+      "tagline": "Practice cases and self-testing for pathologists and trainees.",
+      "category": "education",
+      "tasks": [
+        "education"
+      ],
+      "subspecialty": [
+        "any"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
       "id": "pathflip",
       "name": "PathFLIP",
       "tagline": "Fine-grained language-image pretraining grounding captions to regions.",
@@ -864,6 +982,23 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathgpt",
+      "name": "PathGPT",
+      "tagline": "Structured pathology prompt library built on explicit prompt patterns.",
+      "category": "prompt-skill",
+      "tasks": [
+        "vqa",
+        "education",
+        "report-writing"
+      ],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"
@@ -962,6 +1097,21 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "pathologyapps",
+      "name": "Apps for Pathologists",
+      "tagline": "Differential diagnosis outlines organised by organ system and bench.",
+      "category": "app",
+      "tasks": [
+        "education"
+      ],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"
@@ -1354,6 +1504,38 @@
       ]
     },
     {
+      "id": "st-data-quality",
+      "name": "Data Quality in Histology-to-Expression Prediction",
+      "tagline": "How much reported performance is an artefact of the evaluation setup.",
+      "category": "ethics-safety",
+      "tasks": [
+        "spatial-transcriptomics"
+      ],
+      "subspecialty": [
+        "molecular-pathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "st-net",
+      "name": "ST-Net",
+      "tagline": "Early demonstration that gene expression can be predicted from H&E alone.",
+      "category": "spatial-omics",
+      "tasks": [
+        "spatial-transcriptomics",
+        "molecular-prediction"
+      ],
+      "subspecialty": [
+        "molecular-pathology",
+        "histopathology"
+      ],
+      "organs": [
+        "breast"
+      ]
+    },
+    {
       "id": "stain-scanner-variability",
       "name": "Stain and Scanner Variability",
       "tagline": "Why a model trained in one laboratory degrades in another.",
@@ -1522,6 +1704,21 @@
       ],
       "subspecialty": [
         "histopathology"
+      ],
+      "organs": [
+        "any"
+      ]
+    },
+    {
+      "id": "webpathology",
+      "name": "WebPathology",
+      "tagline": "Free image atlas of benign and malignant entities.",
+      "category": "education",
+      "tasks": [
+        "education"
+      ],
+      "subspecialty": [
+        "any"
       ],
       "organs": [
         "any"

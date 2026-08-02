@@ -1,0 +1,55 @@
+subcategories: []
+tasks:
+- spatial-transcriptomics
+- molecular-prediction
+subspecialty:
+- molecular-pathology
+- histopathology
+organs:
+- breast
+modality:
+- he
+- omics
+granularity:
+- G1
+platforms:
+- linux
+maintainers:
+- Stanford University
+related:
+- istar
+- hest
+licence: unknown
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: consumer-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 16
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: academic
+stage: research
+audience:
+- researcher
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+category: spatial-omics
+id: st-net
+name: ST-Net
+tagline: Early demonstration that gene expression can be predicted from H&E alone.
+links:
+  repo: https://github.com/bryanhe/ST-Net
+  paper: https://doi.org/10.1038/s41551-020-0578-x
+summary: Convolutional model trained on matched breast histology and spatial transcriptomics to predict
+  local expression from image tiles. The reference point most later work compares against.

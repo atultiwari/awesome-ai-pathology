@@ -1,0 +1,58 @@
+subcategories: []
+tasks:
+- spatial-transcriptomics
+- molecular-prediction
+subspecialty:
+- molecular-pathology
+- histopathology
+organs:
+- any
+modality:
+- he
+- omics
+granularity:
+- G1
+- G2
+platforms:
+- linux
+maintainers: []
+related:
+- hest
+- st-net
+- deepspot
+licence: unknown
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: true
+sends_data_offsite: false
+offline_capable: true
+hardware_floor: workstation-gpu
+bandwidth: high
+needs_scanner: false
+min_ram_gb: 32
+clinician_note: 'The idea worth knowing: morphology carries enough signal to interpolate molecular data
+  between measured points — but it is inference, not measurement.'
+caveats: null
+featured: true
+showcase: false
+origin: academic
+stage: production
+audience:
+- researcher
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+category: spatial-omics
+id: istar
+name: iStar
+tagline: Super-resolution spatial gene expression from histology and spatial transcriptomics.
+links:
+  repo: https://github.com/daviddaiweizhang/istar
+  paper: https://www.nature.com/articles/s41587-023-02019-9
+summary: Uses hierarchical image features to integrate spatial transcriptomics with high-resolution histology,
+  raising expression predictions towards near-single-cell resolution rather than the coarse spots the
+  assay produces.

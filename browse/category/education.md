@@ -4,12 +4,14 @@
 
 Courses, tutorials, atlases, slide boxes, societies and conferences for learning pathology AI.
 
-**2** entries.
+**4** entries.
 
 | Name | What it does | Status | Cost / Hardware | Tasks | Links |
 | --- | --- | --- | --- | --- | --- |
 | **[Digital Pathology Association](https://digitalpathologyassociation.org/)** | Professional body publishing practical digital pathology guidance. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](../../browse/regulatory/not-applicable.md) | free · cpu | [`Teach and learn`](../../browse/task/education.md) [`Consult remotely`](../../browse/task/telepathology.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://digitalpathologyassociation.org/) |
+| **[PathDojo](https://pathdojo.com/)** | Practice cases and self-testing for pathologists and trainees. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](../../browse/regulatory/not-applicable.md) | freemium · cpu | [`Teach and learn`](../../browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://pathdojo.com/) |
 | **[PathologyOutlines](https://www.pathologyoutlines.com/)** | Free comprehensive online pathology reference. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](../../browse/regulatory/not-applicable.md) | free · cpu | [`Teach and learn`](../../browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.pathologyoutlines.com/) |
+| **[WebPathology](https://www.webpathology.com/)** | Free image atlas of benign and malignant entities. | [![Not applicable](https://img.shields.io/badge/Status-N%2FA-lightgrey)](../../browse/regulatory/not-applicable.md) | free · cpu | [`Teach and learn`](../../browse/task/education.md) | [![Site](https://img.shields.io/badge/Site-link-ffb6c1)](https://www.webpathology.com/) |
 
 ---
 

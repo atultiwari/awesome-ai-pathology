@@ -1,0 +1,49 @@
+subcategories: []
+tasks:
+- education
+subspecialty:
+- any
+organs:
+- any
+modality: []
+granularity: []
+platforms:
+- web
+maintainers: []
+related:
+- webpathology
+- pathologyoutlines
+licence: unknown
+licence_notes: Free to use; content is copyrighted by its publisher.
+cost: freemium
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: null
+caveats: null
+featured: false
+showcase: false
+origin: community
+stage: production
+audience:
+- clinician
+- educator
+regulatory:
+  status: not-applicable
+  detail: null
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: pathdojo
+name: PathDojo
+tagline: Practice cases and self-testing for pathologists and trainees.
+category: education
+links:
+  homepage: https://pathdojo.com/
+summary: Case-based practice environment built by pathologists for training and self-testing, rather than
+  a passive reference.

@@ -1,0 +1,61 @@
+subcategories: []
+tasks:
+- classification
+- tissue-segmentation
+- survival-prediction
+- retrieval-search
+subspecialty:
+- histopathology
+- molecular-pathology
+organs:
+- any
+modality:
+- wsi
+- he
+granularity:
+- G2
+- G3
+platforms:
+- web
+maintainers:
+- Owkin
+related:
+- pathagent
+- phikon-v2
+- pathgpt
+licence: proprietary
+licence_notes: Check the repository before any reuse.
+cost: paid
+self_hostable: false
+sends_data_offsite: true
+offline_capable: false
+hardware_floor: cloud-only
+bandwidth: high
+needs_scanner: true
+min_ram_gb: null
+clinician_note: Notable as an early example of pathology analysis reachable from a general assistant rather
+  than a dedicated application.
+caveats: 'Hosted: slide-derived data leaves your environment. Research use — check the terms and your
+  data-protection obligations before using patient material.'
+featured: false
+showcase: false
+origin: industry
+stage: production
+audience:
+- researcher
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: owkin-pathology-explorer
+category: agent-mcp
+name: Owkin Pathology Explorer
+tagline: Pathology analysis agent reachable over the Model Context Protocol.
+links:
+  homepage: https://www.owkin.com/newsfeed/owkins-specialized-biological-ai-agent-pathology-explorer-launches-with-anthropics-claude-for-healthcare-and-life-sciences
+summary: Agent that locates cell and tissue types in digitised slides for spatially aware analysis of
+  tumours and their microenvironment, exposed to assistants through MCP. Aimed at research and drug development
+  rather than diagnosis.

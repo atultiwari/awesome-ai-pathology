@@ -1,0 +1,56 @@
+subcategories: []
+tasks:
+- vqa
+- education
+- report-writing
+subspecialty:
+- any
+organs:
+- any
+modality:
+- text
+granularity: []
+platforms:
+- web
+maintainers: []
+related:
+- known-failure-modes
+- owkin-pathology-explorer
+licence: unknown
+licence_notes: Check the repository before any reuse.
+cost: free
+self_hostable: false
+sends_data_offsite: false
+offline_capable: false
+hardware_floor: cpu
+bandwidth: low
+needs_scanner: false
+min_ram_gb: null
+clinician_note: 'The most useful part is the structure, not the individual prompts: it shows how to build
+  a prompt that can be evaluated rather than just admired.'
+caveats: A research study rather than a maintained prompt library. Treat the prompts as a starting template,
+  and never as validated clinical tooling.
+featured: true
+showcase: false
+origin: academic
+stage: research
+audience:
+- clinician
+- researcher
+- educator
+regulatory:
+  status: ruo
+  detail: Research use only. Not for primary diagnosis.
+  reference: null
+  verified_on: '2026-08-02'
+added_on: '2026-08-02'
+last_verified: '2026-08-02'
+id: pathgpt
+category: prompt-skill
+name: PathGPT
+tagline: Structured pathology prompt library built on explicit prompt patterns.
+links:
+  repo: https://github.com/slrenne/PathGPT
+summary: Clinico-pathological scenarios written across ten subspecialties, each reviewed by a subspecialty
+  pathologist, and composed from named prompt modules — persona, clinical scenario, question type, reflection
+  and references — then evaluated open-ended and multiple-choice.
