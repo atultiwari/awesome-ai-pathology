@@ -16,6 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history so the metrics-ownership check can diff against main.
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -32,3 +35,11 @@ jobs:
 
       - name: Generated files are current
         run: python3 tools/generate.py --check
+
+      # Only meaningful on a pull request: on main there is nothing to diff
+      # against. Skipped for the metrics bot, whose whole job is changing it.
+      - name: Metrics block not hand-edited
+        if: github.event_name == 'pull_request' && github.head_ref != 'bot/metrics-refresh'
+        run: |
+          git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
+          python3 tools/check_metrics_ownership.py --base "origin/${{ github.base_ref }}"

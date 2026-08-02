@@ -38,8 +38,8 @@ jobs:
       - name: Regenerate derived files
         run: python3 tools/generate.py
 
-      - name: Validate (bot mode — metrics block may be populated)
-        run: python3 tools/validate.py --bot
+      - name: Validate catalogue
+        run: python3 tools/validate.py
 
       - name: Open a pull request if anything changed
         uses: peter-evans/create-pull-request@v6

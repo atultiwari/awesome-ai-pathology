@@ -62,11 +62,14 @@ edited by hand.
 ```bash
 pip install -r requirements.txt
 
-python3 -m pytest tools/tests      # 76 tests
+python3 -m pytest tools/tests      # 116 tests
 python3 tools/validate.py          # schema, vocabulary, cross-references
 python3 tools/validate.py --check-links
 python3 tools/generate.py          # rebuild README, browse/, api/
 python3 tools/generate.py --check  # CI: fail if outputs are stale
+
+python3 tools/refresh_metrics.py --dry-run          # activity metrics, no writes
+python3 tools/check_metrics_ownership.py --base origin/main
 ```
 
 ### Adding an entry by hand
@@ -82,9 +85,18 @@ say why.
 
 ### The `metrics` block is bot-owned
 
-`metrics` (stars, last commit, downloads) is filled by a scheduled job. Leave it
-null. The validator rejects human-authored changes to it, which is what keeps bot
-commits from colliding with your work.
+`metrics` (stars, last commit, downloads) is maintained by a nightly job. **On a
+new entry, leave it out entirely** — the bot fills it on the next run. **On an
+existing entry, do not change it.**
+
+CI enforces this by diffing your branch's metrics against `main`, so a
+hand-edited value fails the build. That is what keeps bot commits from colliding
+with your work.
+
+Entries whose upstream repository has been silent past the threshold appear on
+the **[Stale Shelf](browse/setting/stale-shelf.md)** and are flagged inline. That
+is deliberate: a list that quietly drops dead projects implies everything still
+listed is alive.
 
 ### Two facts that matter more than they look
 

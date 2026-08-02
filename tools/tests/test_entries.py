@@ -6,7 +6,7 @@ import yaml
 
 from lib.entries import apply_defaults, load_entries
 from lib.validate_rules import (
-    check_bot_owned_metrics,
+    check_metrics_unchanged,
     check_duplicate_ids,
     check_id_matches_filename,
     check_related_targets_exist,
@@ -97,28 +97,52 @@ def test_related_must_point_at_existing_entries(make_entry):
 
 
 # ── the bot-owned metrics block ──────────────────────────────────────────
+# This is a DIFF check, not a state check. Metrics are legitimately populated
+# on main by the nightly job, so "is it non-null" cannot tell a bot value from
+# a hand-edit — only comparison against a baseline can.
 
-def test_human_written_metrics_are_rejected(make_entry):
-    tampered = make_entry(metrics={"github_stars": 9999, "last_commit": None,
-                                   "hf_downloads": None, "refreshed_on": None})
-    errors = check_bot_owned_metrics((tampered,), bot_authored=False)
-    assert any("metrics" in e for e in errors)
-
-
-def test_bot_written_metrics_are_allowed(make_entry):
-    written = make_entry(metrics={"github_stars": 9999, "last_commit": None,
-                                  "hf_downloads": None, "refreshed_on": None})
-    assert check_bot_owned_metrics((written,), bot_authored=True) == []
+def test_unchanged_metrics_pass(make_entry):
+    entry = make_entry(id="a", metrics={"github_stars": 50, "last_commit": "2026-07-01",
+                                        "hf_downloads": None, "refreshed_on": "2026-07-02"})
+    baseline = {"a": {"github_stars": 50, "last_commit": "2026-07-01",
+                      "hf_downloads": None, "refreshed_on": "2026-07-02"}}
+    assert check_metrics_unchanged((entry,), baseline) == []
 
 
-def test_absent_metrics_block_is_always_fine(make_entry):
-    assert check_bot_owned_metrics((make_entry(),), bot_authored=False) == []
+def test_hand_edited_metrics_are_rejected(make_entry):
+    entry = make_entry(id="a", metrics={"github_stars": 99999, "last_commit": "2026-07-01",
+                                        "hf_downloads": None, "refreshed_on": "2026-07-02"})
+    baseline = {"a": {"github_stars": 50, "last_commit": "2026-07-01",
+                      "hf_downloads": None, "refreshed_on": "2026-07-02"}}
+    errors = check_metrics_unchanged((entry,), baseline)
+    assert len(errors) == 1 and "github_stars" in errors[0]
 
 
-def test_null_only_metrics_block_is_fine(make_entry):
-    empty = make_entry(metrics={"github_stars": None, "last_commit": None,
-                                "hf_downloads": None, "refreshed_on": None})
-    assert check_bot_owned_metrics((empty,), bot_authored=False) == []
+def test_populated_metrics_on_main_do_not_fail(make_entry):
+    """The regression that broke CI: populated metrics are normal, not an error."""
+    entry = make_entry(id="a", metrics={"github_stars": 1411, "last_commit": "2026-08-01",
+                                        "hf_downloads": None, "refreshed_on": "2026-08-03"})
+    baseline = {"a": dict(entry["metrics"])}
+    assert check_metrics_unchanged((entry,), baseline) == []
+
+
+def test_new_entry_must_arrive_with_metrics_unset(make_entry):
+    entry = make_entry(id="brand-new", metrics={"github_stars": 7, "last_commit": None,
+                                                "hf_downloads": None, "refreshed_on": None})
+    errors = check_metrics_unchanged((entry,), baseline={})
+    assert len(errors) == 1 and "new entries" in errors[0]
+
+
+def test_new_entry_with_empty_metrics_is_fine(make_entry):
+    assert check_metrics_unchanged((make_entry(id="brand-new"),), baseline={}) == []
+
+
+def test_clearing_a_metric_is_also_a_change(make_entry):
+    """Deleting a bot value is as much an edit as inventing one."""
+    entry = make_entry(id="a")
+    baseline = {"a": {"github_stars": 50, "last_commit": "2026-07-01",
+                      "hf_downloads": None, "refreshed_on": "2026-07-02"}}
+    assert check_metrics_unchanged((entry,), baseline)
 
 
 # ── schema integration ───────────────────────────────────────────────────

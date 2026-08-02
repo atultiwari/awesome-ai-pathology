@@ -3,7 +3,9 @@
 
     python3 tools/validate.py                 # structural checks
     python3 tools/validate.py --check-links   # also verify every URL resolves
-    python3 tools/validate.py --bot           # allow the metrics block to be set
+
+Metrics ownership is checked separately by tools/check_metrics_ownership.py,
+which needs a git baseline to diff against and so cannot live here.
 
 Exit code 1 on any error. Warnings never fail the build.
 """
@@ -20,7 +22,6 @@ from lib.entries import SOURCE_KEY, load_entries  # noqa: E402
 from lib.linkcheck import check_urls  # noqa: E402
 from lib.taxonomy import load_taxonomy  # noqa: E402
 from lib.validate_rules import (  # noqa: E402
-    check_bot_owned_metrics,
     check_duplicate_ids,
     check_id_matches_filename,
     check_related_targets_exist,
@@ -49,7 +50,6 @@ def collect_urls(entries) -> list[tuple[str, str]]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check-links", action="store_true", help="verify every URL resolves")
-    parser.add_argument("--bot", action="store_true", help="permit a populated metrics block")
     args = parser.parse_args()
 
     taxonomy = load_taxonomy(ROOT / "data" / "taxonomy")
@@ -65,7 +65,6 @@ def main() -> int:
     errors += check_duplicate_ids(entries)
     errors += check_vocabularies(entries, taxonomy)
     errors += check_related_targets_exist(entries)
-    errors += check_bot_owned_metrics(entries, bot_authored=args.bot)
 
     warnings = check_verification_freshness(entries, today=date.today().isoformat())
 

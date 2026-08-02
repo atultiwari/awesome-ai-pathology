@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Any, Sequence
+from typing import Any, Mapping, Sequence
 
 from jsonschema import Draft202012Validator
 
@@ -83,24 +83,41 @@ def check_related_targets_exist(entries: Sequence[Entry]) -> list[str]:
     return errors
 
 
-def check_bot_owned_metrics(entries: Sequence[Entry], bot_authored: bool) -> list[str]:
-    """The metrics block belongs to the nightly job.
+def check_metrics_unchanged(
+    entries: Sequence[Entry], baseline: Mapping[str, Mapping[str, Any]]
+) -> list[str]:
+    """The metrics block belongs to the nightly job — humans must not change it.
 
-    Hand-editing it produces conflicts between bot commits and human PRs, so a
-    human-authored change carrying non-null metrics is rejected.
+    `baseline` maps entry id to its metrics block on the revision being compared
+    against. This is a DIFF check, not a state check: the earlier version
+    rejected any populated metrics at all, which was correct only while every
+    value was null and would have failed every pull request once the bot began
+    filling them.
+
+    A new entry (absent from baseline) must arrive with metrics unset — the
+    nightly job populates it on the next run.
     """
-    if bot_authored:
-        return []
-
-    errors = []
+    errors: list[str] = []
     for entry in entries:
-        metrics = entry.get("metrics") or {}
-        populated = [f for f in METRIC_FIELDS if metrics.get(f) is not None]
-        if populated:
-            where = entry.get(SOURCE_KEY, entry.get("id", "<unknown>"))
+        entry_id = entry.get("id", "")
+        where = entry.get(SOURCE_KEY, entry_id or "<unknown>")
+        current = {f: (entry.get("metrics") or {}).get(f) for f in METRIC_FIELDS}
+
+        if entry_id not in baseline:
+            populated = [f for f in METRIC_FIELDS if current.get(f) is not None]
+            if populated:
+                errors.append(
+                    f"{where}: new entries must leave metrics unset "
+                    f"({', '.join(populated)}); the nightly job fills them"
+                )
+            continue
+
+        was = {f: (baseline[entry_id] or {}).get(f) for f in METRIC_FIELDS}
+        changed = [f for f in METRIC_FIELDS if current.get(f) != was.get(f)]
+        if changed:
             errors.append(
-                f"{where}: metrics is bot-owned; leave "
-                f"{', '.join(populated)} null (the nightly job fills it)"
+                f"{where}: metrics is bot-owned and was modified "
+                f"({', '.join(changed)}); revert it and let the nightly job update it"
             )
     return errors
 
