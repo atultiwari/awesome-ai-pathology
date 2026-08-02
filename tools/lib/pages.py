@@ -325,7 +325,12 @@ def api_index_html(entries: Sequence[Entry], taxonomy: Taxonomy, today: str) -> 
     """Landing page for the API host, so its root is not a bare 404.
 
     Self-contained: no external CSS, fonts or scripts. Adapts to light and dark.
+
+    Deliberately carries NO build date. Embedding one made the file change every
+    day regardless of content, which produced a daily no-op commit from the
+    generate workflow. The timestamp lives in stats.json, which is data.
     """
+    _ = today  # retained for signature symmetry with api_documents()
     counts = _tally(entries, "category")
     rows = "\n".join(
         f"      <tr><td>{taxonomy.label('categories', key)}</td><td>{value}</td></tr>"
@@ -403,7 +408,8 @@ def api_index_html(entries: Sequence[Entry], taxonomy: Taxonomy, today: str) -> 
        <a href="{REPO}/blob/main/DISCLAIMER.md">Read the disclaimer</a>.</p>
     <p>Curated by {MAINTAINER['name']} ·
        <a href="https://orcid.org/{MAINTAINER['orcid']}">ORCID</a> ·
-       generated {today}</p>
+       last generated shown in
+       <a href="api/v1/stats.json"><code>stats.json</code></a></p>
   </footer>
 </main>
 </body>
