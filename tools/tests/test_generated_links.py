@@ -22,10 +22,20 @@ MARKDOWN_LINK = re.compile(r"\[[^\]]*\]\(([^)\s]+)\)")
 BADGE_LINK = re.compile(r"\[!\[[^\]]*\]\([^)]*\)\]\(([^)\s]+)\)")
 
 # Files that exist in the repo but are not produced by the generator.
+# Digest issues are DISCOVERED, never hardcoded: naming one here meant every
+# new weekly issue failed this test, which would have trained us to ignore it.
 STATIC_FILES = {
     "README.md", "CONTRIBUTING.md", "DISCLAIMER.md", "LICENSE", "LICENSE-CODE",
-    "ACKNOWLEDGEMENTS.md", "digest/2026-W32.md", "digest",
+    "ACKNOWLEDGEMENTS.md", "digest",
 }
+
+
+def _static_files(repo_root: Path) -> set[str]:
+    found = set(STATIC_FILES)
+    digest_dir = repo_root / "digest"
+    if digest_dir.is_dir():
+        found |= {f"digest/{p.name}" for p in digest_dir.glob("*.md")}
+    return found
 
 
 @pytest.fixture(scope="module")
@@ -90,8 +100,8 @@ def test_no_heading_starts_with_an_emoji(site):
                 )
 
 
-def test_every_relative_link_resolves(site):
-    known = set(site) | STATIC_FILES
+def test_every_relative_link_resolves(site, repo_root):
+    known = set(site) | _static_files(repo_root)
     broken: list[str] = []
 
     for page, text in site.items():
