@@ -66,24 +66,27 @@ and contributors accept no liability for any loss or harm arising from its use.
 ## The weekly digest
 
 Candidates for *This Week in AI Pathology* are discovered automatically from arXiv,
-PubMed, Hugging Face, GitHub and openFDA.
+PubMed, Hugging Face, GitHub and openFDA, and an issue is published each week whether or
+not it has been read yet. That is a deliberate trade: current-awareness is worth little
+if it arrives a month late.
 
-**Most issues are then selected and written by hand.** Where that has happened, the issue
-reads as ordinary editorial.
+Every issue is therefore labelled:
 
-**Some issues are published automatically, without anyone reading them**, when the review
-window elapses. Those issues:
+- **Reviewed** — read and selected by the maintainer, with the review date shown.
+- **Awaiting review** — assembled and published automatically, with nobody having read it
+  first. Marked prominently at the top and in the title.
 
-- say so prominently at the top, and carry *unreviewed* in the title;
-- contain only material defensible without human judgement — a regulator's own records and
-  peer-reviewed journal articles — capped at a dozen items;
-- exclude preprints, model releases and small repositories entirely;
-- carry no editorial commentary and make no claim to have been selected.
+**Nothing is filtered out to make automatic publication safe.** Preprints, model releases
+and small repositories all appear, because omitting them would defeat the purpose of a
+weekly issue. This means an *awaiting review* issue may contain work that is preliminary,
+unreplicated, withdrawn, or simply wrong.
 
 **In either case, a paper or product appearing in a digest has not been validated, and its
 claims have not been checked.** A digest is a pointer to what was published, not an
-assessment of whether it is any good. Nothing in a digest is sponsored.
+assessment of whether it is any good. Preprints in particular have not been peer reviewed.
+Nothing in a digest is sponsored, and appearing there is not endorsement.
 
+Issues are reviewed as time allows, including back issues, and relabelled when they are.
 If an automatically published issue contains something that should not be there, please
 report it — it will be corrected or withdrawn.
 

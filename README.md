@@ -1,5 +1,8 @@
 # Awesome AI in Pathology
 
+> **Envisioned by a pathologist, for fellow pathologists.**  
+> Discovery runs continuously; judgement is applied by one person, as time allows. Everything is labelled with which stage it has reached — so you always know whether you are reading something checked, or something merely found.
+
 <p align='center'>
   <a href='https://github.com/sindresorhus/awesome'><img src='https://awesome.re/badge.svg' alt='Awesome'></a>
   <img src='https://img.shields.io/badge/entries-125-blue.svg' alt='entries'>
@@ -9,7 +12,7 @@
 
 **Everything in AI for pathology — from the paper to the plugin to the product — with an honest note on whether you are allowed to use it on a patient.**
 
-Curated by a practising pathologist, for **pathologists and researchers alike**. Every entry records what it costs, what hardware it needs, whether it works offline, whether it uploads your slides, and where it stands with regulators.
+Built for **pathologists and researchers alike**. Every entry records what it costs, what hardware it needs, whether it works offline, whether it uploads your slides, and where it stands with regulators.
 
 > **Not medical advice or a substitute for validation.** Inclusion is not endorsement. Regulatory clearance in one country says nothing about another. See [DISCLAIMER.md](DISCLAIMER.md).
 
@@ -17,7 +20,7 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 
 ## [This Week in AI Pathology — 2026, week 32](digest/2026-W32.md)
 
-Discovered automatically each week. Most issues are then selected and written by hand; when review is not possible in time, a deliberately narrower issue goes out **marked as unreviewed**, carrying only regulator records and peer-reviewed articles. Each issue states which it is. [All issues](digest/).
+Assembled automatically every week so the week's work reaches you while it is still the week's work. Reading happens after — each issue is labelled **reviewed** or **awaiting review**, and back issues get marked as they are read. [All issues](digest/).
 
 ---
 
