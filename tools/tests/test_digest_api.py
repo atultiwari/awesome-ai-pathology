@@ -116,3 +116,62 @@ def test_collect_returns_newest_first(repo_root):
 
 def test_collect_excludes_full_listings(repo_root):
     assert all(not i["id"].endswith("-full") for i in collect(repo_root))
+
+
+# ── structured items for magazine layout ─────────────────────────────────
+
+def test_item_block_is_extracted():
+    from lib.digest import parse_blocks
+    blocks = parse_blocks(
+        "**[A Title](https://www.nature.com/articles/x)**\n"
+        "*Nature Medicine*\n"
+        "Some commentary here."
+    )
+    assert len(blocks) == 1
+    item = blocks[0]
+    assert item["kind"] == "item"
+    assert item["title"] == "A Title"
+    assert item["source"] == "Nature Medicine"
+    assert item["domain"] == "nature.com"      # www. stripped
+    assert "commentary" in item["note_html"]
+
+
+def test_optional_relevance_score_is_read():
+    from lib.digest import parse_blocks
+    blocks = parse_blocks("[8] **[T](https://e.org/x)**\n*J*\nnote")
+    assert blocks[0]["score"] == 8
+
+
+def test_missing_score_is_none_not_zero():
+    """An unscored item must not render as a zero."""
+    from lib.digest import parse_blocks
+    assert parse_blocks("**[T](https://e.org/x)**\n*J*\nnote")[0]["score"] is None
+
+
+def test_item_without_a_source_line_still_parses():
+    from lib.digest import parse_blocks
+    item = parse_blocks("**[T](https://e.org/x)**\nstraight to commentary")[0]
+    assert item["source"] == "" and "commentary" in item["note_html"]
+
+
+def test_prose_is_kept_as_prose():
+    from lib.digest import parse_blocks
+    blocks = parse_blocks("Just an editorial aside.")
+    assert blocks[0]["kind"] == "prose" and "<p>" in blocks[0]["html"]
+
+
+def test_blockquote_stays_prose():
+    from lib.digest import parse_blocks
+    assert parse_blocks("> a caution")[0]["kind"] == "prose"
+
+
+def test_relative_link_has_no_domain():
+    from lib.digest import domain_of
+    assert domain_of("../browse/all.md") == ""
+
+
+def test_real_issue_yields_items(repo_root):
+    issue = parse_issue(repo_root / "digest" / "2026-W32.md")
+    items = [b for s in issue["sections"] for b in s["blocks"] if b["kind"] == "item"]
+    assert len(items) >= 10, "the published issue should yield its items"
+    assert all(i["title"] and i["url"] for i in items)
