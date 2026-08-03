@@ -8,6 +8,10 @@ on:
       - 'data/**'
       - 'tools/**'
       - 'schema/**'
+      # The README links the newest digest, so publishing an issue must
+      # regenerate it. Without this, every weekly issue would go out while the
+      # README still pointed at the previous one.
+      - 'digest/**'
   workflow_dispatch:
 
 permissions:
