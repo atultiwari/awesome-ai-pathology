@@ -54,9 +54,16 @@ law that applies to you — India's DPDP Act, the GDPR, HIPAA, or otherwise.
 > Medical College Chittorgarh or the Government of Rajasthan, and inclusion of
 > any product does not constitute endorsement by any institution.
 
-The maintainer declares **no commercial affiliations, no sponsored placements,
-and no affiliate links**. If that ever changes, it will be declared here and in
-the README before anything else changes.
+The maintainer declares **no third-party sponsorship, no paid placement, and no
+affiliate arrangements**. No entry appears here because someone paid for it, and no
+ordering reflects anything but the stated criteria.
+
+Where this project links to the maintainer's own pages — his personal site, his
+research laboratory, and its teaching and workshop offerings, some of which are paid —
+those are self-evidently his own and are labelled as such. They are not third-party
+placements, and no catalogue entry is affected by them. If any genuine third-party
+commercial relationship ever arises, it will be declared here and in the README before
+anything else changes.
 
 ## No warranty
 

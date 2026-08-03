@@ -370,7 +370,7 @@ Additional Nodal Officer (AI/ML), Department of Medical Education, Government of
   
 ORCID: [0000-0002-8048-9541](https://orcid.org/0000-0002-8048-9541)
 
-*No commercial affiliations. No sponsored placements. No affiliate links.*
+*No third-party sponsorship, paid placement, or affiliate arrangements. Links to the maintainer's own teaching and research pages are his own.*
 
 > This is a personal project. It is not an official publication of Government Medical College Chittorgarh or the Government of Rajasthan, and inclusion of any product does not constitute endorsement by any institution.
 

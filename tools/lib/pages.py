@@ -65,7 +65,7 @@ MAINTAINER = {
         "Government of Rajasthan, India",
     ],
     "orcid": "0000-0002-8048-9541",
-    "declaration": "No commercial affiliations. No sponsored placements. No affiliate links.",
+    "declaration": "No third-party sponsorship, paid placement, or affiliate arrangements. Links to the maintainer's own teaching and research pages are his own.",
     "independence": (
         "This is a personal project. It is not an official publication of Government Medical "
         "College Chittorgarh or the Government of Rajasthan, and inclusion of any product does "
