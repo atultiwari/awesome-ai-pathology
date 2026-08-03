@@ -63,6 +63,30 @@ the README before anything else changes.
 This material is provided "as is", without warranty of any kind. The maintainer
 and contributors accept no liability for any loss or harm arising from its use.
 
+## The weekly digest
+
+Candidates for *This Week in AI Pathology* are discovered automatically from arXiv,
+PubMed, Hugging Face, GitHub and openFDA.
+
+**Most issues are then selected and written by hand.** Where that has happened, the issue
+reads as ordinary editorial.
+
+**Some issues are published automatically, without anyone reading them**, when the review
+window elapses. Those issues:
+
+- say so prominently at the top, and carry *unreviewed* in the title;
+- contain only material defensible without human judgement — a regulator's own records and
+  peer-reviewed journal articles — capped at a dozen items;
+- exclude preprints, model releases and small repositories entirely;
+- carry no editorial commentary and make no claim to have been selected.
+
+**In either case, a paper or product appearing in a digest has not been validated, and its
+claims have not been checked.** A digest is a pointer to what was published, not an
+assessment of whether it is any good. Nothing in a digest is sponsored.
+
+If an automatically published issue contains something that should not be there, please
+report it — it will be corrected or withdrawn.
+
 ## Corrections
 
 Factual errors are taken seriously. Please

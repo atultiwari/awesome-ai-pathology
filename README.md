@@ -17,7 +17,7 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 
 ## [This Week in AI Pathology — 2026, week 32](digest/2026-W32.md)
 
-Discovered automatically each week, selected by hand. New clearances, new code, and the papers worth your time. [All issues](digest/).
+Discovered automatically each week. Most issues are then selected and written by hand; when review is not possible in time, a deliberately narrower issue goes out **marked as unreviewed**, carrying only regulator records and peer-reviewed articles. Each issue states which it is. [All issues](digest/).
 
 ---
 
