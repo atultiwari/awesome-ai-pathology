@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-03",
+  "source": "https://workshops.vedantresearchlabs.com/workshops.js",
+  "count": 4,
+  "workshops": [
+    {
+      "id": "ai-toolkit-for-doctors-basic",
+      "title": "AI Toolkit for Doctors",
+      "tagline": "Two evenings with ChatGPT and Claude — the fastest way in",
+      "status": "open",
+      "level": "Beginner",
+      "format": "Live · hands-on",
+      "for_whom": "Doctors, residents and medical students who have not yet used ChatGPT or Claude seriously in their work.",
+      "when": "Friday 7 & Saturday 8 August 2026",
+      "starts_at": "2026-08-07T20:30:00+05:30",
+      "url": "https://academy.vedantresearchlabs.com/courses/ai-toolkit-for-doctors-basic/"
+    },
+    {
+      "id": "build-your-first-medical-app",
+      "title": "Build Your First Medical App: Web and Android",
+      "tagline": "One evening, no code — a web app and an Android app you built yourself",
+      "status": "open",
+      "level": "Beginner · no prior coding",
+      "format": "Live · hands-on",
+      "for_whom": "Any doctor who has had an app idea and assumed code was the wall. Nothing is assumed and nothing needs to be attended first.",
+      "when": "Friday 14 August 2026",
+      "starts_at": "2026-08-14T20:30:00+05:30",
+      "url": "https://academy.vedantresearchlabs.com/courses/build-your-first-medical-app-web-android/"
+    },
+    {
+      "id": "clinical-app-building-idea-to-prototype",
+      "title": "Clinical App Building with AI: From Idea to Prototype",
+      "tagline": "Two evenings with a real coding agent — one app rebuilt, one built from scratch",
+      "status": "open",
+      "level": "Beginner · no prior coding",
+      "format": "Live · project-based",
+      "for_whom": "Doctors with an idea and no development background. You do not need to have attended the first workshop — that app is sent to every registrant beforehand, so everybody starts from the same place.",
+      "when": "Thursday 20 & Friday 21 August 2026",
+      "starts_at": "2026-08-20T20:30:00+05:30",
+      "url": "https://academy.vedantresearchlabs.com/courses/clinical-app-building-with-ai-from-idea-to-prototype-windows-macos-android-ios-web/"
+    },
+    {
+      "id": "ai-in-digital-pathology",
+      "title": "AI in Digital Pathology",
+      "tagline": "Digital pathology without a whole-slide scanner",
+      "status": "soon",
+      "level": "Beginner to intermediate",
+      "format": "Live · hands-on",
+      "for_whom": "Pathologists, PG trainees, laboratory directors and technologists. No scanner and no coding assumed.",
+      "when": "Dates to be announced",
+      "starts_at": null,
+      "url": null
+    }
+  ]
+}
