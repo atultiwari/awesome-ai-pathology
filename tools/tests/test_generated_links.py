@@ -24,7 +24,7 @@ BADGE_LINK = re.compile(r"\[!\[[^\]]*\]\([^)]*\)\]\(([^)\s]+)\)")
 # Files that exist in the repo but are not produced by the generator.
 STATIC_FILES = {
     "README.md", "CONTRIBUTING.md", "DISCLAIMER.md", "LICENSE", "LICENSE-CODE",
-    "ACKNOWLEDGEMENTS.md",
+    "ACKNOWLEDGEMENTS.md", "digest/2026-W32.md", "digest",
 }
 
 
@@ -32,7 +32,7 @@ STATIC_FILES = {
 def site(repo_root: Path) -> dict[str, str]:
     taxonomy = load_taxonomy(repo_root / "data" / "taxonomy")
     entries = load_entries(repo_root / "data" / "entries")
-    pages = {"README.md": readme(entries, taxonomy)}
+    pages = {"README.md": readme(entries, taxonomy, repo_root)}
     pages.update(browse_pages(entries, taxonomy))
     pages.update(api_documents(entries, taxonomy, today_iso()))
     return pages
@@ -81,8 +81,12 @@ def test_no_heading_starts_with_an_emoji(site):
         for line in text.splitlines():
             if line.startswith("#"):
                 body = line.lstrip("#").strip()
-                assert body[:1].isalnum() or body[:1] in "(", (
-                    f"{page}: heading must start with a word, got {line!r}"
+                # A leading "[" is safe: GitHub strips the bracket without
+                # leaving a space, so the anchor is unaffected. A leading emoji
+                # is NOT — it is stripped but its trailing space survives,
+                # producing "#-heading" instead of "#heading".
+                assert body[:1].isalnum() or body[:1] in "([", (
+                    f"{page}: heading must not start with an emoji, got {line!r}"
                 )
 
 

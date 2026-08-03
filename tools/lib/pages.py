@@ -150,13 +150,54 @@ def _facet_page(
 
 # ── README ───────────────────────────────────────────────────────────────
 
-def readme(entries: Sequence[Entry], taxonomy: Taxonomy) -> str:
+def readme(entries: Sequence[Entry], taxonomy: Taxonomy, root=None) -> str:
     parts: list[str] = []
     parts += _header(entries)
+
+    digest = latest_digest(root) if root else None
+    if digest:
+        path, title = digest
+        parts += [
+            f"## [{title}]({path})",
+            "",
+            "Discovered automatically each week, selected by hand. New clearances, new code, "
+            f"and the papers worth your time. [All issues](digest/).",
+            "",
+            "---",
+            "",
+        ]
+
     parts += _browse_matrix(entries, taxonomy)
     parts += _sections(entries, taxonomy)
     parts += _about()
     return "\n".join(parts)
+
+
+def latest_digest(root) -> tuple[str, str] | None:
+    """(path, title) of the most recent digest, or None.
+
+    Digests are hand-written editorial, not generated — the generator only
+    discovers and links the newest one so the README never goes stale.
+    """
+    from pathlib import Path
+
+    directory = Path(root) / "digest"
+    if not directory.is_dir():
+        return None
+    issues = sorted(
+        (p for p in directory.glob("*.md") if not p.stem.endswith("-full")),
+        reverse=True,
+    )
+    if not issues:
+        return None
+
+    newest = issues[0]
+    title = newest.stem
+    for line in newest.read_text(encoding="utf-8").splitlines():
+        if line.startswith("# "):
+            title = line.lstrip("# ").strip()
+            break
+    return f"digest/{newest.name}", title
 
 
 def _header(entries: Sequence[Entry]) -> list[str]:

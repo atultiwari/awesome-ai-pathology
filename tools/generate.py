@@ -34,7 +34,7 @@ def build() -> dict[str, str]:
 
     today = today_iso()
     files = {
-        "README.md": readme(entries, taxonomy),
+        "README.md": readme(entries, taxonomy, ROOT),
         # Landing page for the Pages host, so its root is not a bare 404.
         "index.html": api_index_html(entries, taxonomy, today),
         # Pages would otherwise run the output through Jekyll, which ignores

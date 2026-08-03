@@ -15,6 +15,12 @@ Curated by a practising pathologist, for **pathologists and researchers alike**.
 
 ---
 
+## [This Week in AI Pathology — 2026, week 32](digest/2026-W32.md)
+
+Discovered automatically each week, selected by hand. New clearances, new code, and the papers worth your time. [All issues](digest/).
+
+---
+
 ## Browse by
 
 **I am a…**  [🩺 Pathologists](browse/audience/clinician.md) · [🔬 Researchers](browse/audience/researcher.md) · [💻 Developers](browse/audience/developer.md) · [🎓 Educators](browse/audience/educator.md)
