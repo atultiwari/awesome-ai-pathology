@@ -30,7 +30,7 @@
       "sections": [
         {
           "heading": "✅ Regulatory",
-          "html": "<p><strong>No new pathology device clearances this week.</strong></p><p>Both 510(k) records returned under the pathology product codes were already catalogued. That is a normal week — clearances in this space arrive a few times a year, not weekly.</p><p>&lt;sub&gt;Product codes watched: QPN (AI algorithms in digital pathology), SFH/SHW (prognostic algorithms), PSY (whole slide imaging systems), QKQ (viewing and management software), PZZ, OEO. See <a href=\"../browse/regulatory/fda-510k.md\">FDA-cleared entries</a>.&lt;/sub&gt;</p>",
+          "html": "<p><strong>No new pathology device clearances this week.</strong></p><p>Both 510(k) records returned under the pathology product codes were already catalogued. That is a normal week — clearances in this space arrive a few times a year, not weekly.</p><p><sub>Product codes watched: QPN (AI algorithms in digital pathology), SFH/SHW (prognostic algorithms), PSY (whole slide imaging systems), QKQ (viewing and management software), PZZ, OEO. See <a href=\"../browse/regulatory/fda-510k.md\">FDA-cleared entries</a>.</sub></p>",
           "blocks": [
             {
               "kind": "prose",
@@ -42,13 +42,14 @@
             },
             {
               "kind": "prose",
-              "html": "<p>&lt;sub&gt;Product codes watched: QPN (AI algorithms in digital pathology), SFH/SHW (prognostic algorithms), PSY (whole slide imaging systems), QKQ (viewing and management software), PZZ, OEO. See <a href=\"../browse/regulatory/fda-510k.md\">FDA-cleared entries</a>.&lt;/sub&gt;</p>"
+              "html": "<p><sub>Product codes watched: QPN (AI algorithms in digital pathology), SFH/SHW (prognostic algorithms), PSY (whole slide imaging systems), QKQ (viewing and management software), PZZ, OEO. See <a href=\"../browse/regulatory/fda-510k.md\">FDA-cleared entries</a>.</sub></p>"
             },
             {
               "kind": "prose",
               "html": ""
             }
-          ]
+          ],
+          "item_count": 0
         },
         {
           "heading": "🩺 Most relevant to practice",
@@ -94,7 +95,8 @@
               "kind": "prose",
               "html": ""
             }
-          ]
+          ],
+          "item_count": 4
         },
         {
           "heading": "🔬 Methods and critique",
@@ -158,7 +160,8 @@
               "kind": "prose",
               "html": ""
             }
-          ]
+          ],
+          "item_count": 6
         },
         {
           "heading": "🛠️ Code released",
@@ -186,11 +189,12 @@
               "kind": "prose",
               "html": ""
             }
-          ]
+          ],
+          "item_count": 2
         },
         {
           "heading": "📌 Not included, and why",
-          "html": "<p>97 candidates were surfaced; 13 appear above. Most of the remainder were personal or coursework repositories from GitHub's recently-created feed — real work, but not yet something to recommend to a stranger.</p><p>Nothing was excluded for being critical, unfashionable, or from an unfamiliar group. If something notable is missing, <a href=\"https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose\">say so</a> — that is the correction this list most needs.</p><p>&lt;sub&gt;Assembled with the discovery pipeline, reviewed by hand. Sources: arXiv · PubMed · Hugging Face · GitHub · openFDA. Nothing here is sponsored, and no product is endorsed.&lt;/sub&gt;</p>",
+          "html": "<p>97 candidates were surfaced; 13 appear above. Most of the remainder were personal or coursework repositories from GitHub's recently-created feed — real work, but not yet something to recommend to a stranger.</p><p>Nothing was excluded for being critical, unfashionable, or from an unfamiliar group. If something notable is missing, <a href=\"https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose\">say so</a> — that is the correction this list most needs.</p><p><sub>Assembled with the discovery pipeline, reviewed by hand. Sources: arXiv · PubMed · Hugging Face · GitHub · openFDA. Nothing here is sponsored, and no product is endorsed.</sub></p>",
           "blocks": [
             {
               "kind": "prose",
@@ -206,9 +210,10 @@
             },
             {
               "kind": "prose",
-              "html": "<p>&lt;sub&gt;Assembled with the discovery pipeline, reviewed by hand. Sources: arXiv · PubMed · Hugging Face · GitHub · openFDA. Nothing here is sponsored, and no product is endorsed.&lt;/sub&gt;</p>"
+              "html": "<p><sub>Assembled with the discovery pipeline, reviewed by hand. Sources: arXiv · PubMed · Hugging Face · GitHub · openFDA. Nothing here is sponsored, and no product is endorsed.</sub></p>"
             }
-          ]
+          ],
+          "item_count": 0
         }
       ],
       "source": "https://github.com/atultiwari/awesome-ai-pathology/blob/main/digest/2026-W32.md"

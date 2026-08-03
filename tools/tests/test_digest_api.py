@@ -175,3 +175,31 @@ def test_real_issue_yields_items(repo_root):
     items = [b for s in issue["sections"] for b in s["blocks"] if b["kind"] == "item"]
     assert len(items) >= 10, "the published issue should yield its items"
     assert all(i["title"] and i["url"] for i in items)
+
+
+def test_sub_tags_render_rather_than_leaking_as_text():
+    """The published magazine showed a literal "<sub>" throughout."""
+    out = inline("<sub>Product codes watched</sub>")
+    assert out == "<sub>Product codes watched</sub>"
+
+
+def test_script_tags_are_still_escaped():
+    """The safelist must not become a hole."""
+    assert "<script>" not in inline("<script>alert(1)</script>")
+
+
+@pytest.mark.parametrize("tag", ["sub", "sup", "small", "br"])
+def test_formatting_tags_are_safelisted(tag):
+    assert f"<{tag}>" in inline(f"<{tag}>x</{tag}>") or f"<{tag}>" in inline(f"<{tag}>")
+
+
+@pytest.mark.parametrize("tag", ["div", "img", "iframe", "style", "a onclick"])
+def test_other_tags_stay_escaped(tag):
+    assert "&lt;" in inline(f"<{tag}>x")
+
+
+def test_sections_report_their_item_count(repo_root):
+    issue = parse_issue(repo_root / "digest" / "2026-W32.md")
+    counts = {s["heading"]: s["item_count"] for s in issue["sections"]}
+    assert any(c > 0 for c in counts.values())
+    assert any(c == 0 for c in counts.values()), "fixture should include a no-item section"

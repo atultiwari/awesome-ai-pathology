@@ -28,9 +28,16 @@ _ITALIC = re.compile(r"(?<!\*)\*([^*]+)\*(?!\*)")
 _CODE = re.compile(r"`([^`]+)`")
 
 
+# Formatting-only tags the issues legitimately use. Everything else is escaped,
+# so hand-written editorial can never inject markup. Without this the literal
+# text "<sub>" appeared throughout the published magazine.
+_SAFE_INLINE = re.compile(r"&lt;(/?)(sub|sup|small|br)\s*/?&gt;")
+
+
 def inline(text: str) -> str:
     """Convert inline markdown to HTML, escaping everything else."""
     out = html.escape(text, quote=False)
+    out = _SAFE_INLINE.sub(lambda m: f"<{m.group(1)}{m.group(2)}>", out)
     out = _CODE.sub(lambda m: f"<code>{m.group(1)}</code>", out)
     out = _LINK.sub(
         lambda m: f'<a href="{html.escape(m.group(2), quote=True)}">{m.group(1)}</a>', out
@@ -190,10 +197,14 @@ def parse_issue(path: Path) -> dict[str, Any] | None:
     sections = []
     for part in parts[1:]:
         head, _, rest = part.partition("\n")
+        blocks = parse_blocks(rest)
         sections.append({
             "heading": head.strip(),
             "html": to_html(rest),
-            "blocks": parse_blocks(rest),
+            "blocks": blocks,
+            # Lets the renderer put substance first and fold the rest together:
+            # a "nothing happened this week" note should not own a whole page.
+            "item_count": sum(1 for b in blocks if b["kind"] == "item"),
         })
 
     return {
