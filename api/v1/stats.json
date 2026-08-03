@@ -33,6 +33,11 @@
     "production": 90,
     "research": 30
   },
+  "by_skill_level": {
+    "beginner": 18,
+    "intermediate": 43,
+    "advanced": 64
+  },
   "derived_facets": {
     "runs-on-laptop": 91,
     "works-offline": 73,

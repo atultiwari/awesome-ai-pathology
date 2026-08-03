@@ -57,3 +57,11 @@ def make_entry():
         return {**base, **overrides}
 
     return _make
+
+
+@pytest.fixture(scope="session")
+def entries():
+    """Every real catalogue entry, for rules that must hold across the set."""
+    from lib.entries import load_entries
+
+    return load_entries(REPO_ROOT / "data" / "entries")

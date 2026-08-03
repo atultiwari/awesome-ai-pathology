@@ -513,6 +513,20 @@
       "rule": "stage is deprecated OR last_commit older than 550 days"
     }
   },
+  "skill_levels": {
+    "beginner": {
+      "label": "Beginner",
+      "description": "Install it and open it, or just read it. No code."
+    },
+    "intermediate": {
+      "label": "Intermediate",
+      "description": "Some setup: a plugin, a config file, a scanner, or a graphics card you probably already have."
+    },
+    "advanced": {
+      "label": "Advanced",
+      "description": "You or a collaborator will be writing code and handling models, data or a server."
+    }
+  },
   "browse_directories": {
     "categories": "category",
     "tasks": "task",

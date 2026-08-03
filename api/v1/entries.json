@@ -73,7 +73,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -140,7 +147,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -209,7 +218,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -280,7 +291,13 @@
         "last_commit": "2023-09-12",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -348,7 +365,12 @@
         "last_commit": "2026-07-22",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -409,7 +431,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -484,7 +511,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "category": "standard-interop",
@@ -553,7 +585,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -618,7 +655,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "category": "task-specific-model",
@@ -697,7 +739,14 @@
         "last_commit": "2026-06-14",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -770,7 +819,14 @@
         "last_commit": "2025-07-23",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -833,7 +889,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -905,7 +966,11 @@
         "last_commit": "2025-04-14",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -977,7 +1042,11 @@
         "last_commit": "2026-07-23",
         "hf_downloads": 30,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -1054,7 +1123,14 @@
         "last_commit": "2025-03-26",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -1117,7 +1193,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [
@@ -1193,7 +1274,11 @@
         "last_commit": "2025-06-09",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [
@@ -1267,7 +1352,11 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -1346,7 +1435,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -1410,7 +1501,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -1480,7 +1576,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "category": "standard-interop",
@@ -1546,7 +1649,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -1619,7 +1727,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -1695,7 +1810,9 @@
         "last_commit": "2026-07-31",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -1761,7 +1878,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [
@@ -1834,7 +1956,15 @@
         "last_commit": "2024-12-04",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [
@@ -1905,7 +2035,14 @@
         "last_commit": "2025-12-16",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -1968,7 +2105,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -2034,7 +2176,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -2096,7 +2243,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -2167,7 +2319,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "category": "task-specific-model",
@@ -2240,7 +2399,12 @@
         "last_commit": "2025-12-27",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -2309,7 +2473,13 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -2372,7 +2542,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -2448,7 +2623,14 @@
         "last_commit": "2026-04-16",
         "hf_downloads": 36259,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -2518,7 +2700,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "id": "histomicstk",
@@ -2597,7 +2786,14 @@
         "last_commit": "2026-07-31",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -2670,7 +2866,12 @@
         "last_commit": "2026-04-13",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline"
+      ]
     },
     {
       "category": "standard-interop",
@@ -2738,7 +2939,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -2813,7 +3019,15 @@
         "last_commit": "2023-10-27",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "category": "task-specific-model",
@@ -2886,7 +3100,14 @@
         "last_commit": "2025-10-26",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -2954,7 +3175,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "category": "standard-interop",
@@ -3019,7 +3242,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -3082,7 +3310,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -3151,7 +3384,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "category": "task-specific-model",
@@ -3226,7 +3461,14 @@
         "last_commit": "2026-07-30",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -3288,7 +3530,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -3361,7 +3608,13 @@
         "last_commit": "2024-12-20",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline",
+        "no-scanner-needed",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -3427,7 +3680,12 @@
         "last_commit": "2026-08-02",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -3496,7 +3754,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [
@@ -3572,7 +3832,14 @@
         "last_commit": "2025-06-04",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "category": "standard-interop",
@@ -3638,7 +3905,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "category": "benchmark",
@@ -3716,7 +3988,15 @@
         "last_commit": "2022-06-19",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [
@@ -3795,7 +4075,14 @@
         "last_commit": "2025-10-26",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -3867,7 +4154,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "category": "standard-interop",
@@ -3936,7 +4230,12 @@
         "last_commit": "2026-07-31",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -4012,7 +4311,11 @@
         "last_commit": "2026-07-30",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -4084,7 +4387,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -4157,7 +4467,12 @@
         "last_commit": "2026-08-02",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -4220,7 +4535,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -4296,7 +4618,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [
@@ -4369,7 +4693,14 @@
         "last_commit": "2025-06-18",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -4437,7 +4768,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -4506,7 +4839,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -4579,7 +4914,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "id": "pannuke",
@@ -4652,7 +4992,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [
@@ -4727,7 +5074,9 @@
         "last_commit": "2026-06-20",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -4795,7 +5144,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [
@@ -4868,7 +5219,15 @@
         "last_commit": "2024-04-11",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -4937,7 +5296,14 @@
         "last_commit": null,
         "hf_downloads": 53,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [
@@ -5014,7 +5380,15 @@
         "last_commit": "2024-05-08",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -5078,7 +5452,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [
@@ -5154,7 +5533,12 @@
         "last_commit": "2026-03-19",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -5223,7 +5607,13 @@
         "last_commit": "2024-03-14",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -5293,7 +5683,14 @@
         "last_commit": null,
         "hf_downloads": 21,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -5372,7 +5769,12 @@
         "last_commit": "2026-07-17",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -5444,7 +5846,15 @@
         "last_commit": "2024-12-11",
         "hf_downloads": 127,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [
@@ -5518,7 +5928,14 @@
         "last_commit": "2025-11-17",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -5589,7 +6006,11 @@
         "last_commit": "2025-11-07",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [
@@ -5663,7 +6084,14 @@
         "last_commit": "2025-11-17",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -5727,7 +6155,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -5790,7 +6223,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -5859,7 +6297,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [
@@ -5932,7 +6372,11 @@
         "last_commit": "2026-01-28",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [
@@ -6003,7 +6447,14 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -6074,7 +6525,15 @@
         "last_commit": "2022-12-09",
         "hf_downloads": 4819,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -6148,7 +6607,14 @@
         "last_commit": null,
         "hf_downloads": 23958,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -6216,7 +6682,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -6290,7 +6758,15 @@
         "last_commit": "2023-09-20",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [
@@ -6366,7 +6842,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -6434,7 +6915,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -6511,7 +6994,11 @@
         "last_commit": "2026-07-20",
         "hf_downloads": 66496,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -6584,7 +7071,15 @@
         "last_commit": "2024-01-18",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -6657,7 +7152,15 @@
         "last_commit": "2024-06-28",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -6744,7 +7247,14 @@
         "last_commit": "2026-07-27",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -6821,7 +7331,14 @@
         "last_commit": "2026-07-06",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -6897,7 +7414,14 @@
         "last_commit": "2026-07-02",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -6975,7 +7499,14 @@
         "last_commit": "2026-06-25",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -7043,7 +7574,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "category": "task-specific-model",
@@ -7118,7 +7651,15 @@
         "last_commit": "2024-09-18",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -7187,7 +7728,9 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": []
     },
     {
       "subcategories": [],
@@ -7250,7 +7793,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [
@@ -7324,7 +7872,11 @@
         "last_commit": "2026-04-02",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -7400,7 +7952,11 @@
         "last_commit": "2026-05-07",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [
@@ -7472,7 +8028,12 @@
         "last_commit": "2025-08-19",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline"
+      ]
     },
     {
       "subcategories": [
@@ -7546,7 +8107,11 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "category": "standard-interop",
@@ -7614,7 +8179,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -7683,7 +8253,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -7756,7 +8331,15 @@
         "last_commit": "2021-09-08",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource",
+        "stale-shelf"
+      ]
     },
     {
       "subcategories": [],
@@ -7819,7 +8402,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -7883,7 +8471,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -7962,7 +8555,14 @@
         "last_commit": "2026-02-14",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -8037,7 +8637,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -8119,7 +8724,12 @@
         "last_commit": "2026-07-30",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -8195,7 +8805,11 @@
         "last_commit": "2025-12-13",
         "hf_downloads": 90543,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "category": "task-specific-model",
@@ -8266,7 +8880,14 @@
         "last_commit": "2025-11-13",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [],
@@ -8339,7 +8960,11 @@
         "last_commit": "2026-07-24",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -8404,7 +9029,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -8480,7 +9110,14 @@
         "last_commit": "2025-03-26",
         "hf_downloads": 101153,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "no-scanner-needed",
+        "low-resource"
+      ]
     },
     {
       "subcategories": [
@@ -8552,7 +9189,11 @@
         "last_commit": "2026-04-06",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -8625,7 +9266,12 @@
         "last_commit": null,
         "hf_downloads": 70606,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -8689,7 +9335,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "beginner",
+      "facets": [
+        "runs-on-laptop",
+        "no-scanner-needed"
+      ]
     },
     {
       "subcategories": [],
@@ -8759,7 +9410,12 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline"
+      ]
     },
     {
       "subcategories": [
@@ -8833,7 +9489,11 @@
         "last_commit": null,
         "hf_downloads": null,
         "refreshed_on": null
-      }
+      },
+      "skill_level": "advanced",
+      "facets": [
+        "works-offline"
+      ]
     },
     {
       "subcategories": [],
@@ -8911,7 +9571,13 @@
         "last_commit": "2024-07-11",
         "hf_downloads": null,
         "refreshed_on": "2026-08-03"
-      }
+      },
+      "skill_level": "intermediate",
+      "facets": [
+        "runs-on-laptop",
+        "works-offline",
+        "stale-shelf"
+      ]
     }
   ]
 }

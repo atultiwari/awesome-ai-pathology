@@ -6,8 +6,9 @@ from datetime import date
 from typing import Any, Mapping, Sequence
 
 from lib.entries import Entry, public_view
-from lib.facets import DERIVED, derived_index, facet_index
+from lib.facets import DERIVED, derived_facets, derived_index, facet_index
 from lib.render import facet_page_path, relative_link, render_table
+from lib.skill import LEVELS, SKILL_LABELS, skill_level
 from lib.taxonomy import BROWSE_DIR, Taxonomy
 
 SCHEMA_VERSION = "1.0.0"
@@ -359,7 +360,13 @@ def _about() -> list[str]:
 def api_documents(
     entries: Sequence[Entry], taxonomy: Taxonomy, today: str, root=None
 ) -> dict[str, str]:
-    payload = [public_view(e) for e in entries]
+    # skill_level and facets are derived, so they are computed here rather
+    # than stored: the website should never have to re-implement the rule, and
+    # a stored copy could contradict the entry it describes.
+    payload = [
+        {**public_view(e), "skill_level": skill_level(e), "facets": list(derived_facets(e))}
+        for e in entries
+    ]
 
     entries_doc = {
         "generated_at": today,
@@ -377,6 +384,7 @@ def api_documents(
                          "regulatory", "audience", "stage")
         },
         "derived_facets": dict(taxonomy.settings_facets()),
+        "skill_levels": dict(SKILL_LABELS),
         "browse_directories": dict(BROWSE_DIR),
     }
 
@@ -388,6 +396,7 @@ def api_documents(
                 "category": e["category"], "tasks": list(e.get("tasks", [])),
                 "subspecialty": list(e.get("subspecialty", [])),
                 "organs": list(e.get("organs", [])),
+                "skill_level": skill_level(e),
             }
             for e in entries
         ],
@@ -399,6 +408,10 @@ def api_documents(
         "by_category": _tally(entries, "category"),
         "by_regulatory_status": _tally(entries, "_regulatory_status"),
         "by_stage": _tally(entries, "stage"),
+        "by_skill_level": {
+            level: sum(1 for e in entries if skill_level(e) == level)
+            for level in LEVELS
+        },
         "derived_facets": {k: len(v) for k, v in derived_index(entries).items()},
         "maintainer": MAINTAINER,
         "repo": REPO,

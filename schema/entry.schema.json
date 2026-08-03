@@ -6,135 +6,434 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
-    "id", "name", "tagline", "category", "audience", "stage",
-    "regulatory", "licence", "cost", "links", "origin",
-    "summary", "added_on", "last_verified"
+    "id",
+    "name",
+    "tagline",
+    "category",
+    "audience",
+    "stage",
+    "regulatory",
+    "licence",
+    "cost",
+    "links",
+    "origin",
+    "summary",
+    "added_on",
+    "last_verified"
   ],
-
   "properties": {
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
       "description": "Kebab-case, unique, must equal the filename stem."
     },
-    "name":    { "type": "string", "minLength": 1, "maxLength": 100 },
-    "tagline": { "type": "string", "minLength": 1, "maxLength": 160,
-                 "description": "One line. Shown in tables and cards." },
-
-    "category":      { "type": "string" },
-    "subcategories": { "type": "array", "items": { "type": "string" }, "default": [] },
-
-    "audience":     { "type": "array", "items": { "type": "string" }, "minItems": 1, "uniqueItems": true },
-    "tasks":        { "type": "array", "items": { "type": "string" }, "uniqueItems": true, "default": [] },
-    "subspecialty": { "type": "array", "items": { "type": "string" }, "uniqueItems": true, "default": [] },
-    "organs":       { "type": "array", "items": { "type": "string" }, "uniqueItems": true, "default": [] },
-
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "tagline": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160,
+      "description": "One line. Shown in tables and cards."
+    },
+    "category": {
+      "type": "string"
+    },
+    "subcategories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "audience": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "subspecialty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "organs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "default": []
+    },
     "modality": {
       "type": "array",
-      "items": { "enum": ["wsi", "brightfield", "fluorescence", "ihc", "he", "cytology", "text", "omics", "multiplex"] },
+      "items": {
+        "enum": [
+          "wsi",
+          "brightfield",
+          "fluorescence",
+          "ihc",
+          "he",
+          "cytology",
+          "text",
+          "omics",
+          "multiplex"
+        ]
+      },
       "uniqueItems": true,
       "default": []
     },
     "granularity": {
       "type": "array",
-      "items": { "enum": ["G1", "G2", "G3"] },
+      "items": {
+        "enum": [
+          "G1",
+          "G2",
+          "G3"
+        ]
+      },
       "uniqueItems": true,
       "default": [],
       "description": "Image level. Convention adopted from Awesome-Pathology-VLMs."
     },
-
-    "stage": { "enum": ["concept", "research", "beta", "production", "deprecated"] },
-
+    "stage": {
+      "enum": [
+        "concept",
+        "research",
+        "beta",
+        "production",
+        "deprecated"
+      ]
+    },
     "regulatory": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["status"],
+      "required": [
+        "status"
+      ],
       "properties": {
-        "status":    { "type": "string" },
-        "detail":    { "type": ["string", "null"], "default": null },
-        "reference": { "type": ["string", "null"], "format": "uri",
-                       "description": "Link to the PRIMARY regulator record. Never vendor marketing." },
-        "verified_on": { "type": ["string", "null"], "format": "date" }
+        "status": {
+          "type": "string"
+        },
+        "detail": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "reference": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri",
+          "description": "Link to the PRIMARY regulator record. Never vendor marketing."
+        },
+        "verified_on": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
       }
     },
-
-    "licence":       { "type": "string", "description": "SPDX identifier, or 'proprietary', 'gated', 'unknown'." },
-    "licence_notes": { "type": ["string", "null"], "default": null },
-    "cost":          { "enum": ["free", "free-for-academic", "freemium", "paid", "unknown"] },
-
+    "licence": {
+      "type": "string",
+      "description": "SPDX identifier, or 'proprietary', 'gated', 'unknown'."
+    },
+    "licence_notes": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "default": null
+    },
+    "cost": {
+      "enum": [
+        "free",
+        "free-for-academic",
+        "freemium",
+        "paid",
+        "unknown"
+      ]
+    },
     "platforms": {
       "type": "array",
-      "items": { "enum": ["windows", "macos", "linux", "web", "ios", "android", "docker"] },
+      "items": {
+        "enum": [
+          "windows",
+          "macos",
+          "linux",
+          "web",
+          "ios",
+          "android",
+          "docker"
+        ]
+      },
       "uniqueItems": true,
       "default": []
     },
-    "self_hostable": { "type": ["boolean", "null"], "default": null },
-
+    "self_hostable": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "default": null
+    },
     "sends_data_offsite": {
-      "type": ["boolean", "null"],
+      "type": [
+        "boolean",
+        "null"
+      ],
       "default": null,
       "description": "Does using it transmit images or patient data to a third party? The single most important field for a clinician evaluating a hosted tool."
     },
-
-    "offline_capable": { "type": ["boolean", "null"], "default": null },
-    "hardware_floor":  { "enum": ["cpu", "consumer-gpu", "workstation-gpu", "multi-gpu", "cluster", "cloud-only", null], "default": null },
-    "bandwidth":       { "enum": ["none", "low", "high", null], "default": null },
-    "needs_scanner":   { "type": ["boolean", "null"], "default": null },
-    "min_ram_gb":      { "type": ["number", "null"], "minimum": 0, "default": null },
-
+    "offline_capable": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "default": null
+    },
+    "hardware_floor": {
+      "enum": [
+        "cpu",
+        "consumer-gpu",
+        "workstation-gpu",
+        "multi-gpu",
+        "cluster",
+        "cloud-only",
+        null
+      ],
+      "default": null
+    },
+    "bandwidth": {
+      "enum": [
+        "none",
+        "low",
+        "high",
+        null
+      ],
+      "default": null
+    },
+    "needs_scanner": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "default": null
+    },
+    "min_ram_gb": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "default": null
+    },
     "links": {
       "type": "object",
       "additionalProperties": false,
       "minProperties": 1,
       "properties": {
-        "homepage": { "type": ["string", "null"], "format": "uri" },
-        "repo":     { "type": ["string", "null"], "format": "uri" },
-        "docs":     { "type": ["string", "null"], "format": "uri" },
-        "paper":    { "type": ["string", "null"], "format": "uri" },
-        "demo":     { "type": ["string", "null"], "format": "uri" },
-        "model":    { "type": ["string", "null"], "format": "uri" },
-        "dataset":  { "type": ["string", "null"], "format": "uri" }
+        "homepage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "repo": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "docs": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "paper": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "demo": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "model": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "dataset": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        }
       }
     },
-
-    "origin":      { "enum": ["academic", "industry", "community", "individual"] },
-    "maintainers": { "type": "array", "items": { "type": "string" }, "default": [] },
-
-    "summary":        { "type": "string", "minLength": 20 },
-    "clinician_note": { "type": ["string", "null"], "default": null,
-                        "description": "Plain language, no jargon. Primary text in the clinician view." },
-    "caveats":        { "type": ["string", "null"], "default": null },
-
-    "added_on":      { "type": "string", "format": "date" },
-    "last_verified": { "type": "string", "format": "date" },
-    "related":       { "type": "array", "items": { "type": "string" }, "default": [] },
-    "featured":      { "type": "boolean", "default": false },
-    "showcase":      { "type": "boolean", "default": false,
-                       "description": "Maintainer's own work. Rendered with a disclosure badge." },
-
+    "origin": {
+      "enum": [
+        "academic",
+        "industry",
+        "community",
+        "individual"
+      ]
+    },
+    "maintainers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20
+    },
+    "clinician_note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "default": null,
+      "description": "Plain language, no jargon. Primary text in the clinician view."
+    },
+    "caveats": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "default": null
+    },
+    "added_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date"
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": []
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "showcase": {
+      "type": "boolean",
+      "default": false,
+      "description": "Maintainer's own work. Rendered with a disclosure badge."
+    },
     "metrics": {
       "type": "object",
       "additionalProperties": false,
       "description": "BOT-OWNED. Never hand-edit; validate.py rejects human changes here.",
       "properties": {
-        "github_stars": { "type": ["integer", "null"], "default": null },
-        "last_commit":  { "type": ["string", "null"], "default": null },
-        "hf_downloads": { "type": ["integer", "null"], "default": null },
-        "refreshed_on": { "type": ["string", "null"], "default": null }
+        "github_stars": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "default": null
+        },
+        "last_commit": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "hf_downloads": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "default": null
+        },
+        "refreshed_on": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        }
       }
+    },
+    "skill_level": {
+      "description": "Optional override for the derived skill level. Leave it out: the level is computed from category, hardware_floor, needs_scanner and audience (tools/lib/skill.py). Set it only when that rule is wrong about this specific entry, and say why in caveats.",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ]
     }
   },
-
   "allOf": [
     {
       "$comment": "A regulatory claim other than 'unknown' must carry the date it was checked. A stale claim is worse than no claim.",
       "if": {
-        "properties": { "regulatory": { "properties": { "status": { "not": { "const": "unknown" } } } } }
+        "properties": {
+          "regulatory": {
+            "properties": {
+              "status": {
+                "not": {
+                  "const": "unknown"
+                }
+              }
+            }
+          }
+        }
       },
       "then": {
         "properties": {
-          "regulatory": { "required": ["verified_on"],
-                          "properties": { "verified_on": { "type": "string" } } }
+          "regulatory": {
+            "required": [
+              "verified_on"
+            ],
+            "properties": {
+              "verified_on": {
+                "type": "string"
+              }
+            }
+          }
         }
       }
     },
@@ -144,16 +443,38 @@
         "properties": {
           "regulatory": {
             "properties": {
-              "status": { "enum": ["fda-510k", "fda-de-novo", "fda-pma", "ce-ivdr", "ukca", "cdsco", "tga", "pmda"] }
+              "status": {
+                "enum": [
+                  "fda-510k",
+                  "fda-de-novo",
+                  "fda-pma",
+                  "ce-ivdr",
+                  "ukca",
+                  "cdsco",
+                  "tga",
+                  "pmda"
+                ]
+              }
             },
-            "required": ["status"]
+            "required": [
+              "status"
+            ]
           }
         }
       },
       "then": {
         "properties": {
-          "regulatory": { "required": ["reference"],
-                          "properties": { "reference": { "type": "string", "minLength": 1 } } }
+          "regulatory": {
+            "required": [
+              "reference"
+            ],
+            "properties": {
+              "reference": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         }
       }
     }
