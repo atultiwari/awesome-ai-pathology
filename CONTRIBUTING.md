@@ -4,21 +4,26 @@ Thank you for wanting to improve this. Suggestions from working pathologists are
 especially valuable — you do not need to know git, YAML, or what a pull request
 is in order to contribute.
 
-## Right now: suggestions via Issues
+## Two ways in — pick whichever suits you
 
-**Issues are open. Pull requests are not yet.**
+**Both issues and pull requests are open.**
 
-The first ~150 entries set the quality bar and settle the tag vocabulary.
-Accepting external changes before that vocabulary is stable produces drift that
-is expensive to undo, so the catalogue is being curated by one person for now.
-PRs open once the taxonomy has settled.
+### 👉 Suggest something (no git required)
 
-This is not a brush-off — suggestions are genuinely wanted, and they get added.
+**[Open a suggestion](https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose)**
 
-👉 **[Suggest an entry](https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose)**
+A short form: a link and a sentence. Everything else is optional and will be
+researched before the entry goes in. If you have never used GitHub, this is the
+route — you do not need to know what a pull request is.
 
-Fill in the form. It asks for a link and a sentence; everything else is optional
-and will be researched before the entry goes in.
+### 👉 Send a pull request
+
+If you are comfortable with git, edit `data/entries/` directly. CI will tell you
+precisely what is wrong, usually within a minute. See
+[For developers](#for-developers) below.
+
+The tag vocabulary is now settled across 19 categories, so contributions are
+unlikely to conflict with a later restructuring.
 
 ## What gets included
 

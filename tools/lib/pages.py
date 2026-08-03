@@ -20,6 +20,42 @@ DISCLAIMER_SHORT = (
     "See [DISCLAIMER.md](DISCLAIMER.md)."
 )
 
+# Shown at the top of any facet page listing devices cleared for clinical use.
+# These are the highest-stakes pages in the catalogue: a reader could plausibly
+# treat them as a procurement shortlist, which they are not.
+REGULATORY_NOTICE = """> [!CAUTION]
+> **Read this before treating anything below as cleared for your use.**
+>
+> **This page is not a procurement list, an approval list, or a recommendation.**
+> It records what a regulator has published, nothing more. The maintainer is not a
+> regulatory authority and has no role in any clearance decision.
+>
+> - **Every status here was transcribed from the regulator's own public record on the
+>   date shown, and may since have changed.** Follow the badge on each row to the
+>   primary record and confirm it yourself. Do not rely on this page.
+> - **Clearance is not proof of clinical benefit.** An FDA 510(k) means the device was
+>   found substantially equivalent to an existing one. It is not a finding that the
+>   device improves diagnosis, accuracy or patient outcomes.
+> - **Clearance is specific to a stated indication for use.** A device cleared for one
+>   task, one specimen type or one scanner is not cleared for anything else. The
+>   indication is in the linked record; the one-line summary here is not a substitute
+>   for reading it.
+> - **Clearance is specific to one jurisdiction.** An FDA clearance carries no weight
+>   in India, the European Union, the United Kingdom or anywhere else. If you practise
+>   outside the United States, **nothing on this page tells you what you may lawfully
+>   use** — check CDSCO, the IVDR, UKCA or your own national authority.
+> - **Local validation is still required.** Reported performance does not transfer
+>   between laboratories; scanner, stain protocol and patient population all shift
+>   results. Your institution remains responsible for validating any tool before
+>   clinical use, and for every decision made with it.
+> - **No performance claims appear here**, and no product on this page is endorsed,
+>   ranked or sponsored.
+>
+> If anything here is inaccurate, [please report it]({report_url}) — corrections take
+> priority over everything else."""
+
+REPORT_URL = f"{REPO}/issues/new/choose"
+
 MAINTAINER = {
     "name": "Dr. Atul Tiwari",
     "roles": [
@@ -65,7 +101,10 @@ def browse_pages(
         if taxonomy.has("regulatory", value):
             meta = taxonomy.meta("regulatory", value)
             pages[facet_page_path("regulatory", value)] = _facet_page(
-                meta.get("label", value), meta.get("explanation"), group, taxonomy, depth=2
+                meta.get("label", value), meta.get("explanation"), group, taxonomy, depth=2,
+                # Devices cleared for clinical use somewhere get the full notice.
+                notice=REGULATORY_NOTICE.format(report_url=REPORT_URL)
+                if meta.get("clinical") else None,
             )
 
     declared = taxonomy.settings_facets()
@@ -85,7 +124,7 @@ def browse_pages(
 
 def _facet_page(
     title: str, blurb: str | None, group: Sequence[Entry],
-    taxonomy: Taxonomy, depth: int,
+    taxonomy: Taxonomy, depth: int, notice: str | None = None,
 ) -> str:
     parts = [
         f"# {title}",
@@ -93,6 +132,8 @@ def _facet_page(
         f"[← Back to the index]({relative_link('README.md', depth)})",
         "",
     ]
+    if notice:
+        parts += [notice, ""]
     if blurb:
         parts += [_clean(blurb), ""]
     parts += [f"**{len(group)}** {'entry' if len(group) == 1 else 'entries'}.", ""]
@@ -242,9 +283,10 @@ def _about() -> list[str]:
         "",
         "## Contributing",
         "",
-        "Suggestions are very welcome via "
-        f"[Issues]({REPO}/issues/new/choose). Pull requests open once the taxonomy settles — "
-        "see [CONTRIBUTING.md](CONTRIBUTING.md).",
+        f"**[Suggest an entry]({REPO}/issues/new/choose)** — a short form, no git needed. "
+        f"Or **[send a pull request]({REPO}/pulls)** if you prefer to edit the data directly. "
+        "Both are open. See [CONTRIBUTING.md](CONTRIBUTING.md) for what gets included, and "
+        "for the rule that regulatory claims must cite the regulator rather than the vendor.",
         "",
         "## Acknowledgements",
         "",

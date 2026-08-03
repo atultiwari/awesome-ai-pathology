@@ -367,7 +367,7 @@ ORCID: [0000-0002-8048-9541](https://orcid.org/0000-0002-8048-9541)
 
 ## Contributing
 
-Suggestions are very welcome via [Issues](https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose). Pull requests open once the taxonomy settles — see [CONTRIBUTING.md](CONTRIBUTING.md).
+**[Suggest an entry](https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose)** — a short form, no git needed. Or **[send a pull request](https://github.com/atultiwari/awesome-ai-pathology/pulls)** if you prefer to edit the data directly. Both are open. See [CONTRIBUTING.md](CONTRIBUTING.md) for what gets included, and for the rule that regulatory claims must cite the regulator rather than the vendor.
 
 ## Acknowledgements
 
