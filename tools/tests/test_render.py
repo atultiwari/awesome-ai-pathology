@@ -119,3 +119,21 @@ def test_showcase_entries_carry_a_disclosure_badge(taxonomy, make_entry):
 def test_privacy_flag_is_surfaced_when_data_leaves(taxonomy, make_entry):
     row = entry_row(make_entry(sends_data_offsite=True), taxonomy, depth=0)
     assert "uploads" in row.lower() or "offsite" in row.lower()
+
+
+def test_generation_does_not_delete_externally_maintained_files(tmp_path, monkeypatch):
+    """The api/ wipe would otherwise remove the workshop schedule a week later.
+
+    That file is written by a different job, on a different schedule, and
+    nothing in this generator would have complained about losing it.
+    """
+    import generate
+
+    external = generate.ROOT / generate.EXTERNAL[0]
+    assert external.exists(), "the mirrored schedule should be present"
+    before = external.read_text(encoding="utf-8")
+
+    generate.write(generate.build())
+
+    assert external.exists(), "generation deleted an externally maintained file"
+    assert external.read_text(encoding="utf-8") == before

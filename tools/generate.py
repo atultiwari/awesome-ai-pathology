@@ -24,6 +24,12 @@ from lib.taxonomy import load_taxonomy  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 GENERATED_DIRS = ("browse", "api")
 
+#: Files that live inside a generated directory but are NOT generated here.
+#: The wipe below would otherwise delete them the next time anyone ran this,
+#: silently and a week later — which is exactly how the digest would have lost
+#: its workshop schedule.
+EXTERNAL = ("api/v1/workshops.json",)
+
 
 def build() -> dict[str, str]:
     """All generated files, keyed by repo-relative path."""
@@ -47,8 +53,19 @@ def build() -> dict[str, str]:
 
 
 def write(files: dict[str, str]) -> int:
+    kept = {
+        name: (ROOT / name).read_text(encoding="utf-8")
+        for name in EXTERNAL
+        if (ROOT / name).exists()
+    }
+
     for directory in GENERATED_DIRS:
         shutil.rmtree(ROOT / directory, ignore_errors=True)
+
+    for name, content in kept.items():
+        path = ROOT / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8")
 
     for relative, content in sorted(files.items()):
         path = ROOT / relative
