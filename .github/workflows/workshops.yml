@@ -1,0 +1,47 @@
+name: workshops
+
+# The digest closes by naming who compiles it and where he teaches. That
+# listing has to be current every week without anyone editing it, so it is
+# mirrored from the workshops site into api/v1/workshops.json.
+#
+# Runs before the Monday digest so an issue never goes out with last week's
+# dates, and pushes directly: this file is a MIRROR of another site, not
+# editorial content, so there is nothing for a human to approve. The parser
+# fails loudly rather than publishing an empty schedule.
+on:
+  schedule:
+    - cron: '17 2 * * 1'   # 02:17 UTC Monday, ahead of the digest
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: workshops
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Read the schedule
+        run: python3 tools/refresh_workshops.py
+
+      - name: Commit if it changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- api/v1/workshops.json; then
+            echo "schedule unchanged"
+            exit 0
+          fi
+          git config user.name  'pathologyai-bot'
+          git config user.email 'bot@pathologyai.org'
+          git add api/v1/workshops.json
+          git commit -m 'chore: refresh workshop schedule'
+          git push
