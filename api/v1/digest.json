@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-08-03",
+  "schema_version": "1.0.0",
+  "count": 1,
+  "latest": "2026-W32",
+  "pending_review": 0,
+  "issues": [
+    {
+      "id": "2026-W32",
+      "year": 2026,
+      "week": 32,
+      "title": "This Week in AI Pathology — 2026, week 32",
+      "reviewed": true,
+      "reviewed_on": null,
+      "intro_html": "<p><em>First issue — reviewed.</em> Candidates are discovered automatically from arXiv, PubMed, Hugging Face, GitHub and openFDA, then selected by hand. This week: <strong>97 candidates surfaced, 13 worth your time.</strong></p><blockquote><p>Inclusion here is not endorsement, and nothing below has been validated for clinical use. Papers are listed because they exist and look relevant — not because their claims have been checked. See the <a href=\"../DISCLAIMER.md\">disclaimer</a>.</p></blockquote>",
+      "sections": [
+        {
+          "heading": "✅ Regulatory",
+          "html": "<p><strong>No new pathology device clearances this week.</strong></p><p>Both 510(k) records returned under the pathology product codes were already catalogued. That is a normal week — clearances in this space arrive a few times a year, not weekly.</p><p>&lt;sub&gt;Product codes watched: QPN (AI algorithms in digital pathology), SFH/SHW (prognostic algorithms), PSY (whole slide imaging systems), QKQ (viewing and management software), PZZ, OEO. See <a href=\"../browse/regulatory/fda-510k.md\">FDA-cleared entries</a>.&lt;/sub&gt;</p>"
+        },
+        {
+          "heading": "🩺 Most relevant to practice",
+          "html": "<p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42526601/\">End-to-End Clinical Validation of a Human-Supervised Large Language Model Agent for Enterprise Surgical Pathology</a></strong> <em>Modern Pathology</em> An LLM agent taken through actual clinical validation with a human in the loop, rather than benchmarked offline. The <strong>validation design</strong> is the interesting part regardless of what one thinks of the tool — see <a href=\"../browse/category/validation-regulatory.md\">Validation, QA &amp; Regulatory Science</a>.</p><p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42536993/\">Consensus-Based Minimum Requirements for the Adoption of a Computational Pathology Algorithm for Tumor Budding</a></strong> <em>JCO Clinical Cancer Informatics</em> A consensus statement on what a laboratory should require <em>before</em> adopting an algorithm. This is the genre of paper the field has least of and needs most.</p><p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42531661/\">Multiclass diagnostic performance and error patterns of a multimodal large language model in oral histopathology</a></strong> <em>Journal of Oral Biosciences</em> Notable for reporting <strong>error patterns</strong>, not just accuracy. How a model fails matters more than how often — see <a href=\"../browse/category/ethics-safety.md\">Ethics, Bias &amp; Failure Modes</a>.</p><p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42523677/\">The role of artificial intelligence in thyroid cytology of indeterminate nodules</a></strong> <em>Frontiers in Endocrinology</em> Cytopathology remains thinly covered by AI work relative to its diagnostic burden.</p>"
+        },
+        {
+          "heading": "🔬 Methods and critique",
+          "html": "<p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42527448/\">Rethinking pathology image analysis through shuffling</a></strong> <em>npj Biomedical Innovations</em> A critique paper. Worth reading alongside the <a href=\"../browse/category/ethics-safety.md\">site-signature result</a> — this field's most useful papers are often the ones testing whether a result means what it appears to.</p><p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42516004/\">Screening efficiency over experience: rapid target detection in the low-power field</a></strong> <em>Cancer Cytopathology</em> Human factors rather than algorithms: how pathologists actually search a slide. Relevant to anyone designing a tool meant to fit into that behaviour.</p><p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42532158/\">Methodological Considerations on Central Pathology Review in AI-Assisted Gastric Neoplasia</a></strong> · <a href=\"https://pubmed.ncbi.nlm.nih.gov/42532160/\">Author reply</a> <em>Gastroenterology</em> A published methodological disagreement, with the reply. Reading both is more instructive than reading either.</p><p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42525693/\">Object detection in histology: a multi-dataset benchmark and test-time inference</a></strong> <em>PLOS ONE</em> — multi-dataset, which is the part that matters.</p><p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42526077/\">KongNet: a multi-headed model for nuclei detection and classification</a></strong> <em>Medical Image Analysis</em> — compare against <a href=\"../browse/task/nuclei-segmentation.md\">existing nucleus models</a>.</p><p><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42520553/\">Risk stratification of IDH-wildtype glioblastoma from histopathology</a></strong> <em>European Journal of Surgical Oncology</em></p>"
+        },
+        {
+          "heading": "🛠️ Code released",
+          "html": "<p><strong><a href=\"https://github.com/mahmoodlab/CORAL\">mahmoodlab/CORAL</a></strong> — ★55 New from the lab behind CLAM, UNI, CONCH and TITAN, all of which are catalogued. Worth watching on that track record alone; too new to catalogue until there is a paper and a stated licence.</p><p><strong><a href=\"https://github.com/HyeongSubKim/awesome-pathology-spatial-omics\">HyeongSubKim/awesome-pathology-spatial-omics</a></strong> — ★3 A focused list for pathology spatial omics — deeper on that topic than <a href=\"../browse/category/spatial-omics.md\">our section</a> intends to be.</p>"
+        },
+        {
+          "heading": "📌 Not included, and why",
+          "html": "<p>97 candidates were surfaced; 13 appear above. Most of the remainder were personal or coursework repositories from GitHub's recently-created feed — real work, but not yet something to recommend to a stranger.</p><p>Nothing was excluded for being critical, unfashionable, or from an unfamiliar group. If something notable is missing, <a href=\"https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose\">say so</a> — that is the correction this list most needs.</p><p>&lt;sub&gt;Assembled with the discovery pipeline, reviewed by hand. Sources: arXiv · PubMed · Hugging Face · GitHub · openFDA. Nothing here is sponsored, and no product is endorsed.&lt;/sub&gt;</p>"
+        }
+      ],
+      "source": "https://github.com/atultiwari/awesome-ai-pathology/blob/main/digest/2026-W32.md"
+    }
+  ]
+}

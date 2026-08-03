@@ -356,7 +356,9 @@ def _about() -> list[str]:
 
 # ── JSON API ─────────────────────────────────────────────────────────────
 
-def api_documents(entries: Sequence[Entry], taxonomy: Taxonomy, today: str) -> dict[str, str]:
+def api_documents(
+    entries: Sequence[Entry], taxonomy: Taxonomy, today: str, root=None
+) -> dict[str, str]:
     payload = [public_view(e) for e in entries]
 
     entries_doc = {
@@ -403,11 +405,27 @@ def api_documents(entries: Sequence[Entry], taxonomy: Taxonomy, today: str) -> d
         "site": SITE,
     }
 
+    # Digests are editorial markdown; this exposes them as structured data so
+    # the website can render an issue without shipping a markdown parser, and
+    # without needing a rebuild when an issue is published.
+    from lib.digest import collect
+
+    issues = collect(root) if root else []
+    digest_doc = {
+        "generated_at": today,
+        "schema_version": SCHEMA_VERSION,
+        "count": len(issues),
+        "latest": issues[0]["id"] if issues else None,
+        "pending_review": sum(1 for i in issues if not i["reviewed"]),
+        "issues": issues,
+    }
+
     return {
         "api/v1/entries.json": _dump(entries_doc),
         "api/v1/taxonomy.json": _dump(taxonomy_doc),
         "api/v1/search-index.json": _dump(search_doc),
         "api/v1/stats.json": _dump(stats_doc),
+        "api/v1/digest.json": _dump(digest_doc),
     }
 
 

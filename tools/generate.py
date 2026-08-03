@@ -42,7 +42,7 @@ def build() -> dict[str, str]:
         ".nojekyll": "",
     }
     files.update(browse_pages(entries, taxonomy))
-    files.update(api_documents(entries, taxonomy, today))
+    files.update(api_documents(entries, taxonomy, today, ROOT))
     return files
 
 
