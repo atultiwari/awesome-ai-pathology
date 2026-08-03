@@ -62,6 +62,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "Modern Pathology",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p>An LLM agent taken through actual clinical validation with a human in the loop, rather than benchmarked offline. The <strong>validation design</strong> is the interesting part regardless of what one thinks of the tool — see <a href=\"../browse/category/validation-regulatory.md\">Validation, QA &amp; Regulatory Science</a>.</p>"
             },
             {
@@ -71,6 +73,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "JCO Clinical Cancer Informatics",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p>A consensus statement on what a laboratory should require <em>before</em> adopting an algorithm. This is the genre of paper the field has least of and needs most.</p>"
             },
             {
@@ -80,6 +84,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "Journal of Oral Biosciences",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p>Notable for reporting <strong>error patterns</strong>, not just accuracy. How a model fails matters more than how often — see <a href=\"../browse/category/ethics-safety.md\">Ethics, Bias &amp; Failure Modes</a>.</p>"
             },
             {
@@ -89,6 +95,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "Frontiers in Endocrinology",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p>Cytopathology remains thinly covered by AI work relative to its diagnostic burden.</p>"
             },
             {
@@ -109,6 +117,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "npj Biomedical Innovations",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p>A critique paper. Worth reading alongside the <a href=\"../browse/category/ethics-safety.md\">site-signature result</a> — this field's most useful papers are often the ones testing whether a result means what it appears to.</p>"
             },
             {
@@ -118,6 +128,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "Cancer Cytopathology",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p>Human factors rather than algorithms: how pathologists actually search a slide. Relevant to anyone designing a tool meant to fit into that behaviour.</p>"
             },
             {
@@ -127,6 +139,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "Gastroenterology",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p>A published methodological disagreement, with the reply. Reading both is more instructive than reading either.</p>"
             },
             {
@@ -136,6 +150,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p><em>PLOS ONE</em> — multi-dataset, which is the part that matters.</p>"
             },
             {
@@ -145,6 +161,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p><em>Medical Image Analysis</em> — compare against <a href=\"../browse/task/nuclei-segmentation.md\">existing nucleus models</a>.</p>"
             },
             {
@@ -154,6 +172,8 @@
               "domain": "pubmed.ncbi.nlm.nih.gov",
               "source": "European Journal of Surgical Oncology",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": ""
             },
             {
@@ -174,6 +194,8 @@
               "domain": "github.com",
               "source": "★55",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p>New from the lab behind CLAM, UNI, CONCH and TITAN, all of which are catalogued. Worth watching on that track record alone; too new to catalogue until there is a paper and a stated licence.</p>"
             },
             {
@@ -183,6 +205,8 @@
               "domain": "github.com",
               "source": "★3",
               "score": null,
+              "cover": false,
+              "figure": null,
               "note_html": "<p>A focused list for pathology spatial omics — deeper on that topic than <a href=\"../browse/category/spatial-omics.md\">our section</a> intends to be.</p>"
             },
             {

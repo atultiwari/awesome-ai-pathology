@@ -203,3 +203,55 @@ def test_sections_report_their_item_count(repo_root):
     counts = {s["heading"]: s["item_count"] for s in issue["sections"]}
     assert any(c > 0 for c in counts.values())
     assert any(c == 0 for c in counts.values()), "fixture should include a no-item section"
+
+
+# ── cover story and figures ──────────────────────────────────────────────
+
+def test_cover_marker_promotes_an_item():
+    from lib.digest import parse_blocks
+    item = parse_blocks("[cover] **[T](https://e.org/x)**\n*J*\nnote")[0]
+    assert item["cover"] is True and item["title"] == "T"
+
+
+def test_an_unmarked_item_is_not_the_cover():
+    from lib.digest import parse_blocks
+    assert parse_blocks("**[T](https://e.org/x)**\nnote")[0]["cover"] is False
+
+
+def test_cover_and_score_can_appear_together():
+    from lib.digest import parse_blocks
+    item = parse_blocks("[cover] [9] **[T](https://e.org/x)**\nnote")[0]
+    assert item["cover"] is True and item["score"] == 9
+
+
+def test_a_figure_carries_its_credit():
+    from lib.digest import parse_blocks
+    item = parse_blocks(
+        '**[T](https://e.org/x)**\n'
+        '![A slide](https://e.org/fig.jpg "Smith et al. · CC BY 4.0")\n'
+        'note'
+    )[0]
+    assert item["figure"]["url"] == "https://e.org/fig.jpg"
+    assert item["figure"]["credit"] == "Smith et al. · CC BY 4.0"
+    assert item["figure"]["alt"] == "A slide"
+
+
+def test_a_figure_is_not_swallowed_into_the_commentary():
+    from lib.digest import parse_blocks
+    item = parse_blocks(
+        '**[T](https://e.org/x)**\n![x](https://e.org/f.jpg "c")\nreal commentary'
+    )[0]
+    assert "f.jpg" not in item["note_html"]
+    assert "real commentary" in item["note_html"]
+
+
+def test_an_item_without_a_figure_says_so_rather_than_guessing():
+    from lib.digest import parse_blocks
+    assert parse_blocks("**[T](https://e.org/x)**\nnote")[0]["figure"] is None
+
+
+def test_an_uncredited_figure_still_parses_so_review_can_catch_it():
+    """Better a visible empty credit than a silently dropped figure."""
+    from lib.digest import parse_blocks
+    item = parse_blocks('**[T](https://e.org/x)**\n![x](https://e.org/f.jpg)')[0]
+    assert item["figure"]["credit"] == ""

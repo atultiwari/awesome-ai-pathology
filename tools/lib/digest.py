@@ -118,7 +118,21 @@ def to_html(markdown: str) -> str:
 # silently dropped to prose. Parse the format that is actually written.
 _ITEM_HEAD = re.compile(r"^\*\*\[([^\]]+)\]\(([^)\s]+)\)\*\*\s*(.*)$")
 _SCORE = re.compile(r"^\[(\d{1,2})\]\s*")
+#: `[cover]` in the same slot as a relevance score promotes an item to the
+#: cover story. Without it the cover story is simply the first item of the
+#: first section, which is where the editor put the week's lead anyway.
+_COVER = re.compile(r"^\[cover\]\s*", re.IGNORECASE)
 _SOURCE = re.compile(r"^\*([^*]+)\*\s*$")
+
+#: An optional figure under an item:
+#:     ![alt text](https://…/figure.jpg "Credit line · CC BY 4.0")
+#:
+#: There is no automatic figure fetching and there will not be. A pathology
+#: publication cannot republish a journal's figure because the paper happens
+#: to be free to read, and it must never illustrate a finding with a generated
+#: image. So a figure appears only when a human has put the URL, the credit
+#: and the licence here, having checked all three.
+_FIGURE = re.compile(r'^!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)\s*$')
 
 
 def domain_of(url: str) -> str:
@@ -142,6 +156,9 @@ def parse_blocks(markdown: str) -> list[dict[str, Any]]:
 
         score = None
         head = lines[0]
+        cover = bool(_COVER.match(head))
+        if cover:
+            head = _COVER.sub("", head)
         found = _SCORE.match(head)
         if found:
             score = int(found.group(1))
@@ -158,6 +175,22 @@ def parse_blocks(markdown: str) -> list[dict[str, Any]]:
             source = _SOURCE.match(rest[0]).group(1).strip()
             rest = rest[1:]
 
+        figure = None
+        remaining = []
+        for line in rest:
+            found_figure = _FIGURE.match(line)
+            if found_figure and figure is None:
+                figure = {
+                    "alt": found_figure.group(1),
+                    "url": found_figure.group(2),
+                    # Credit and licence are one field on purpose: a figure
+                    # with a credit but no licence is not publishable, so
+                    # they are written together or not at all.
+                    "credit": (found_figure.group(3) or "").strip(),
+                }
+            else:
+                remaining.append(line)
+
         blocks.append({
             "kind": "item",
             "title": item.group(1),
@@ -165,7 +198,9 @@ def parse_blocks(markdown: str) -> list[dict[str, Any]]:
             "domain": domain_of(item.group(2)),
             "source": source,
             "score": score,
-            "note_html": to_html(" ".join(rest)) if rest else "",
+            "cover": cover,
+            "figure": figure,
+            "note_html": to_html(" ".join(remaining)) if remaining else "",
         })
     return blocks
 
