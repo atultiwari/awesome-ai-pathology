@@ -63,7 +63,7 @@ summary: Batteries-included Python library covering slide reading, stain normali
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 542
-  last_commit: '2026-07-30'
+  github_stars: 544
+  last_commit: '2026-08-03'
   hf_downloads: null
-  refreshed_on: '2026-08-03'
+  refreshed_on: '2026-08-05'

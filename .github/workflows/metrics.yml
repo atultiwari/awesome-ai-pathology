@@ -1,8 +1,24 @@
 name: metrics
 
 # Nightly activity refresh: GitHub stars and last-commit date, Hugging Face
-# downloads. Opens a PULL REQUEST rather than pushing to main — every content
-# change on this repository is human-approved.
+# downloads.
+#
+# Pushes DIRECTLY to main, and that is deliberate. These numbers are
+# observations the bot reads from GitHub and Hugging Face — not editorial. A
+# nightly pull request saying "1,411 stars became 1,415" is not something a
+# human can meaningfully approve, and seven of them a week trains you to merge
+# without looking, which is worse than not reviewing at all.
+#
+# What still protects the catalogue:
+#   - validate.py refuses a run where a HUMAN has hand-edited a metrics block,
+#     so the bot's ownership of these fields is enforced, not assumed
+#   - a failed lookup keeps its previous value, so an API outage cannot make a
+#     live project look abandoned
+#   - generate + validate both run before anything is pushed; a broken
+#     catalogue never reaches main
+#
+# Editorial content — entries, digests, the taxonomy — still arrives by pull
+# request. This exception is for machine-owned fields only.
 on:
   schedule:
     - cron: '41 3 * * *'   # 03:41 UTC daily
@@ -10,7 +26,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: metrics
@@ -41,25 +56,18 @@ jobs:
       - name: Validate catalogue
         run: python3 tools/validate.py
 
-      - name: Open a pull request if anything changed
-        uses: peter-evans/create-pull-request@v6
-        with:
-          commit-message: "chore: refresh activity metrics"
-          branch: bot/metrics-refresh
-          delete-branch: true
-          title: "chore: refresh activity metrics"
-          body: |
-            Nightly activity refresh from the `metrics` workflow.
-
-            Updates GitHub stars and last-commit dates, and Hugging Face
-            download counts, then regenerates the derived files. Entries whose
-            upstream has been silent past the threshold move onto the
-            **Stale Shelf**.
-
-            Failed lookups keep their previous values, so a transient API
-            outage cannot make a live project look abandoned.
-
-            Review the diff before merging — bots do not push to `main` here.
-          labels: |
-            bot
-            metrics
+      - name: Commit if anything changed
+        run: |
+          set -euo pipefail
+          if git diff --quiet; then
+            echo "metrics unchanged"
+            exit 0
+          fi
+          git config user.name  'pathologyai-bot'
+          git config user.email 'bot@pathologyai.org'
+          git add -A
+          # [skip ci] because generate.py has already run above — letting this
+          # push trigger the generate workflow would have it regenerate
+          # identical files and push again, every night, forever.
+          git commit -m 'chore: refresh activity metrics [skip ci]'
+          git push

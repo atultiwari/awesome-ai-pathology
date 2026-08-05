@@ -58,7 +58,7 @@ summary: Pairs a tile-level encoder with a LongNet-based slide aggregator so who
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 626
-  last_commit: '2026-07-20'
-  hf_downloads: 66496
-  refreshed_on: '2026-08-03'
+  github_stars: 628
+  last_commit: '2026-08-03'
+  hf_downloads: 61967
+  refreshed_on: '2026-08-05'
