@@ -53,7 +53,7 @@ summary: 'Curated index of documented failure modes: site and batch confounding,
   distribution shift after deployment, miscalibrated confidence, hallucinated findings in generative models,
   and automation bias in the reader.'
 metrics:
-  github_stars: 2
+  github_stars: 3
   last_commit: '2026-08-05'
   hf_downloads: null
-  refreshed_on: '2026-08-05'
+  refreshed_on: '2026-08-06'

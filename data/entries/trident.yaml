@@ -54,7 +54,7 @@ summary: Pipeline for tissue segmentation, patching and batch feature extraction
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 606
+  github_stars: 608
   last_commit: '2026-08-04'
   hf_downloads: null
-  refreshed_on: '2026-08-05'
+  refreshed_on: '2026-08-06'
