@@ -58,7 +58,7 @@ links:
 summary: General-purpose promptable segmentation model that has been widely adapted for histology, most
   usefully as an interactive annotation accelerator rather than as an unattended segmenter.
 metrics:
-  github_stars: 54662
+  github_stars: 54664
   last_commit: '2024-09-18'
   hf_downloads: null
-  refreshed_on: '2026-08-09'
+  refreshed_on: '2026-08-10'

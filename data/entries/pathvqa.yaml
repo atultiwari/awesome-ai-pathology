@@ -56,5 +56,5 @@ summary: Early and still widely cited pathology VQA set of roughly 5,000 images 
 metrics:
   github_stars: 15
   last_commit: '2022-12-09'
-  hf_downloads: 4780
-  refreshed_on: '2026-08-09'
+  hf_downloads: 4820
+  refreshed_on: '2026-08-10'
