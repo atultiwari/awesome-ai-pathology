@@ -58,5 +58,5 @@ summary: TCGA-derived benchmark of about 149,000 four-option questions over 9,98
 metrics:
   github_stars: 1
   last_commit: '2026-07-23'
-  hf_downloads: 32
-  refreshed_on: '2026-08-11'
+  hf_downloads: 35
+  refreshed_on: '2026-08-12'

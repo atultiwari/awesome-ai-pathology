@@ -59,7 +59,7 @@ summary: ViT encoder trained with DINOv2 on a large private histopathology corpu
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 764
+  github_stars: 765
   last_commit: '2025-03-26'
-  hf_downloads: 142727
-  refreshed_on: '2026-08-11'
+  hf_downloads: 143432
+  refreshed_on: '2026-08-12'
