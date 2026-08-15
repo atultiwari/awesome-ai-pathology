@@ -56,5 +56,5 @@ summary: Multiple-choice benchmark of roughly 33,000 questions over 24,000 image
 metrics:
   github_stars: 39
   last_commit: '2024-12-11'
-  hf_downloads: 104
-  refreshed_on: '2026-08-14'
+  hf_downloads: 102
+  refreshed_on: '2026-08-15'
