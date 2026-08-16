@@ -54,7 +54,7 @@ regulatory:
 summary: Combines a pathology-adapted CLIP vision encoder with a language model, trained on the PathCap
   caption corpus and PathInstruct instruction data released alongside it.
 metrics:
-  github_stars: 136
+  github_stars: 137
   last_commit: '2024-04-11'
   hf_downloads: null
-  refreshed_on: '2026-08-15'
+  refreshed_on: '2026-08-16'
