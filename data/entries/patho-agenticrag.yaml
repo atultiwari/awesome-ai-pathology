@@ -56,7 +56,7 @@ regulatory:
 summary: Builds a searchable index over authoritative pathology textbook content supporting joint text
   and image queries, so answers can be grounded in a citable source rather than model memory.
 metrics:
-  github_stars: 64
+  github_stars: 63
   last_commit: '2025-11-17'
   hf_downloads: null
-  refreshed_on: '2026-08-16'
+  refreshed_on: '2026-08-17'
