@@ -54,7 +54,7 @@ summary: Transformer-based nucleus instance segmentation built on pretrained ViT
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 392
+  github_stars: 393
   last_commit: '2025-07-23'
   hf_downloads: null
-  refreshed_on: '2026-08-19'
+  refreshed_on: '2026-08-20'

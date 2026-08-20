@@ -58,7 +58,7 @@ regulatory:
 summary: Vision-language assistant built on a pathology foundation encoder, able to take image and text
   input together and hold a diagnostic conversation about a case.
 metrics:
-  github_stars: 131
+  github_stars: 130
   last_commit: '2024-05-08'
   hf_downloads: null
-  refreshed_on: '2026-08-19'
+  refreshed_on: '2026-08-20'
