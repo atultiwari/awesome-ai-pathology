@@ -56,7 +56,7 @@ summary: Network predicting horizontal and vertical distances to nuclear centres
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 737
+  github_stars: 736
   last_commit: '2023-10-27'
   hf_downloads: null
-  refreshed_on: '2026-08-20'
+  refreshed_on: '2026-08-21'

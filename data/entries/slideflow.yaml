@@ -57,7 +57,7 @@ summary: Opinionated pipeline covering tessellation, training, MIL, explainabili
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 373
+  github_stars: 374
   last_commit: '2026-05-07'
   hf_downloads: null
-  refreshed_on: '2026-08-20'
+  refreshed_on: '2026-08-21'

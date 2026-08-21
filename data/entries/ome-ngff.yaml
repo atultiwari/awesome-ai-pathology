@@ -53,7 +53,7 @@ links:
 summary: Next-generation file format storing large multi-resolution images as chunked arrays, designed
   to be read efficiently from object storage rather than a local disk.
 metrics:
-  github_stars: 169
-  last_commit: '2026-08-18'
+  github_stars: 170
+  last_commit: '2026-08-20'
   hf_downloads: null
-  refreshed_on: '2026-08-20'
+  refreshed_on: '2026-08-21'
