@@ -18,7 +18,7 @@ Built for **pathologists and researchers alike**. Every entry records what it co
 
 ---
 
-## [This Week in AI Pathology — 2026, week 34  ·  *awaiting review*](digest/2026-W34.md)
+## [This Week in AI Pathology — 2026, week 35  ·  *awaiting review*](digest/2026-W35.md)
 
 Assembled automatically every week so the week's work reaches you while it is still the week's work. Reading happens after — each issue is labelled **reviewed** or **awaiting review**, and back issues get marked as they are read. [All issues](digest/).
 
