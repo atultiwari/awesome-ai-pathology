@@ -58,7 +58,7 @@ summary: Contrastively pretrained image-text model for pathology supporting zero
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 523
+  github_stars: 524
   last_commit: '2025-03-26'
   hf_downloads: null
-  refreshed_on: '2026-08-23'
+  refreshed_on: '2026-08-24'
