@@ -57,7 +57,7 @@ summary: Long-established server and client suite for storing, annotating and sh
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 221
+  github_stars: 222
   last_commit: '2026-08-21'
   hf_downloads: null
-  refreshed_on: '2026-08-24'
+  refreshed_on: '2026-08-25'

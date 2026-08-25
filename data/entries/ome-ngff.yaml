@@ -54,6 +54,6 @@ summary: Next-generation file format storing large multi-resolution images as ch
   to be read efficiently from object storage rather than a local disk.
 metrics:
   github_stars: 170
-  last_commit: '2026-08-21'
+  last_commit: '2026-08-24'
   hf_downloads: null
-  refreshed_on: '2026-08-24'
+  refreshed_on: '2026-08-25'
