@@ -57,7 +57,7 @@ summary: Harmonised collection of spatial transcriptomics profiles paired with h
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 430
+  github_stars: 432
   last_commit: '2026-04-16'
-  hf_downloads: 36766
-  refreshed_on: '2026-08-25'
+  hf_downloads: 36518
+  refreshed_on: '2026-08-26'

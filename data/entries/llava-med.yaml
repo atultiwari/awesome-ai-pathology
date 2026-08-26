@@ -57,7 +57,7 @@ regulatory:
 summary: General biomedical multimodal assistant covering many imaging modalities including histopathology.
   Frequently used as the baseline that pathology-specific assistants are compared against.
 metrics:
-  github_stars: 2230
+  github_stars: 2231
   last_commit: '2025-06-04'
   hf_downloads: null
-  refreshed_on: '2026-08-25'
+  refreshed_on: '2026-08-26'
