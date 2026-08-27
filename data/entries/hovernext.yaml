@@ -55,6 +55,6 @@ summary: Reimplementation aimed at making whole-slide nucleus segmentation and c
   at scale rather than on selected tiles.
 metrics:
   github_stars: 52
-  last_commit: '2025-10-26'
+  last_commit: '2026-08-26'
   hf_downloads: null
-  refreshed_on: '2026-08-26'
+  refreshed_on: '2026-08-27'
