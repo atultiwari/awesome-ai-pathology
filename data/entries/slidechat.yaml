@@ -56,6 +56,6 @@ summary: Assistant designed for gigapixel whole-slide input, released with the S
   set and the SlideBench-VQA evaluation set built from TCGA and BCNB.
 metrics:
   github_stars: 127
-  last_commit: '2026-04-02'
+  last_commit: '2026-09-01'
   hf_downloads: null
-  refreshed_on: '2026-08-31'
+  refreshed_on: '2026-09-01'
