@@ -57,7 +57,7 @@ summary: Uses hierarchical image features to integrate spatial transcriptomics w
   raising expression predictions towards near-single-cell resolution rather than the coarse spots the
   assay produces.
 metrics:
-  github_stars: 171
+  github_stars: 172
   last_commit: '2024-12-20'
   hf_downloads: null
-  refreshed_on: '2026-09-04'
+  refreshed_on: '2026-09-05'
