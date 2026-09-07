@@ -1,10 +1,112 @@
 {
   "generated_at": "2026-09-07",
   "schema_version": "1.0.0",
-  "count": 5,
-  "latest": "2026-W36",
-  "pending_review": 4,
+  "count": 6,
+  "latest": "2026-W37",
+  "pending_review": 5,
   "issues": [
+    {
+      "id": "2026-W37",
+      "year": 2026,
+      "week": 37,
+      "title": "This Week in AI Pathology — 2026, week 37",
+      "reviewed": false,
+      "reviewed_on": null,
+      "intro_html": "<blockquote><p> <strong>Awaiting review</strong> — assembled automatically and published without a pathologist reading it first.</p></blockquote><p>&gt;</p><blockquote><p>This is the trade this project makes on purpose: you get the week's work while it is still this week's, and the reading happens after. Nothing has been filtered out to make that safe — preprints, model releases and small repositories are all here, because leaving them out would defeat the point of a weekly issue.</p></blockquote><p>&gt;</p><blockquote><p><strong>So treat everything below as a pointer, not a recommendation.</strong> Titles and links are reproduced as their source published them. Nothing here has been read, checked, or validated for clinical use, and appearing here is not endorsement. Preprints in particular have not been peer reviewed.</p></blockquote><p>&gt;</p><blockquote><p>This issue will be marked reviewed once it has been read. If something should not be here, <a href=\"https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose\">tell us</a> — it will be corrected or withdrawn.</p></blockquote><p>104 items.</p>",
+      "intro_blocks": [
+        {
+          "kind": "prose",
+          "html": "<blockquote><p> <strong>Awaiting review</strong> — assembled automatically and published without a pathologist reading it first.</p></blockquote><p>&gt;</p><blockquote><p>This is the trade this project makes on purpose: you get the week's work while it is still this week's, and the reading happens after. Nothing has been filtered out to make that safe — preprints, model releases and small repositories are all here, because leaving them out would defeat the point of a weekly issue.</p></blockquote><p>&gt;</p><blockquote><p><strong>So treat everything below as a pointer, not a recommendation.</strong> Titles and links are reproduced as their source published them. Nothing here has been read, checked, or validated for clinical use, and appearing here is not endorsement. Preprints in particular have not been peer reviewed.</p></blockquote><p>&gt;</p><blockquote><p>This issue will be marked reviewed once it has been read. If something should not be here, <a href=\"https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose\">tell us</a> — it will be corrected or withdrawn.</p></blockquote>"
+        },
+        {
+          "kind": "prose",
+          "html": "<p>104 items.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "🛠️ New Tools",
+          "html": "<p><em>Repositories released or newly discovered.</em></p><ul><li><strong><a href=\"https://github.com/SyedTahirHussan/wsi-preproc-ablation\">SyedTahirHussan/wsi-preproc-ablation</a></strong></li></ul><p><sub>2026-08-25</sub></p><ul><li><strong><a href=\"https://github.com/793891645/pathology-ai-workstation\">793891645/pathology-ai-workstation</a></strong></li></ul><p><sub>2026-09-05</sub></p><ul><li><strong><a href=\"https://github.com/PathologyFMs/PathologyFMs.github.io\">PathologyFMs/PathologyFMs.github.io</a></strong></li></ul><p><sub>2026-09-05</sub></p><ul><li><strong><a href=\"https://github.com/zms618/pathology-toolkit\">zms618/pathology-toolkit</a></strong></li></ul><p><sub>2026-09-06</sub></p><ul><li><strong><a href=\"https://github.com/icarus3344/trustworthy-tls-pathology-audit\">icarus3344/trustworthy-tls-pathology-audit</a></strong></li></ul><p><sub>2026-08-11 · ★ 3</sub></p><ul><li><strong><a href=\"https://github.com/solarise94/PathTogether\">solarise94/PathTogether</a></strong></li></ul><p><sub>2026-08-17</sub></p><ul><li><strong><a href=\"https://github.com/randing11/HistoSpatialEvidenceReview\">randing11/HistoSpatialEvidenceReview</a></strong></li></ul><p><sub>2026-08-25</sub></p><ul><li><strong><a href=\"https://github.com/YIGEZHANGGE/rms-foundation-model-benchmark\">YIGEZHANGGE/rms-foundation-model-benchmark</a></strong></li></ul><p><sub>2026-08-26</sub></p><ul><li><strong><a href=\"2026-W37-full.md#new-tools\">…and 42 more →</a></strong> — the full new tools list for this week.</li></ul>",
+          "blocks": [
+            {
+              "kind": "prose",
+              "html": "<p><em>Repositories released or newly discovered.</em></p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li><strong><a href=\"https://github.com/SyedTahirHussan/wsi-preproc-ablation\">SyedTahirHussan/wsi-preproc-ablation</a></strong></li></ul><p><sub>2026-08-25</sub></p><ul><li><strong><a href=\"https://github.com/793891645/pathology-ai-workstation\">793891645/pathology-ai-workstation</a></strong></li></ul><p><sub>2026-09-05</sub></p><ul><li><strong><a href=\"https://github.com/PathologyFMs/PathologyFMs.github.io\">PathologyFMs/PathologyFMs.github.io</a></strong></li></ul><p><sub>2026-09-05</sub></p><ul><li><strong><a href=\"https://github.com/zms618/pathology-toolkit\">zms618/pathology-toolkit</a></strong></li></ul><p><sub>2026-09-06</sub></p><ul><li><strong><a href=\"https://github.com/icarus3344/trustworthy-tls-pathology-audit\">icarus3344/trustworthy-tls-pathology-audit</a></strong></li></ul><p><sub>2026-08-11 · ★ 3</sub></p><ul><li><strong><a href=\"https://github.com/solarise94/PathTogether\">solarise94/PathTogether</a></strong></li></ul><p><sub>2026-08-17</sub></p><ul><li><strong><a href=\"https://github.com/randing11/HistoSpatialEvidenceReview\">randing11/HistoSpatialEvidenceReview</a></strong></li></ul><p><sub>2026-08-25</sub></p><ul><li><strong><a href=\"https://github.com/YIGEZHANGGE/rms-foundation-model-benchmark\">YIGEZHANGGE/rms-foundation-model-benchmark</a></strong></li></ul><p><sub>2026-08-26</sub></p><ul><li><strong><a href=\"2026-W37-full.md#new-tools\">…and 42 more →</a></strong> — the full new tools list for this week.</li></ul>"
+            }
+          ],
+          "item_count": 0
+        },
+        {
+          "heading": "🧠 New Models & Datasets",
+          "html": "<p><em>Weights and data published openly.</em></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BigMed-278M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BigMed-278M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 12 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BigMed-560M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BigMed-560M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 10 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BioClinical-108M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BioClinical-108M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 12 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BioMed-109M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BioMed-109M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 14 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BioMed-335M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BioMed-335M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 16 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BioPatient-108M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BioPatient-108M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 17 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-ElectraMed-109M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-ElectraMed-109M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 16 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-ElectraMed-335M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-ElectraMed-335M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 11 downloads</sub></p><ul><li><strong><a href=\"2026-W37-full.md#new-models--datasets\">…and 14 more →</a></strong> — the full new models &amp; datasets list for this week.</li></ul>",
+          "blocks": [
+            {
+              "kind": "prose",
+              "html": "<p><em>Weights and data published openly.</em></p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BigMed-278M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BigMed-278M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 12 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BigMed-560M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BigMed-560M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 10 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BioClinical-108M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BioClinical-108M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 12 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BioMed-109M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BioMed-109M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 14 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BioMed-335M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BioMed-335M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 16 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-BioPatient-108M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-BioPatient-108M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 17 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-ElectraMed-109M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-ElectraMed-109M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 16 downloads</sub></p><ul><li><strong><a href=\"https://huggingface.co/OpenMed/OpenMed-NER-PathologyDetect-ElectraMed-335M-mlx\">OpenMed/OpenMed-NER-PathologyDetect-ElectraMed-335M-mlx</a></strong></li></ul><p><sub>2026-09-02 · 11 downloads</sub></p><ul><li><strong><a href=\"2026-W37-full.md#new-models--datasets\">…and 14 more →</a></strong> — the full new models &amp; datasets list for this week.</li></ul>"
+            }
+          ],
+          "item_count": 0
+        },
+        {
+          "heading": "📄 Peer-Reviewed",
+          "html": "<p><em>Published this week.</em></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42696054/\">Deep learning in breast cancer histopathology: predicting and detecting axillary lymph node metastasis.</a></strong></li></ul><p><sub>2026-09-04 · Virchows Archiv : an international journal of pathology</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42697794/\">Digital pathology, image analysis, and artificial intelligence in liver disease.</a></strong></li></ul><p><sub>2026-09-04 · The Lancet. Digital health</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42677190/\">Elevated endogenous glucagon-like peptide-1 as a novel Alzheimer's disease biomarker associated with neuroinflammation and Aβ p…</a></strong></li></ul><p><sub>2026-10-01 · General psychiatry</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42676952/\">AI for prognostic assessment of diffuse large B-cell lymphoma using H&amp;E whole-slide images.</a></strong></li></ul><p><sub>2026-08-31 · HemaSphere</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42681550/\">A Review of the Use of Artificial Intelligence in Ophthalmology Imaging: Approximation to Ocular Histopathology.</a></strong></li></ul><p><sub>2026-09-01 · APMIS : acta pathologica, microbiologica, et immunologica Scandinavica</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42680939/\">SlideChat is a multimodal generative artificial intelligence assistant for whole-slide computational pathology across cancer ty…</a></strong></li></ul><p><sub>2026-09-01 · Nature cancer</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42688514/\">Bridging language markers and pathology: correlations between digital speech measures and surrogate CSF biomarkers in Alzheimer…</a></strong></li></ul><p><sub>2026-09-02 · Alzheimer's &amp; dementia (Amsterdam, Netherlands)</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42684470/\">Guidance for laboratory implementation, governance and continuous assurance of artificial intelligence in histopathology.</a></strong></li></ul><p><sub>2026-09-02 · Virchows Archiv : an international journal of pathology</sub></p><ul><li><strong><a href=\"2026-W37-full.md#peer-reviewed\">…and 5 more →</a></strong> — the full peer-reviewed list for this week.</li></ul>",
+          "blocks": [
+            {
+              "kind": "prose",
+              "html": "<p><em>Published this week.</em></p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42696054/\">Deep learning in breast cancer histopathology: predicting and detecting axillary lymph node metastasis.</a></strong></li></ul><p><sub>2026-09-04 · Virchows Archiv : an international journal of pathology</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42697794/\">Digital pathology, image analysis, and artificial intelligence in liver disease.</a></strong></li></ul><p><sub>2026-09-04 · The Lancet. Digital health</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42677190/\">Elevated endogenous glucagon-like peptide-1 as a novel Alzheimer's disease biomarker associated with neuroinflammation and Aβ p…</a></strong></li></ul><p><sub>2026-10-01 · General psychiatry</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42676952/\">AI for prognostic assessment of diffuse large B-cell lymphoma using H&amp;E whole-slide images.</a></strong></li></ul><p><sub>2026-08-31 · HemaSphere</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42681550/\">A Review of the Use of Artificial Intelligence in Ophthalmology Imaging: Approximation to Ocular Histopathology.</a></strong></li></ul><p><sub>2026-09-01 · APMIS : acta pathologica, microbiologica, et immunologica Scandinavica</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42680939/\">SlideChat is a multimodal generative artificial intelligence assistant for whole-slide computational pathology across cancer ty…</a></strong></li></ul><p><sub>2026-09-01 · Nature cancer</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42688514/\">Bridging language markers and pathology: correlations between digital speech measures and surrogate CSF biomarkers in Alzheimer…</a></strong></li></ul><p><sub>2026-09-02 · Alzheimer's &amp; dementia (Amsterdam, Netherlands)</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42684470/\">Guidance for laboratory implementation, governance and continuous assurance of artificial intelligence in histopathology.</a></strong></li></ul><p><sub>2026-09-02 · Virchows Archiv : an international journal of pathology</sub></p><ul><li><strong><a href=\"2026-W37-full.md#peer-reviewed\">…and 5 more →</a></strong> — the full peer-reviewed list for this week.</li></ul>"
+            }
+          ],
+          "item_count": 0
+        },
+        {
+          "heading": "📃 Preprints",
+          "html": "<p><em>Not yet peer reviewed — read accordingly.</em></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.05202v1\">Real-World Multi-Modal and Longitudinal Lung Cancer Dataset</a></strong></li></ul><p><sub>2026-09-04</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2608.30835v1\">Reliable Benchmarking of Artifact Detection in Computational Pathology: A Reproducibility and Uncertainty Analysis</a></strong></li></ul><p><sub>2026-08-31</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.00866v1\">Benchmarking Vision-Language Models for Automated Pathology Diagnosis and Report Generation</a></strong></li></ul><p><sub>2026-09-01</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.01987v1\">Morphology signal in whole slide image foundation models can automatically triage slides</a></strong></li></ul><p><sub>2026-09-02</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.03947v1\">Computationally Efficient Pathology Segmentation using Knowledge Distillation from Foundation Models</a></strong></li></ul><p><sub>2026-09-03</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.03689v1\">Semantic-Aware Subgraph State Space Model for WSI Classification in Histopathology</a></strong></li></ul><p><sub>2026-09-03</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.05323v1\">Scalable Detection of Fossil Palynomorphs in Multifocal Digital Microscopy Images</a></strong></li></ul><p><sub>2026-09-04</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.00396v1\">SlideMix: Enhancing Whole Slide Image Analysis via Multimodal Shuffling</a></strong></li></ul><p><sub>2026-08-31</sub></p><ul><li><strong><a href=\"2026-W37-full.md#preprints\">…and 11 more →</a></strong> — the full preprints list for this week.</li></ul><p>&lt;details&gt;&lt;summary&gt;How this was assembled&lt;/summary&gt;</p><ul><li>Candidates fetched: <strong>138</strong></li><li>Already in the catalogue: 6</li><li>Seen in an earlier week: 28</li><li>Duplicated within the batch: 0</li><li>Shown here: <strong>104</strong></li></ul><p>Sources polled: arXiv, PubMed, Hugging Face, GitHub, openFDA. Ranking is advisory — nothing is dropped for scoring low, only ordered.</p><p>&lt;/details&gt;</p>",
+          "blocks": [
+            {
+              "kind": "prose",
+              "html": "<p><em>Not yet peer reviewed — read accordingly.</em></p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li><strong><a href=\"http://arxiv.org/abs/2609.05202v1\">Real-World Multi-Modal and Longitudinal Lung Cancer Dataset</a></strong></li></ul><p><sub>2026-09-04</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2608.30835v1\">Reliable Benchmarking of Artifact Detection in Computational Pathology: A Reproducibility and Uncertainty Analysis</a></strong></li></ul><p><sub>2026-08-31</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.00866v1\">Benchmarking Vision-Language Models for Automated Pathology Diagnosis and Report Generation</a></strong></li></ul><p><sub>2026-09-01</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.01987v1\">Morphology signal in whole slide image foundation models can automatically triage slides</a></strong></li></ul><p><sub>2026-09-02</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.03947v1\">Computationally Efficient Pathology Segmentation using Knowledge Distillation from Foundation Models</a></strong></li></ul><p><sub>2026-09-03</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.03689v1\">Semantic-Aware Subgraph State Space Model for WSI Classification in Histopathology</a></strong></li></ul><p><sub>2026-09-03</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.05323v1\">Scalable Detection of Fossil Palynomorphs in Multifocal Digital Microscopy Images</a></strong></li></ul><p><sub>2026-09-04</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.00396v1\">SlideMix: Enhancing Whole Slide Image Analysis via Multimodal Shuffling</a></strong></li></ul><p><sub>2026-08-31</sub></p><ul><li><strong><a href=\"2026-W37-full.md#preprints\">…and 11 more →</a></strong> — the full preprints list for this week.</li></ul>"
+            },
+            {
+              "kind": "prose",
+              "html": ""
+            },
+            {
+              "kind": "prose",
+              "html": "<p>&lt;details&gt;&lt;summary&gt;How this was assembled&lt;/summary&gt;</p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li>Candidates fetched: <strong>138</strong></li><li>Already in the catalogue: 6</li><li>Seen in an earlier week: 28</li><li>Duplicated within the batch: 0</li><li>Shown here: <strong>104</strong></li></ul>"
+            },
+            {
+              "kind": "prose",
+              "html": "<p>Sources polled: arXiv, PubMed, Hugging Face, GitHub, openFDA. Ranking is advisory — nothing is dropped for scoring low, only ordered.</p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<p>&lt;/details&gt;</p>"
+            }
+          ],
+          "item_count": 0
+        }
+      ],
+      "source": "https://github.com/atultiwari/awesome-ai-pathology/blob/main/digest/2026-W37.md"
+    },
     {
       "id": "2026-W36",
       "year": 2026,
