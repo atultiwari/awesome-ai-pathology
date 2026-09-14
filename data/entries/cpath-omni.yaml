@@ -57,7 +57,7 @@ regulatory:
 summary: Attempts to handle patch-level and slide-level tasks in a single model rather than training separate
   systems for each scale.
 metrics:
-  github_stars: 31
+  github_stars: 32
   last_commit: '2025-06-09'
   hf_downloads: null
-  refreshed_on: '2026-09-13'
+  refreshed_on: '2026-09-14'
