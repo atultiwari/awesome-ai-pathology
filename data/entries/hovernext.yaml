@@ -54,7 +54,7 @@ links:
 summary: Reimplementation aimed at making whole-slide nucleus segmentation and classification tractable
   at scale rather than on selected tiles.
 metrics:
-  github_stars: 52
+  github_stars: 53
   last_commit: '2026-08-26'
   hf_downloads: null
-  refreshed_on: '2026-09-18'
+  refreshed_on: '2026-09-19'

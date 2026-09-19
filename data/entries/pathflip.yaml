@@ -57,7 +57,7 @@ regulatory:
 summary: Aligns slide captions to specific image regions rather than whole images, aiming to improve slide
   classification, retrieval and lesion localisation.
 metrics:
-  github_stars: 8
+  github_stars: 9
   last_commit: '2026-03-19'
   hf_downloads: null
-  refreshed_on: '2026-09-18'
+  refreshed_on: '2026-09-19'
