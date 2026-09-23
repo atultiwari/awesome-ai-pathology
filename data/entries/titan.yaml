@@ -57,7 +57,7 @@ summary: Slide-level model combining visual self-supervision with vision-languag
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 370
+  github_stars: 371
   last_commit: '2025-12-13'
-  hf_downloads: 123247
-  refreshed_on: '2026-09-22'
+  hf_downloads: 123821
+  refreshed_on: '2026-09-23'
