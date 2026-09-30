@@ -58,6 +58,6 @@ summary: Instance segmentation approach designed for speed, able to run without 
   matters more than raw accuracy when there is no workstation available.
 metrics:
   github_stars: 245
-  last_commit: '2026-07-30'
+  last_commit: '2026-09-29'
   hf_downloads: null
-  refreshed_on: '2026-09-29'
+  refreshed_on: '2026-09-30'
