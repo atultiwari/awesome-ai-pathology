@@ -1,10 +1,112 @@
 {
-  "generated_at": "2026-10-04",
+  "generated_at": "2026-10-05",
   "schema_version": "1.0.0",
-  "count": 8,
-  "latest": "2026-W39",
-  "pending_review": 7,
+  "count": 9,
+  "latest": "2026-W41",
+  "pending_review": 8,
   "issues": [
+    {
+      "id": "2026-W41",
+      "year": 2026,
+      "week": 41,
+      "title": "This Week in AI Pathology — 2026, week 41",
+      "reviewed": false,
+      "reviewed_on": null,
+      "intro_html": "<blockquote><p> <strong>Awaiting review</strong> — assembled automatically and published without a pathologist reading it first.</p></blockquote><p>&gt;</p><blockquote><p>This is the trade this project makes on purpose: you get the week's work while it is still this week's, and the reading happens after. Nothing has been filtered out to make that safe — preprints, model releases and small repositories are all here, because leaving them out would defeat the point of a weekly issue.</p></blockquote><p>&gt;</p><blockquote><p><strong>So treat everything below as a pointer, not a recommendation.</strong> Titles and links are reproduced as their source published them. Nothing here has been read, checked, or validated for clinical use, and appearing here is not endorsement. Preprints in particular have not been peer reviewed.</p></blockquote><p>&gt;</p><blockquote><p>This issue will be marked reviewed once it has been read. If something should not be here, <a href=\"https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose\">tell us</a> — it will be corrected or withdrawn.</p></blockquote><p>95 items.</p>",
+      "intro_blocks": [
+        {
+          "kind": "prose",
+          "html": "<blockquote><p> <strong>Awaiting review</strong> — assembled automatically and published without a pathologist reading it first.</p></blockquote><p>&gt;</p><blockquote><p>This is the trade this project makes on purpose: you get the week's work while it is still this week's, and the reading happens after. Nothing has been filtered out to make that safe — preprints, model releases and small repositories are all here, because leaving them out would defeat the point of a weekly issue.</p></blockquote><p>&gt;</p><blockquote><p><strong>So treat everything below as a pointer, not a recommendation.</strong> Titles and links are reproduced as their source published them. Nothing here has been read, checked, or validated for clinical use, and appearing here is not endorsement. Preprints in particular have not been peer reviewed.</p></blockquote><p>&gt;</p><blockquote><p>This issue will be marked reviewed once it has been read. If something should not be here, <a href=\"https://github.com/atultiwari/awesome-ai-pathology/issues/new/choose\">tell us</a> — it will be corrected or withdrawn.</p></blockquote>"
+        },
+        {
+          "kind": "prose",
+          "html": "<p>95 items.</p>"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "🛠️ New Tools",
+          "html": "<p><em>Repositories released or newly discovered.</em></p><ul><li><strong><a href=\"https://github.com/msicilia/FMs-CPathology-revision\">msicilia/FMs-CPathology-revision</a></strong></li></ul><p><sub>2026-10-01</sub></p><ul><li><strong><a href=\"https://github.com/amyrhexa/esophascope\">amyrhexa/esophascope</a></strong></li></ul><p><sub>2026-09-28 · ★ 1</sub></p><ul><li><strong><a href=\"https://github.com/HozaifAwan/digital-pathology-benchmarking\">HozaifAwan/digital-pathology-benchmarking</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"https://github.com/ai-for-healthcare-jna/cross-modal-alignment\">ai-for-healthcare-jna/cross-modal-alignment</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"https://github.com/condre2rou/pathology-reproducibility\">condre2rou/pathology-reproducibility</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"https://github.com/Ahmadsi70/nexus-forge-cyto\">Ahmadsi70/nexus-forge-cyto</a></strong></li></ul><p><sub>2026-09-09 · ★ 1</sub></p><ul><li><strong><a href=\"https://github.com/baiseraku/sdpc2ometiff\">baiseraku/sdpc2ometiff</a></strong></li></ul><p><sub>2026-09-12</sub></p><ul><li><strong><a href=\"https://github.com/oyjr/STDetail\">oyjr/STDetail</a></strong></li></ul><p><sub>2026-10-01 · ★ 3</sub></p><ul><li><strong><a href=\"2026-W41-full.md#new-tools\">…and 41 more →</a></strong> — the full new tools list for this week.</li></ul>",
+          "blocks": [
+            {
+              "kind": "prose",
+              "html": "<p><em>Repositories released or newly discovered.</em></p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li><strong><a href=\"https://github.com/msicilia/FMs-CPathology-revision\">msicilia/FMs-CPathology-revision</a></strong></li></ul><p><sub>2026-10-01</sub></p><ul><li><strong><a href=\"https://github.com/amyrhexa/esophascope\">amyrhexa/esophascope</a></strong></li></ul><p><sub>2026-09-28 · ★ 1</sub></p><ul><li><strong><a href=\"https://github.com/HozaifAwan/digital-pathology-benchmarking\">HozaifAwan/digital-pathology-benchmarking</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"https://github.com/ai-for-healthcare-jna/cross-modal-alignment\">ai-for-healthcare-jna/cross-modal-alignment</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"https://github.com/condre2rou/pathology-reproducibility\">condre2rou/pathology-reproducibility</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"https://github.com/Ahmadsi70/nexus-forge-cyto\">Ahmadsi70/nexus-forge-cyto</a></strong></li></ul><p><sub>2026-09-09 · ★ 1</sub></p><ul><li><strong><a href=\"https://github.com/baiseraku/sdpc2ometiff\">baiseraku/sdpc2ometiff</a></strong></li></ul><p><sub>2026-09-12</sub></p><ul><li><strong><a href=\"https://github.com/oyjr/STDetail\">oyjr/STDetail</a></strong></li></ul><p><sub>2026-10-01 · ★ 3</sub></p><ul><li><strong><a href=\"2026-W41-full.md#new-tools\">…and 41 more →</a></strong> — the full new tools list for this week.</li></ul>"
+            }
+          ],
+          "item_count": 0
+        },
+        {
+          "heading": "🧠 New Models & Datasets",
+          "html": "<p><em>Weights and data published openly.</em></p><ul><li><strong><a href=\"https://huggingface.co/computational-pathology-group/cscc_models\">computational-pathology-group/cscc_models</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"https://huggingface.co/ufmg-digital-pathology/breast-cancer-virtual-staining\">ufmg-digital-pathology/breast-cancer-virtual-staining</a></strong></li></ul><p><sub>2026-09-14</sub></p><ul><li><strong><a href=\"https://huggingface.co/MTGxTHOR/qwen2.5-vl-3b-plant-pathology-sft\">MTGxTHOR/qwen2.5-vl-3b-plant-pathology-sft</a></strong></li></ul><p><sub>2026-08-08</sub></p><ul><li><strong><a href=\"https://huggingface.co/MTGxTHOR/qwen2.5-vl-3b-plant-pathology-grpo\">MTGxTHOR/qwen2.5-vl-3b-plant-pathology-grpo</a></strong></li></ul><p><sub>2026-08-09</sub></p><ul><li><strong><a href=\"https://huggingface.co/MTGxTHOR/qwen2.5-vl-3b-plant-pathology-v116-grpo\">MTGxTHOR/qwen2.5-vl-3b-plant-pathology-v116-grpo</a></strong></li></ul><p><sub>2026-08-11</sub></p><ul><li><strong><a href=\"https://huggingface.co/MTGxTHOR/qwen2.5-vl-3b-plant-pathology-v118-ultimate\">MTGxTHOR/qwen2.5-vl-3b-plant-pathology-v118-ultimate</a></strong></li></ul><p><sub>2026-08-15</sub></p><ul><li><strong><a href=\"https://huggingface.co/betuldanismaz/dentai-gemma2-9b-oral-pathology-v3\">betuldanismaz/dentai-gemma2-9b-oral-pathology-v3</a></strong></li></ul><p><sub>2026-08-19</sub></p><ul><li><strong><a href=\"https://huggingface.co/rangerhkai/ranger-bridge-pathology-segmentation-detection-model\">rangerhkai/ranger-bridge-pathology-segmentation-detection-model</a></strong></li></ul><p><sub>2026-08-28</sub></p><ul><li><strong><a href=\"2026-W41-full.md#new-models--datasets\">…and 16 more →</a></strong> — the full new models &amp; datasets list for this week.</li></ul>",
+          "blocks": [
+            {
+              "kind": "prose",
+              "html": "<p><em>Weights and data published openly.</em></p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li><strong><a href=\"https://huggingface.co/computational-pathology-group/cscc_models\">computational-pathology-group/cscc_models</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"https://huggingface.co/ufmg-digital-pathology/breast-cancer-virtual-staining\">ufmg-digital-pathology/breast-cancer-virtual-staining</a></strong></li></ul><p><sub>2026-09-14</sub></p><ul><li><strong><a href=\"https://huggingface.co/MTGxTHOR/qwen2.5-vl-3b-plant-pathology-sft\">MTGxTHOR/qwen2.5-vl-3b-plant-pathology-sft</a></strong></li></ul><p><sub>2026-08-08</sub></p><ul><li><strong><a href=\"https://huggingface.co/MTGxTHOR/qwen2.5-vl-3b-plant-pathology-grpo\">MTGxTHOR/qwen2.5-vl-3b-plant-pathology-grpo</a></strong></li></ul><p><sub>2026-08-09</sub></p><ul><li><strong><a href=\"https://huggingface.co/MTGxTHOR/qwen2.5-vl-3b-plant-pathology-v116-grpo\">MTGxTHOR/qwen2.5-vl-3b-plant-pathology-v116-grpo</a></strong></li></ul><p><sub>2026-08-11</sub></p><ul><li><strong><a href=\"https://huggingface.co/MTGxTHOR/qwen2.5-vl-3b-plant-pathology-v118-ultimate\">MTGxTHOR/qwen2.5-vl-3b-plant-pathology-v118-ultimate</a></strong></li></ul><p><sub>2026-08-15</sub></p><ul><li><strong><a href=\"https://huggingface.co/betuldanismaz/dentai-gemma2-9b-oral-pathology-v3\">betuldanismaz/dentai-gemma2-9b-oral-pathology-v3</a></strong></li></ul><p><sub>2026-08-19</sub></p><ul><li><strong><a href=\"https://huggingface.co/rangerhkai/ranger-bridge-pathology-segmentation-detection-model\">rangerhkai/ranger-bridge-pathology-segmentation-detection-model</a></strong></li></ul><p><sub>2026-08-28</sub></p><ul><li><strong><a href=\"2026-W41-full.md#new-models--datasets\">…and 16 more →</a></strong> — the full new models &amp; datasets list for this week.</li></ul>"
+            }
+          ],
+          "item_count": 0
+        },
+        {
+          "heading": "📄 Peer-Reviewed",
+          "html": "<p><em>Published this week.</em></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42826064/\">TESERA: morphologic subtyping and prognostic stratification of hepatocellular carcinoma from H&amp;E whole-slide images.</a></strong></li></ul><p><sub>2026-10-02 · Hepatology (Baltimore, Md.)</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42828606/\">Retinal age gap in unilateral retinal diseases with unaffected fellow eye: phakia and vascular pathology impact retinal age pre…</a></strong></li></ul><p><sub>2026-10-03 · Japanese journal of ophthalmology</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42804460/\">Foundation model-powered deep learning of endometrial histology for predicting the cumulative live birth of an in vitro fertili…</a></strong></li></ul><p><sub>2026-09-28 · PLOS digital health</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42816308/\">Corrigendum to \"Development and Validation of a Multimodal Artificial Intelligence-derived Digital Pathology-based Biomarker Pr…</a></strong></li></ul><p><sub>2026-09-30 · European urology</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42822592/\">Artificial Intelligence applied to surgical pathology in the management of cutaneous melanoma.</a></strong></li></ul><p><sub>2026-10-01 · Presse medicale (Paris, France : 1983)</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42808954/\">Melanoma Prognostication Using AI-Guided Histopathology.</a></strong></li></ul><p><sub>2026-10-01 · International journal of dermatology</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42807715/\">Separability of histopathology foundation model embeddings of stimulated Raman histology images for lung carcinoma subtyping.</a></strong></li></ul><p><sub>2026-09-12 · Journal of Cancer</sub></p><ul><li><strong>[[Application and Prospect of Artificial Intelligence and 3D Histopathology in the Diagnosis of Lymphoma--Review].](https://pubmed.ncbi.nlm.nih.gov/42802468/)</strong></li></ul><p><sub>2026-08-01 · Zhongguo shi yan xue ye xue za zhi</sub></p>",
+          "blocks": [
+            {
+              "kind": "prose",
+              "html": "<p><em>Published this week.</em></p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42826064/\">TESERA: morphologic subtyping and prognostic stratification of hepatocellular carcinoma from H&amp;E whole-slide images.</a></strong></li></ul><p><sub>2026-10-02 · Hepatology (Baltimore, Md.)</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42828606/\">Retinal age gap in unilateral retinal diseases with unaffected fellow eye: phakia and vascular pathology impact retinal age pre…</a></strong></li></ul><p><sub>2026-10-03 · Japanese journal of ophthalmology</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42804460/\">Foundation model-powered deep learning of endometrial histology for predicting the cumulative live birth of an in vitro fertili…</a></strong></li></ul><p><sub>2026-09-28 · PLOS digital health</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42816308/\">Corrigendum to \"Development and Validation of a Multimodal Artificial Intelligence-derived Digital Pathology-based Biomarker Pr…</a></strong></li></ul><p><sub>2026-09-30 · European urology</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42822592/\">Artificial Intelligence applied to surgical pathology in the management of cutaneous melanoma.</a></strong></li></ul><p><sub>2026-10-01 · Presse medicale (Paris, France : 1983)</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42808954/\">Melanoma Prognostication Using AI-Guided Histopathology.</a></strong></li></ul><p><sub>2026-10-01 · International journal of dermatology</sub></p><ul><li><strong><a href=\"https://pubmed.ncbi.nlm.nih.gov/42807715/\">Separability of histopathology foundation model embeddings of stimulated Raman histology images for lung carcinoma subtyping.</a></strong></li></ul><p><sub>2026-09-12 · Journal of Cancer</sub></p><ul><li><strong>[[Application and Prospect of Artificial Intelligence and 3D Histopathology in the Diagnosis of Lymphoma--Review].](https://pubmed.ncbi.nlm.nih.gov/42802468/)</strong></li></ul><p><sub>2026-08-01 · Zhongguo shi yan xue ye xue za zhi</sub></p>"
+            }
+          ],
+          "item_count": 0
+        },
+        {
+          "heading": "📃 Preprints",
+          "html": "<p><em>Not yet peer reviewed — read accordingly.</em></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.34897v1\">Role-Guided MOE for Encoder-Level Pathology Representation Learning in WSI Classification</a></strong></li></ul><p><sub>2026-09-28</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.35943v2\">HERO: Histology Encoder for Robust Representation in Oncology</a></strong></li></ul><p><sub>2026-09-28</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.34451v1\">Modeling Whole-Slide Images as Dynamic Tumor Microenvironment Fields</a></strong></li></ul><p><sub>2026-09-28</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.38419v1\">Colorectal Cancer Segmentation with Adaptive Augmentation and Multi-Resolution Ensemble Models</a></strong></li></ul><p><sub>2026-09-29</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2610.00678v1\">Nonparametric Distribution Matching for Self-Supervised Whole-Slide Image Condensation</a></strong></li></ul><p><sub>2026-09-30</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.38705v1\">SCALE: Synthetic Calibration via Agreement Labeling in Embedding Space</a></strong></li></ul><p><sub>2026-09-30</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2610.01813v1\">AI-assisted mitotic counting improves reproducibility and efficiency across multiple tumour types</a></strong></li></ul><p><sub>2026-10-01</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2610.03693v1\">Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"2026-W41-full.md#preprints\">…and 6 more →</a></strong> — the full preprints list for this week.</li></ul><p>&lt;details&gt;&lt;summary&gt;How this was assembled&lt;/summary&gt;</p><ul><li>Candidates fetched: <strong>126</strong></li><li>Already in the catalogue: 5</li><li>Seen in an earlier week: 26</li><li>Duplicated within the batch: 0</li><li>Shown here: <strong>95</strong></li></ul><p>Sources polled: arXiv, PubMed, Hugging Face, GitHub, openFDA. Ranking is advisory — nothing is dropped for scoring low, only ordered.</p><p>&lt;/details&gt;</p>",
+          "blocks": [
+            {
+              "kind": "prose",
+              "html": "<p><em>Not yet peer reviewed — read accordingly.</em></p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li><strong><a href=\"http://arxiv.org/abs/2609.34897v1\">Role-Guided MOE for Encoder-Level Pathology Representation Learning in WSI Classification</a></strong></li></ul><p><sub>2026-09-28</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.35943v2\">HERO: Histology Encoder for Robust Representation in Oncology</a></strong></li></ul><p><sub>2026-09-28</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.34451v1\">Modeling Whole-Slide Images as Dynamic Tumor Microenvironment Fields</a></strong></li></ul><p><sub>2026-09-28</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.38419v1\">Colorectal Cancer Segmentation with Adaptive Augmentation and Multi-Resolution Ensemble Models</a></strong></li></ul><p><sub>2026-09-29</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2610.00678v1\">Nonparametric Distribution Matching for Self-Supervised Whole-Slide Image Condensation</a></strong></li></ul><p><sub>2026-09-30</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2609.38705v1\">SCALE: Synthetic Calibration via Agreement Labeling in Embedding Space</a></strong></li></ul><p><sub>2026-09-30</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2610.01813v1\">AI-assisted mitotic counting improves reproducibility and efficiency across multiple tumour types</a></strong></li></ul><p><sub>2026-10-01</sub></p><ul><li><strong><a href=\"http://arxiv.org/abs/2610.03693v1\">Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies</a></strong></li></ul><p><sub>2026-10-02</sub></p><ul><li><strong><a href=\"2026-W41-full.md#preprints\">…and 6 more →</a></strong> — the full preprints list for this week.</li></ul>"
+            },
+            {
+              "kind": "prose",
+              "html": ""
+            },
+            {
+              "kind": "prose",
+              "html": "<p>&lt;details&gt;&lt;summary&gt;How this was assembled&lt;/summary&gt;</p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<ul><li>Candidates fetched: <strong>126</strong></li><li>Already in the catalogue: 5</li><li>Seen in an earlier week: 26</li><li>Duplicated within the batch: 0</li><li>Shown here: <strong>95</strong></li></ul>"
+            },
+            {
+              "kind": "prose",
+              "html": "<p>Sources polled: arXiv, PubMed, Hugging Face, GitHub, openFDA. Ranking is advisory — nothing is dropped for scoring low, only ordered.</p>"
+            },
+            {
+              "kind": "prose",
+              "html": "<p>&lt;/details&gt;</p>"
+            }
+          ],
+          "item_count": 0
+        }
+      ],
+      "source": "https://github.com/atultiwari/awesome-ai-pathology/blob/main/digest/2026-W41.md"
+    },
     {
       "id": "2026-W39",
       "year": 2026,
