@@ -54,6 +54,6 @@ summary: 'Curated index of documented failure modes: site and batch confounding,
   and automation bias in the reader.'
 metrics:
   github_stars: 4
-  last_commit: '2026-10-17'
+  last_commit: '2026-10-19'
   hf_downloads: null
-  refreshed_on: '2026-10-18'
+  refreshed_on: '2026-10-19'
