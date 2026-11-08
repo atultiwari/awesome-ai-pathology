@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07",
+  "generated_at": "2026-11-08",
   "schema_version": "1.0.0",
   "count": 125,
   "entries": [
@@ -290,7 +290,7 @@
         "github_stars": 688,
         "last_commit": "2023-09-12",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -364,7 +364,7 @@
         "github_stars": 15,
         "last_commit": "2026-11-04",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -735,10 +735,10 @@
       },
       "summary": "Widely used generalist segmentation model that works across many microscopy types without retraining, with a human-in-the-loop retraining workflow when it does not.",
       "metrics": {
-        "github_stars": 2428,
+        "github_stars": 2429,
         "last_commit": "2026-06-14",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -818,7 +818,7 @@
         "github_stars": 399,
         "last_commit": "2025-07-23",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -965,7 +965,7 @@
         "github_stars": 1767,
         "last_commit": "2025-04-14",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -1041,8 +1041,8 @@
       "metrics": {
         "github_stars": 4,
         "last_commit": "2026-07-23",
-        "hf_downloads": 8,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 40,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -1123,7 +1123,7 @@
         "github_stars": 540,
         "last_commit": "2025-03-26",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -1275,7 +1275,7 @@
         "github_stars": 31,
         "last_commit": "2025-06-09",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -1811,7 +1811,7 @@
         "github_stars": 140,
         "last_commit": "2026-11-06",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": []
@@ -1957,7 +1957,7 @@
         "github_stars": 4,
         "last_commit": "2024-12-04",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -2036,7 +2036,7 @@
         "github_stars": 2,
         "last_commit": "2025-12-16",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -2400,7 +2400,7 @@
         "github_stars": 131,
         "last_commit": "2025-12-27",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -2623,8 +2623,8 @@
       "metrics": {
         "github_stars": 449,
         "last_commit": "2026-04-16",
-        "hf_downloads": 31860,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 32456,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -2787,7 +2787,7 @@
         "github_stars": 492,
         "last_commit": "2026-11-05",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -2867,7 +2867,7 @@
         "github_stars": 333,
         "last_commit": "2026-09-16",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -3017,10 +3017,10 @@
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
       "metrics": {
-        "github_stars": 757,
+        "github_stars": 758,
         "last_commit": "2023-10-27",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -3101,7 +3101,7 @@
         "github_stars": 54,
         "last_commit": "2026-11-02",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -3462,7 +3462,7 @@
         "github_stars": 252,
         "last_commit": "2026-09-29",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -3609,7 +3609,7 @@
         "github_stars": 175,
         "last_commit": "2024-12-20",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -3679,9 +3679,9 @@
       "summary": "Curated index of documented failure modes: site and batch confounding, scanner and stain variability, distribution shift after deployment, miscalibrated confidence, hallucinated findings in generative models, and automation bias in the reader.",
       "metrics": {
         "github_stars": 6,
-        "last_commit": "2026-11-06",
+        "last_commit": "2026-11-07",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "beginner",
       "facets": [
@@ -3833,7 +3833,7 @@
         "github_stars": 2239,
         "last_commit": "2025-06-04",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -3989,7 +3989,7 @@
         "github_stars": 14,
         "last_commit": "2022-06-19",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -4076,7 +4076,7 @@
         "github_stars": 251,
         "last_commit": "2025-10-26",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -4231,7 +4231,7 @@
         "github_stars": 181,
         "last_commit": "2026-11-06",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -4312,7 +4312,7 @@
         "github_stars": 222,
         "last_commit": "2026-10-27",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -4468,7 +4468,7 @@
         "github_stars": 519,
         "last_commit": "2026-11-02",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -4694,7 +4694,7 @@
         "github_stars": 65,
         "last_commit": "2025-06-18",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -5075,7 +5075,7 @@
         "github_stars": 53,
         "last_commit": "2026-06-20",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": []
@@ -5220,7 +5220,7 @@
         "github_stars": 138,
         "last_commit": "2024-04-11",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -5296,8 +5296,8 @@
       "metrics": {
         "github_stars": null,
         "last_commit": null,
-        "hf_downloads": 75,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 74,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -5381,7 +5381,7 @@
         "github_stars": 130,
         "last_commit": "2024-05-08",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -5534,7 +5534,7 @@
         "github_stars": 9,
         "last_commit": "2026-03-19",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -5608,7 +5608,7 @@
         "github_stars": 1,
         "last_commit": "2024-03-14",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "beginner",
       "facets": [
@@ -5684,7 +5684,7 @@
         "github_stars": null,
         "last_commit": null,
         "hf_downloads": 74,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -5770,7 +5770,7 @@
         "github_stars": 468,
         "last_commit": "2026-08-14",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -5846,8 +5846,8 @@
       "metrics": {
         "github_stars": 39,
         "last_commit": "2024-12-11",
-        "hf_downloads": 19143,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 20580,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -5926,10 +5926,10 @@
       },
       "summary": "Builds a searchable index over authoritative pathology textbook content supporting joint text and image queries, so answers can be grounded in a citable source rather than model memory.",
       "metrics": {
-        "github_stars": 74,
+        "github_stars": 75,
         "last_commit": "2026-11-05",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -6007,7 +6007,7 @@
         "github_stars": 160,
         "last_commit": "2025-11-07",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -6085,7 +6085,7 @@
         "github_stars": 106,
         "last_commit": "2025-11-17",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -6373,7 +6373,7 @@
         "github_stars": 28,
         "last_commit": "2026-01-28",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -6525,8 +6525,8 @@
       "metrics": {
         "github_stars": 16,
         "last_commit": "2022-12-09",
-        "hf_downloads": 19581,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 20475,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -6607,8 +6607,8 @@
       "metrics": {
         "github_stars": null,
         "last_commit": null,
-        "hf_downloads": 27729,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 27375,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -6759,7 +6759,7 @@
         "github_stars": 383,
         "last_commit": "2023-09-20",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -6994,8 +6994,8 @@
       "metrics": {
         "github_stars": 645,
         "last_commit": "2026-08-07",
-        "hf_downloads": 39599,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 39380,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -7072,7 +7072,7 @@
         "github_stars": 188,
         "last_commit": "2024-01-18",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -7153,7 +7153,7 @@
         "github_stars": 89,
         "last_commit": "2024-06-28",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -7246,9 +7246,9 @@
       "last_verified": "2026-08-01",
       "metrics": {
         "github_stars": 1475,
-        "last_commit": "2026-11-05",
+        "last_commit": "2026-11-08",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "beginner",
       "facets": [
@@ -7329,10 +7329,10 @@
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
       "metrics": {
-        "github_stars": 98,
+        "github_stars": 99,
         "last_commit": "2026-07-06",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -7415,7 +7415,7 @@
         "github_stars": 30,
         "last_commit": "2026-07-02",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -7500,7 +7500,7 @@
         "github_stars": 51,
         "last_commit": "2026-06-25",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -7649,10 +7649,10 @@
       },
       "summary": "General-purpose promptable segmentation model that has been widely adapted for histology, most usefully as an interactive annotation accelerator rather than as an unattended segmenter.",
       "metrics": {
-        "github_stars": 55102,
+        "github_stars": 55107,
         "last_commit": "2024-09-18",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -7873,7 +7873,7 @@
         "github_stars": 141,
         "last_commit": "2026-09-02",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -7953,7 +7953,7 @@
         "github_stars": 376,
         "last_commit": "2026-10-05",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -8029,7 +8029,7 @@
         "github_stars": 4,
         "last_commit": "2025-08-19",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -8332,7 +8332,7 @@
         "github_stars": 152,
         "last_commit": "2021-09-08",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -8556,7 +8556,7 @@
         "github_stars": 1291,
         "last_commit": "2026-02-14",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -8722,10 +8722,10 @@
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
       "metrics": {
-        "github_stars": 564,
+        "github_stars": 565,
         "last_commit": "2026-11-06",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [
@@ -8805,8 +8805,8 @@
       "metrics": {
         "github_stars": 377,
         "last_commit": "2025-12-13",
-        "hf_downloads": 59774,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 49222,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -8881,7 +8881,7 @@
         "github_stars": 194,
         "last_commit": "2025-11-13",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -8961,7 +8961,7 @@
         "github_stars": 653,
         "last_commit": "2026-10-12",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -9108,10 +9108,10 @@
       "added_on": "2026-08-01",
       "last_verified": "2026-08-01",
       "metrics": {
-        "github_stars": 797,
+        "github_stars": 798,
         "last_commit": "2025-03-26",
-        "hf_downloads": 97172,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 97123,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -9191,7 +9191,7 @@
         "github_stars": 104,
         "last_commit": "2026-04-06",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -9267,8 +9267,8 @@
       "metrics": {
         "github_stars": null,
         "last_commit": null,
-        "hf_downloads": 77154,
-        "refreshed_on": "2026-11-07"
+        "hf_downloads": 76966,
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "advanced",
       "facets": [
@@ -9573,7 +9573,7 @@
         "github_stars": 87,
         "last_commit": "2024-07-11",
         "hf_downloads": null,
-        "refreshed_on": "2026-11-07"
+        "refreshed_on": "2026-11-08"
       },
       "skill_level": "intermediate",
       "facets": [

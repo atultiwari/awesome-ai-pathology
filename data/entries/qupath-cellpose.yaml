@@ -58,7 +58,7 @@ summary: Community extension that calls a local Cellpose/Omnipose install from Q
 added_on: '2026-08-01'
 last_verified: '2026-08-01'
 metrics:
-  github_stars: 98
+  github_stars: 99
   last_commit: '2026-07-06'
   hf_downloads: null
-  refreshed_on: '2026-11-07'
+  refreshed_on: '2026-11-08'
