@@ -58,6 +58,6 @@ summary: Uses an LLM to plan slide exploration, locate informative regions, extr
   them into a reasoning trajectory, without task-specific training.
 metrics:
   github_stars: 57
-  last_commit: '2026-06-20'
+  last_commit: '2026-11-21'
   hf_downloads: null
-  refreshed_on: '2026-11-20'
+  refreshed_on: '2026-11-21'
